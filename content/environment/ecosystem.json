@@ -1,0 +1,14 @@
+{
+  "topic": "ecosystem",
+  "title": "Ecosystem",
+  "blocks": [
+    {
+      "type": "fact_card",
+      "title": "Definition",
+      "points": [
+        "Coined by Tansley",
+        "Biotic + Abiotic interaction"
+      ]
+    }
+  ]
+}
