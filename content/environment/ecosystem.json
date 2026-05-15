@@ -6,42 +6,317 @@
     {
       "id": "ecosystem_intro",
       "title": "Introduction & Definition",
-      "estimated_minutes": 4,
+      "estimated_minutes": 5,
       "blocks": [
-        { "type": "hero", "title": "Ecosystem", "subtitle": "The Living World and Its Interactions", "tags": ["Ecology", "High Weightage"] },
-        { "type": "fact_card", "icon": "📌", "title": "Definition", "content": "An Ecosystem is a functional unit of nature where living organisms interact with each other and their physical environment.", "highlight": true },
-        { "type": "revision", "title": "⚡ Quick Revision", "points": ["Coined by A.G. Tansley (1935)", "Pond = simplest natural ecosystem", "Autotrophs = Producers"] }
+        {
+          "type": "hero",
+          "title": "Ecosystem",
+          "subtitle": "Interaction Between Living Organisms and Environment",
+          "tags": ["Ecology", "High Weightage", "JKSSB Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "📌",
+          "title": "Definition of Ecosystem",
+          "content": "An ecosystem is a structural and functional unit of nature where living organisms interact with each other and with their surrounding physical environment.",
+          "highlight": true
+        },
+        {
+          "type": "timeline",
+          "title": "Development of Ecosystem Concept",
+          "items": [
+            {
+              "label": "1935",
+              "detail": "Term 'Ecosystem' coined by A.G. Tansley"
+            },
+            {
+              "label": "1942",
+              "detail": "Raymond Lindeman explained energy flow concept"
+            },
+            {
+              "label": "Modern Ecology",
+              "detail": "Ecosystem considered the basic ecological unit"
+            }
+          ]
+        },
+        {
+          "type": "comparison",
+          "title": "Components of Ecosystem",
+          "left_header": "Biotic Components",
+          "right_header": "Abiotic Components",
+          "left_color": "#2ECC71",
+          "right_color": "#3498DB",
+          "rows": [
+            {
+              "left": "Plants",
+              "right": "Air"
+            },
+            {
+              "left": "Animals",
+              "right": "Water"
+            },
+            {
+              "left": "Microorganisms",
+              "right": "Soil"
+            },
+            {
+              "left": "Decomposers",
+              "right": "Temperature"
+            }
+          ]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🌱",
+          "title": "Types of Ecosystem",
+          "content": "Ecosystems are broadly divided into Natural Ecosystems (forest, pond, grassland) and Artificial Ecosystems (crop fields, aquariums)."
+        },
+        {
+          "type": "exam_trap",
+          "title": "⚠️ Common Exam Trap",
+          "wrong": "Pond is the largest ecosystem",
+          "correct": "Biosphere is the largest ecosystem while pond is considered the simplest self-sustaining ecosystem.",
+          "tip": "Frequently asked in JKSSB and SSC exams."
+        },
+        {
+          "type": "revision",
+          "title": "⚡ Quick Revision",
+          "points": [
+            "A.G. Tansley coined the term Ecosystem in 1935",
+            "Biotic = Living components",
+            "Abiotic = Non-living components",
+            "Pond = Simplest natural ecosystem",
+            "Biosphere = Largest ecosystem"
+          ]
+        },
+        {
+          "type": "mnemonic",
+          "title": "Remember Ecosystem Components",
+          "mnemonic": "PAMD",
+          "memory_trick": "Plants, Animals, Microbes, Decomposers",
+          "color": "#27AE60"
+        }
       ]
     },
     {
       "id": "ecosystem_energy",
       "title": "Energy Flow & Food Chain",
-      "estimated_minutes": 5,
+      "estimated_minutes": 6,
       "blocks": [
-        { "type": "hero", "title": "Energy Flow", "subtitle": "How energy moves through an ecosystem", "tags": ["10% Law", "JKSSB 2021"] },
-        { "type": "timeline", "title": "Energy Flow in Ecosystem", "items": [
-          { "label": "Sun", "detail": "100% primary energy source" },
-          { "label": "Producers", "detail": "10% energy captured by plants" },
-          { "label": "Primary Consumer", "detail": "10% of producer energy" },
-          { "label": "Secondary Consumer", "detail": "10% of primary consumer energy" }
-        ]},
-        { "type": "exam_trap", "title": "⚠️ Common Exam Trap", "wrong": "Energy increases up the food chain", "correct": "Energy DECREASES — only 10% transfers at each level", "tip": "Appears almost every year" },
-        { "type": "graph", "title": "10% Law — Energy Transfer", "graph_type": "bar", "labels": ["Producers","Herbivores","Carnivores","Top Carnivores"], "values": [10000,1000,100,10], "unit": "kcal", "color": "#2ECC71" }
+        {
+          "type": "hero",
+          "title": "Energy Flow",
+          "subtitle": "Transfer of Energy Through Trophic Levels",
+          "tags": ["10% Law", "Food Chain", "Very Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "☀️",
+          "title": "Source of Energy",
+          "content": "The Sun is the ultimate source of energy for almost all ecosystems on Earth."
+        },
+        {
+          "type": "timeline",
+          "title": "Flow of Energy",
+          "items": [
+            {
+              "label": "Sun",
+              "detail": "Primary source of energy"
+            },
+            {
+              "label": "Producers",
+              "detail": "Green plants convert solar energy into chemical energy"
+            },
+            {
+              "label": "Primary Consumers",
+              "detail": "Herbivores feed on plants"
+            },
+            {
+              "label": "Secondary Consumers",
+              "detail": "Carnivores feed on herbivores"
+            },
+            {
+              "label": "Decomposers",
+              "detail": "Recycle nutrients back to soil"
+            }
+          ]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🔋",
+          "title": "10% Law",
+          "content": "According to Lindeman's 10% law, only about 10% of energy is transferred from one trophic level to the next higher level."
+        },
+        {
+          "type": "graph",
+          "title": "10% Law — Energy Transfer",
+          "graph_type": "bar",
+          "labels": [
+            "Producers",
+            "Herbivores",
+            "Primary Carnivores",
+            "Top Carnivores"
+          ],
+          "values": [
+            10000,
+            1000,
+            100,
+            10
+          ],
+          "unit": "kcal",
+          "color": "#2ECC71"
+        },
+        {
+          "type": "comparison",
+          "title": "Food Chain vs Food Web",
+          "left_header": "Food Chain",
+          "right_header": "Food Web",
+          "left_color": "#27AE60",
+          "right_color": "#8E44AD",
+          "rows": [
+            {
+              "left": "Single pathway",
+              "right": "Multiple interconnected pathways"
+            },
+            {
+              "left": "Less stable",
+              "right": "More stable"
+            },
+            {
+              "left": "Simple structure",
+              "right": "Complex structure"
+            }
+          ]
+        },
+        {
+          "type": "exam_trap",
+          "title": "⚠️ Common Exam Trap",
+          "wrong": "Energy increases at higher trophic levels",
+          "correct": "Energy decreases progressively at higher trophic levels.",
+          "tip": "Energy loss mainly occurs as heat."
+        },
+        {
+          "type": "revision",
+          "title": "⚡ Quick Revision",
+          "points": [
+            "Sun = Ultimate source of energy",
+            "Producers occupy first trophic level",
+            "Lindeman proposed 10% law",
+            "Energy flow is always unidirectional",
+            "Food web provides ecosystem stability"
+          ]
+        },
+        {
+          "type": "mnemonic",
+          "title": "Remember Trophic Levels",
+          "mnemonic": "P-H-C-T",
+          "memory_trick": "Plants → Herbivores → Carnivores → Top Carnivores",
+          "color": "#16A085"
+        }
       ]
     },
     {
       "id": "ecosystem_pyramids",
       "title": "Ecological Pyramids",
-      "estimated_minutes": 3,
+      "estimated_minutes": 5,
       "blocks": [
-        { "type": "hero", "title": "Ecological Pyramids", "subtitle": "Graphical representation of trophic levels", "tags": ["Pyramids", "Important"] },
-        { "type": "comparison", "title": "Types of Pyramids", "left_header": "Always Upright", "right_header": "Can Be Inverted", "left_color": "#2ECC71", "right_color": "#E74C3C",
+        {
+          "type": "hero",
+          "title": "Ecological Pyramids",
+          "subtitle": "Representation of Trophic Structure",
+          "tags": ["Pyramids", "NCERT", "JKSSB Repeated"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "📊",
+          "title": "Definition",
+          "content": "Ecological pyramids are graphical representations of the number, biomass, or energy present at different trophic levels in an ecosystem."
+        },
+        {
+          "type": "comparison",
+          "title": "Types of Ecological Pyramids",
+          "left_header": "Always Upright",
+          "right_header": "Can Be Inverted",
+          "left_color": "#2ECC71",
+          "right_color": "#E74C3C",
           "rows": [
-            { "left": "Energy Pyramid", "right": "Biomass (Aquatic)" },
-            { "left": "Number (Grassland)", "right": "Number (Tree ecosystem)" }
+            {
+              "left": "Energy Pyramid",
+              "right": "Biomass Pyramid (Aquatic)"
+            },
+            {
+              "left": "Most Grassland Pyramids",
+              "right": "Pyramid of Numbers in Tree Ecosystem"
+            }
           ]
         },
-        { "type": "mnemonic", "title": "Remember Pyramid Rules", "mnemonic": "Energy = Always Upright (EU)", "memory_trick": "E for Energy, E for Ever upright", "color": "#27AE60" }
+        {
+          "type": "timeline",
+          "title": "Ecological Pyramid Types",
+          "items": [
+            {
+              "label": "Pyramid of Numbers",
+              "detail": "Represents number of organisms"
+            },
+            {
+              "label": "Pyramid of Biomass",
+              "detail": "Represents total dry mass"
+            },
+            {
+              "label": "Pyramid of Energy",
+              "detail": "Represents flow of energy"
+            }
+          ]
+        },
+        {
+          "type": "fact_card",
+          "icon": "⚡",
+          "title": "Energy Pyramid",
+          "content": "Energy pyramid is always upright because energy decreases at each trophic level according to the 10% law."
+        },
+        {
+          "type": "exam_trap",
+          "title": "⚠️ Common Exam Trap",
+          "wrong": "Pyramid of energy can be inverted",
+          "correct": "Pyramid of energy is always upright.",
+          "tip": "Most repeated MCQ from ecological pyramids."
+        },
+        {
+          "type": "comparison",
+          "title": "Examples of Pyramid Shapes",
+          "left_header": "Upright Pyramid",
+          "right_header": "Inverted Pyramid",
+          "left_color": "#1ABC9C",
+          "right_color": "#C0392B",
+          "rows": [
+            {
+              "left": "Grassland ecosystem",
+              "right": "Tree ecosystem"
+            },
+            {
+              "left": "Forest biomass pyramid",
+              "right": "Aquatic biomass pyramid"
+            }
+          ]
+        },
+        {
+          "type": "mnemonic",
+          "title": "Remember Pyramid Rules",
+          "mnemonic": "EU",
+          "memory_trick": "Energy = Upright Always",
+          "color": "#27AE60"
+        },
+        {
+          "type": "revision",
+          "title": "⚡ Quick Revision",
+          "points": [
+            "Three ecological pyramids = Number, Biomass, Energy",
+            "Energy pyramid is always upright",
+            "Aquatic biomass pyramid may be inverted",
+            "Tree ecosystem may show inverted number pyramid",
+            "Pyramids represent trophic levels graphically"
+          ]
+        }
       ]
     }
   ]
