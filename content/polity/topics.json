@@ -1,0 +1,8 @@
+{
+  "subject_id": "Polity",
+  "topics": [
+    { "id": "ecosystem",    "title": "Ecosystem",    "file": "content/Polity/ecosystem.json",    "available": true },
+    { "id": "biodiversity", "title": "Biodiversity", "file": "content/Polity/biodiversity.json", "available": true },
+    { "id": "pollution",    "title": "Pollution",    "file": "content/Polity/pollution.json",    "available": false }
+  ]
+}
