@@ -1,47 +1,605 @@
 {
   "id": "biodiversity",
   "subject_id": "environment",
-  "title": "biodiversity",
+  "title": "Biodiversity",
   "subtopics": [
     {
-      "id": "ecosystem_intro",
-      "title": "Introduction & Definition",
-      "estimated_minutes": 4,
+      "id": "biodiversity_meaning",
+      "title": "Meaning, Definition & Importance of Biodiversity",
+      "estimated_minutes": 6,
       "blocks": [
-        { "type": "hero", "title": "biodiversity", "subtitle": "The Living World and Its Interactions", "tags": ["Ecology", "High Weightage"] },
-        { "type": "fact_card", "icon": "📌", "title": "Definition", "content": "An Ecosystem is a functional unit of nature where living organisms interact with each other and their physical environment.", "highlight": true },
-        { "type": "revision", "title": "⚡ Quick Revision", "points": ["Coined by A.G. Tansley (1935)", "Pond = simplest natural ecosystem", "Autotrophs = Producers"] }
-      ]
-    },
-    {
-      "id": "biodiversity_energy",
-      "title": "Energy Flow & Food Chain",
-      "estimated_minutes": 5,
-      "blocks": [
-        { "type": "hero", "title": "Energy Flow", "subtitle": "How energy moves through an ecosystem", "tags": ["10% Law", "JKSSB 2021"] },
-        { "type": "timeline", "title": "Energy Flow in Ecosystem", "items": [
-          { "label": "Sun", "detail": "100% primary energy source" },
-          { "label": "Producers", "detail": "10% energy captured by plants" },
-          { "label": "Primary Consumer", "detail": "10% of producer energy" },
-          { "label": "Secondary Consumer", "detail": "10% of primary consumer energy" }
-        ]},
-        { "type": "exam_trap", "title": "⚠️ Common Exam Trap", "wrong": "Energy increases up the food chain", "correct": "Energy DECREASES — only 10% transfers at each level", "tip": "Appears almost every year" },
-        { "type": "graph", "title": "10% Law — Energy Transfer", "graph_type": "bar", "labels": ["Producers","Herbivores","Carnivores","Top Carnivores"], "values": [10000,1000,100,10], "unit": "kcal", "color": "#2ECC71" }
-      ]
-    },
-    {
-      "id": "ecosystem_pyramids",
-      "title": "Ecological Pyramids",
-      "estimated_minutes": 3,
-      "blocks": [
-        { "type": "hero", "title": "Ecological Pyramids", "subtitle": "Graphical representation of trophic levels", "tags": ["Pyramids", "Important"] },
-        { "type": "comparison", "title": "Types of Pyramids", "left_header": "Always Upright", "right_header": "Can Be Inverted", "left_color": "#2ECC71", "right_color": "#E74C3C",
+        {
+          "type": "hero",
+          "title": "Biodiversity",
+          "subtitle": "Variety of Life on Earth",
+          "tags": ["Environment", "Important", "JKSSB"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🌍",
+          "title": "Definition",
+          "content": "Biodiversity refers to the variety and variability of living organisms including plants, animals and microorganisms present on Earth.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "👨‍🔬",
+          "title": "Important Scientist",
+          "content": "The term biodiversity was popularized by Walter G. Rosen in 1985."
+        },
+        {
+          "type": "comparison",
+          "title": "Levels of Biodiversity",
+          "left_header": "Level",
+          "right_header": "Meaning",
+          "left_color": "#2ECC71",
+          "right_color": "#3498DB",
           "rows": [
-            { "left": "Energy Pyramid", "right": "Biomass (Aquatic)" },
-            { "left": "Number (Grassland)", "right": "Number (Tree ecosystem)" }
+            {
+              "left": "Genetic Diversity",
+              "right": "Variation within species"
+            },
+            {
+              "left": "Species Diversity",
+              "right": "Variety of species"
+            },
+            {
+              "left": "Ecosystem Diversity",
+              "right": "Variety of ecosystems"
+            }
           ]
         },
-        { "type": "mnemonic", "title": "Remember Pyramid Rules", "mnemonic": "Energy = Always Upright (EU)", "memory_trick": "E for Energy, E for Ever upright", "color": "#27AE60" }
+        {
+          "type": "fact_card",
+          "icon": "🇮🇳",
+          "title": "India and Biodiversity",
+          "content": "India is one of the 17 mega-diverse countries of the world and possesses nearly 8% of the world's biodiversity."
+        },
+        {
+          "type": "exam_trap",
+          "title": "⚠️ Common Exam Trap",
+          "wrong": "Biodiversity means only animal diversity",
+          "correct": "Biodiversity includes plants, animals, microorganisms and ecosystems.",
+          "tip": "Frequently repeated MCQ."
+        },
+        {
+          "type": "revision",
+          "title": "⚡ Quick Revision",
+          "points": [
+            "Walter G. Rosen popularized biodiversity term",
+            "India is a mega-diverse country",
+            "Three levels of biodiversity",
+            "Species diversity = variety of species",
+            "Ecosystem diversity = variety of habitats"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "levels_of_biodiversity",
+      "title": "Levels of Biodiversity",
+      "estimated_minutes": 5,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Levels of Biodiversity",
+          "subtitle": "Genetic, Species & Ecosystem Diversity",
+          "tags": ["Levels", "MCQ Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🧬",
+          "title": "Genetic Diversity",
+          "content": "Genetic diversity refers to variations in genes within a species."
+        },
+        {
+          "type": "fact_card",
+          "icon": "🐅",
+          "title": "Species Diversity",
+          "content": "Species diversity means the variety of species present in a particular region."
+        },
+        {
+          "type": "fact_card",
+          "icon": "🌳",
+          "title": "Ecosystem Diversity",
+          "content": "Ecosystem diversity refers to the variety of ecosystems such as forests, deserts and wetlands."
+        },
+        {
+          "type": "comparison",
+          "title": "Examples of Biodiversity Levels",
+          "left_header": "Level",
+          "right_header": "Example",
+          "left_color": "#27AE60",
+          "right_color": "#8E44AD",
+          "rows": [
+            {
+              "left": "Genetic Diversity",
+              "right": "Different varieties of rice"
+            },
+            {
+              "left": "Species Diversity",
+              "right": "Tiger, deer, elephant"
+            },
+            {
+              "left": "Ecosystem Diversity",
+              "right": "Forest and desert"
+            }
+          ]
+        },
+        {
+          "type": "mnemonic",
+          "title": "Remember Biodiversity Levels",
+          "mnemonic": "GSE",
+          "memory_trick": "Genetic → Species → Ecosystem",
+          "color": "#16A085"
+        },
+        {
+          "type": "revision",
+          "title": "⚡ Quick Revision",
+          "points": [
+            "Genetic diversity occurs within species",
+            "Species diversity refers to species richness",
+            "Ecosystem diversity refers to habitat variety",
+            "Genetic diversity increases adaptability"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "biodiversity_hotspots",
+      "title": "Biodiversity Hotspots",
+      "estimated_minutes": 7,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Biodiversity Hotspots",
+          "subtitle": "Regions Rich in Endemic Species",
+          "tags": ["Hotspots", "Very Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🔥",
+          "title": "Hotspot Definition",
+          "content": "A biodiversity hotspot is a region with high endemic species and high threat of habitat loss."
+        },
+        {
+          "type": "fact_card",
+          "icon": "👨‍🔬",
+          "title": "Scientist",
+          "content": "The concept of biodiversity hotspot was proposed by Norman Myers in 1988."
+        },
+        {
+          "type": "comparison",
+          "title": "Hotspots in India",
+          "left_header": "Hotspot",
+          "right_header": "Region",
+          "left_color": "#2ECC71",
+          "right_color": "#E67E22",
+          "rows": [
+            {
+              "left": "Western Ghats",
+              "right": "South India"
+            },
+            {
+              "left": "Eastern Himalaya",
+              "right": "North-East India"
+            },
+            {
+              "left": "Indo-Burma",
+              "right": "North-East Region"
+            },
+            {
+              "left": "Sundaland",
+              "right": "Nicobar Islands"
+            }
+          ]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🌿",
+          "title": "Western Ghats",
+          "content": "Western Ghats is one of the richest biodiversity hotspots known for endemic flora and fauna."
+        },
+        {
+          "type": "exam_trap",
+          "title": "⚠️ Common Exam Trap",
+          "wrong": "India has only two biodiversity hotspots",
+          "correct": "India has four biodiversity hotspots.",
+          "tip": "Repeated factual MCQ."
+        },
+        {
+          "type": "revision",
+          "title": "⚡ Quick Revision",
+          "points": [
+            "Norman Myers proposed hotspot concept",
+            "India has 4 biodiversity hotspots",
+            "Hotspots have endemic species",
+            "Western Ghats = richest hotspot in India",
+            "Habitat destruction threatens hotspots"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "endangered_species",
+      "title": "Endangered, Vulnerable & Extinct Species",
+      "estimated_minutes": 6,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Threatened Species",
+          "subtitle": "Species Facing Risk of Extinction",
+          "tags": ["IUCN", "Red Data Book"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "📕",
+          "title": "Red Data Book",
+          "content": "The Red Data Book contains records of endangered and threatened species."
+        },
+        {
+          "type": "comparison",
+          "title": "Species Categories",
+          "left_header": "Category",
+          "right_header": "Meaning",
+          "left_color": "#E74C3C",
+          "right_color": "#3498DB",
+          "rows": [
+            {
+              "left": "Extinct",
+              "right": "No living individual exists"
+            },
+            {
+              "left": "Endangered",
+              "right": "High risk of extinction"
+            },
+            {
+              "left": "Vulnerable",
+              "right": "Likely to become endangered"
+            }
+          ]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🐅",
+          "title": "Examples",
+          "content": "Tiger, rhinoceros and snow leopard are important threatened species in India."
+        },
+        {
+          "type": "fact_card",
+          "icon": "🌍",
+          "title": "IUCN",
+          "content": "IUCN stands for International Union for Conservation of Nature."
+        },
+        {
+          "type": "exam_trap",
+          "title": "⚠️ Common Exam Trap",
+          "wrong": "Extinct species can naturally recover",
+          "correct": "Extinct species no longer exist on Earth.",
+          "tip": "Basic but repeated MCQ."
+        },
+        {
+          "type": "revision",
+          "title": "⚡ Quick Revision",
+          "points": [
+            "IUCN maintains Red List",
+            "Red Data Book contains threatened species",
+            "Endangered species face high extinction risk",
+            "Extinct means completely disappeared",
+            "Tiger is endangered species"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "conservation_of_biodiversity",
+      "title": "Conservation of Biodiversity",
+      "estimated_minutes": 7,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Conservation",
+          "subtitle": "Protection of Biodiversity",
+          "tags": ["Conservation", "Repeated Topic"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🛡️",
+          "title": "Definition",
+          "content": "Conservation means protection, preservation and sustainable use of biodiversity."
+        },
+        {
+          "type": "comparison",
+          "title": "Types of Conservation",
+          "left_header": "In-situ Conservation",
+          "right_header": "Ex-situ Conservation",
+          "left_color": "#27AE60",
+          "right_color": "#3498DB",
+          "rows": [
+            {
+              "left": "National Parks",
+              "right": "Zoos"
+            },
+            {
+              "left": "Wildlife Sanctuaries",
+              "right": "Botanical Gardens"
+            },
+            {
+              "left": "Biosphere Reserves",
+              "right": "Seed Banks"
+            }
+          ]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🐅",
+          "title": "Project Tiger",
+          "content": "Project Tiger was launched in 1973 to conserve tiger population in India."
+        },
+        {
+          "type": "timeline",
+          "title": "Important Environmental Acts",
+          "items": [
+            {
+              "label": "1972",
+              "detail": "Wildlife Protection Act"
+            },
+            {
+              "label": "1973",
+              "detail": "Project Tiger"
+            },
+            {
+              "label": "1980",
+              "detail": "Forest Conservation Act"
+            },
+            {
+              "label": "2002",
+              "detail": "Biological Diversity Act"
+            }
+          ]
+        },
+        {
+          "type": "exam_trap",
+          "title": "⚠️ Common Exam Trap",
+          "wrong": "Zoo is an example of in-situ conservation",
+          "correct": "Zoo is an example of ex-situ conservation.",
+          "tip": "Most repeated biodiversity MCQ."
+        },
+        {
+          "type": "mnemonic",
+          "title": "In-situ Conservation",
+          "mnemonic": "NPW",
+          "memory_trick": "National Park → Protected Area → Wildlife Sanctuary",
+          "color": "#1ABC9C"
+        },
+        {
+          "type": "revision",
+          "title": "⚡ Quick Revision",
+          "points": [
+            "In-situ = On-site conservation",
+            "Ex-situ = Off-site conservation",
+            "Project Tiger launched in 1973",
+            "Wildlife Protection Act enacted in 1972",
+            "National Parks provide strict protection"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "national_parks_sanctuaries",
+      "title": "National Parks, Sanctuaries & Biosphere Reserves",
+      "estimated_minutes": 7,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Protected Areas",
+          "subtitle": "Protection of Wildlife and Ecosystems",
+          "tags": ["National Parks", "Important"]
+        },
+        {
+          "type": "comparison",
+          "title": "Protected Areas",
+          "left_header": "National Park",
+          "right_header": "Wildlife Sanctuary",
+          "left_color": "#2ECC71",
+          "right_color": "#8E44AD",
+          "rows": [
+            {
+              "left": "Strict protection",
+              "right": "Limited human activity allowed"
+            },
+            {
+              "left": "No grazing allowed",
+              "right": "Controlled grazing possible"
+            },
+            {
+              "left": "Entire ecosystem protected",
+              "right": "Mainly species protected"
+            }
+          ]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🌳",
+          "title": "Biosphere Reserve",
+          "content": "Biosphere reserve is a large protected area for conservation of biodiversity and sustainable development."
+        },
+        {
+          "type": "fact_card",
+          "icon": "🐅",
+          "title": "Jim Corbett National Park",
+          "content": "Jim Corbett National Park in Uttarakhand is India's first national park established in 1936."
+        },
+        {
+          "type": "fact_card",
+          "icon": "🦁",
+          "title": "Gir National Park",
+          "content": "Gir National Park in Gujarat is famous for Asiatic lions."
+        },
+        {
+          "type": "fact_card",
+          "icon": "🦏",
+          "title": "Kaziranga National Park",
+          "content": "Kaziranga National Park in Assam is famous for one-horned rhinoceros."
+        },
+        {
+          "type": "revision",
+          "title": "⚡ Quick Revision",
+          "points": [
+            "Jim Corbett = first national park",
+            "Gir = Asiatic lion",
+            "Kaziranga = one-horned rhino",
+            "National parks provide highest protection",
+            "Biosphere reserves support conservation and research"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "threats_to_biodiversity",
+      "title": "Threats to Biodiversity",
+      "estimated_minutes": 6,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Threats to Biodiversity",
+          "subtitle": "Causes of Biodiversity Loss",
+          "tags": ["Deforestation", "Climate Change"]
+        },
+        {
+          "type": "comparison",
+          "title": "Major Threats",
+          "left_header": "Threat",
+          "right_header": "Impact",
+          "left_color": "#E74C3C",
+          "right_color": "#3498DB",
+          "rows": [
+            {
+              "left": "Deforestation",
+              "right": "Habitat destruction"
+            },
+            {
+              "left": "Pollution",
+              "right": "Species decline"
+            },
+            {
+              "left": "Poaching",
+              "right": "Wildlife extinction"
+            },
+            {
+              "left": "Climate Change",
+              "right": "Ecosystem imbalance"
+            }
+          ]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🌡️",
+          "title": "Climate Change",
+          "content": "Climate change alters habitats and threatens survival of species."
+        },
+        {
+          "type": "fact_card",
+          "icon": "🪓",
+          "title": "Deforestation",
+          "content": "Deforestation is the major cause of biodiversity loss worldwide."
+        },
+        {
+          "type": "mnemonic",
+          "title": "Threats to Biodiversity",
+          "mnemonic": "HIPPCO",
+          "memory_trick": "Habitat loss, Invasive species, Pollution, Population, Climate change, Overexploitation",
+          "color": "#C0392B"
+        },
+        {
+          "type": "exam_trap",
+          "title": "⚠️ Common Exam Trap",
+          "wrong": "Natural disasters are the major reason for biodiversity loss",
+          "correct": "Human activities are the major reason for biodiversity loss.",
+          "tip": "Repeated environment MCQ."
+        },
+        {
+          "type": "revision",
+          "title": "⚡ Quick Revision",
+          "points": [
+            "Deforestation is biggest threat",
+            "Climate change affects ecosystems",
+            "Poaching causes extinction",
+            "Pollution reduces biodiversity",
+            "Human activity is main cause"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "international_agreements",
+      "title": "International Agreements & Organizations",
+      "estimated_minutes": 6,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "International Agreements",
+          "subtitle": "Global Biodiversity Conservation Efforts",
+          "tags": ["CBD", "UNEP", "IUCN"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🌍",
+          "title": "Convention on Biological Diversity",
+          "content": "CBD was signed during the Rio Earth Summit in 1992 for conservation and sustainable use of biodiversity."
+        },
+        {
+          "type": "fact_card",
+          "icon": "🏢",
+          "title": "UNEP",
+          "content": "UNEP stands for United Nations Environment Programme."
+        },
+        {
+          "type": "fact_card",
+          "icon": "📘",
+          "title": "IUCN",
+          "content": "IUCN prepares the Red List of threatened species."
+        },
+        {
+          "type": "timeline",
+          "title": "Important International Events",
+          "items": [
+            {
+              "label": "1972",
+              "detail": "Stockholm Conference"
+            },
+            {
+              "label": "1992",
+              "detail": "Rio Earth Summit"
+            },
+            {
+              "label": "1997",
+              "detail": "Kyoto Protocol"
+            },
+            {
+              "label": "2015",
+              "detail": "Paris Climate Agreement"
+            }
+          ]
+        },
+        {
+          "type": "exam_trap",
+          "title": "⚠️ Common Exam Trap",
+          "wrong": "CBD was signed in Stockholm",
+          "correct": "CBD was signed at Rio Earth Summit in 1992.",
+          "tip": "Frequently asked factual question."
+        },
+        {
+          "type": "revision",
+          "title": "⚡ Quick Revision",
+          "points": [
+            "CBD signed in 1992",
+            "Rio Earth Summit held in Brazil",
+            "UNEP = United Nations Environment Programme",
+            "IUCN publishes Red List",
+            "Paris Agreement signed in 2015"
+          ]
+        }
       ]
     }
   ]
