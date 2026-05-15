@@ -1,0 +1,48 @@
+{
+  "id": "india",
+  "subject_id": "polity",
+  "title": "india",
+  "subtopics": [
+    {
+      "id": "ecosystem_intro",
+      "title": "Introduction & Definition",
+      "estimated_minutes": 4,
+      "blocks": [
+        { "type": "hero", "title": "Ecosystem22222222", "subtitle": "The Living World and Its Interactions", "tags": ["Ecology", "High Weightage"] },
+        { "type": "fact_card", "icon": "📌", "title": "Definition", "content": "An Ecosystem is a functional unit of nature where living organisms interact with each other and their physical environment.", "highlight": true },
+        { "type": "revision", "title": "⚡ Quick Revision", "points": ["Coined by A.G. Tansley (1935)", "Pond = simplest natural ecosystem", "Autotrophs = Producers"] }
+      ]
+    },
+    {
+      "id": "ecosystem_energy",
+      "title": "Energy Flow & Food Chain",
+      "estimated_minutes": 5,
+      "blocks": [
+        { "type": "hero", "title": "Energy Flow", "subtitle": "How energy moves through an ecosystem", "tags": ["10% Law", "JKSSB 2021"] },
+        { "type": "timeline", "title": "Energy Flow in Ecosystem", "items": [
+          { "label": "Sun", "detail": "100% primary energy source" },
+          { "label": "Producers", "detail": "10% energy captured by plants" },
+          { "label": "Primary Consumer", "detail": "10% of producer energy" },
+          { "label": "Secondary Consumer", "detail": "10% of primary consumer energy" }
+        ]},
+        { "type": "exam_trap", "title": "⚠️ Common Exam Trap", "wrong": "Energy increases up the food chain", "correct": "Energy DECREASES — only 10% transfers at each level", "tip": "Appears almost every year" },
+        { "type": "graph", "title": "10% Law — Energy Transfer", "graph_type": "bar", "labels": ["Producers","Herbivores","Carnivores","Top Carnivores"], "values": [10000,1000,100,10], "unit": "kcal", "color": "#2ECC71" }
+      ]
+    },
+    {
+      "id": "ecosystem_pyramids",
+      "title": "Ecological Pyramids",
+      "estimated_minutes": 3,
+      "blocks": [
+        { "type": "hero", "title": "Ecological Pyramids", "subtitle": "Graphical representation of trophic levels", "tags": ["Pyramids", "Important"] },
+        { "type": "comparison", "title": "Types of Pyramids", "left_header": "Always Upright", "right_header": "Can Be Inverted", "left_color": "#2ECC71", "right_color": "#E74C3C",
+          "rows": [
+            { "left": "Energy Pyramid", "right": "Biomass (Aquatic)" },
+            { "left": "Number (Grassland)", "right": "Number (Tree ecosystem)" }
+          ]
+        },
+        { "type": "mnemonic", "title": "Remember Pyramid Rules", "mnemonic": "Energy = Always Upright (EU)", "memory_trick": "E for Energy, E for Ever upright", "color": "#27AE60" }
+      ]
+    }
+  ]
+}
