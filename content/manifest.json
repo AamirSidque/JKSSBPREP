@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "subjects": [
     {
       "id": "environment",
@@ -7,22 +7,7 @@
       "emoji": "🌿",
       "theme_color": "#2ECC71",
       "description": "Ecology, Biodiversity & Climate",
-      "topics": [
-        { "id": "ecosystem",    "title": "Ecosystem",    "file": "content/environment/ecosystem.json" },
-        { "id": "biodiversity", "title": "Biodiversity", "file": "content/environment/biodiversity.json" },
-        { "id": "pollution",    "title": "Pollution",    "file": "content/environment/pollution.json" }
-      ]
-    },
-    {
-      "id": "history",
-      "title": "History",
-      "emoji": "🏛️",
-      "theme_color": "#E67E22",
-      "description": "Ancient, Medieval & Modern India",
-      "topics": [
-        { "id": "revolt1857",     "title": "Revolt of 1857",   "file": "content/history/revolt1857.json" },
-        { "id": "mughal_empire",  "title": "Mughal Empire",    "file": "content/history/mughal_empire.json" }
-      ]
+      "topics_file": "content/environment/topics.json"
     },
     {
       "id": "polity",
@@ -30,20 +15,7 @@
       "emoji": "⚖️",
       "theme_color": "#3498DB",
       "description": "Constitution, Parliament & Rights",
-      "topics": [
-        { "id": "constitution",      "title": "Constitution",       "file": "content/polity/constitution.json" },
-        { "id": "fundamental_rights","title": "Fundamental Rights", "file": "content/polity/fundamental_rights.json" }
-      ]
-    },
-    {
-      "id": "jk_geography",
-      "title": "J&K Geography",
-      "emoji": "🏔️",
-      "theme_color": "#9B59B6",
-      "description": "Districts, Rivers & Regions of J&K",
-      "topics": [
-        { "id": "jk_districts", "title": "Districts of J&K", "file": "content/jk_geography/districts.json" }
-      ]
+      "topics_file": "content/polity/topics.json"
     }
   ]
 }
