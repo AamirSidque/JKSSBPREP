@@ -1,8 +1,6 @@
 {
   "subject_id": "polity",
   "topics": [
-    { "id": "india",    "title": "india",    "file": "content/polity/india.json",    "available": true },
-    { "id": "biodiversity", "title": "Biodiversity", "file": "content/polity/biodiversity.json", "available": true },
-    { "id": "pollution",    "title": "Pollution",    "file": "content/polity/pollution.json",    "available": false }
+    { "id": "india",    "title": "india",    "file": "content/polity/india.json",    "available": true }
   ]
 }
