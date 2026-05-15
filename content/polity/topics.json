@@ -3,6 +3,6 @@
   "topics": [
     { "id": "india",    "title": "india",    "file": "content/polity/india.json",    "available": true },
     { "id": "pakistan", "title": "pakistan", "file": "content/polity/pakistan.json", "available": true},
-    { "id": "politics",    "title": "politics",    "file": "content/polity/politics.json",    "available": true }
+    { "id": "econo",    "title": "economics",    "file": "content/polity/economics.json",    "available": true }
   ]
 }
