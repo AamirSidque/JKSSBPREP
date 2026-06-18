@@ -1,529 +1,94 @@
 {
   "id": "ecosystem",
   "subject_id": "environment",
-  "title": "Ecosystem",
-  "subtopics": [
+  "title": "Ecological Pyramids",
+  "blocks": [
     {
-      "id": "ecosystem_meaning",
-      "title": "Meaning, Definition & Concept of Ecosystem",
-      "estimated_minutes": 6,
-      "blocks": [
-        {
-          "type": "hero",
-          "title": "Ecosystem",
-          "subtitle": "Structural and Functional Unit of Nature",
-          "tags": ["Ecology", "Very Important", "JKSSB"]
-        },
-        {
-          "type": "fact_card",
-          "icon": "📘",
-          "title": "Definition",
-          "content": "An osystem is a community of living organisms interacting with each other and with the surrounding non-living environment.",
-          "highlight": true
-        },
-        {
-          "type": "fact_card",
-          "icon": "👨‍🔬",
-          "title": "Important Scientist",
-          "content": "The term Ecosystem was coined by A.G. Tansley in 1935."
-        },
-        {
-          "type": "comparison",
-          "title": "Basic Components",
-          "left_header": "Biotic Components",
-          "right_header": "Abiotic Components",
-          "left_color": "#2ECC71",
-          "right_color": "#3498DB",
-          "rows": [
-            {
-              "left": "Plants",
-              "right": "Air"
-            },
-            {
-              "left": "Animals",
-              "right": "Water"
-            },
-            {
-              "left": "Bacteria",
-              "right": "Temperature"
-            },
-            {
-              "left": "Fungi",
-              "right": "Soil"
-            }
-          ]
-        },
-        {
-          "type": "exam_trap",
-          "title": "⚠️ Common Exam Trap",
-          "wrong": "Pond is the largest ecosystem",
-          "correct": "Biosphere is the largest ecosystem while pond is the simplest self-sustaining ecosystem.",
-          "tip": "Very commonly repeated in exams."
-        },
-        {
-          "type": "revision",
-          "title": "⚡ Quick Revision",
-          "points": [
-            "A.G. Tansley coined ecosystem term",
-            "Biotic = Living",
-            "Abiotic = Non-living",
-            "Pond = Simplest ecosystem",
-            "Biosphere = Largest ecosystem"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "ecosystem_types",
-      "title": "Types of Ecosystem",
-      "estimated_minutes": 5,
-      "blocks": [
-        {
-          "type": "hero",
-          "title": "Types of Ecosystems",
-          "subtitle": "Natural and Artificial Ecosystems",
-          "tags": ["Types", "MCQ Important"]
-        },
-        {
-          "type": "comparison",
-          "title": "Main Types",
-          "left_header": "Natural Ecosystem",
-          "right_header": "Artificial Ecosystem",
-          "left_color": "#27AE60",
-          "right_color": "#F39C12",
-          "rows": [
-            {
-              "left": "Forest",
-              "right": "Aquarium"
-            },
-            {
-              "left": "Pond",
-              "right": "Crop Field"
-            },
-            {
-              "left": "Grassland",
-              "right": "Garden"
-            }
-          ]
-        },
-        {
-          "type": "fact_card",
-          "icon": "🌳",
-          "title": "Forest Ecosystem",
-          "content": "Forest ecosystem contains trees, animals, microorganisms and rich biodiversity."
-        },
-        {
-          "type": "fact_card",
-          "icon": "🌊",
-          "title": "Aquatic Ecosystem",
-          "content": "Aquatic ecosystem includes freshwater ecosystems and marine ecosystems."
-        },
-        {
-          "type": "comparison",
-          "title": "Aquatic Ecosystems",
-          "left_header": "Freshwater",
-          "right_header": "Marine",
-          "left_color": "#3498DB",
-          "right_color": "#1ABC9C",
-          "rows": [
-            {
-              "left": "Pond",
-              "right": "Sea"
-            },
-            {
-              "left": "Lake",
-              "right": "Ocean"
-            },
-            {
-              "left": "River",
-              "right": "Estuary"
-            }
-          ]
-        },
-        {
-          "type": "revision",
-          "title": "⚡ Quick Revision",
-          "points": [
-            "Natural ecosystem occurs naturally",
-            "Artificial ecosystem is man-made",
-            "Marine ecosystem has saline water",
-            "Freshwater ecosystem has low salt",
-            "Forest ecosystem has maximum biodiversity"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "ecosystem_structure",
-      "title": "Structure & Components of Ecosystem",
-      "estimated_minutes": 6,
-      "blocks": [
-        {
-          "type": "hero",
-          "title": "Structure of Ecosystem",
-          "subtitle": "Living and Non-Living Components",
-          "tags": ["Structure", "Repeated Topic"]
-        },
-        {
-          "type": "comparison",
-          "title": "Biotic Components",
-          "left_header": "Category",
-          "right_header": "Examples",
-          "left_color": "#2ECC71",
-          "right_color": "#16A085",
-          "rows": [
-            {
-              "left": "Producers",
-              "right": "Green plants"
-            },
-            {
-              "left": "Consumers",
-              "right": "Animals"
-            },
-            {
-              "left": "Decomposers",
-              "right": "Bacteria & fungi"
-            }
-          ]
-        },
-        {
-          "type": "fact_card",
-          "icon": "🌿",
-          "title": "Producers",
-          "content": "Producers prepare food through photosynthesis and occupy the first trophic level."
-        },
-        {
-          "type": "fact_card",
-          "icon": "🦌",
-          "title": "Consumers",
-          "content": "Consumers depend directly or indirectly on producers for food."
-        },
-        {
-          "type": "fact_card",
-          "icon": "🍄",
-          "title": "Decomposers",
-          "content": "Decomposers break down dead organic matter and recycle nutrients."
-        },
-        {
-          "type": "exam_trap",
-          "title": "⚠️ Common Exam Trap",
-          "wrong": "Consumers produce their own food",
-          "correct": "Only producers synthesize their own food.",
-          "tip": "Basic but repeated MCQ."
-        },
-        {
-          "type": "mnemonic",
-          "title": "Biotic Components",
-          "mnemonic": "PCD",
-          "memory_trick": "Producers → Consumers → Decomposers",
-          "color": "#27AE60"
-        }
-      ]
-    },
-    {
-      "id": "ecosystem_energy_flow",
-      "title": "Energy Flow in Ecosystem",
-      "estimated_minutes": 7,
-      "blocks": [
-        {
-          "type": "hero",
-          "title": "Energy Flow",
-          "subtitle": "Movement of Energy Through Trophic Levels",
-          "tags": ["10% Law", "Very Important"]
-        },
-        {
-          "type": "timeline",
-          "title": "Energy Transfer",
-          "items": [
-            {
-              "label": "Sun",
-              "detail": "Ultimate source of energy"
-            },
-            {
-              "label": "Producers",
-              "detail": "Convert solar energy"
-            },
-            {
-              "label": "Herbivores",
-              "detail": "Primary consumers"
-            },
-            {
-              "label": "Carnivores",
-              "detail": "Secondary consumers"
-            }
-          ]
-        },
-        {
-          "type": "fact_card",
-          "icon": "⚡",
-          "title": "10% Law",
-          "content": "According to Lindeman's 10% law, only 10% of energy passes to the next trophic level."
-        },
-        {
-          "type": "graph",
-          "title": "Energy Flow",
-          "graph_type": "bar",
-          "labels": [
-            "Plants",
-            "Herbivores",
-            "Carnivores",
-            "Top Carnivores"
-          ],
-          "values": [
-            10000,
-            1000,
-            100,
-            10
-          ],
-          "unit": "kcal",
-          "color": "#2ECC71"
-        },
-        {
-          "type": "exam_trap",
-          "title": "⚠️ Common Exam Trap",
-          "wrong": "Energy flow is cyclic",
-          "correct": "Energy flow is always unidirectional.",
-          "tip": "Frequently asked theory question."
-        },
-        {
-          "type": "revision",
-          "title": "⚡ Quick Revision",
-          "points": [
-            "Sun = ultimate energy source",
-            "Energy decreases upward",
-            "10% law proposed by Lindeman",
-            "Energy flow is unidirectional",
-            "Maximum energy at producer level"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "food_chain_food_web",
-      "title": "Food Chain & Food Web",
-      "estimated_minutes": 6,
-      "blocks": [
-        {
-          "type": "hero",
-          "title": "Food Chain",
-          "subtitle": "Transfer of Food and Energy",
-          "tags": ["Food Web", "MCQ Important"]
-        },
-        {
-          "type": "fact_card",
-          "icon": "🍃",
-          "title": "Food Chain",
-          "content": "Food chain is a linear sequence showing transfer of food and energy from one organism to another."
-        },
-        {
-          "type": "comparison",
-          "title": "Types of Food Chain",
-          "left_header": "Grazing Food Chain",
-          "right_header": "Detritus Food Chain",
-          "left_color": "#2ECC71",
-          "right_color": "#8E44AD",
-          "rows": [
-            {
-              "left": "Starts from plants",
-              "right": "Starts from dead matter"
-            },
-            {
-              "left": "Common in grasslands",
-              "right": "Common in forests"
-            }
-          ]
-        },
-        {
-          "type": "fact_card",
-          "icon": "🕸️",
-          "title": "Food Web",
-          "content": "Food web is a network of interconnected food chains and increases ecosystem stability."
-        },
-        {
-          "type": "exam_trap",
-          "title": "⚠️ Common Exam Trap",
-          "wrong": "Food chain is more stable than food web",
-          "correct": "Food web is more stable because of multiple feeding relationships.",
-          "tip": "Repeated objective question."
-        },
-        {
-          "type": "revision",
-          "title": "⚡ Quick Revision",
-          "points": [
-            "Food chain is linear",
-            "Food web is interconnected",
-            "Detritus chain starts with dead matter",
-            "Food web increases stability",
-            "Energy transfers through trophic levels"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "ecological_pyramids",
+      "type": "content",
       "title": "Ecological Pyramids",
-      "estimated_minutes": 6,
-      "blocks": [
-        {
-          "type": "hero",
-          "title": "Ecological Pyramids",
-          "subtitle": "Graphical Representation of Trophic Levels",
-          "tags": ["Pyramids", "High Weightage"]
-        },
-        {
-          "type": "comparison",
-          "title": "Types of Pyramids",
-          "left_header": "Always Upright",
-          "right_header": "Can Be Inverted",
-          "left_color": "#2ECC71",
-          "right_color": "#E74C3C",
-          "rows": [
-            {
-              "left": "Energy Pyramid",
-              "right": "Biomass Pyramid"
-            },
-            {
-              "left": "Grassland Number Pyramid",
-              "right": "Tree Ecosystem Number Pyramid"
-            }
-          ]
-        },
-        {
-          "type": "fact_card",
-          "icon": "📊",
-          "title": "Energy Pyramid",
-          "content": "Energy pyramid is always upright because energy decreases at every trophic level."
-        },
-        {
-          "type": "fact_card",
-          "icon": "🌊",
-          "title": "Aquatic Ecosystem",
-          "content": "Biomass pyramid in aquatic ecosystem is generally inverted."
-        },
-        {
-          "type": "exam_trap",
-          "title": "⚠️ Common Exam Trap",
-          "wrong": "Energy pyramid can be inverted",
-          "correct": "Energy pyramid is always upright.",
-          "tip": "Most repeated ecosystem MCQ."
-        }
+      "points": [
+        "The food or energy relationship among organisms at different trophic levels can be expressed in terms of number, biomass or energy.",
+        "The expression assumes the shape of a pyramid where the base represents producers and the apex represents tertiary consumers.",
+        "Each trophic level represents a functional level and not any one species in particular."
       ]
     },
     {
-      "id": "ecological_succession",
-      "title": "Ecological Succession",
-      "estimated_minutes": 6,
-      "blocks": [
-        {
-          "type": "hero",
-          "title": "Ecological Succession",
-          "subtitle": "Gradual Change in Ecosystem",
-          "tags": ["Succession", "Important"]
-        },
-        {
-          "type": "fact_card",
-          "icon": "🌱",
-          "title": "Definition",
-          "content": "Ecological succession is the gradual and orderly change in species composition over time."
-        },
-        {
-          "type": "comparison",
-          "title": "Types of Succession",
-          "left_header": "Primary Succession",
-          "right_header": "Secondary Succession",
-          "left_color": "#27AE60",
-          "right_color": "#3498DB",
-          "rows": [
-            {
-              "left": "Starts on bare land",
-              "right": "Starts where life existed before"
-            },
-            {
-              "left": "Very slow",
-              "right": "Faster process"
-            }
-          ]
-        },
-        {
-          "type": "fact_card",
-          "icon": "🏜️",
-          "title": "Primary Succession",
-          "content": "Primary succession begins on lifeless areas such as bare rocks."
-        },
-        {
-          "type": "fact_card",
-          "icon": "🔥",
-          "title": "Secondary Succession",
-          "content": "Secondary succession occurs after disturbances like fire or flood."
-        },
-        {
-          "type": "revision",
-          "title": "⚡ Quick Revision",
-          "points": [
-            "Primary succession starts from bare area",
-            "Secondary succession is faster",
-            "Lichens are pioneer species",
-            "Climax community is stable stage"
-          ]
-        }
+      "type": "list",
+      "title": "Types of Ecological Pyramids",
+      "items": [
+        "Pyramid of Number",
+        "Pyramid of Biomass",
+        "Pyramid of Energy"
       ]
     },
     {
-      "id": "biogeochemical_cycles",
-      "title": "Biogeochemical Cycles",
-      "estimated_minutes": 7,
-      "blocks": [
+      "type": "fact_card",
+      "title": "Definition",
+      "content": "Ecological pyramids are graphical representations of trophic structure or food chains showing organisms at different trophic levels."
+    },
+    {
+      "type": "diagram",
+      "title": "Pyramid of Number in Grassland Ecosystem",
+      "diagram_type": "pyramid",
+      "levels": [
         {
-          "type": "hero",
-          "title": "Biogeochemical Cycles",
-          "subtitle": "Cycling of Nutrients in Nature",
-          "tags": ["Nitrogen Cycle", "Carbon Cycle"]
+          "level": "Primary Producer",
+          "abbreviation": "PP",
+          "count": 5842000
         },
         {
-          "type": "comparison",
-          "title": "Major Cycles",
-          "left_header": "Cycle",
-          "right_header": "Importance",
-          "left_color": "#2ECC71",
-          "right_color": "#3498DB",
-          "rows": [
-            {
-              "left": "Carbon Cycle",
-              "right": "Maintains carbon balance"
-            },
-            {
-              "left": "Nitrogen Cycle",
-              "right": "Maintains soil fertility"
-            },
-            {
-              "left": "Water Cycle",
-              "right": "Circulation of water"
-            },
-            {
-              "left": "Oxygen Cycle",
-              "right": "Supports respiration"
-            }
-          ]
+          "level": "Primary Consumer",
+          "abbreviation": "PC",
+          "count": 708000
         },
         {
-          "type": "fact_card",
-          "icon": "🌍",
-          "title": "Carbon Cycle",
-          "content": "Carbon circulates between atmosphere, organisms and oceans."
+          "level": "Secondary Consumer",
+          "abbreviation": "SC",
+          "count": 354000
         },
         {
-          "type": "fact_card",
-          "icon": "🌧️",
-          "title": "Water Cycle",
-          "content": "Water cycle includes evaporation, condensation and precipitation."
-        },
-        {
-          "type": "exam_trap",
-          "title": "⚠️ Common Exam Trap",
-          "wrong": "Nitrogen is directly absorbed by animals from atmosphere",
-          "correct": "Plants absorb nitrogen mainly as nitrates from soil.",
-          "tip": "Common biology-environment linkage question."
+          "level": "Tertiary Consumer",
+          "abbreviation": "TC",
+          "count": 3
         }
+      ],
+      "caption": "Only three top carnivores are supported by nearly six million plants."
+    },
+    {
+      "type": "exam_question",
+      "title": "Previous Year's Question",
+      "question": "In an ecosystem, bacteria are considered as",
+      "options": [
+        "Micro consumers",
+        "Secondary consumers",
+        "Macro consumers",
+        "Primary consumers"
+      ],
+      "answer": "Micro consumers"
+    },
+    {
+      "type": "fact_card",
+      "title": "Gray Matter Alert",
+      "content": "The term ecological pyramid was given by Charles Elton. The concept of pyramid of numbers was developed by him."
+    },
+    {
+      "type": "exam_question",
+      "title": "Previous Year's Question",
+      "question": "The pyramid of energy is always",
+      "options": [
+        "Inverted",
+        "Upright",
+        "Both of these",
+        "Inverted in forest ecosystem"
+      ],
+      "answer": "Upright"
+    },
+    {
+      "type": "revision",
+      "points": [
+        "In general all ecological pyramids are upright.",
+        "Pyramid of energy is always upright because energy is lost as heat at each trophic level.",
+        "Energy flow is unidirectional."
       ]
     }
   ]
