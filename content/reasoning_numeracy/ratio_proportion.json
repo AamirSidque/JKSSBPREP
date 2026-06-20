@@ -1,0 +1,108 @@
+{
+"id": "ratio_proportion",
+"title": "Ratio and Proportion",
+"topics": [
+{
+"id": "ratio_intro",
+"title": "Introduction to Ratio",
+"estimatedMinutes": 5,
+"blocks": [
+{
+"type": "hero",
+"title": "Ratio and Proportion",
+"subtitle": "Comparison of quantities using division"
+},
+{
+"type": "fact_card",
+"icon": "⚖️",
+"title": "Ratio",
+"content": "Ratio is the comparison of two quantities of the same kind by division.",
+"highlight": true
+},
+{
+"type": "formula",
+"title": "Ratio Formula",
+"formula": "a : b = a/b",
+"description": "Ratio compares two quantities."
+},
+{
+"type": "note_card",
+"variant": "important",
+"title": "Key Point",
+"content": "Both quantities in a ratio must be expressed in the same units."
+}
+]
+},
+{
+"id": "proportion",
+"title": "Proportion",
+"estimatedMinutes": 6,
+"blocks": [
+{
+"type": "fact_card",
+"icon": "📌",
+"title": "Proportion",
+"content": "When two ratios are equal, they form a proportion."
+},
+{
+"type": "formula",
+"title": "Proportion Formula",
+"formula": "a:b = c:d ⇒ ad = bc",
+"description": "Product of extremes equals product of means."
+}
+]
+},
+{
+"id": "solved_examples",
+"title": "Solved Examples",
+"estimatedMinutes": 10,
+"blocks": [
+{
+"type": "solved_example",
+"title": "Example 1",
+"given": [
+"Ratio = 3:5",
+"First quantity = 24"
+],
+"find": "Second quantity",
+"steps": [
+"3 parts = 24",
+"1 part = 24/3 = 8",
+"5 parts = 5 × 8 = 40"
+],
+"answer": "40"
+},
+{
+"type": "mcq",
+"question": "If 2:3 = x:12, then x = ?",
+"options": [
+"6",
+"8",
+"10",
+"12"
+],
+"answer": 1,
+"explanation": "2/3 = x/12 ⇒ x = 8",
+"is_pyq": false
+}
+]
+},
+{
+"id": "revision",
+"title": "Quick Revision",
+"estimatedMinutes": 3,
+"blocks": [
+{
+"type": "revision",
+"title": "Ratio & Proportion Summary",
+"points": [
+"Ratio compares quantities.",
+"Proportion means equality of ratios.",
+"In proportion, product of extremes = product of means.",
+"Units must be same before forming ratio."
+]
+}
+]
+}
+]
+}
