@@ -1,0 +1,140 @@
+{
+"id": "time_work",
+"title": "Time and Work",
+"topics": [
+{
+"id": "time_work_intro",
+"title": "Basic Concepts",
+"estimatedMinutes": 6,
+"blocks": [
+{
+"type": "hero",
+"title": "Time and Work",
+"subtitle": "Work efficiency and completion time"
+},
+{
+"type": "fact_card",
+"icon": "⏳",
+"title": "Work Concept",
+"content": "If a person completes a work in N days, then one day's work = 1/N.",
+"highlight": true
+},
+{
+"type": "formula",
+"title": "Work Formula",
+"formula": "Work = Efficiency × Time",
+"description": "Fundamental formula of Time and Work."
+}
+]
+},
+{
+"id": "efficiency",
+"title": "Efficiency Concept",
+"estimatedMinutes": 5,
+"blocks": [
+{
+"type": "note_card",
+"variant": "important",
+"title": "Shortcut",
+"content": "Efficiency is inversely proportional to time."
+},
+{
+"type": "comparison",
+"title": "Efficiency Comparison",
+"left_header": "More Efficient",
+"right_header": "Less Efficient",
+"rows": [
+{
+"left": "Takes less time",
+"right": "Takes more time"
+},
+{
+"left": "Does more work/day",
+"right": "Does less work/day"
+}
+]
+}
+]
+},
+{
+"id": "solved_examples",
+"title": "Solved Examples",
+"estimatedMinutes": 12,
+"blocks": [
+{
+"type": "solved_example",
+"title": "Example 1",
+"given": [
+"A completes a work in 10 days"
+],
+"find": "One day's work",
+"steps": [
+"Total work = 1",
+"One day's work = 1/10"
+],
+"answer": "1/10"
+},
+{
+"type": "solved_example",
+"title": "Example 2",
+"given": [
+"A can do a work in 10 days",
+"B can do the same work in 15 days"
+],
+"find": "Time taken together",
+"steps": [
+"A's work/day = 1/10",
+"B's work/day = 1/15",
+"Together = 1/10 + 1/15 = 5/30",
+"Total time = 30/5 = 6 days"
+],
+"answer": "6 days"
+},
+{
+"type": "mcq",
+"question": "A can complete a work in 20 days. What fraction of work does he complete in one day?",
+"options": [
+"1/10",
+"1/20",
+"1/30",
+"1/40"
+],
+"answer": 1,
+"explanation": "One day's work = 1/20",
+"is_pyq": false
+}
+]
+},
+{
+"id": "exam_traps",
+"title": "Exam Traps",
+"estimatedMinutes": 3,
+"blocks": [
+{
+"type": "exam_trap",
+"title": "⚠️ Common Mistake",
+"wrong": "Add completion days directly.",
+"correct": "Add efficiencies (work/day), not days.",
+"tip": "Most common Time & Work error."
+}
+]
+},
+{
+"id": "revision",
+"title": "Quick Revision",
+"estimatedMinutes": 3,
+"blocks": [
+{
+"type": "revision",
+"title": "Time & Work Summary",
+"points": [
+"One day's work = 1/N.",
+"Efficiency ∝ 1/Time.",
+"Work = Efficiency × Time.",
+"For combined work, add efficiencies."
+]
+}
+]
+}
+]
+}
