@@ -1,53 +1,11 @@
 {
-"subject_id": "reasoning_numeracy",
-"chapters": [
-{
-"id": "percentage",
-"title": "Percentage",
-"file": "content/reasoning_numeracy/percentage.json",
-  "available": true
-},
-{
-"id": "ratio_proportion",
-"title": "Ratio and Proportion",
-"file": "content/reasoning_numeracy/ratio_proportion.json",
-  "available": true
-},
-{
-"id": "average",
-"title": "Average",
-"file": "content/reasoning_numeracy/average.json",
-  "available": true
-},
-{
-"id": "profit_loss",
-"title": "Profit and Loss",
-"file": "content/reasoning_numeracy/profit_loss.json",
-  "available": true
-},
-{
-"id": "simple_interest",
-"title": "Simple Interest",
-"file": "content/reasoning_numeracy/simple_interest.json",
-  "available": true
-},
-{
-"id": "compound_interest",
-"title": "Compound Interest",
-"file": "content/reasoning_numeracy/compound_interest.json",
-  "available": true
-},
-{
-"id": "time_work",
-"title": "Time and Work",
-"file": "content/reasoning_numeracy/time_work.json",
-  "available": true
-},
-{
-"id": "time_speed_distance",
-"title": "Time, Speed and Distance",
-"file": "content/reasoning_numeracy/time_speed_distance.json",
-  "available": true
-}
-]
+  "subject_id": "reasoning_numeracy",
+  "topics": [
+    {
+      "id": "test",
+      "title": "Test Chapter",
+      "file": "content/reasoning_numeracy/test.json",
+      "available": true
+    }
+  ]
 }
