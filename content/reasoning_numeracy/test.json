@@ -1,0 +1,19 @@
+{
+  "id": "test",
+  "subject_id": "reasoning_numeracy",
+  "title": "Test",
+  "subtopics": [
+    {
+      "id": "intro",
+      "title": "Introduction",
+      "estimated_minutes": 2,
+      "blocks": [
+        {
+          "type": "fact_card",
+          "title": "Hello",
+          "content": "Testing"
+        }
+      ]
+    }
+  ]
+}
