@@ -16,6 +16,15 @@
       "theme_color": "#3498DB",
       "description": "Constitution, Parliament & Rights",
       "topics_file": "content/polity/topics.json"
+    },
+    {
+    "id": "reasoning_numeracy",
+    "title": "Reasoning & Numeracy",
+    "emoji": "🧠",
+    "theme_color": "#9B59B6",
+    "description": "Reasoning, Aptitude & Numerical Ability",
+    "topics_file": "content/reasoning_numeracy/topics.json"
     }
+
   ]
 }
