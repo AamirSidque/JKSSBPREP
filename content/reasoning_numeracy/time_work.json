@@ -1,137 +1,73 @@
 {
 "id": "time_work",
+"subject_id": "reasoning_numeracy",
 "title": "Time and Work",
-"topics": [
+"subtopics": [
 {
 "id": "time_work_intro",
 "title": "Basic Concepts",
-"estimatedMinutes": 6,
+"estimated_minutes": 7,
 "blocks": [
 {
 "type": "hero",
 "title": "Time and Work",
-"subtitle": "Work efficiency and completion time"
+"subtitle": "Work, Efficiency and Time",
+"tags": ["Numerical Ability", "High Weightage"]
 },
 {
 "type": "fact_card",
 "icon": "⏳",
-"title": "Work Concept",
-"content": "If a person completes a work in N days, then one day's work = 1/N.",
+"title": "One Day Work",
+"content": "If a person completes a work in N days, one day's work = 1/N.",
 "highlight": true
 },
 {
 "type": "formula",
 "title": "Work Formula",
 "formula": "Work = Efficiency × Time",
-"description": "Fundamental formula of Time and Work."
-}
-]
+"description": "Basic relationship in Time and Work."
 },
 {
-"id": "efficiency",
-"title": "Efficiency Concept",
-"estimatedMinutes": 5,
-"blocks": [
-{
-"type": "note_card",
-"variant": "important",
-"title": "Shortcut",
-"content": "Efficiency is inversely proportional to time."
-},
-{
-"type": "comparison",
-"title": "Efficiency Comparison",
-"left_header": "More Efficient",
-"right_header": "Less Efficient",
-"rows": [
-{
-"left": "Takes less time",
-"right": "Takes more time"
-},
-{
-"left": "Does more work/day",
-"right": "Does less work/day"
-}
-]
-}
-]
-},
-{
-"id": "solved_examples",
-"title": "Solved Examples",
-"estimatedMinutes": 12,
-"blocks": [
-{
-"type": "solved_example",
-"title": "Example 1",
-"given": [
-"A completes a work in 10 days"
-],
-"find": "One day's work",
+"type": "process_flow",
+"title": "Combined Work Method",
 "steps": [
-"Total work = 1",
-"One day's work = 1/10"
-],
-"answer": "1/10"
+"Find one day's work of each person",
+"Add efficiencies",
+"Take reciprocal",
+"Obtain total days"
+]
 },
 {
 "type": "solved_example",
-"title": "Example 2",
+"title": "Example",
 "given": [
-"A can do a work in 10 days",
-"B can do the same work in 15 days"
+"A completes work in 10 days",
+"B completes work in 15 days"
 ],
-"find": "Time taken together",
+"find": "Time Taken Together",
 "steps": [
-"A's work/day = 1/10",
-"B's work/day = 1/15",
+"A = 1/10",
+"B = 1/15",
 "Together = 1/10 + 1/15 = 5/30",
-"Total time = 30/5 = 6 days"
+"Total Time = 30/5 = 6"
 ],
-"answer": "6 days"
+"answer": "6 Days",
+"formula_used": "Combined Efficiency"
 },
-{
-"type": "mcq",
-"question": "A can complete a work in 20 days. What fraction of work does he complete in one day?",
-"options": [
-"1/10",
-"1/20",
-"1/30",
-"1/40"
-],
-"answer": 1,
-"explanation": "One day's work = 1/20",
-"is_pyq": false
-}
-]
-},
-{
-"id": "exam_traps",
-"title": "Exam Traps",
-"estimatedMinutes": 3,
-"blocks": [
 {
 "type": "exam_trap",
-"title": "⚠️ Common Mistake",
-"wrong": "Add completion days directly.",
-"correct": "Add efficiencies (work/day), not days.",
-"tip": "Most common Time & Work error."
-}
-]
+"title": "Common Mistake",
+"wrong": "Add number of days directly.",
+"correct": "Add efficiencies, not days.",
+"tip": "Most common error in Time & Work."
 },
 {
-"id": "revision",
-"title": "Quick Revision",
-"estimatedMinutes": 3,
-"blocks": [
-{
 "type": "revision",
-"title": "Time & Work Summary",
+"title": "Quick Revision",
 "points": [
-"One day's work = 1/N.",
-"Efficiency ∝ 1/Time.",
-"Work = Efficiency × Time.",
-"For combined work, add efficiencies."
+"One day work = 1/N",
+"Efficiency is inversely proportional to time",
+"Add efficiencies for combined work"
 ]
 }
 ]
