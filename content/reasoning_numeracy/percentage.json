@@ -1,0 +1,120 @@
+{
+  "id": "percentage",
+  "subject_id": "reasoning_numeracy",
+  "title": "Percentage",
+  "subtopics": [
+    {
+      "id": "percentage_basics",
+      "title": "Percentage Basics",
+      "estimated_minutes": 12,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Percentage",
+          "subtitle": "Foundation of Profit & Loss, SI-CI, Discount and Data Interpretation",
+          "tags": ["Numeracy", "High Weightage", "JKSSB"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "📊",
+          "title": "Definition",
+          "content": "Percentage means per hundred. It is represented by the symbol %.",
+          "highlight": true
+        },
+        {
+          "type": "formula",
+          "title": "Basic Formula",
+          "formula": "Percentage = (Part / Whole) × 100",
+          "description": "Used to convert a fraction into percentage."
+        },
+        {
+          "type": "note_card",
+          "variant": "important",
+          "title": "Important Shortcut",
+          "content": "50% = 1/2, 25% = 1/4, 20% = 1/5, 10% = 1/10",
+          "color": "#3498DB"
+        },
+        {
+          "type": "solved_example",
+          "title": "Example 1",
+          "given": [
+            "Total Students = 500",
+            "Passed Students = 425"
+          ],
+          "find": "Pass Percentage",
+          "steps": [
+            "Percentage = (425 / 500) × 100",
+            "Percentage = 0.85 × 100",
+            "Percentage = 85%"
+          ],
+          "answer": "85%",
+          "formula_used": "Percentage = (Part / Whole) × 100"
+        },
+        {
+          "type": "solved_example",
+          "title": "Example 2",
+          "given": [
+            "Number = 240",
+            "Increase = 25%"
+          ],
+          "find": "New Value",
+          "steps": [
+            "Increase = 25% of 240",
+            "Increase = 240 × 25 / 100",
+            "Increase = 60",
+            "New Value = 240 + 60 = 300"
+          ],
+          "answer": "300",
+          "formula_used": "Increase = Original × Percentage / 100"
+        },
+        {
+          "type": "exam_trap",
+          "title": "⚠️ Exam Trap",
+          "wrong": "25% increase and 25% decrease cancel each other.",
+          "correct": "25% increase followed by 25% decrease results in a net loss of 6.25%.",
+          "tip": "Very common competitive exam mistake."
+        },
+        {
+          "type": "mcq",
+          "question": "What is 20% of 450?",
+          "options": [
+            "80",
+            "85",
+            "90",
+            "95"
+          ],
+          "answer": 2,
+          "explanation": "20% of 450 = (20 × 450)/100 = 90",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "A number increases from 200 to 260. Find the percentage increase.",
+          "options": [
+            "20%",
+            "25%",
+            "30%",
+            "35%"
+          ],
+          "answer": 2,
+          "explanation": "Increase = 60. Percentage Increase = (60/200) × 100 = 30%",
+          "is_pyq": true,
+          "year": "2023",
+          "source": "JKSSB"
+        },
+        {
+          "type": "revision",
+          "title": "Quick Revision",
+          "points": [
+            "Percentage means per hundred.",
+            "Percentage = (Part/Whole) × 100.",
+            "50% = 1/2.",
+            "25% = 1/4.",
+            "20% = 1/5.",
+            "Percentage is the base of Profit & Loss and SI-CI."
+          ]
+        }
+      ]
+    }
+  ]
+}
