@@ -5,51 +5,274 @@
 "subtopics": [
 {
 "id": "percentage_intro",
-"title": "Percentage Basics",
-"estimated_minutes": 5,
+"title": "Meaning of Percentage",
+"estimated_minutes": 4,
 "blocks": [
 {
 "type": "hero",
 "title": "Percentage",
-"subtitle": "Per Hundred Concept",
-"tags": ["Numeracy", "Important"]
+"subtitle": "The Foundation of Numerical Aptitude",
+"tags": ["JKSSB", "Important"]
 },
 {
 "type": "fact_card",
 "icon": "📊",
 "title": "Definition",
-"content": "Percentage means per hundred and is represented by the symbol %.",
+"content": "Percentage means per hundred. It is represented by the symbol %. Percentage is a way of expressing a number as a fraction of 100.",
 "highlight": true
 },
 {
 "type": "formula",
 "title": "Basic Formula",
 "formula": "Percentage = (Part / Whole) × 100",
-"description": "Used to convert fractions into percentages."
-},
-{
-"type": "solved_example",
-"title": "Example",
-"given": ["Passed = 425", "Total = 500"],
-"find": "Pass Percentage",
-"steps": [
-"Percentage = (425/500) × 100",
-"Percentage = 85%"
-],
-"answer": "85%",
-"formula_used": "Percentage = (Part / Whole) × 100"
+"description": "Used to calculate percentage when part and whole are known."
 },
 {
 "type": "revision",
 "title": "Quick Revision",
 "points": [
 "Percentage means per hundred.",
-"50% = 1/2",
-"25% = 1/4",
-"20% = 1/5"
+"Symbol used is %.",
+"Percentage is a fraction with denominator 100."
 ]
 }
 ]
+},
+
+```
+{
+  "id": "fraction_percentage",
+  "title": "Fraction to Percentage Conversion",
+  "estimated_minutes": 6,
+  "blocks": [
+    {
+      "type": "hero",
+      "title": "Important Conversions",
+      "subtitle": "Frequently Used in Exams",
+      "tags": ["Shortcut", "Exam Oriented"]
+    },
+    {
+      "type": "table",
+      "title": "Fraction to Percentage Table",
+      "headers": [
+        "Fraction",
+        "Percentage"
+      ],
+      "rows": [
+        ["1/2","50%"],
+        ["1/3","33.33%"],
+        ["1/4","25%"],
+        ["1/5","20%"],
+        ["1/8","12.5%"],
+        ["3/4","75%"]
+      ]
+    },
+    {
+      "type": "mnemonic",
+      "title": "Remember 1/8",
+      "mnemonic": "One-Eighth = Twelve Point Five",
+      "memory_trick": "125 resembles 12.5%",
+      "color": "#3498DB"
+    },
+    {
+      "type": "revision",
+      "title": "Exam Shortcuts",
+      "points": [
+        "1/2 = 50%",
+        "1/4 = 25%",
+        "3/4 = 75%",
+        "1/5 = 20%",
+        "1/10 = 10%"
+      ]
+    }
+  ]
+},
+
+{
+  "id": "increase_decrease",
+  "title": "Percentage Increase and Decrease",
+  "estimated_minutes": 8,
+  "blocks": [
+    {
+      "type": "hero",
+      "title": "Percentage Change",
+      "subtitle": "Increase and Decrease Problems",
+      "tags": ["High Weightage"]
+    },
+    {
+      "type": "formula",
+      "title": "Percentage Increase",
+      "formula": "((New Value - Original Value) / Original Value) × 100",
+      "description": "Used when value increases."
+    },
+    {
+      "type": "formula",
+      "title": "Percentage Decrease",
+      "formula": "((Original Value - New Value) / Original Value) × 100",
+      "description": "Used when value decreases."
+    },
+    {
+      "type": "solved_example",
+      "title": "Solved Example",
+      "given": [
+        "Original Salary = 10000",
+        "New Salary = 12500"
+      ],
+      "find": "Percentage Increase",
+      "steps": [
+        "Increase = 12500 - 10000 = 2500",
+        "Percentage Increase = (2500/10000) × 100",
+        "Percentage Increase = 25%"
+      ],
+      "answer": "25%",
+      "formula_used": "Percentage Increase Formula"
+    },
+    {
+      "type": "exam_trap",
+      "title": "Common Mistake",
+      "wrong": "Using new value in denominator.",
+      "correct": "Always use original value in denominator.",
+      "tip": "Very frequently asked concept."
+    }
+  ]
+},
+
+{
+  "id": "successive_percentage",
+  "title": "Successive Percentage Change",
+  "estimated_minutes": 7,
+  "blocks": [
+    {
+      "type": "hero",
+      "title": "Successive Change",
+      "subtitle": "Two Percentage Changes Together",
+      "tags": ["Advanced"]
+    },
+    {
+      "type": "formula",
+      "title": "Net Change Formula",
+      "formula": "a + b + (ab/100)",
+      "description": "For two successive percentage increases."
+    },
+    {
+      "type": "solved_example",
+      "title": "Example",
+      "given": [
+        "Increase = 10%",
+        "Increase Again = 20%"
+      ],
+      "find": "Net Increase",
+      "steps": [
+        "Net Change = 10 + 20 + (10×20)/100",
+        "Net Change = 30 + 2",
+        "Net Change = 32%"
+      ],
+      "answer": "32%",
+      "formula_used": "Successive Percentage Formula"
+    },
+    {
+      "type": "revision",
+      "title": "Shortcut",
+      "points": [
+        "For increase use +ab/100.",
+        "For opposite changes use -ab/100.",
+        "Useful in Profit & Loss."
+      ]
+    }
+  ]
+},
+
+{
+  "id": "applications",
+  "title": "Applications of Percentage",
+  "estimated_minutes": 6,
+  "blocks": [
+    {
+      "type": "hero",
+      "title": "Where Percentage is Used",
+      "subtitle": "Real Examination Applications",
+      "tags": ["Profit & Loss", "Interest"]
+    },
+    {
+      "type": "process_flow",
+      "title": "Applications",
+      "steps": [
+        "Percentage",
+        "Profit and Loss",
+        "Discount",
+        "Simple Interest",
+        "Compound Interest",
+        "Data Interpretation"
+      ]
+    },
+    {
+      "type": "comparison",
+      "title": "Percentage Based Chapters",
+      "left_header": "Directly Based",
+      "right_header": "Partially Based",
+      "rows": [
+        {
+          "left": "Profit & Loss",
+          "right": "Ratio"
+        },
+        {
+          "left": "Discount",
+          "right": "Average"
+        },
+        {
+          "left": "Interest",
+          "right": "Partnership"
+        }
+      ]
+    }
+  ]
+},
+
+{
+  "id": "percentage_mcqs",
+  "title": "Practice Questions",
+  "estimated_minutes": 10,
+  "blocks": [
+    {
+      "type": "mcq",
+      "question": "What is 25% of 200?",
+      "options": [
+        "25",
+        "40",
+        "50",
+        "60"
+      ],
+      "answer": 2,
+      "explanation": "25% of 200 = 50",
+      "is_pyq": false
+    },
+    {
+      "type": "mcq",
+      "question": "A number increases from 80 to 100. Find percentage increase.",
+      "options": [
+        "20%",
+        "25%",
+        "30%",
+        "40%"
+      ],
+      "answer": 1,
+      "explanation": "Increase = 20. Percentage = (20/80)×100 = 25%",
+      "is_pyq": false
+    },
+    {
+      "type": "revision",
+      "title": "Final Revision",
+      "points": [
+        "Percentage means per hundred.",
+        "Percentage = (Part/Whole) × 100.",
+        "Original value is used in denominator.",
+        "Successive increase formula = a+b+ab/100.",
+        "Percentage is the basis of many aptitude chapters."
+      ]
+    }
+  ]
 }
+```
+
 ]
 }
