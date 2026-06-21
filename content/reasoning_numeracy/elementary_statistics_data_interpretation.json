@@ -22,6 +22,22 @@
           "highlight": true
         },
         {
+  "type": "graph",
+  "title": "Trend of Sales",
+  "graph_type": "line",
+  "unit": "₹ Lakh",
+  "labels": ["Jan", "Feb", "Mar"],
+  "values": [30, 45, 60]
+},
+        {
+  "type": "graph",
+  "title": "Expense Distribution",
+  "graph_type": "pie",
+  "unit": "%",
+  "labels": ["Food", "Rent", "Transport", "Others"],
+  "values": [30, 25, 20, 25]
+},
+        {
           "type": "fact_card",
           "icon": "🔢",
           "title": "Types of Data",
