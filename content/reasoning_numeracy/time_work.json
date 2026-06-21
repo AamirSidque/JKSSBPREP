@@ -1,170 +1,2858 @@
 {
-"id": "time_work",
-"subject_id": "reasoning_numeracy",
-"title": "Time and Work",
-"subtopics": [
-{
-"id": "time_work_introduction",
-"title": "Introduction to Time and Work",
-"estimated_minutes": 8,
-"blocks": [
-{
-"type": "hero",
-"title": "Time and Work",
-"subtitle": "Foundation of Work-Rate Questions",
-"tags": ["Reasoning", "High Weightage", "Speed Maths"]
-},
-{
-"type": "fact_card",
-"icon": "⏱️",
-"title": "Core Idea",
-"content": "Time and Work questions are based on the relationship between the amount of work done, the time taken, and the efficiency of the worker. If efficiency is constant, then more efficiency means less time for the same job.",
-"highlight": true
-},
-{
-"type": "formula",
-"title": "Basic Relationship",
-"formula": "Work Done = Efficiency × Time",
-"description": "This is the base idea behind all time and work questions."
-},
-{
-"type": "formula",
-"title": "Work Rate Formula",
-"formula": "Rate of Work = 1 / Time Taken",
-"description": "If a person completes one job in T days, then one day work rate is 1/T."
-},
-{
-"type": "formula",
-"title": "Combined Work Formula",
-"formula": "Total Work = Sum of Individual Rates",
-"description": "When two or more workers work together, their rates are added if they work in the same direction toward the same job."
-},
-{
-"type": "fact_card",
-"icon": "👷",
-"title": "Man-Hour Idea",
-"content": "A man-hour is the amount of work done by an average worker in one hour. Time and work questions often behave like man-hour calculations: total work = number of workers × time × efficiency.",
-"highlight": false
-},
-{
-"type": "process_flow",
-"title": "How to Solve Time and Work Questions",
-"steps": [
-"Identify who is working",
-"Write individual work rates",
-"Add or subtract rates depending on the situation",
-"Convert the total rate into time",
-"Check whether the answer is in days, hours, or both"
-]
-},
-{
-"type": "comparison",
-"title": "Time vs Work vs Efficiency",
-"left_header": "Term",
-"right_header": "Meaning",
-"rows": [
-{
-"left": "Work",
-"right": "The total task to be completed"
-},
-{
-"left": "Time",
-"right": "Duration required to complete the task"
-},
-{
-"left": "Efficiency",
-"right": "How fast or slow a worker completes the same task"
-},
-{
-"left": "Rate",
-"right": "Work completed in one unit of time"
-}
-]
-},
-{
-"type": "timeline",
-"title": "Natural Thinking Pattern",
-"items": [
-{
-"label": "Step 1",
-"detail": "Assume total work as 1 if no real value is given."
-},
-{
-"label": "Step 2",
-"detail": "Find one person's daily work."
-},
-{
-"label": "Step 3",
-"detail": "Add all daily works if they work together."
-},
-{
-"label": "Step 4",
-"detail": "Take reciprocal of total work per day to get total time."
-}
-]
-},
-{
-"type": "mnemonic",
-"title": "Memory Trick",
-"mnemonic": "Work-Time-Rate",
-"memory_trick": "Think of it as: more rate, less time; less rate, more time. If one person finishes in 10 days, daily work is 1/10."
-},
-{
-"type": "exam_trap",
-"title": "Common Mistake",
-"wrong": "Adding days directly when two workers work together.",
-"correct": "Add work rates, not days.",
-"tip": "Days cannot be added. Only the fraction of work done per day can be combined."
-},
-{
-"type": "table",
-"title": "Quick Reference Table",
-"headers": ["Situation", "Rate / Relation"],
-"rows": [
-["One person finishes in T days", "One day work = 1/T"],
-["Two persons together", "Combined work = sum of individual works"],
-["If total work is assumed 1", "Time = 1 / daily work"],
-["If A is twice as efficient as B", "A’s rate = 2 × B’s rate"]
-],
-"highlight_row": 0
-},
-{
-"type": "note_card",
-"title": "Important Note",
-"variant": "important",
-"content": "For reasoning exams, the cleanest approach is to convert every worker into a fractional daily rate. That makes large questions much easier."
-},
-{
-"type": "solved_example",
-"title": "Basic Example",
-"given": [
-"A can complete a work in 10 days",
-"B can complete the same work in 15 days"
-],
-"find": "Time taken if A and B work together",
-"steps": [
-"A’s one day work = 1/10",
-"B’s one day work = 1/15",
-"Combined one day work = 1/10 + 1/15",
-"LCM = 30",
-"Combined work = 3/30 + 2/30 = 5/30 = 1/6",
-"So total time = 6 days"
-],
-"answer": "6 days",
-"formula_used": "Total Time = 1 / (Sum of Daily Work Rates)"
-},
-{
-"type": "revision",
-"title": "Quick Revision",
-"points": [
-"Work = Rate × Time",
-"Rate = 1 / Time",
-"Add rates, not days",
-"If total work is unknown, assume it as 1",
-"Efficiency and time are inversely related"
-]
-}
-]
-}
-]
+  "id": "time_work",
+  "subject_id": "reasoning_numeracy",
+  "subtopics": [
+    {
+      "blocks": [
+        {
+          "subtitle": "Foundation of Work-Rate Questions",
+          "tags": [
+            "Reasoning",
+            "High Weightage",
+            "Speed Maths"
+          ],
+          "title": "Time and Work",
+          "type": "hero"
+        },
+        {
+          "content": "Time and Work questions are based on the relationship between the amount of work done, the time taken, and the efficiency of the worker. If efficiency is constant, then more efficiency means less time for the same job.",
+          "highlight": true,
+          "icon": "⏱️",
+          "title": "Core Idea",
+          "type": "fact_card"
+        },
+        {
+          "description": "This is the base idea behind all time and work questions.",
+          "formula": "Work Done = Efficiency × Time",
+          "title": "Basic Relationship",
+          "type": "formula"
+        },
+        {
+          "description": "If a person completes one job in T days, then one day work rate is 1/T.",
+          "formula": "Rate of Work = 1 / Time Taken",
+          "title": "Work Rate Formula",
+          "type": "formula"
+        },
+        {
+          "description": "When two or more workers work together, their rates are added if they work in the same direction toward the same job.",
+          "formula": "Total Work = Sum of Individual Rates",
+          "title": "Combined Work Formula",
+          "type": "formula"
+        },
+        {
+          "content": "A man-hour is the amount of work done by an average worker in one hour. Time and work questions often behave like man-hour calculations: total work = number of workers × time × efficiency.",
+          "highlight": false,
+          "icon": "👷",
+          "title": "Man-Hour Idea",
+          "type": "fact_card"
+        },
+        {
+          "steps": [
+            "Identify who is working",
+            "Write individual work rates",
+            "Add or subtract rates depending on the situation",
+            "Convert the total rate into time",
+            "Check whether the answer is in days, hours, or both"
+          ],
+          "title": "How to Solve Time and Work Questions",
+          "type": "process_flow"
+        },
+        {
+          "left_header": "Term",
+          "right_header": "Meaning",
+          "rows": [
+            {
+              "left": "Work",
+              "right": "The total task to be completed"
+            },
+            {
+              "left": "Time",
+              "right": "Duration required to complete the task"
+            },
+            {
+              "left": "Efficiency",
+              "right": "How fast or slow a worker completes the same task"
+            },
+            {
+              "left": "Rate",
+              "right": "Work completed in one unit of time"
+            }
+          ],
+          "title": "Time vs Work vs Efficiency",
+          "type": "comparison"
+        },
+        {
+          "items": [
+            {
+              "detail": "Assume total work as 1 if no real value is given.",
+              "label": "Step 1"
+            },
+            {
+              "detail": "Find one person's daily work.",
+              "label": "Step 2"
+            },
+            {
+              "detail": "Add all daily works if they work together.",
+              "label": "Step 3"
+            },
+            {
+              "detail": "Take reciprocal of total work per day to get total time.",
+              "label": "Step 4"
+            }
+          ],
+          "title": "Natural Thinking Pattern",
+          "type": "timeline"
+        },
+        {
+          "memory_trick": "Think of it as: more rate, less time; less rate, more time. If one person finishes in 10 days, daily work is 1/10.",
+          "mnemonic": "Work-Time-Rate",
+          "title": "Memory Trick",
+          "type": "mnemonic"
+        },
+        {
+          "correct": "Add work rates, not days.",
+          "tip": "Days cannot be added. Only the fraction of work done per day can be combined.",
+          "title": "Common Mistake",
+          "type": "exam_trap",
+          "wrong": "Adding days directly when two workers work together."
+        },
+        {
+          "headers": [
+            "Situation",
+            "Rate / Relation"
+          ],
+          "highlight_row": 0,
+          "rows": [
+            [
+              "One person finishes in T days",
+              "One day work = 1/T"
+            ],
+            [
+              "Two persons together",
+              "Combined work = sum of individual works"
+            ],
+            [
+              "If total work is assumed 1",
+              "Time = 1 / daily work"
+            ],
+            [
+              "If A is twice as efficient as B",
+              "A’s rate = 2 × B’s rate"
+            ]
+          ],
+          "title": "Quick Reference Table",
+          "type": "table"
+        },
+        {
+          "content": "For reasoning exams, the cleanest approach is to convert every worker into a fractional daily rate. That makes large questions much easier.",
+          "title": "Important Note",
+          "type": "note_card",
+          "variant": "important"
+        },
+        {
+          "answer": "6 days",
+          "find": "Time taken if A and B work together",
+          "formula_used": "Total Time = 1 / (Sum of Daily Work Rates)",
+          "given": [
+            "A can complete a work in 10 days",
+            "B can complete the same work in 15 days"
+          ],
+          "steps": [
+            "A’s one day work = 1/10",
+            "B’s one day work = 1/15",
+            "Combined one day work = 1/10 + 1/15",
+            "LCM = 30",
+            "Combined work = 3/30 + 2/30 = 5/30 = 1/6",
+            "So total time = 6 days"
+          ],
+          "title": "Basic Example",
+          "type": "solved_example"
+        },
+        {
+          "points": [
+            "Work = Rate × Time",
+            "Rate = 1 / Time",
+            "Add rates, not days",
+            "If total work is unknown, assume it as 1",
+            "Efficiency and time are inversely related"
+          ],
+          "title": "Quick Revision",
+          "type": "revision"
+        }
+      ],
+      "estimated_minutes": 8,
+      "id": "time_work_introduction",
+      "title": "Introduction to Time and Work"
+    },
+    {
+      "blocks": [
+        {
+          "subtitle": "The Most Important Concept in Time & Work",
+          "tags": [
+            "High Weightage",
+            "Shortcuts",
+            "JKSSB"
+          ],
+          "title": "Work and Efficiency",
+          "type": "hero"
+        },
+        {
+          "content": "Efficiency is the amount of work completed in a unit of time. A more efficient worker completes more work in the same time or the same work in less time.",
+          "highlight": true,
+          "icon": "⚡",
+          "title": "What is Efficiency?",
+          "type": "fact_card"
+        },
+        {
+          "description": "Efficiency and time are inversely proportional for the same work.",
+          "formula": "Efficiency ∝ 1 / Time",
+          "title": "Efficiency Relationship",
+          "type": "formula"
+        },
+        {
+          "content": "If A is twice as efficient as B, then A will take half the time taken by B to complete the same work.",
+          "icon": "📌",
+          "title": "Golden Rule",
+          "type": "fact_card"
+        },
+        {
+          "left_header": "Efficiency Ratio",
+          "right_header": "Time Ratio",
+          "rows": [
+            {
+              "left": "1 : 2",
+              "right": "2 : 1"
+            },
+            {
+              "left": "2 : 3",
+              "right": "3 : 2"
+            },
+            {
+              "left": "3 : 5",
+              "right": "5 : 3"
+            },
+            {
+              "left": "4 : 7",
+              "right": "7 : 4"
+            },
+            {
+              "left": "5 : 8",
+              "right": "8 : 5"
+            }
+          ],
+          "title": "Efficiency vs Time",
+          "type": "comparison"
+        },
+        {
+          "steps": [
+            "Find efficiency ratio",
+            "Reverse it to get time ratio",
+            "Assume total work using LCM",
+            "Calculate work per day",
+            "Find required time"
+          ],
+          "title": "How Efficiency Questions Are Solved",
+          "type": "process_flow"
+        },
+        {
+          "content": "In competitive exams, total work is often assumed as the LCM of individual completion times. This eliminates fractions and makes calculations faster.",
+          "icon": "🎯",
+          "title": "Why LCM Method Works",
+          "type": "fact_card"
+        },
+        {
+          "headers": [
+            "Completion Time",
+            "Assumed Total Work",
+            "One Day Work"
+          ],
+          "rows": [
+            [
+              "10 days",
+              "30 units",
+              "3 units"
+            ],
+            [
+              "15 days",
+              "30 units",
+              "2 units"
+            ],
+            [
+              "20 days",
+              "60 units",
+              "3 units"
+            ],
+            [
+              "30 days",
+              "60 units",
+              "2 units"
+            ]
+          ],
+          "title": "LCM Shortcut Table",
+          "type": "table"
+        },
+        {
+          "answer": "12 days",
+          "find": "Time taken by A",
+          "formula_used": "Efficiency Ratio = Inverse of Time Ratio",
+          "given": [
+            "A is twice as efficient as B",
+            "B completes a work in 24 days"
+          ],
+          "steps": [
+            "Efficiency ratio A:B = 2:1",
+            "Time ratio A:B = 1:2",
+            "If B takes 24 days",
+            "A takes 24 × (1/2)",
+            "A takes 12 days"
+          ],
+          "title": "Efficiency Example",
+          "type": "solved_example"
+        },
+        {
+          "answer": "7.2 days",
+          "find": "Time taken together",
+          "formula_used": "Time = Total Work / Combined Daily Work",
+          "given": [
+            "A completes work in 12 days",
+            "B completes work in 18 days"
+          ],
+          "steps": [
+            "LCM(12,18) = 36",
+            "Assume total work = 36 units",
+            "A's one day work = 36/12 = 3 units",
+            "B's one day work = 36/18 = 2 units",
+            "Together = 5 units/day",
+            "Time = 36/5 days"
+          ],
+          "title": "LCM Method Example",
+          "type": "solved_example"
+        },
+        {
+          "correct": "Time ratio is always the inverse of efficiency ratio.",
+          "tip": "Higher efficiency means less time.",
+          "title": "Most Common Trap",
+          "type": "exam_trap",
+          "wrong": "Using efficiency ratio directly as time ratio."
+        },
+        {
+          "memory_trick": "Efficiency Increases → Time decreases.",
+          "mnemonic": "EIT",
+          "title": "Memory Trick",
+          "type": "mnemonic"
+        },
+        {
+          "content": "Whenever completion times are given, first check if the LCM method can simplify the question. It is usually faster than fractions.",
+          "title": "Exam Shortcut",
+          "type": "note_card",
+          "variant": "remember"
+        },
+        {
+          "graph_type": "bar",
+          "labels": [
+            "Worker A",
+            "Worker B",
+            "Worker C",
+            "Worker D"
+          ],
+          "title": "Efficiency vs Time",
+          "type": "graph",
+          "unit": "Relative Units",
+          "values": [
+            4,
+            3,
+            2,
+            1
+          ]
+        },
+        {
+          "answer": 1,
+          "explanation": "Efficiency ratio = 3:1. Time ratio = 1:3. Therefore A takes 18/3 = 6 days.",
+          "is_pyq": false,
+          "options": [
+            "3 days",
+            "6 days",
+            "9 days",
+            "12 days"
+          ],
+          "question": "If A is three times as efficient as B and B completes a work in 18 days, how many days will A take?",
+          "type": "mcq"
+        },
+        {
+          "answer": 2,
+          "explanation": "LCM of 12 and 18 is 36.",
+          "is_pyq": false,
+          "options": [
+            "24",
+            "30",
+            "36",
+            "72"
+          ],
+          "question": "A and B can complete a work in 12 days and 18 days respectively. Using LCM method, total work assumed is:",
+          "type": "mcq"
+        },
+        {
+          "points": [
+            "Efficiency and time are inversely proportional.",
+            "Higher efficiency means lower completion time.",
+            "Time ratio is the inverse of efficiency ratio.",
+            "LCM method removes fractions.",
+            "Combined work = sum of individual work rates.",
+            "Time = Total Work ÷ Daily Work."
+          ],
+          "title": "Quick Revision",
+          "type": "revision"
+        }
+      ],
+      "estimated_minutes": 12,
+      "id": "work_efficiency_lcm",
+      "title": "Work, Efficiency and LCM Method"
+    },
+    {
+      "blocks": [
+        {
+          "subtitle": "The Foundation of Most Competitive Exam Questions",
+          "tags": [
+            "High Weightage",
+            "JKSSB",
+            "Frequently Asked"
+          ],
+          "title": "One Man and Two Men Work Problems",
+          "type": "hero"
+        },
+        {
+          "content": "If a person completes a job in T days, then the work done by him in one day is 1/T. This is called the work rate.",
+          "highlight": true,
+          "icon": "👨",
+          "title": "One Man Work Concept",
+          "type": "fact_card"
+        },
+        {
+          "description": "The most important formula in Time and Work.",
+          "formula": "One Day Work = 1 / Total Days",
+          "title": "One Day Work",
+          "type": "formula"
+        },
+        {
+          "content": "When two persons work together, their daily work rates are added because both contribute simultaneously toward the same task.",
+          "icon": "👨‍👨",
+          "title": "Two Persons Working Together",
+          "type": "fact_card"
+        },
+        {
+          "description": "Where A and B are days taken individually.",
+          "formula": "(1/A) + (1/B)",
+          "title": "Combined Work",
+          "type": "formula"
+        },
+        {
+          "steps": [
+            "Find individual one-day work",
+            "Add work rates together",
+            "Calculate combined one-day work",
+            "Take reciprocal to find total time",
+            "Convert answer into days or hours"
+          ],
+          "title": "Standard Solution Method",
+          "type": "process_flow"
+        },
+        {
+          "items": [
+            {
+              "detail": "Write one-day work for each worker.",
+              "label": "Step 1"
+            },
+            {
+              "detail": "Add work rates.",
+              "label": "Step 2"
+            },
+            {
+              "detail": "Find total work completed per day.",
+              "label": "Step 3"
+            },
+            {
+              "detail": "Take reciprocal to obtain time.",
+              "label": "Step 4"
+            }
+          ],
+          "title": "Thinking Sequence",
+          "type": "timeline"
+        },
+        {
+          "left_header": "Situation",
+          "right_header": "Result",
+          "rows": [
+            {
+              "left": "A alone",
+              "right": "1/A work per day"
+            },
+            {
+              "left": "B alone",
+              "right": "1/B work per day"
+            },
+            {
+              "left": "A and B together",
+              "right": "(1/A + 1/B)"
+            },
+            {
+              "left": "Time Together",
+              "right": "1 / Combined Work"
+            }
+          ],
+          "title": "Individual vs Combined Work",
+          "type": "comparison"
+        },
+        {
+          "answer": "1/10",
+          "find": "A's one day work",
+          "formula_used": "1/Total Days",
+          "given": [
+            "A completes work in 10 days"
+          ],
+          "steps": [
+            "One Day Work = 1/10"
+          ],
+          "title": "Basic Example",
+          "type": "solved_example"
+        },
+        {
+          "answer": "7.2 days",
+          "find": "Time taken together",
+          "formula_used": "Time = 1 / Combined Work",
+          "given": [
+            "A completes work in 12 days",
+            "B completes work in 18 days"
+          ],
+          "steps": [
+            "A's one day work = 1/12",
+            "B's one day work = 1/18",
+            "LCM = 36",
+            "Combined work = 3/36 + 2/36",
+            "Combined work = 5/36",
+            "Time = 36/5"
+          ],
+          "title": "Two Men Working Together",
+          "type": "solved_example"
+        },
+        {
+          "answer": "6 days",
+          "find": "Time together",
+          "formula_used": "LCM Shortcut Method",
+          "given": [
+            "A finishes in 8 days",
+            "B finishes in 24 days"
+          ],
+          "steps": [
+            "Assume total work = LCM(8,24)=24 units",
+            "A's daily work = 3 units",
+            "B's daily work = 1 unit",
+            "Combined work = 4 units/day",
+            "Time = 24/4"
+          ],
+          "title": "Fast LCM Method",
+          "type": "solved_example"
+        },
+        {
+          "headers": [
+            "Days",
+            "One Day Work"
+          ],
+          "rows": [
+            [
+              "5",
+              "1/5"
+            ],
+            [
+              "10",
+              "1/10"
+            ],
+            [
+              "12",
+              "1/12"
+            ],
+            [
+              "15",
+              "1/15"
+            ],
+            [
+              "20",
+              "1/20"
+            ],
+            [
+              "25",
+              "1/25"
+            ],
+            [
+              "30",
+              "1/30"
+            ]
+          ],
+          "title": "Frequently Used Values",
+          "type": "table"
+        },
+        {
+          "correct": "Add work rates, not completion times.",
+          "tip": "This is one of the most common mistakes in aptitude exams.",
+          "title": "Dangerous Mistake",
+          "type": "exam_trap",
+          "wrong": "10 days + 15 days = 25 days together"
+        },
+        {
+          "correct": "Use work-rate addition.",
+          "tip": "Combined work is never found using simple average.",
+          "title": "Another Trap",
+          "type": "exam_trap",
+          "wrong": "Taking average of individual times."
+        },
+        {
+          "memory_trick": "Rate Added Together. Whenever workers join, add their rates.",
+          "mnemonic": "RAT",
+          "title": "Memory Trick",
+          "type": "mnemonic"
+        },
+        {
+          "content": "If A takes x days and B takes y days, together they take (xy)/(x+y) days.",
+          "title": "Important Shortcut",
+          "type": "note_card",
+          "variant": "important"
+        },
+        {
+          "description": "Applicable when exactly two workers work together.",
+          "formula": "(A × B) / (A + B)",
+          "title": "Direct Shortcut Formula",
+          "type": "formula"
+        },
+        {
+          "answer": "7.2 days",
+          "find": "Time together",
+          "formula_used": "(AB)/(A+B)",
+          "given": [
+            "A = 12 days",
+            "B = 18 days"
+          ],
+          "steps": [
+            "(12×18)/(12+18)",
+            "216/30",
+            "7.2 days"
+          ],
+          "title": "Shortcut Formula Example",
+          "type": "solved_example"
+        },
+        {
+          "graph_type": "bar",
+          "labels": [
+            "Worker A",
+            "Worker B",
+            "Worker C",
+            "Worker D"
+          ],
+          "title": "Relative Efficiency",
+          "type": "graph",
+          "unit": "Efficiency Units",
+          "values": [
+            12,
+            8,
+            6,
+            4
+          ]
+        },
+        {
+          "answer": 1,
+          "explanation": "One-day work = 1/15.",
+          "is_pyq": false,
+          "options": [
+            "1/10",
+            "1/15",
+            "1/20",
+            "15"
+          ],
+          "question": "A can complete a work in 15 days. What is A's one-day work?",
+          "type": "mcq"
+        },
+        {
+          "answer": 1,
+          "explanation": "Combined work = 5/36. Time = 36/5 = 7.2 days.",
+          "is_pyq": false,
+          "options": [
+            "6",
+            "7.2",
+            "8",
+            "9"
+          ],
+          "question": "A and B complete a work in 12 days and 18 days respectively. How many days will they take together?",
+          "type": "mcq"
+        },
+        {
+          "answer": 1,
+          "explanation": "(20×30)/(20+30)=600/50=12 days.",
+          "is_pyq": false,
+          "options": [
+            "10",
+            "12",
+            "15",
+            "20"
+          ],
+          "question": "If A takes 20 days and B takes 30 days, together they take:",
+          "type": "mcq"
+        },
+        {
+          "points": [
+            "One Day Work = 1/Total Days.",
+            "Add work rates, never add days.",
+            "Use LCM method to avoid fractions.",
+            "Combined Time = 1/Combined Work.",
+            "For two workers, shortcut = (AB)/(A+B).",
+            "Higher work rate means less completion time."
+          ],
+          "title": "Quick Revision",
+          "type": "revision"
+        }
+      ],
+      "estimated_minutes": 15,
+      "id": "one_man_two_men_work",
+      "title": "One Man Work and Two Men Working Together"
+    },
+    {
+      "blocks": [
+        {
+          "subtitle": "Advanced Combined Work Problems",
+          "tags": [
+            "High Weightage",
+            "Advanced",
+            "JKSSB"
+          ],
+          "title": "Three or More Workers",
+          "type": "hero"
+        },
+        {
+          "content": "When three or more workers work together, their individual work rates are added. The combined rate determines the total time required.",
+          "highlight": true,
+          "icon": "👥",
+          "title": "Core Principle",
+          "type": "fact_card"
+        },
+        {
+          "description": "Combined one-day work of A, B and C.",
+          "formula": "(1/A) + (1/B) + (1/C)",
+          "title": "Three Worker Formula",
+          "type": "formula"
+        },
+        {
+          "description": "Applicable to any number of workers.",
+          "formula": "Combined Work = Sum of Individual Work Rates",
+          "title": "General Formula",
+          "type": "formula"
+        },
+        {
+          "steps": [
+            "Find each worker's one-day work",
+            "Add all work rates",
+            "Determine combined one-day work",
+            "Take reciprocal if total work is assumed as 1",
+            "Calculate remaining work if workers join or leave"
+          ],
+          "title": "How to Solve Multi-Worker Questions",
+          "type": "process_flow"
+        },
+        {
+          "left_header": "Situation",
+          "right_header": "Result",
+          "rows": [
+            {
+              "left": "One Worker",
+              "right": "Lowest speed"
+            },
+            {
+              "left": "Two Workers",
+              "right": "Higher combined speed"
+            },
+            {
+              "left": "Three Workers",
+              "right": "Even faster completion"
+            },
+            {
+              "left": "More Workers",
+              "right": "Less completion time"
+            }
+          ],
+          "title": "Effect of Additional Workers",
+          "type": "comparison"
+        },
+        {
+          "items": [
+            {
+              "detail": "A starts work alone.",
+              "label": "Stage 1"
+            },
+            {
+              "detail": "B joins after some days.",
+              "label": "Stage 2"
+            },
+            {
+              "detail": "C also joins.",
+              "label": "Stage 3"
+            },
+            {
+              "detail": "Combined effort completes the task.",
+              "label": "Stage 4"
+            }
+          ],
+          "title": "Worker Joining Scenario",
+          "type": "timeline"
+        },
+        {
+          "answer": "6 days",
+          "find": "Time taken together",
+          "formula_used": "(1/A)+(1/B)+(1/C)",
+          "given": [
+            "A completes work in 12 days",
+            "B completes work in 18 days",
+            "C completes work in 36 days"
+          ],
+          "steps": [
+            "A's work rate = 1/12",
+            "B's work rate = 1/18",
+            "C's work rate = 1/36",
+            "LCM = 36",
+            "Combined rate = 3/36 + 2/36 + 1/36",
+            "Combined rate = 6/36 = 1/6",
+            "Time = 6 days"
+          ],
+          "title": "Three Workers Together",
+          "type": "solved_example"
+        },
+        {
+          "answer": "5 days",
+          "find": "Combined completion time",
+          "formula_used": "LCM Method",
+          "given": [
+            "A = 10 days",
+            "B = 15 days",
+            "C = 30 days"
+          ],
+          "steps": [
+            "Assume total work = 30 units",
+            "A = 3 units/day",
+            "B = 2 units/day",
+            "C = 1 unit/day",
+            "Combined work = 6 units/day",
+            "Time = 30/6"
+          ],
+          "title": "LCM Method Shortcut",
+          "type": "solved_example"
+        },
+        {
+          "content": "Many exam questions involve workers joining after some days or leaving before completion. Solve such questions by calculating work completed during each phase separately.",
+          "icon": "🚪",
+          "title": "Joining and Leaving Problems",
+          "type": "fact_card"
+        },
+        {
+          "steps": [
+            "Calculate work done before change",
+            "Find remaining work",
+            "Determine new combined rate",
+            "Calculate time for remaining work",
+            "Add all time periods"
+          ],
+          "title": "Joining-Leaving Strategy",
+          "type": "process_flow"
+        },
+        {
+          "answer": "8.8 days",
+          "find": "Total completion time",
+          "formula_used": "Work Done + Remaining Work Method",
+          "given": [
+            "A completes work in 12 days",
+            "After 4 days, B joins",
+            "B completes work alone in 18 days"
+          ],
+          "steps": [
+            "A's daily work = 1/12",
+            "Work done in first 4 days = 4/12 = 1/3",
+            "Remaining work = 2/3",
+            "Combined rate = 1/12 + 1/18",
+            "LCM = 36",
+            "Combined rate = 5/36",
+            "Time for remaining work = (2/3)/(5/36)",
+            "= 24/5 days",
+            "= 4.8 days",
+            "Total time = 4 + 4.8"
+          ],
+          "title": "Worker Joins Later",
+          "type": "solved_example"
+        },
+        {
+          "answer": "1/2 of total work remains",
+          "find": "Remaining work after A leaves",
+          "formula_used": "Remaining Work = Total Work - Completed Work",
+          "given": [
+            "A and B start together",
+            "A = 10 days",
+            "B = 15 days",
+            "A leaves after 3 days"
+          ],
+          "steps": [
+            "Combined rate = 1/10 + 1/15",
+            "= 5/30 = 1/6",
+            "Work done in 3 days = 3/6 = 1/2",
+            "Remaining work = 1/2"
+          ],
+          "title": "Worker Leaves Midway",
+          "type": "solved_example"
+        },
+        {
+          "headers": [
+            "Days",
+            "LCM Work Units"
+          ],
+          "rows": [
+            [
+              "10,15",
+              "30"
+            ],
+            [
+              "12,18",
+              "36"
+            ],
+            [
+              "15,20",
+              "60"
+            ],
+            [
+              "12,18,36",
+              "36"
+            ],
+            [
+              "10,15,30",
+              "30"
+            ]
+          ],
+          "title": "Common LCM Values",
+          "type": "table"
+        },
+        {
+          "correct": "Add daily work rates.",
+          "tip": "Rates can be combined, completion times cannot.",
+          "title": "Most Common Mistake",
+          "type": "exam_trap",
+          "wrong": "Adding total completion times directly."
+        },
+        {
+          "correct": "Recalculate rate whenever a worker joins or leaves.",
+          "tip": "Treat each phase separately.",
+          "title": "Joining-Leaving Trap",
+          "type": "exam_trap",
+          "wrong": "Using the same combined rate throughout the question."
+        },
+        {
+          "memory_trick": "Phase → Amount Done → Remaining Work.",
+          "mnemonic": "PAR",
+          "title": "Memory Trick",
+          "type": "mnemonic"
+        },
+        {
+          "content": "Most difficult Time & Work questions become easy if you divide them into separate phases and calculate work completed in each phase.",
+          "title": "Advanced Exam Insight",
+          "type": "note_card",
+          "variant": "important"
+        },
+        {
+          "edges": [
+            {
+              "from": "start",
+              "label": "",
+              "to": "phase1"
+            },
+            {
+              "from": "phase1",
+              "label": "",
+              "to": "change"
+            },
+            {
+              "from": "change",
+              "label": "",
+              "to": "phase2"
+            },
+            {
+              "from": "phase2",
+              "label": "",
+              "to": "end"
+            }
+          ],
+          "nodes": [
+            {
+              "id": "start",
+              "label": "Start Work",
+              "shape": "oval"
+            },
+            {
+              "id": "phase1",
+              "label": "Calculate Initial Work",
+              "shape": "rect"
+            },
+            {
+              "id": "change",
+              "label": "Worker Joins/Leaves",
+              "shape": "diamond"
+            },
+            {
+              "id": "phase2",
+              "label": "Calculate Remaining Work",
+              "shape": "rect"
+            },
+            {
+              "id": "end",
+              "label": "Final Answer",
+              "shape": "oval"
+            }
+          ],
+          "title": "Joining-Leaving Logic",
+          "type": "flowchart"
+        },
+        {
+          "answer": 2,
+          "explanation": "Combined work = 1/12 + 1/18 + 1/36 = 1/6. Therefore time = 6 days.",
+          "is_pyq": false,
+          "options": [
+            "4 days",
+            "5 days",
+            "6 days",
+            "8 days"
+          ],
+          "question": "A, B and C complete a work in 12, 18 and 36 days respectively. Together they finish the work in:",
+          "type": "mcq"
+        },
+        {
+          "answer": 2,
+          "explanation": "1/10 + 1/15 = 5/30 = 1/6.",
+          "is_pyq": false,
+          "options": [
+            "1/4",
+            "1/5",
+            "1/6",
+            "1/8"
+          ],
+          "question": "If A does 1/10 work per day and B does 1/15 work per day, their combined work per day is:",
+          "type": "mcq"
+        },
+        {
+          "answer": 0,
+          "explanation": "Work done before joining must be calculated first, then remaining work is found.",
+          "is_pyq": false,
+          "options": [
+            "Find remaining work",
+            "Add total days",
+            "Average times",
+            "Multiply completion times"
+          ],
+          "question": "A worker joins after some days. What should be done first?",
+          "type": "mcq"
+        },
+        {
+          "points": [
+            "Combined work equals sum of individual work rates.",
+            "Use LCM method whenever possible.",
+            "Divide joining/leaving questions into phases.",
+            "Find remaining work after each phase.",
+            "Add rates, never completion times.",
+            "More workers means less completion time."
+          ],
+          "title": "Quick Revision",
+          "type": "revision"
+        }
+      ],
+      "estimated_minutes": 18,
+      "id": "three_or_more_workers",
+      "title": "Three or More Workers Working Together"
+    },
+    {
+      "blocks": [
+        {
+          "subtitle": "Efficiency Conversion and Equivalent Workers",
+          "tags": [
+            "High Weightage",
+            "SSC Pattern",
+            "JKSSB"
+          ],
+          "title": "Men, Women and Children",
+          "type": "hero"
+        },
+        {
+          "content": "In Time and Work problems, men, women and children often have different efficiencies. Such questions are solved by converting everyone into a common efficiency unit.",
+          "highlight": true,
+          "icon": "👨👩🧒",
+          "title": "Core Concept",
+          "type": "fact_card"
+        },
+        {
+          "content": "Instead of calculating separately, convert all workers into equivalent men, equivalent women or equivalent children and then solve the question.",
+          "icon": "⚡",
+          "title": "Equivalent Worker Method",
+          "type": "fact_card"
+        },
+        {
+          "description": "Workers with higher efficiency complete more work in the same time.",
+          "formula": "Work Done ∝ Efficiency",
+          "title": "Efficiency Principle",
+          "type": "formula"
+        },
+        {
+          "description": "Used to convert different worker categories into a common unit.",
+          "formula": "Equivalent Workers = Number × Efficiency Ratio",
+          "title": "Equivalent Conversion",
+          "type": "formula"
+        },
+        {
+          "left_header": "Efficiency Ratio",
+          "right_header": "Meaning",
+          "rows": [
+            {
+              "left": "Man : Woman = 3 : 2",
+              "right": "1 man = 1.5 women"
+            },
+            {
+              "left": "Man : Child = 2 : 1",
+              "right": "1 man = 2 children"
+            },
+            {
+              "left": "Woman : Child = 3 : 2",
+              "right": "1 woman = 1.5 children"
+            },
+            {
+              "left": "Man : Woman : Child = 6 : 4 : 3",
+              "right": "Common exam ratio"
+            }
+          ],
+          "title": "Sample Efficiency Ratios",
+          "type": "comparison"
+        },
+        {
+          "steps": [
+            "Identify efficiency ratio",
+            "Choose one common unit",
+            "Convert all workers into that unit",
+            "Calculate total equivalent workers",
+            "Apply Time and Work formulas"
+          ],
+          "title": "Standard Solving Method",
+          "type": "process_flow"
+        },
+        {
+          "items": [
+            {
+              "detail": "Read efficiency ratio carefully.",
+              "label": "Step 1"
+            },
+            {
+              "detail": "Convert workers into a common unit.",
+              "label": "Step 2"
+            },
+            {
+              "detail": "Calculate effective workforce.",
+              "label": "Step 3"
+            },
+            {
+              "detail": "Find total time or required workers.",
+              "label": "Step 4"
+            }
+          ],
+          "title": "Question Solving Sequence",
+          "type": "timeline"
+        },
+        {
+          "answer": "10 Men",
+          "find": "Equivalent number of men",
+          "formula_used": "Equivalent Worker Conversion",
+          "given": [
+            "Efficiency Ratio (Man : Woman) = 3 : 2",
+            "15 Women are working"
+          ],
+          "steps": [
+            "3 Men do work equivalent to 2 Women",
+            "1 Woman = 2/3 Man",
+            "15 Women = 15 × 2/3",
+            "15 Women = 10 Equivalent Men"
+          ],
+          "title": "Equivalent Men Example",
+          "type": "solved_example"
+        },
+        {
+          "answer": "21 Equivalent Men",
+          "find": "Total workforce in equivalent men",
+          "formula_used": "Equivalent Men Method",
+          "given": [
+            "1 Man = 2 Children",
+            "12 Men and 18 Children"
+          ],
+          "steps": [
+            "2 Children = 1 Man",
+            "18 Children = 9 Men",
+            "Total Equivalent Men = 12 + 9",
+            "Total = 21 Men"
+          ],
+          "title": "Men and Children Example",
+          "type": "solved_example"
+        },
+        {
+          "answer": "15 Days",
+          "find": "Days required by 18 Women",
+          "formula_used": "Equivalent Workforce Principle",
+          "given": [
+            "12 Men complete work in 15 days",
+            "Efficiency Ratio Man : Woman = 3 : 2",
+            "18 Women are employed"
+          ],
+          "steps": [
+            "1 Woman = 2/3 Man",
+            "18 Women = 12 Equivalent Men",
+            "Equivalent workforce is same",
+            "Therefore required time remains unchanged"
+          ],
+          "title": "Time Calculation Example",
+          "type": "solved_example"
+        },
+        {
+          "headers": [
+            "Given Ratio",
+            "Conversion"
+          ],
+          "rows": [
+            [
+              "Man : Woman = 3 : 2",
+              "1 Woman = 2/3 Man"
+            ],
+            [
+              "Man : Child = 2 : 1",
+              "2 Children = 1 Man"
+            ],
+            [
+              "Woman : Child = 3 : 2",
+              "3 Children = 2 Women"
+            ],
+            [
+              "Man : Woman : Child = 6 : 4 : 3",
+              "Use common unit conversion"
+            ]
+          ],
+          "title": "Quick Conversion Table",
+          "type": "table"
+        },
+        {
+          "correct": "Compare effective workforce after conversion.",
+          "tip": "Worker count alone does not determine productivity.",
+          "title": "Very Common Mistake",
+          "type": "exam_trap",
+          "wrong": "Comparing number of workers directly."
+        },
+        {
+          "correct": "Time ratio is inverse of efficiency ratio.",
+          "tip": "Always verify whether ratio represents time or efficiency.",
+          "title": "Ratio Trap",
+          "type": "exam_trap",
+          "wrong": "Using time ratio as efficiency ratio."
+        },
+        {
+          "memory_trick": "Convert → Equate → Then Solve.",
+          "mnemonic": "CET",
+          "title": "Memory Trick",
+          "type": "mnemonic"
+        },
+        {
+          "content": "Whenever men, women and children appear together, first convert them into a single unit before doing any calculation.",
+          "title": "Exam Shortcut",
+          "type": "note_card",
+          "variant": "important"
+        },
+        {
+          "edges": [
+            {
+              "from": "start",
+              "label": "",
+              "to": "convert"
+            },
+            {
+              "from": "convert",
+              "label": "",
+              "to": "calculate"
+            },
+            {
+              "from": "calculate",
+              "label": "",
+              "to": "solve"
+            },
+            {
+              "from": "solve",
+              "label": "",
+              "to": "end"
+            }
+          ],
+          "nodes": [
+            {
+              "id": "start",
+              "label": "Read Ratio",
+              "shape": "oval"
+            },
+            {
+              "id": "convert",
+              "label": "Convert to Common Unit",
+              "shape": "rect"
+            },
+            {
+              "id": "calculate",
+              "label": "Find Effective Workforce",
+              "shape": "rect"
+            },
+            {
+              "id": "solve",
+              "label": "Solve Time & Work",
+              "shape": "rect"
+            },
+            {
+              "id": "end",
+              "label": "Answer",
+              "shape": "oval"
+            }
+          ],
+          "title": "Equivalent Worker Strategy",
+          "type": "flowchart"
+        },
+        {
+          "graph_type": "bar",
+          "labels": [
+            "Man",
+            "Woman",
+            "Child"
+          ],
+          "title": "Relative Efficiency",
+          "type": "graph",
+          "unit": "Efficiency Units",
+          "values": [
+            6,
+            4,
+            3
+          ]
+        },
+        {
+          "answer": 1,
+          "explanation": "24 Children = 12 Men.",
+          "is_pyq": false,
+          "options": [
+            "10 Men",
+            "12 Men",
+            "14 Men",
+            "16 Men"
+          ],
+          "question": "If 1 Man = 2 Children, then 24 Children are equivalent to:",
+          "type": "mcq"
+        },
+        {
+          "answer": 2,
+          "explanation": "21 × (2/3) = 14 equivalent men.",
+          "is_pyq": false,
+          "options": [
+            "12",
+            "13",
+            "14",
+            "15"
+          ],
+          "question": "Efficiency ratio of Men and Women is 3:2. Twenty-one women are equivalent to how many men?",
+          "type": "mcq"
+        },
+        {
+          "answer": 2,
+          "explanation": "The first step is always conversion into a common efficiency unit.",
+          "is_pyq": false,
+          "options": [
+            "Find LCM",
+            "Calculate wages",
+            "Convert to common unit",
+            "Find one-day work"
+          ],
+          "question": "What should be done first in Men-Women-Children problems?",
+          "type": "mcq"
+        },
+        {
+          "points": [
+            "Efficiency determines work output.",
+            "Convert workers into a common unit.",
+            "Equivalent workforce simplifies calculations.",
+            "Time ratio is inverse of efficiency ratio.",
+            "Worker count alone is meaningless without efficiency.",
+            "Convert first, solve later."
+          ],
+          "title": "Quick Revision",
+          "type": "revision"
+        }
+      ],
+      "estimated_minutes": 18,
+      "id": "men_women_children",
+      "title": "Men, Women and Children Problems"
+    },
+    {
+      "blocks": [
+        {
+          "subtitle": "Time and Work Applied to Water Flow Problems",
+          "tags": [
+            "High Weightage",
+            "SSC",
+            "JKSSB",
+            "Banking"
+          ],
+          "title": "Pipes and Cisterns",
+          "type": "hero"
+        },
+        {
+          "content": "Pipes and Cisterns is an application of Time and Work. Filling pipes perform positive work while outlet pipes perform negative work.",
+          "highlight": true,
+          "icon": "🚰",
+          "title": "Core Concept",
+          "type": "fact_card"
+        },
+        {
+          "content": "Treat the tank as the total work and treat water flow per hour as work done per hour.",
+          "icon": "💡",
+          "title": "Golden Rule",
+          "type": "fact_card"
+        },
+        {
+          "description": "If a pipe fills a tank in T hours, then hourly work is 1/T.",
+          "formula": "Work Rate = 1 / Filling Time",
+          "title": "Filling Pipe Formula",
+          "type": "formula"
+        },
+        {
+          "description": "Outlet pipes remove water and are treated as negative work.",
+          "formula": "Work Rate = -1 / Emptying Time",
+          "title": "Outlet Pipe Formula",
+          "type": "formula"
+        },
+        {
+          "description": "Used when multiple pipes operate simultaneously.",
+          "formula": "Net Rate = Sum of Filling Rates - Sum of Emptying Rates",
+          "title": "Combined Pipe Formula",
+          "type": "formula"
+        },
+        {
+          "left_header": "Pipe Type",
+          "right_header": "Work Nature",
+          "rows": [
+            {
+              "left": "Inlet Pipe",
+              "right": "Positive Work"
+            },
+            {
+              "left": "Outlet Pipe",
+              "right": "Negative Work"
+            },
+            {
+              "left": "Leakage Pipe",
+              "right": "Negative Work"
+            },
+            {
+              "left": "Multiple Inlets",
+              "right": "Add Rates"
+            }
+          ],
+          "title": "Filling Pipe vs Outlet Pipe",
+          "type": "comparison"
+        },
+        {
+          "steps": [
+            "Find hourly work of each pipe",
+            "Assign negative sign to outlet pipes",
+            "Calculate net work per hour",
+            "Find time using reciprocal",
+            "Verify units (hours/minutes)"
+          ],
+          "title": "How to Solve Pipes and Cisterns",
+          "type": "process_flow"
+        },
+        {
+          "items": [
+            {
+              "detail": "Identify filling and emptying pipes.",
+              "label": "Step 1"
+            },
+            {
+              "detail": "Convert times into hourly work.",
+              "label": "Step 2"
+            },
+            {
+              "detail": "Calculate net rate.",
+              "label": "Step 3"
+            },
+            {
+              "detail": "Find total filling time.",
+              "label": "Step 4"
+            }
+          ],
+          "title": "Problem Solving Sequence",
+          "type": "timeline"
+        },
+        {
+          "answer": "1/8 Tank per Hour",
+          "find": "Hourly filling rate",
+          "formula_used": "1/T",
+          "given": [
+            "A pipe fills a tank in 8 hours"
+          ],
+          "steps": [
+            "Hourly work = 1/8"
+          ],
+          "title": "Single Pipe Example",
+          "type": "solved_example"
+        },
+        {
+          "answer": "7.2 Hours",
+          "find": "Time taken together",
+          "formula_used": "Combined Work",
+          "given": [
+            "Pipe A fills tank in 12 hours",
+            "Pipe B fills tank in 18 hours"
+          ],
+          "steps": [
+            "A = 1/12",
+            "B = 1/18",
+            "LCM = 36",
+            "Combined = 3/36 + 2/36",
+            "Combined = 5/36",
+            "Time = 36/5"
+          ],
+          "title": "Two Filling Pipes",
+          "type": "solved_example"
+        },
+        {
+          "answer": "30 Hours",
+          "find": "Net filling time",
+          "formula_used": "Positive Work - Negative Work",
+          "given": [
+            "Inlet fills tank in 10 hours",
+            "Leak empties tank in 15 hours"
+          ],
+          "steps": [
+            "Inlet Rate = 1/10",
+            "Leak Rate = -1/15",
+            "Net Rate = 1/10 - 1/15",
+            "= 3/30 - 2/30",
+            "= 1/30",
+            "Time = 30 Hours"
+          ],
+          "title": "Filling Pipe with Leakage",
+          "type": "solved_example"
+        },
+        {
+          "answer": "9 Hours",
+          "find": "Time taken to fill tank",
+          "formula_used": "Net Work Rate",
+          "given": [
+            "Pipe A fills in 12 hours",
+            "Pipe B fills in 18 hours",
+            "Pipe C empties in 36 hours"
+          ],
+          "steps": [
+            "A = 3/36",
+            "B = 2/36",
+            "C = -1/36",
+            "Net Rate = 4/36",
+            "= 1/9",
+            "Time = 9 Hours"
+          ],
+          "title": "Three Pipe Problem",
+          "type": "solved_example"
+        },
+        {
+          "headers": [
+            "Time",
+            "Hourly Work"
+          ],
+          "rows": [
+            [
+              "6 Hours",
+              "1/6"
+            ],
+            [
+              "8 Hours",
+              "1/8"
+            ],
+            [
+              "10 Hours",
+              "1/10"
+            ],
+            [
+              "12 Hours",
+              "1/12"
+            ],
+            [
+              "15 Hours",
+              "1/15"
+            ],
+            [
+              "18 Hours",
+              "1/18"
+            ],
+            [
+              "24 Hours",
+              "1/24"
+            ]
+          ],
+          "title": "Common Pipe Values",
+          "type": "table"
+        },
+        {
+          "graph_type": "bar",
+          "labels": [
+            "Pipe A",
+            "Pipe B",
+            "Pipe C",
+            "Pipe D"
+          ],
+          "title": "Relative Filling Speeds",
+          "type": "graph",
+          "unit": "Relative Rate",
+          "values": [
+            12,
+            8,
+            6,
+            4
+          ]
+        },
+        {
+          "edges": [
+            {
+              "from": "s",
+              "label": "",
+              "to": "r"
+            },
+            {
+              "from": "r",
+              "label": "",
+              "to": "n"
+            },
+            {
+              "from": "n",
+              "label": "",
+              "to": "t"
+            },
+            {
+              "from": "t",
+              "label": "",
+              "to": "e"
+            }
+          ],
+          "nodes": [
+            {
+              "id": "s",
+              "label": "Identify Pipes",
+              "shape": "oval"
+            },
+            {
+              "id": "r",
+              "label": "Find Rates",
+              "shape": "rect"
+            },
+            {
+              "id": "n",
+              "label": "Calculate Net Rate",
+              "shape": "rect"
+            },
+            {
+              "id": "t",
+              "label": "Find Time",
+              "shape": "rect"
+            },
+            {
+              "id": "e",
+              "label": "Answer",
+              "shape": "oval"
+            }
+          ],
+          "title": "Pipe Question Strategy",
+          "type": "flowchart"
+        },
+        {
+          "correct": "Leakage is always negative work.",
+          "tip": "Outlet pipes reduce water and therefore reduce net work.",
+          "title": "Most Common Trap",
+          "type": "exam_trap",
+          "wrong": "Adding leakage pipe rate as positive work."
+        },
+        {
+          "correct": "Subtract work rates, not times.",
+          "tip": "Always work with hourly rates.",
+          "title": "Calculation Trap",
+          "type": "exam_trap",
+          "wrong": "Subtracting filling times."
+        },
+        {
+          "memory_trick": "Fill = Positive, Outlet = Negative.",
+          "mnemonic": "FIN",
+          "title": "Memory Trick",
+          "type": "mnemonic"
+        },
+        {
+          "content": "Whenever a leak or outlet appears, immediately assign a negative sign to its rate before calculating.",
+          "title": "Shortcut",
+          "type": "note_card",
+          "variant": "important"
+        },
+        {
+          "answer": 2,
+          "explanation": "Hourly work = 1/8.",
+          "is_pyq": false,
+          "options": [
+            "1/4",
+            "1/6",
+            "1/8",
+            "1/10"
+          ],
+          "question": "A pipe fills a tank in 8 hours. Its hourly work is:",
+          "type": "mcq"
+        },
+        {
+          "answer": 2,
+          "explanation": "Net rate = 1/10 - 1/15 = 1/30.",
+          "is_pyq": false,
+          "options": [
+            "20 Hours",
+            "24 Hours",
+            "30 Hours",
+            "40 Hours"
+          ],
+          "question": "A tank is filled by a pipe in 10 hours and emptied by a leak in 15 hours. Net filling time is:",
+          "type": "mcq"
+        },
+        {
+          "answer": 2,
+          "explanation": "Outlet pipes remove water from the tank.",
+          "is_pyq": false,
+          "options": [
+            "Inlet Pipe",
+            "Pressure Pipe",
+            "Outlet Pipe",
+            "Supply Pipe"
+          ],
+          "question": "Which pipe contributes negative work?",
+          "type": "mcq"
+        },
+        {
+          "points": [
+            "Pipes and Cisterns is based on Time and Work.",
+            "Filling pipes perform positive work.",
+            "Outlet pipes perform negative work.",
+            "Always calculate hourly rates first.",
+            "Add positive rates and subtract negative rates.",
+            "Find time using reciprocal of net rate.",
+            "Leakage questions are among the most frequently asked exam problems."
+          ],
+          "title": "Quick Revision",
+          "type": "revision"
+        }
+      ],
+      "estimated_minutes": 22,
+      "id": "pipes_and_cisterns",
+      "title": "Pipes and Cisterns"
+    },
+    {
+      "blocks": [
+        {
+          "subtitle": "Payment Distribution Based on Work Done",
+          "tags": [
+            "Important",
+            "SSC",
+            "JKSSB",
+            "Arithmetic"
+          ],
+          "title": "Work and Wages",
+          "type": "hero"
+        },
+        {
+          "content": "Wages are directly proportional to the amount of work done. A person who does more work should receive a larger share of the total wages.",
+          "highlight": true,
+          "icon": "💰",
+          "title": "Core Principle",
+          "type": "fact_card"
+        },
+        {
+          "content": "Work Ratio = Wage Ratio. If workers contribute work in the ratio 2:3, their wages must also be divided in the ratio 2:3.",
+          "icon": "⚖️",
+          "title": "Golden Rule",
+          "type": "fact_card"
+        },
+        {
+          "description": "Payment is proportional to contribution.",
+          "formula": "Wages ∝ Work Done",
+          "title": "Basic Wage Formula",
+          "type": "formula"
+        },
+        {
+          "description": "Used to calculate each worker's share.",
+          "formula": "Individual Wage = (Individual Work / Total Work) × Total Wages",
+          "title": "Wage Distribution",
+          "type": "formula"
+        },
+        {
+          "left_header": "Work Ratio",
+          "right_header": "Wage Ratio",
+          "rows": [
+            {
+              "left": "1 : 2",
+              "right": "1 : 2"
+            },
+            {
+              "left": "2 : 3",
+              "right": "2 : 3"
+            },
+            {
+              "left": "3 : 5",
+              "right": "3 : 5"
+            },
+            {
+              "left": "4 : 7",
+              "right": "4 : 7"
+            }
+          ],
+          "title": "Work and Wage Relationship",
+          "type": "comparison"
+        },
+        {
+          "steps": [
+            "Determine work done by each worker",
+            "Find work ratio",
+            "Convert work ratio into wage ratio",
+            "Find total ratio parts",
+            "Distribute wages accordingly"
+          ],
+          "title": "How to Solve Work and Wage Problems",
+          "type": "process_flow"
+        },
+        {
+          "items": [
+            {
+              "detail": "Find contribution of each worker.",
+              "label": "Step 1"
+            },
+            {
+              "detail": "Calculate work ratio.",
+              "label": "Step 2"
+            },
+            {
+              "detail": "Apply wage ratio.",
+              "label": "Step 3"
+            },
+            {
+              "detail": "Find individual share.",
+              "label": "Step 4"
+            }
+          ],
+          "title": "Typical Question Pattern",
+          "type": "timeline"
+        },
+        {
+          "answer": "A = ₹2000, B = ₹3000",
+          "find": "Individual wages",
+          "formula_used": "Work Ratio = Wage Ratio",
+          "given": [
+            "A works for 10 days",
+            "B works for 15 days",
+            "Total wages = ₹5000"
+          ],
+          "steps": [
+            "Efficiency is same",
+            "Work ratio = 10:15",
+            "Simplify = 2:3",
+            "Total ratio parts = 5",
+            "A's share = (2/5) × 5000 = ₹2000",
+            "B's share = (3/5) × 5000 = ₹3000"
+          ],
+          "title": "Equal Efficiency Example",
+          "type": "solved_example"
+        },
+        {
+          "answer": "A = ₹4114.29, B = ₹3085.71",
+          "find": "Wage distribution",
+          "formula_used": "Work = Efficiency × Time",
+          "given": [
+            "A is twice as efficient as B",
+            "A works for 6 days",
+            "B works for 9 days",
+            "Total wages = ₹7200"
+          ],
+          "steps": [
+            "Efficiency ratio A:B = 2:1",
+            "Work ratio = Efficiency × Time",
+            "A's work = 2 × 6 = 12",
+            "B's work = 1 × 9 = 9",
+            "Work ratio = 12:9 = 4:3",
+            "Total ratio parts = 7",
+            "A's wage = (4/7) × 7200",
+            "A's wage = ₹4114.29",
+            "B = (3/7) × 7200 = ₹3085.71"
+          ],
+          "title": "Different Efficiency Example",
+          "type": "solved_example"
+        },
+        {
+          "answer": "₹3000, ₹4500, ₹7500",
+          "find": "Individual shares",
+          "formula_used": "Ratio Distribution",
+          "given": [
+            "A, B and C work in ratio 2:3:5",
+            "Total wages = ₹15000"
+          ],
+          "steps": [
+            "Total ratio parts = 10",
+            "One part = ₹1500",
+            "A = 2 × 1500 = ₹3000",
+            "B = 3 × 1500 = ₹4500",
+            "C = 5 × 1500 = ₹7500"
+          ],
+          "title": "Three Workers Example",
+          "type": "solved_example"
+        },
+        {
+          "headers": [
+            "Work Ratio",
+            "Wage Ratio"
+          ],
+          "rows": [
+            [
+              "1:1",
+              "1:1"
+            ],
+            [
+              "2:3",
+              "2:3"
+            ],
+            [
+              "3:4",
+              "3:4"
+            ],
+            [
+              "4:5",
+              "4:5"
+            ],
+            [
+              "5:7",
+              "5:7"
+            ]
+          ],
+          "title": "Quick Wage Distribution Table",
+          "type": "table"
+        },
+        {
+          "content": "When efficiencies differ, first calculate effective work done using Work = Efficiency × Time, then distribute wages according to work ratio.",
+          "icon": "👷",
+          "title": "Efficiency Based Wage Questions",
+          "type": "fact_card"
+        },
+        {
+          "content": "Never distribute wages according to time alone unless efficiencies are equal.",
+          "title": "Important Shortcut",
+          "type": "note_card",
+          "variant": "important"
+        },
+        {
+          "correct": "Consider efficiency whenever it differs.",
+          "tip": "Work depends on both time and efficiency.",
+          "title": "Most Common Mistake",
+          "type": "exam_trap",
+          "wrong": "Dividing wages according to working days only."
+        },
+        {
+          "correct": "Calculate actual work done first.",
+          "tip": "Work = Efficiency × Time.",
+          "title": "Ratio Trap",
+          "type": "exam_trap",
+          "wrong": "Using efficiency ratio directly as wage ratio."
+        },
+        {
+          "memory_trick": "Work Wins Wages.",
+          "mnemonic": "WWW",
+          "title": "Memory Trick",
+          "type": "mnemonic"
+        },
+        {
+          "edges": [
+            {
+              "from": "s",
+              "label": "",
+              "to": "r"
+            },
+            {
+              "from": "r",
+              "label": "",
+              "to": "d"
+            },
+            {
+              "from": "d",
+              "label": "",
+              "to": "a"
+            }
+          ],
+          "nodes": [
+            {
+              "id": "s",
+              "label": "Find Work Done",
+              "shape": "oval"
+            },
+            {
+              "id": "r",
+              "label": "Calculate Ratio",
+              "shape": "rect"
+            },
+            {
+              "id": "d",
+              "label": "Distribute Wages",
+              "shape": "rect"
+            },
+            {
+              "id": "a",
+              "label": "Answer",
+              "shape": "oval"
+            }
+          ],
+          "title": "Work and Wages Strategy",
+          "type": "flowchart"
+        },
+        {
+          "graph_type": "bar",
+          "labels": [
+            "Worker A",
+            "Worker B",
+            "Worker C"
+          ],
+          "title": "Sample Wage Distribution",
+          "type": "graph",
+          "unit": "Percentage Share",
+          "values": [
+            20,
+            30,
+            50
+          ]
+        },
+        {
+          "answer": 2,
+          "explanation": "Second worker gets 3/5 of ₹2500 = ₹1500.",
+          "is_pyq": false,
+          "options": [
+            "₹1000",
+            "₹1200",
+            "₹1500",
+            "₹1800"
+          ],
+          "question": "Two workers contribute work in the ratio 2:3. Total wages are ₹2500. What is the share of the second worker?",
+          "type": "mcq"
+        },
+        {
+          "answer": 1,
+          "explanation": "Wages are proportional to work done.",
+          "options": [
+            "5:4",
+            "4:5",
+            "1:1",
+            "9:5"
+          ],
+          "question": "If work ratio is 4:5, wage ratio will be:",
+          "type": "mcq"
+        },
+        {
+          "answer": 2,
+          "explanation": "Actual work done determines wages.",
+          "options": [
+            "Time only",
+            "Efficiency only",
+            "Work done",
+            "Days worked"
+          ],
+          "question": "When efficiencies differ, wages should be divided according to:",
+          "type": "mcq"
+        },
+        {
+          "points": [
+            "Wages are proportional to work done.",
+            "Work Ratio = Wage Ratio.",
+            "If efficiencies differ, calculate effective work first.",
+            "Work = Efficiency × Time.",
+            "Do not divide wages according to time alone.",
+            "Ratio method solves most exam questions quickly."
+          ],
+          "title": "Quick Revision",
+          "type": "revision"
+        }
+      ],
+      "estimated_minutes": 20,
+      "id": "work_and_wages",
+      "title": "Work and Wages"
+    },
+    {
+      "blocks": [
+        {
+          "subtitle": "High-Speed Techniques for Competitive Exams",
+          "tags": [
+            "Shortcuts",
+            "High Weightage",
+            "Exam Booster"
+          ],
+          "title": "Advanced Time and Work Shortcuts",
+          "type": "hero"
+        },
+        {
+          "content": "Most Time and Work questions can be solved in less than 30 seconds if the correct shortcut is identified.",
+          "highlight": true,
+          "icon": "⚡",
+          "title": "Why Shortcuts Matter",
+          "type": "fact_card"
+        },
+        {
+          "description": "If A and B individually complete a work in A and B days.",
+          "formula": "(A × B)/(A + B)",
+          "title": "Two Worker Shortcut",
+          "type": "formula"
+        },
+        {
+          "description": "Higher efficiency means less completion time.",
+          "formula": "Efficiency Ratio = Inverse of Time Ratio",
+          "title": "Efficiency Shortcut",
+          "type": "formula"
+        },
+        {
+          "left_header": "Normal Method",
+          "right_header": "Shortcut Method",
+          "rows": [
+            {
+              "left": "Fractions",
+              "right": "LCM Units"
+            },
+            {
+              "left": "Multiple Calculations",
+              "right": "Direct Formula"
+            },
+            {
+              "left": "Slower",
+              "right": "Exam Friendly"
+            },
+            {
+              "left": "Higher Error Rate",
+              "right": "Lower Error Rate"
+            }
+          ],
+          "title": "Normal Method vs Shortcut Method",
+          "type": "comparison"
+        },
+        {
+          "content": "Assume total work as the LCM of completion times. This removes fractions and makes calculations significantly easier.",
+          "icon": "🎯",
+          "title": "LCM Master Method",
+          "type": "fact_card"
+        },
+        {
+          "answer": "7.2 days",
+          "find": "Time together",
+          "formula_used": "LCM Shortcut",
+          "given": [
+            "A = 12 days",
+            "B = 18 days"
+          ],
+          "steps": [
+            "LCM = 36",
+            "A does 3 units/day",
+            "B does 2 units/day",
+            "Combined = 5 units/day",
+            "Time = 36/5"
+          ],
+          "title": "LCM Shortcut Example",
+          "type": "solved_example"
+        },
+        {
+          "content": "For alternate-day questions, calculate work completed in one full cycle first, then find the remaining work.",
+          "icon": "🔄",
+          "title": "Alternate Day Shortcut",
+          "type": "fact_card"
+        },
+        {
+          "steps": [
+            "Calculate work done in one cycle",
+            "Find number of complete cycles",
+            "Determine remaining work",
+            "Identify who works next",
+            "Calculate final answer"
+          ],
+          "title": "Alternate Day Strategy",
+          "type": "process_flow"
+        },
+        {
+          "answer": "14⅓ days",
+          "find": "Completion time if A starts",
+          "formula_used": "Cycle Method",
+          "given": [
+            "A completes work in 12 days",
+            "B completes work in 18 days",
+            "They work on alternate days"
+          ],
+          "steps": [
+            "A's work = 1/12",
+            "B's work = 1/18",
+            "Two-day work = 1/12 + 1/18 = 5/36",
+            "After 7 cycles (14 days), work done = 35/36",
+            "Remaining work = 1/36",
+            "A works next",
+            "A completes remaining work in 1/3 day"
+          ],
+          "title": "Alternate Day Example",
+          "type": "solved_example"
+        },
+        {
+          "content": "When workers are replaced, calculate work completed before replacement and then continue with the new worker's rate.",
+          "icon": "👥",
+          "title": "Worker Replacement Shortcut",
+          "type": "fact_card"
+        },
+        {
+          "correct": "Add work rates.",
+          "tip": "Completion times are never added.",
+          "title": "Trap 1",
+          "type": "exam_trap",
+          "wrong": "Adding completion times."
+        },
+        {
+          "correct": "Convert efficiency into work rate first.",
+          "tip": "Efficiency controls output.",
+          "title": "Trap 2",
+          "type": "exam_trap",
+          "wrong": "Ignoring efficiency ratio."
+        },
+        {
+          "correct": "Recalculate combined work.",
+          "tip": "Every phase has its own rate.",
+          "title": "Trap 3",
+          "type": "exam_trap",
+          "wrong": "Using the same rate after a worker leaves."
+        },
+        {
+          "correct": "Treat leakage as negative work.",
+          "tip": "Outlet pipes reduce work.",
+          "title": "Trap 4",
+          "type": "exam_trap",
+          "wrong": "Treating leakage pipe as positive work."
+        },
+        {
+          "memory_trick": "LCM → Combined Work → Reciprocal.",
+          "mnemonic": "LCR",
+          "title": "Memory Trick",
+          "type": "mnemonic"
+        },
+        {
+          "headers": [
+            "Situation",
+            "Shortcut"
+          ],
+          "rows": [
+            [
+              "Two Workers",
+              "(AB)/(A+B)"
+            ],
+            [
+              "Efficiency Ratio",
+              "Inverse Time Ratio"
+            ],
+            [
+              "Alternate Days",
+              "Cycle Method"
+            ],
+            [
+              "Multiple Workers",
+              "LCM Method"
+            ],
+            [
+              "Pipes and Cisterns",
+              "Positive-Negative Work"
+            ]
+          ],
+          "title": "Most Useful Shortcuts",
+          "type": "table"
+        },
+        {
+          "graph_type": "bar",
+          "labels": [
+            "Direct Fractions",
+            "LCM Method",
+            "Shortcut Formula",
+            "Cycle Method"
+          ],
+          "title": "Relative Solving Speed",
+          "type": "graph",
+          "unit": "Relative Speed",
+          "values": [
+            2,
+            6,
+            8,
+            7
+          ]
+        },
+        {
+          "content": "In most competitive exams, the LCM method is the fastest and safest technique.",
+          "title": "Exam Secret",
+          "type": "note_card",
+          "variant": "important"
+        },
+        {
+          "answer": 1,
+          "explanation": "(20×30)/(20+30)=600/50=12 days.",
+          "is_pyq": false,
+          "options": [
+            "10",
+            "12",
+            "15",
+            "18"
+          ],
+          "question": "If A takes 20 days and B takes 30 days, together they take:",
+          "type": "mcq"
+        },
+        {
+          "answer": 2,
+          "explanation": "LCM method eliminates fractions and speeds calculations.",
+          "is_pyq": false,
+          "options": [
+            "Average Method",
+            "Percentage Method",
+            "LCM Method",
+            "Ratio Method"
+          ],
+          "question": "Which shortcut is most commonly used in Time and Work?",
+          "type": "mcq"
+        },
+        {
+          "points": [
+            "Use LCM whenever possible.",
+            "Add rates, never days.",
+            "Time ratio is inverse of efficiency ratio.",
+            "Alternate day questions use cycle method.",
+            "Leakage means negative work.",
+            "Recalculate rates whenever workers join or leave.",
+            "Shortcut formulas save significant time in exams."
+          ],
+          "title": "Quick Revision",
+          "type": "revision"
+        }
+      ],
+      "estimated_minutes": 25,
+      "id": "advanced_shortcuts",
+      "title": "Advanced Time and Work Shortcuts"
+    },
+    {
+      "blocks": [
+        {
+          "subtitle": "Mixed Concept Questions for Competitive Exams",
+          "tags": [
+            "PYQ Pattern",
+            "SSC",
+            "JKSSB",
+            "Railways"
+          ],
+          "title": "Time and Work Practice Set",
+          "type": "hero"
+        },
+        {
+          "content": "Before solving, identify the category: combined work, efficiency, alternate day, pipes and cisterns, work and wages, or men-women-children.",
+          "highlight": true,
+          "icon": "🎯",
+          "title": "Exam Strategy",
+          "type": "fact_card"
+        },
+        {
+          "answer": 1,
+          "explanation": "Combined work = 1/15 + 1/10 = 5/30 = 1/6. Therefore time = 6 days.",
+          "is_pyq": true,
+          "options": [
+            "5 days",
+            "6 days",
+            "7 days",
+            "8 days"
+          ],
+          "question": "A can complete a work in 15 days and B can complete it in 10 days. How many days will they take together?",
+          "source": "SSC Pattern",
+          "type": "mcq",
+          "year": "2021"
+        },
+        {
+          "answer": 2,
+          "explanation": "Efficiency doubles, time becomes half. 24/2 = 12 days.",
+          "is_pyq": true,
+          "options": [
+            "8 days",
+            "10 days",
+            "12 days",
+            "16 days"
+          ],
+          "question": "A is twice as efficient as B. If B completes a work in 24 days, A will complete it in:",
+          "source": "Banking Pattern",
+          "type": "mcq",
+          "year": "2020"
+        },
+        {
+          "answer": 2,
+          "explanation": "Net rate = 1/12 - 1/18 = 1/36. Hence 36 hours.",
+          "is_pyq": true,
+          "options": [
+            "24 hours",
+            "30 hours",
+            "36 hours",
+            "40 hours"
+          ],
+          "question": "A pipe fills a tank in 12 hours while another empties it in 18 hours. How long will it take to fill the tank if both are opened together?",
+          "source": "Railway Pattern",
+          "type": "mcq",
+          "year": "2022"
+        },
+        {
+          "answer": 1,
+          "explanation": "B = 1/8 - 1/24 = 2/24 = 1/12. Therefore B takes 12 days.",
+          "is_pyq": true,
+          "options": [
+            "10 days",
+            "12 days",
+            "16 days",
+            "20 days"
+          ],
+          "question": "If A and B together complete a work in 8 days and A alone completes it in 24 days, B alone can complete it in:",
+          "type": "mcq"
+        },
+        {
+          "answer": 2,
+          "explanation": "Workers × Days = Constant. 20×18 = N×12. N=30.",
+          "is_pyq": true,
+          "options": [
+            "24",
+            "28",
+            "30",
+            "32"
+          ],
+          "question": "Twenty workers can complete a work in 18 days. How many workers are needed to complete the same work in 12 days?",
+          "type": "mcq"
+        },
+        {
+          "answer": "12 days",
+          "find": "Time together",
+          "formula_used": "(AB)/(A+B)",
+          "given": [
+            "A can complete work in 20 days",
+            "B can complete work in 30 days"
+          ],
+          "steps": [
+            "A = 1/20",
+            "B = 1/30",
+            "Combined = 5/60",
+            "= 1/12",
+            "Time = 12 days"
+          ],
+          "title": "PYQ Style Question 1",
+          "type": "solved_example"
+        },
+        {
+          "answer": "7/12 of total work",
+          "find": "Remaining work",
+          "formula_used": "Remaining Work Method",
+          "given": [
+            "A completes work in 12 days",
+            "B completes work in 18 days",
+            "A leaves after 3 days"
+          ],
+          "steps": [
+            "Combined rate = 1/12 + 1/18",
+            "= 5/36",
+            "Work done in 3 days = 15/36",
+            "= 5/12",
+            "Remaining = 7/12"
+          ],
+          "title": "PYQ Style Question 2",
+          "type": "solved_example"
+        },
+        {
+          "answer": "13⅓ days",
+          "find": "Time taken by A",
+          "formula_used": "Inverse Ratio Principle",
+          "given": [
+            "Efficiency ratio of A:B = 3:2",
+            "B takes 20 days"
+          ],
+          "steps": [
+            "Time ratio = 2:3",
+            "A = 20 × 2/3",
+            "= 13⅓ days"
+          ],
+          "title": "PYQ Style Question 3",
+          "type": "solved_example"
+        },
+        {
+          "headers": [
+            "Topic",
+            "Frequency"
+          ],
+          "rows": [
+            [
+              "Combined Work",
+              "Very High"
+            ],
+            [
+              "Efficiency",
+              "Very High"
+            ],
+            [
+              "Pipes & Cisterns",
+              "High"
+            ],
+            [
+              "Alternate Days",
+              "Medium"
+            ],
+            [
+              "Work & Wages",
+              "Medium"
+            ],
+            [
+              "Men-Women-Children",
+              "Medium"
+            ]
+          ],
+          "title": "Most Repeated Question Types",
+          "type": "table"
+        },
+        {
+          "correct": "Add work rates.",
+          "tip": "Most common error in competitive exams.",
+          "title": "PYQ Trap 1",
+          "type": "exam_trap",
+          "wrong": "Adding completion times."
+        },
+        {
+          "correct": "Time ratio is inverse of efficiency ratio.",
+          "tip": "Always reverse the ratio.",
+          "title": "PYQ Trap 2",
+          "type": "exam_trap",
+          "wrong": "Using efficiency ratio directly as time ratio."
+        },
+        {
+          "memory_trick": "Rate → Efficiency → Remaining Work.",
+          "mnemonic": "RER",
+          "title": "PYQ Memory Trick",
+          "type": "mnemonic"
+        },
+        {
+          "points": [
+            "Add rates, never days.",
+            "Efficiency and time are inversely proportional.",
+            "Use LCM method wherever possible.",
+            "Leakage means negative work.",
+            "Workers × Days = Constant when efficiency remains same.",
+            "For two workers use (AB)/(A+B).",
+            "Always calculate remaining work separately."
+          ],
+          "title": "PYQ Quick Revision",
+          "type": "revision"
+        }
+      ],
+      "estimated_minutes": 30,
+      "id": "time_work_pyq_practice",
+      "title": "Previous Year Question Style Practice"
+    },
+    {
+      "blocks": [
+        {
+          "subtitle": "Last Minute Exam Notes",
+          "tags": [
+            "Revision",
+            "Must Read",
+            "High Yield"
+          ],
+          "title": "Time and Work Final Revision",
+          "type": "hero"
+        },
+        {
+          "points": [
+            "Work = Efficiency × Time",
+            "Efficiency is inversely proportional to Time.",
+            "One Day Work = 1 / Total Days",
+            "Combined Work = Sum of Individual Work Rates",
+            "Add work rates, never completion times.",
+            "Use LCM method whenever possible.",
+            "Leakage and outlet pipes perform negative work.",
+            "Wages are proportional to work done.",
+            "Time ratio is inverse of efficiency ratio.",
+            "Convert Men-Women-Children into a common unit before solving."
+          ],
+          "title": "Most Important Concepts",
+          "type": "revision"
+        },
+        {
+          "description": "Fundamental Time and Work formula.",
+          "formula": "One Day Work = 1 / Number of Days",
+          "title": "Formula Sheet 1",
+          "type": "formula"
+        },
+        {
+          "description": "Used after finding combined work rate.",
+          "formula": "Time = Total Work / Work Done Per Day",
+          "title": "Formula Sheet 2",
+          "type": "formula"
+        },
+        {
+          "description": "More efficiency means less time.",
+          "formula": "Efficiency ∝ 1 / Time",
+          "title": "Formula Sheet 3",
+          "type": "formula"
+        },
+        {
+          "description": "For two workers working together.",
+          "formula": "Combined Work = (1/A) + (1/B)",
+          "title": "Formula Sheet 4",
+          "type": "formula"
+        },
+        {
+          "description": "Shortcut formula for two workers.",
+          "formula": "Combined Time = (A × B) / (A + B)",
+          "title": "Formula Sheet 5",
+          "type": "formula"
+        },
+        {
+          "description": "Used in Pipes and Cisterns.",
+          "formula": "Net Pipe Rate = Filling Rate - Emptying Rate",
+          "title": "Formula Sheet 6",
+          "type": "formula"
+        },
+        {
+          "description": "Used in Work and Wages.",
+          "formula": "Work Ratio = Wage Ratio",
+          "title": "Formula Sheet 7",
+          "type": "formula"
+        },
+        {
+          "left_header": "Concept",
+          "right_header": "Relationship",
+          "rows": [
+            {
+              "left": "Efficiency",
+              "right": "Inverse of Time"
+            },
+            {
+              "left": "Work",
+              "right": "Efficiency × Time"
+            },
+            {
+              "left": "Wages",
+              "right": "Proportional to Work"
+            },
+            {
+              "left": "Workers Required",
+              "right": "Inverse of Time"
+            },
+            {
+              "left": "Pipe Filling",
+              "right": "Positive Work"
+            },
+            {
+              "left": "Pipe Emptying",
+              "right": "Negative Work"
+            }
+          ],
+          "title": "Most Important Ratios",
+          "type": "comparison"
+        },
+        {
+          "headers": [
+            "Days",
+            "One Day Work"
+          ],
+          "rows": [
+            [
+              "5",
+              "1/5"
+            ],
+            [
+              "6",
+              "1/6"
+            ],
+            [
+              "8",
+              "1/8"
+            ],
+            [
+              "10",
+              "1/10"
+            ],
+            [
+              "12",
+              "1/12"
+            ],
+            [
+              "15",
+              "1/15"
+            ],
+            [
+              "18",
+              "1/18"
+            ],
+            [
+              "20",
+              "1/20"
+            ],
+            [
+              "24",
+              "1/24"
+            ],
+            [
+              "30",
+              "1/30"
+            ]
+          ],
+          "title": "Quick Reference Table",
+          "type": "table"
+        },
+        {
+          "memory_trick": "Rate Added Together Efficiently. Whenever workers combine, combine rates.",
+          "mnemonic": "RATE",
+          "title": "Master Memory Trick",
+          "type": "mnemonic"
+        },
+        {
+          "steps": [
+            "Identify workers or pipes",
+            "Calculate one-day work",
+            "Convert to common units if necessary",
+            "Find combined work rate",
+            "Calculate remaining work if phases exist",
+            "Find final time or answer"
+          ],
+          "title": "Universal Time & Work Strategy",
+          "type": "process_flow"
+        },
+        {
+          "edges": [
+            {
+              "from": "start",
+              "label": "",
+              "to": "identify"
+            },
+            {
+              "from": "identify",
+              "label": "",
+              "to": "rate"
+            },
+            {
+              "from": "rate",
+              "label": "",
+              "to": "solve"
+            },
+            {
+              "from": "solve",
+              "label": "",
+              "to": "answer"
+            }
+          ],
+          "nodes": [
+            {
+              "id": "start",
+              "label": "Read Question",
+              "shape": "oval"
+            },
+            {
+              "id": "identify",
+              "label": "Identify Topic",
+              "shape": "rect"
+            },
+            {
+              "id": "rate",
+              "label": "Find Work Rate",
+              "shape": "rect"
+            },
+            {
+              "id": "solve",
+              "label": "Apply Shortcut",
+              "shape": "rect"
+            },
+            {
+              "id": "answer",
+              "label": "Answer",
+              "shape": "oval"
+            }
+          ],
+          "title": "30-Second Exam Method",
+          "type": "flowchart"
+        },
+        {
+          "correct": "Add work rates.",
+          "tip": "Nearly 50% of mistakes originate from this error.",
+          "title": "Top Exam Trap",
+          "type": "exam_trap",
+          "wrong": "Adding completion times."
+        },
+        {
+          "correct": "Efficiency ratio is inverse of Time ratio.",
+          "tip": "Always reverse the ratio.",
+          "title": "Efficiency Trap",
+          "type": "exam_trap",
+          "wrong": "Efficiency ratio = Time ratio."
+        },
+        {
+          "correct": "Outlet pipe is negative work.",
+          "tip": "Subtract outlet rate from inlet rate.",
+          "title": "Pipe Trap",
+          "type": "exam_trap",
+          "wrong": "Treating outlet pipe as positive work."
+        },
+        {
+          "content": "Remember only five things: One Day Work, LCM Method, Combined Work Rate, Inverse Efficiency-Time Relationship, and Remaining Work Concept. Most Time & Work questions are solved using these ideas.",
+          "title": "One Page Cheat Sheet",
+          "type": "note_card",
+          "variant": "important"
+        },
+        {
+          "answer": 2,
+          "explanation": "LCM Method removes fractions and speeds up calculations.",
+          "is_pyq": false,
+          "options": [
+            "Percentage Method",
+            "Average Method",
+            "LCM Method",
+            "Estimation Method"
+          ],
+          "question": "Which shortcut is generally fastest for Time and Work questions?",
+          "type": "mcq"
+        },
+        {
+          "answer": 1,
+          "explanation": "Efficiency and time are inversely proportional.",
+          "is_pyq": false,
+          "options": [
+            "Double",
+            "Half",
+            "Same",
+            "Triple"
+          ],
+          "question": "If efficiency doubles, completion time becomes:",
+          "type": "mcq"
+        },
+        {
+          "points": [
+            "One Day Work = 1/Days",
+            "Combined Work = Sum of Rates",
+            "Time = Total Work / Rate",
+            "Efficiency ∝ 1/Time",
+            "Use LCM Method",
+            "Leakage = Negative Work",
+            "Work Ratio = Wage Ratio",
+            "Convert workers to common efficiency units",
+            "Calculate remaining work separately",
+            "Add rates, never days"
+          ],
+          "title": "Final 10 Marks Revision",
+          "type": "revision"
+        }
+      ],
+      "estimated_minutes": 12,
+      "id": "final_revision_sheet",
+      "title": "Final Revision Sheet, Formula Sheet and Cheat Sheet"
+    }
+  ],
+  "title": "Time and Work"
 }
