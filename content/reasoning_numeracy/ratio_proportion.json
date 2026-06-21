@@ -6,36 +6,36 @@
     {
       "id": "ratio_basics",
       "title": "Understanding Ratio",
-      "estimated_minutes": 5,
+      "estimated_minutes": 8,
       "blocks": [
         {
           "type": "hero",
           "title": "Ratio",
-          "subtitle": "Comparison of Two Quantities",
+          "subtitle": "Comparison of Two Quantities of the Same Kind",
           "tags": ["JKSSB", "High Weightage"]
         },
         {
           "type": "fact_card",
           "icon": "⚖️",
           "title": "Definition",
-          "content": "Ratio is a way of comparing two or more quantities of the same kind. It tells us how many times one quantity is as compared to the other.",
+          "content": "A ratio is a way of comparing two quantities of the same kind. It tells us how many times one quantity is contained in the other.",
           "highlight": true
         },
         {
           "type": "fact_card",
           "icon": "📌",
           "title": "Notation",
-          "content": "Ratio is denoted by the symbol ':' (colon). Example: The ratio of 10 to 20 is written as 10:20, which is read as 10 is to 20."
+          "content": "Ratio is denoted by the symbol ':' (colon). Example: 10 : 20 means 10 is to 20. It can also be written as 10/20."
         },
         {
           "type": "formula",
-          "title": "Representation",
+          "title": "Basic Representation",
           "formula": "a : b = a / b",
-          "description": "A ratio can also be expressed as a fraction."
+          "description": "A ratio can be expressed as a fraction."
         },
         {
           "type": "solved_example",
-          "title": "Example 1",
+          "title": "Example",
           "given": [
             "Number of boys = 30",
             "Number of girls = 20"
@@ -47,794 +47,718 @@
             "30:20 = 3:2"
           ],
           "answer": "3:2",
-          "formula_used": "Ratio = Quantity 1 / Quantity 2"
+          "formula_used": "Ratio = Quantity 1 / Quantity 2 (simplified)"
         },
         {
           "type": "revision",
-          "title": "Quick Revision",
+          "title": "Key Points",
           "points": [
             "Ratio compares two quantities of the same kind.",
             "It is expressed in simplest form by dividing by the HCF.",
-            "The order of terms in a ratio is important."
+            "The order of terms is important (a:b ≠ b:a unless a=b)."
           ]
         }
       ]
     },
     {
       "id": "ratio_simplification",
-      "title": "Simplification of Ratios",
-      "estimated_minutes": 7,
+      "title": "Simplification and Combined Ratios",
+      "estimated_minutes": 10,
       "blocks": [
         {
           "type": "hero",
           "title": "Simplifying Ratios",
-          "subtitle": "Expressing in Lowest Terms",
+          "subtitle": "HCF and LCM Methods",
           "tags": ["Important", "Speed"]
         },
         {
           "type": "fact_card",
           "icon": "🔄",
-          "title": "Rule",
-          "content": "A ratio is simplified by dividing both terms by their Highest Common Factor (HCF).",
+          "title": "Simplification Rule",
+          "content": "Divide both terms by their Highest Common Factor (HCF). For decimals, multiply by a power of 10 first.",
           "highlight": true
         },
         {
           "type": "solved_example",
-          "title": "Example 1",
-          "given": [
-            "Ratio = 48:60"
-          ],
-          "find": "Simplified Ratio",
+          "title": "Example 1: Simplify 48:60",
+          "given": ["48:60"],
+          "find": "Simplified ratio",
           "steps": [
             "HCF of 48 and 60 is 12",
             "48/12 = 4, 60/12 = 5",
-            "Simplified Ratio = 4:5"
+            "Simplified ratio = 4:5"
           ],
           "answer": "4:5",
           "formula_used": "Divide by HCF"
         },
         {
           "type": "solved_example",
-          "title": "Example 2",
-          "given": [
-            "Ratio = 2.5 : 3.5"
-          ],
-          "find": "Simplified Ratio",
+          "title": "Example 2: Simplify 2.5 : 3.5",
+          "given": ["2.5 : 3.5"],
+          "find": "Simplified ratio",
           "steps": [
-            "Multiply both terms by 10 to remove decimal: 25:35",
+            "Multiply by 10 to remove decimals: 25:35",
             "HCF of 25 and 35 is 5",
             "25/5 = 5, 35/5 = 7",
-            "Simplified Ratio = 5:7"
+            "Simplified ratio = 5:7"
           ],
           "answer": "5:7",
-          "formula_used": "Remove decimals first, then divide by HCF"
+          "formula_used": "Remove decimals, then divide by HCF"
+        },
+        {
+          "type": "fact_card",
+          "icon": "🔀",
+          "title": "Combined Ratio",
+          "content": "When we have ratios like a:b and b:c, we can combine them to get a:b:c by making the common term equal using LCM."
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Combine a:b = 2:3 and b:c = 4:5",
+          "given": ["a:b = 2:3", "b:c = 4:5"],
+          "find": "a:b:c",
+          "steps": [
+            "LCM of 3 and 4 is 12.",
+            "a:b = 2:3 → multiply by 4 → 8:12",
+            "b:c = 4:5 → multiply by 3 → 12:15",
+            "So a:b:c = 8:12:15"
+          ],
+          "answer": "8:12:15",
+          "formula_used": "LCM of common term"
+        },
+        {
+          "type": "table",
+          "title": "Quick Conversion Table",
+          "headers": ["Ratio", "Simplified Form"],
+          "rows": [
+            ["24:36", "2:3"],
+            ["100:150", "2:3"],
+            ["0.5:2", "1:4"],
+            ["1/2:1/3", "3:2"]
+          ],
+          "highlight_row": 0
         },
         {
           "type": "revision",
-          "title": "Key Points",
+          "title": "Remember",
           "points": [
-            "Always simplify ratios to their lowest terms.",
-            "For decimals, multiply by a power of 10 first.",
-            "The simplified ratio is equivalent to the original ratio."
+            "Always simplify ratios to lowest terms.",
+            "For combined ratios, make the middle term equal.",
+            "Decimal ratios: multiply by powers of 10 first."
           ]
         }
       ]
     },
     {
-      "id": "proportion_basics",
-      "title": "Understanding Proportion",
-      "estimated_minutes": 6,
+      "id": "proportion_concepts",
+      "title": "Proportion – Equality of Ratios",
+      "estimated_minutes": 12,
       "blocks": [
         {
           "type": "hero",
           "title": "Proportion",
-          "subtitle": "Equality of Two Ratios",
+          "subtitle": "When Two Ratios Are Equal",
           "tags": ["JKSSB", "Frequently Asked"]
         },
         {
           "type": "fact_card",
           "icon": "🔗",
           "title": "Definition",
-          "content": "A proportion is an equation that states that two ratios are equal.",
+          "content": "A proportion is an equation that states that two ratios are equal. Written as a:b :: c:d.",
           "highlight": true
         },
         {
           "type": "fact_card",
           "icon": "📌",
-          "title": "Notation",
-          "content": "If a:b = c:d, then it is written as a:b :: c:d. It is read as 'a is to b as c is to d'."
+          "title": "Terms",
+          "content": "In a:b :: c:d, a and d are the extremes, b and c are the means. Product of extremes = Product of means."
         },
         {
           "type": "formula",
-          "title": "Terms of a Proportion",
-          "formula": "a : b :: c : d",
-          "description": "Here, a and d are the extremes, and b and c are the means."
+          "title": "Cross‑Product Property",
+          "formula": "a × d = b × c",
+          "description": "If a:b :: c:d, then ad = bc."
         },
         {
           "type": "solved_example",
-          "title": "Example 1",
-          "given": [
-            "2:3 :: 4:6"
-          ],
-          "find": "Check if it is a proportion.",
+          "title": "Example 1: Check if 2:3 :: 4:6",
+          "given": ["2:3 :: 4:6"],
+          "find": "Is it a proportion?",
           "steps": [
             "Product of extremes = 2 × 6 = 12",
             "Product of means = 3 × 4 = 12",
-            "Since the products are equal, it is a proportion."
+            "Since equal, it is a proportion."
           ],
-          "answer": "Yes, it is a proportion.",
-          "formula_used": "Product of Extremes = Product of Means"
+          "answer": "Yes, 2:3 :: 4:6.",
+          "formula_used": "ad = bc"
         },
         {
-          "type": "revision",
-          "title": "Remember",
-          "points": [
-            "In a proportion, the product of means equals the product of extremes.",
-            "This is the key property used to solve many problems.",
-            "If a:b :: c:d, then ad = bc."
+          "type": "solved_example",
+          "title": "Example 2: Find x if 3:x :: 9:15",
+          "given": ["3:x :: 9:15"],
+          "find": "Value of x",
+          "steps": [
+            "3 × 15 = 9 × x",
+            "45 = 9x",
+            "x = 5"
+          ],
+          "answer": "x = 5",
+          "formula_used": "Cross multiplication"
+        },
+        {
+          "type": "timeline",
+          "title": "Steps to Solve Proportion Problems",
+          "items": [
+            { "label": "Step 1", "detail": "Write the proportion in fractional form." },
+            { "label": "Step 2", "detail": "Cross multiply." },
+            { "label": "Step 3", "detail": "Solve for the unknown." }
           ]
-        }
-      ]
-    },
-    {
-      "id": "mean_proportional",
-      "title": "Mean Proportional",
-      "estimated_minutes": 5,
-      "blocks": [
-        {
-          "type": "hero",
-          "title": "Mean Proportional",
-          "subtitle": "Finding the Missing Term",
-          "tags": ["Important"]
         },
         {
-          "type": "formula",
-          "title": "Mean Proportional Formula",
-          "formula": "Mean Proportional = √(a × b)",
-          "description": "The mean proportional between a and b is the number m such that a:m :: m:b."
-        },
-        {
-          "type": "solved_example",
-          "title": "Example 1",
-          "given": [
-            "Numbers = 4 and 16"
-          ],
-          "find": "Mean Proportional",
-          "steps": [
-            "Mean Proportional = √(4 × 16)",
-            "Mean Proportional = √64",
-            "Mean Proportional = 8"
-          ],
-          "answer": "8",
-          "formula_used": "√(a × b)"
-        },
-        {
-          "type": "solved_example",
-          "title": "Example 2",
-          "given": [
-            "Numbers = 9 and 25"
-          ],
-          "find": "Mean Proportional",
-          "steps": [
-            "Mean Proportional = √(9 × 25)",
-            "Mean Proportional = √225",
-            "Mean Proportional = 15"
-          ],
-          "answer": "15",
-          "formula_used": "√(a × b)"
-        },
-        {
-          "type": "revision",
-          "title": "Key Point",
-          "points": [
-            "The mean proportional of a and b is the geometric mean.",
-            "It is the square root of the product of the two numbers."
+          "type": "comparison",
+          "title": "Proportion vs Ratio",
+          "left_header": "Ratio",
+          "right_header": "Proportion",
+          "rows": [
+            { "left": "Comparison of two quantities", "right": "Equality of two ratios" },
+            { "left": "Expressed as a:b", "right": "Expressed as a:b :: c:d" },
+            { "left": "No equal sign", "right": "Uses :: or = sign" }
           ]
-        }
-      ]
-    },
-    {
-      "id": "third_proportional",
-      "title": "Third Proportional",
-      "estimated_minutes": 5,
-      "blocks": [
-        {
-          "type": "hero",
-          "title": "Third Proportional",
-          "subtitle": "Finding the Fourth Term",
-          "tags": ["Important"]
-        },
-        {
-          "type": "formula",
-          "title": "Third Proportional Formula",
-          "formula": "If a:b :: b:c, then c = b² / a",
-          "description": "c is the third proportional to a and b."
-        },
-        {
-          "type": "solved_example",
-          "title": "Example 1",
-          "given": [
-            "a = 4, b = 8"
-          ],
-          "find": "Third Proportional (c)",
-          "steps": [
-            "c = (8 × 8) / 4",
-            "c = 64 / 4",
-            "c = 16"
-          ],
-          "answer": "16",
-          "formula_used": "c = b² / a"
-        },
-        {
-          "type": "revision",
-          "title": "Remember",
-          "points": [
-            "Third proportional is the fourth term in a proportion when the first two terms are a and b.",
-            "Formula: c = b²/a."
-          ]
-        }
-      ]
-    },
-    {
-      "id": "direct_proportion",
-      "title": "Direct Proportion",
-      "estimated_minutes": 8,
-      "blocks": [
-        {
-          "type": "hero",
-          "title": "Direct Proportion",
-          "subtitle": "As One Increases, So Does the Other",
-          "tags": ["Important", "JKSSB"]
-        },
-        {
-          "type": "fact_card",
-          "icon": "📈",
-          "title": "Concept",
-          "content": "Two quantities are in direct proportion if an increase in one causes a proportional increase in the other, or a decrease in one causes a proportional decrease in the other.",
-          "highlight": true
-        },
-        {
-          "type": "formula",
-          "title": "Direct Proportion Formula",
-          "formula": "If x ∝ y, then x = ky or x / y = k (constant)",
-          "description": "The ratio of the two quantities remains constant."
-        },
-        {
-          "type": "solved_example",
-          "title": "Example 1",
-          "given": [
-            "If 5 pens cost ₹50, what is the cost of 8 pens?"
-          ],
-          "find": "Cost of 8 pens",
-          "steps": [
-            "More pens means more cost. It is a direct proportion.",
-            "Let cost of 8 pens be x.",
-            "5/50 = 8/x",
-            "5x = 400",
-            "x = 80"
-          ],
-          "answer": "₹80",
-          "formula_used": "x₁/y₁ = x₂/y₂"
-        },
-        {
-          "type": "solved_example",
-          "title": "Example 2",
-          "given": [
-            "A car covers 120 km in 2 hours. How far will it go in 5 hours?"
-          ],
-          "find": "Distance in 5 hours",
-          "steps": [
-            "More time means more distance. Direct proportion.",
-            "120/2 = x/5",
-            "2x = 600",
-            "x = 300"
-          ],
-          "answer": "300 km",
-          "formula_used": "x₁/y₁ = x₂/y₂"
         },
         {
           "type": "revision",
           "title": "Key Points",
           "points": [
-            "In direct proportion, the ratio of the quantities is constant.",
-            "If one quantity doubles, the other also doubles.",
-            "Graph is a straight line passing through the origin."
+            "In a proportion, product of extremes = product of means.",
+            "Used to find missing terms (e.g., find x).",
+            "If a:b :: b:c, then b is the mean proportional."
           ]
         }
       ]
     },
     {
-      "id": "inverse_proportion",
-      "title": "Inverse Proportion",
-      "estimated_minutes": 8,
+      "id": "mean_third_fourth_proportional",
+      "title": "Mean, Third and Fourth Proportional",
+      "estimated_minutes": 12,
       "blocks": [
         {
           "type": "hero",
-          "title": "Inverse Proportion",
-          "subtitle": "As One Increases, the Other Decreases",
-          "tags": ["Important", "High Weightage"]
+          "title": "Mean, Third and Fourth Proportional",
+          "subtitle": "Finding Missing Terms in Proportions",
+          "tags": ["Important", "JKSSB"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "📐",
+          "title": "Mean Proportional",
+          "content": "If a:b :: b:c, then b is the mean proportional of a and c. Formula: b = √(a×c).",
+          "highlight": true
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Find mean proportional between 4 and 16",
+          "given": ["a=4, c=16"],
+          "find": "Mean proportional (b)",
+          "steps": [
+            "b = √(4 × 16) = √64 = 8"
+          ],
+          "answer": "8",
+          "formula_used": "√(a×c)"
+        },
+        {
+          "type": "fact_card",
+          "icon": "📐",
+          "title": "Third Proportional",
+          "content": "If a:b :: b:c, then c is the third proportional to a and b. Formula: c = b²/a."
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Find third proportional to 4 and 8",
+          "given": ["a=4, b=8"],
+          "find": "Third proportional (c)",
+          "steps": [
+            "c = 8² / 4 = 64 / 4 = 16"
+          ],
+          "answer": "16",
+          "formula_used": "c = b²/a"
+        },
+        {
+          "type": "fact_card",
+          "icon": "📐",
+          "title": "Fourth Proportional",
+          "content": "If a:b :: c:d, then d is the fourth proportional. Formula: d = (b×c)/a."
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Find fourth proportional to 2, 3, 4",
+          "given": ["a=2, b=3, c=4"],
+          "find": "Fourth proportional (d)",
+          "steps": [
+            "d = (3 × 4) / 2 = 12 / 2 = 6"
+          ],
+          "answer": "6",
+          "formula_used": "d = (b×c)/a"
+        },
+        {
+          "type": "table",
+          "title": "Quick Formulas",
+          "headers": ["Type", "Formula"],
+          "rows": [
+            ["Mean Proportional", "√(a×c)"],
+            ["Third Proportional", "b²/a"],
+            ["Fourth Proportional", "(b×c)/a"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "exam_trap",
+          "title": "Common Confusion",
+          "wrong": "Using third proportional formula for mean proportional.",
+          "correct": "Mean proportional = √(a×c); third proportional = b²/a.",
+          "tip": "Memorize the formulas with examples."
+        },
+        {
+          "type": "revision",
+          "title": "Remember",
+          "points": [
+            "Mean proportional: b is the middle term.",
+            "Third proportional: c is the term after b in a:b :: b:c.",
+            "Fourth proportional: d completes the proportion a:b :: c:d."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "direct_inverse_proportion",
+      "title": "Direct and Inverse Proportion",
+      "estimated_minutes": 15,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Direct and Inverse Proportion",
+          "subtitle": "How Quantities Relate",
+          "tags": ["High Weightage", "JKSSB"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "📈",
+          "title": "Direct Proportion",
+          "content": "When two quantities increase or decrease in the same ratio, they are in direct proportion. If x ∝ y, then x/y = k (constant).",
+          "highlight": true
+        },
+        {
+          "type": "formula",
+          "title": "Direct Proportion Formula",
+          "formula": "x₁ / y₁ = x₂ / y₂",
+          "description": "For two sets of values."
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: 5 pens cost ₹50, find cost of 8 pens.",
+          "given": ["5 pens cost ₹50"],
+          "find": "Cost of 8 pens",
+          "steps": [
+            "More pens → more cost (direct proportion).",
+            "5/50 = 8/x → x = (8×50)/5 = 80"
+          ],
+          "answer": "₹80",
+          "formula_used": "x₁/y₁ = x₂/y₂"
         },
         {
           "type": "fact_card",
           "icon": "📉",
-          "title": "Concept",
-          "content": "Two quantities are in inverse proportion if an increase in one causes a proportional decrease in the other, and vice versa.",
+          "title": "Inverse Proportion",
+          "content": "When an increase in one quantity causes a proportional decrease in the other, they are in inverse proportion. If x ∝ 1/y, then xy = k.",
           "highlight": true
         },
         {
           "type": "formula",
           "title": "Inverse Proportion Formula",
-          "formula": "If x ∝ 1/y, then xy = k (constant)",
-          "description": "The product of the two quantities remains constant."
+          "formula": "x₁ × y₁ = x₂ × y₂",
+          "description": "Product remains constant."
         },
         {
           "type": "solved_example",
-          "title": "Example 1",
-          "given": [
-            "10 men can complete a work in 30 days. How many days will 15 men take?"
-          ],
+          "title": "Example: 10 men can finish work in 30 days. How many days for 15 men?",
+          "given": ["10 men → 30 days"],
           "find": "Days for 15 men",
           "steps": [
-            "More men means less days. Inverse proportion.",
-            "Let days for 15 men be x.",
-            "10 × 30 = 15 × x",
-            "300 = 15x",
-            "x = 20"
+            "More men → fewer days (inverse proportion).",
+            "10 × 30 = 15 × x → x = 20 days"
           ],
           "answer": "20 days",
           "formula_used": "x₁y₁ = x₂y₂"
         },
         {
-          "type": "solved_example",
-          "title": "Example 2",
-          "given": [
-            "5 pipes fill a tank in 12 hours. How much time will 8 pipes take?"
-          ],
-          "find": "Time for 8 pipes",
-          "steps": [
-            "More pipes means less time. Inverse proportion.",
-            "5 × 12 = 8 × x",
-            "60 = 8x",
-            "x = 7.5"
-          ],
-          "answer": "7.5 hours",
-          "formula_used": "x₁y₁ = x₂y₂"
+          "type": "comparison",
+          "title": "Direct vs Inverse",
+          "left_header": "Direct",
+          "right_header": "Inverse",
+          "rows": [
+            { "left": "x/y = constant", "right": "xy = constant" },
+            { "left": "Increase together", "right": "One increases, other decreases" },
+            { "left": "Graph is straight line through origin", "right": "Graph is hyperbola" }
+          ]
         },
         {
           "type": "exam_trap",
-          "title": "Common Mistake",
-          "wrong": "Using direct proportion for work and time problems.",
-          "correct": "Always identify that more workers means less time—it's an inverse proportion.",
-          "tip": "Read the problem carefully to understand the relationship."
+          "title": "Trap: Work & Time",
+          "wrong": "Assuming direct proportion for workers and days.",
+          "correct": "Workers and days are inversely proportional.",
+          "tip": "Always check the real‑life relationship."
         },
         {
           "type": "revision",
           "title": "Quick Revision",
           "points": [
-            "In inverse proportion, the product of the quantities is constant.",
-            "If one quantity doubles, the other halves.",
-            "Common examples: Speed and Time, Men and Days, Pipes and Time."
+            "Direct: x₁/y₁ = x₂/y₂.",
+            "Inverse: x₁y₁ = x₂y₂.",
+            "Identify type from the problem statement."
           ]
         }
       ]
     },
     {
       "id": "compound_proportion",
-      "title": "Compound Proportion",
-      "estimated_minutes": 10,
+      "title": "Compound Proportion (Multiple Quantities)",
+      "estimated_minutes": 15,
       "blocks": [
         {
           "type": "hero",
           "title": "Compound Proportion",
-          "subtitle": "Multiple Quantities at Once",
+          "subtitle": "When More Than Two Quantities Are Involved",
           "tags": ["Advanced", "High Weightage"]
         },
         {
           "type": "fact_card",
           "icon": "🧩",
           "title": "Concept",
-          "content": "Compound proportion involves more than two quantities where some are directly proportional and some are inversely proportional to each other.",
+          "content": "Compound proportion involves multiple quantities where some are directly proportional and some inversely proportional. Solve by multiplying direct quantities and dividing inverse quantities.",
           "highlight": true
         },
         {
           "type": "solved_example",
-          "title": "Example 1",
-          "given": [
-            "20 men can build a wall 100 m long in 10 days. How many men are needed to build a wall 200 m long in 5 days?"
-          ],
-          "find": "Number of men needed",
+          "title": "Example: 20 men build 100 m wall in 10 days. How many men for 200 m wall in 5 days?",
+          "given": ["20 men → 100 m → 10 days"],
+          "find": "Men needed for 200 m in 5 days",
           "steps": [
-            "More men for more work (direct). More men for less days (inverse).",
-            "Let the required number of men be x.",
-            "Setup proportion: (Men) × (Days) / (Length) = Constant",
+            "Let required men = x.",
+            "Set up: (Men × Days) / Length = constant.",
             "20 × 10 / 100 = x × 5 / 200",
-            "200/100 = 5x/200",
-            "2 = 5x/200",
-            "5x = 400",
-            "x = 80"
+            "200/100 = 5x/200 → 2 = 5x/200 → x = 80"
           ],
           "answer": "80 men",
-          "formula_used": "Compound Proportion Logic"
+          "formula_used": "Compound proportion logic"
         },
         {
           "type": "solved_example",
-          "title": "Example 2",
-          "given": [
-            "4 machines produce 200 units in 5 hours. How many units will 6 machines produce in 10 hours?"
-          ],
-          "find": "Number of units",
+          "title": "Example: 4 machines produce 200 units in 5 hours. How many units from 6 machines in 10 hours?",
+          "given": ["4 machines → 200 units → 5 hours"],
+          "find": "Units from 6 machines in 10 hours",
           "steps": [
-            "More machines means more units (direct). More hours means more units (direct).",
-            "Let the units be x.",
+            "Let units = x.",
             "4 × 5 / 200 = 6 × 10 / x",
-            "20/200 = 60/x",
-            "1/10 = 60/x",
-            "x = 600"
+            "20/200 = 60/x → 1/10 = 60/x → x = 600"
           ],
           "answer": "600 units",
-          "formula_used": "Compound Proportion Logic"
+          "formula_used": "Compound proportion"
         },
         {
-          "type": "revision",
-          "title": "Key Points",
-          "points": [
-            "Identify which quantities are directly proportional and which are inversely proportional.",
-            "Set up the equation by multiplying direct quantities and dividing inverse quantities.",
-            "Practice is key to mastering compound proportions."
+          "type": "process_flow",
+          "title": "Solving Compound Proportion",
+          "steps": [
+            "Write the known and unknown quantities.",
+            "Identify which are directly proportional and which inversely.",
+            "Set up the equation: (product of direct quantities) / (product of inverse quantities) = constant.",
+            "Solve for the unknown."
           ]
-        }
-      ]
-    },
-    {
-      "id": "partner_ratio",
-      "title": "Partnership Ratios",
-      "estimated_minutes": 8,
-      "blocks": [
-        {
-          "type": "hero",
-          "title": "Partnership Ratios",
-          "subtitle": "Sharing Profits and Losses",
-          "tags": ["Important", "JKSSB"]
         },
         {
-          "type": "fact_card",
-          "icon": "🤝",
-          "title": "Concept",
-          "content": "In a partnership, profits and losses are shared in the ratio of investments, after adjusting for time.",
-          "highlight": true
-        },
-        {
-          "type": "formula",
-          "title": "Partnership Ratio Formula",
-          "formula": "Profit Ratio = (Investment × Time) Ratio",
-          "description": "If time is equal, profit is shared in the ratio of investments."
-        },
-        {
-          "type": "solved_example",
-          "title": "Example 1",
-          "given": [
-            "A invests ₹20,000 and B invests ₹30,000. They share profits equally over time."
-          ],
-          "find": "Profit sharing ratio",
-          "steps": [
-            "Ratio of investments = 20000 : 30000",
-            "Simplified ratio = 2:3",
-            "Since time is equal, profit ratio = 2:3"
-          ],
-          "answer": "2:3",
-          "formula_used": "Investment Ratio"
-        },
-        {
-          "type": "solved_example",
-          "title": "Example 2",
-          "given": [
-            "A invests ₹10,000 for 6 months and B invests ₹15,000 for 4 months."
-          ],
-          "find": "Profit sharing ratio",
-          "steps": [
-            "A's share = 10000 × 6 = 60000",
-            "B's share = 15000 × 4 = 60000",
-            "Ratio = 60000 : 60000 = 1:1"
-          ],
-          "answer": "1:1",
-          "formula_used": "Investment × Time Ratio"
+          "type": "note_card",
+          "title": "Pro Tip",
+          "variant": "important",
+          "content": "Practice a few examples; compound proportion questions are common in JKSSB. Always double‑check direct/inverse relationships."
         },
         {
           "type": "revision",
           "title": "Remember",
           "points": [
-            "Profit is shared in the ratio of capital invested and the time for which it is invested.",
-            "If only capital is given, time is assumed to be equal."
+            "Compound proportion = combined effect of multiple ratios.",
+            "Direct quantities are multiplied; inverse quantities are divided.",
+            "Use the constant ratio method to solve."
           ]
         }
       ]
     },
     {
-      "id": "combined_ratios",
-      "title": "Combined Ratios",
-      "estimated_minutes": 6,
+      "id": "partnership_and_distribution",
+      "title": "Partnership, Profit Sharing, and Distribution",
+      "estimated_minutes": 15,
       "blocks": [
         {
           "type": "hero",
-          "title": "Combined Ratios",
-          "subtitle": "Merging Two or More Ratios",
-          "tags": ["Important", "Shortcut"]
+          "title": "Partnership and Profit Sharing",
+          "subtitle": "Application of Ratios",
+          "tags": ["JKSSB", "Frequently Asked"]
         },
         {
           "type": "fact_card",
-          "icon": "🔀",
-          "title": "Concept",
-          "content": "When we have ratios like a:b and b:c, we can combine them to get a:b:c.",
+          "icon": "🤝",
+          "title": "Core Principle",
+          "content": "Profits (or losses) are shared in the ratio of investments, adjusted for time. If time is same, ratio of capitals = profit ratio.",
           "highlight": true
         },
         {
-          "type": "solved_example",
-          "title": "Example 1",
-          "given": [
-            "a:b = 2:3",
-            "b:c = 4:5"
-          ],
-          "find": "a:b:c",
-          "steps": [
-            "Make the 'b' term equal in both ratios.",
-            "LCM of 3 and 4 is 12.",
-            "a:b = 2:3 = (2×4):(3×4) = 8:12",
-            "b:c = 4:5 = (4×3):(5×3) = 12:15",
-            "a:b:c = 8:12:15"
-          ],
-          "answer": "8:12:15",
-          "formula_used": "LCM of common terms"
+          "type": "formula",
+          "title": "Partnership Ratio",
+          "formula": "Profit Ratio = (Capital × Time) Ratio",
+          "description": "If time is equal, profit ratio = capital ratio."
         },
         {
           "type": "solved_example",
-          "title": "Example 2",
-          "given": [
-            "A:B = 1:2",
-            "B:C = 3:4",
-            "C:D = 5:6"
-          ],
-          "find": "A:B:C:D",
+          "title": "Example 1: A invests ₹20,000, B invests ₹30,000 for same time.",
+          "given": ["A = 20000, B = 30000"],
+          "find": "Profit sharing ratio",
           "steps": [
-            "Make B and C equal across ratios.",
-            "LCM of 2, 3, 4, 5 etc.",
-            "A:B = 1:2 = 15:30 (multiply by 15)",
-            "B:C = 3:4 = 30:40 (multiply by 10)",
-            "C:D = 5:6 = 40:48 (multiply by 8)",
-            "A:B:C:D = 15:30:40:48"
+            "Capital ratio = 20000:30000 = 2:3.",
+            "Since time equal, profit ratio = 2:3."
           ],
-          "answer": "15:30:40:48",
-          "formula_used": "LCM method"
+          "answer": "2:3",
+          "formula_used": "Capital ratio"
+        },
+        {
+          "type": "solved_example",
+          "title": "Example 2: A invests ₹10,000 for 6 months, B invests ₹15,000 for 4 months.",
+          "given": ["A = 10000 × 6", "B = 15000 × 4"],
+          "find": "Profit sharing ratio",
+          "steps": [
+            "A's product = 60000, B's product = 60000.",
+            "Ratio = 60000:60000 = 1:1."
+          ],
+          "answer": "1:1",
+          "formula_used": "Capital × Time"
+        },
+        {
+          "type": "fact_card",
+          "icon": "📦",
+          "title": "Distribution Problems",
+          "content": "Often, a sum is divided among people in a given ratio. Use the ratio parts to find individual shares."
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Divide ₹1200 among A, B, C in ratio 2:3:5.",
+          "given": ["Total = 1200", "Ratio = 2:3:5"],
+          "find": "Each share",
+          "steps": [
+            "Sum of parts = 2+3+5 = 10.",
+            "One part = 1200/10 = 120.",
+            "A = 2×120 = 240, B = 3×120 = 360, C = 5×120 = 600."
+          ],
+          "answer": "A=240, B=360, C=600",
+          "formula_used": "Total / Sum of ratio parts"
+        },
+        {
+          "type": "table",
+          "title": "Quick Partnership Rules",
+          "headers": ["Situation", "Profit Ratio"],
+          "rows": [
+            ["Same time", "Capital ratio"],
+            ["Different time", "Capital × Time ratio"],
+            ["Active partner (salary)", "Add salary before dividing"]
+          ],
+          "highlight_row": 0
         },
         {
           "type": "revision",
-          "title": "Key Point",
+          "title": "Key Points",
           "points": [
-            "To combine ratios, make the common term equal in both ratios.",
-            "Use the LCM of the common terms to make them equal."
+            "Profit is proportional to capital and time.",
+            "If time differs, multiply each capital by time.",
+            "Distribution problems are solved by ratio parts."
           ]
         }
       ]
     },
     {
-      "id": "applications_ratio",
-      "title": "Applications of Ratio & Proportion",
-      "estimated_minutes": 6,
+      "id": "mixture_alligation",
+      "title": "Mixture and Alligation Using Ratios",
+      "estimated_minutes": 15,
       "blocks": [
         {
           "type": "hero",
-          "title": "Applications of Ratio & Proportion",
-          "subtitle": "Used in Many Arithmetic Topics",
-          "tags": ["Foundation Topic"]
+          "title": "Mixture and Alligation",
+          "subtitle": "Finding Ratios for Mixtures",
+          "tags": ["Advanced", "JKSSB"]
         },
         {
           "type": "fact_card",
-          "icon": "🎯",
-          "title": "Importance",
-          "content": "Ratio and Proportion is the foundation of many topics like Profit & Loss, Time & Work, Speed & Distance, Partnership, and Mixtures.",
+          "icon": "🧪",
+          "title": "Alligation Rule",
+          "content": "Used to find the ratio in which two ingredients at different prices must be mixed to obtain a mixture of a desired price.",
           "highlight": true
+        },
+        {
+          "type": "formula",
+          "title": "Alligation Formula",
+          "formula": "(Quantity of cheaper) / (Quantity of dearer) = (Cost of dearer - Mean price) / (Mean price - Cost of cheaper)",
+          "description": "Costs are per unit."
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Mix rice at ₹40/kg and ₹60/kg to get mixture at ₹50/kg.",
+          "given": ["Cheaper = 40", "Dearer = 60", "Mean = 50"],
+          "find": "Ratio of cheap to dear",
+          "steps": [
+            "Cheap : Dear = (60-50) : (50-40) = 10:10 = 1:1."
+          ],
+          "answer": "1:1",
+          "formula_used": "Alligation rule"
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Mix tea at ₹120/kg and ₹180/kg to get mixture at ₹150/kg.",
+          "given": ["Cheap = 120", "Dear = 180", "Mean = 150"],
+          "find": "Ratio",
+          "steps": [
+            "Cheap : Dear = (180-150) : (150-120) = 30:30 = 1:1."
+          ],
+          "answer": "1:1",
+          "formula_used": "Alligation"
         },
         {
           "type": "process_flow",
-          "title": "Applications",
+          "title": "Steps to Solve Alligation",
           "steps": [
-            "Ratio & Proportion",
-            "Profit & Loss",
-            "Time & Work",
-            "Speed, Distance & Time",
-            "Partnership",
-            "Mixtures & Alligations"
-          ]
-        },
-        {
-          "type": "revision",
-          "title": "Exam Insight",
-          "points": [
-            "Ratio and Proportion is one of the most important aptitude topics.",
-            "Many arithmetic chapters directly use ratio and proportion concepts.",
-            "Mastering this topic improves speed and accuracy in all problems."
-          ]
-        }
-      ]
-    },
-    {
-      "id": "shortcuts_ratio",
-      "title": "Important Shortcuts",
-      "estimated_minutes": 6,
-      "blocks": [
-        {
-          "type": "hero",
-          "title": "Ratio & Proportion Shortcuts",
-          "subtitle": "Speed Calculation Techniques",
-          "tags": ["Shortcuts", "Important"]
-        },
-        {
-          "type": "revision",
-          "title": "Common Shortcuts",
-          "points": [
-            "In a proportion, product of extremes = product of means.",
-            "For direct proportion, x₁/y₁ = x₂/y₂.",
-            "For inverse proportion, x₁y₁ = x₂y₂.",
-            "To combine ratios, make the common term equal.",
-            "In partnerships, profit is shared in the ratio of capital × time.",
-            "Mean proportional = √(a × b).",
-            "Third proportional = b² / a."
+            "Identify cheaper and dearer prices (or quantities).",
+            "Find the mean price.",
+            "Apply formula: (Cheaper quantity) : (Dearer quantity) = (Dearer - Mean) : (Mean - Cheaper).",
+            "Simplify the ratio."
           ]
         },
         {
           "type": "exam_trap",
-          "title": "Speed Trick",
-          "wrong": "Assuming any ratio can be added directly.",
-          "correct": "Ratios must be combined by making the common term equal.",
-          "tip": "Always simplify ratios to their lowest terms for easier calculations."
+          "title": "Common Mistake",
+          "wrong": "Using the difference the wrong way.",
+          "correct": "Always subtract the mean from the dearer and cheaper from the mean.",
+          "tip": "Remember: Cheaper : Dearer = (Dearer - Mean) : (Mean - Cheaper)."
+        },
+        {
+          "type": "revision",
+          "title": "Remember",
+          "points": [
+            "Alligation is a special case of ratio.",
+            "Used for mixtures, profit/loss, and speed problems.",
+            "Practice with various numbers to get comfortable."
+          ]
         }
       ]
     },
     {
-      "id": "ratio_mcqs",
-      "title": "Practice Questions",
-      "estimated_minutes": 15,
+      "id": "shortcuts_and_practice",
+      "title": "Shortcuts and Practice MCQs",
+      "estimated_minutes": 25,
       "blocks": [
         {
-          "type": "mcq",
-          "question": "Find the ratio of 25 to 75.",
-          "options": [
-            "1:2",
-            "1:3",
-            "2:3",
-            "3:4"
+          "type": "hero",
+          "title": "Ratio & Proportion Shortcuts",
+          "subtitle": "Speed Up Your Calculations",
+          "tags": ["Shortcuts", "High Weightage"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "⚡",
+          "title": "Shortcut 1 – Duplicate, Triplicate Ratios",
+          "content": "If a:b, then duplicate ratio = a²:b², triplicate = a³:b³, sub‑duplicate = √a:√b.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "⚡",
+          "title": "Shortcut 2 – Componendo and Dividendo",
+          "content": "If a/b = c/d, then (a+b)/(a-b) = (c+d)/(c-d). Useful in many exams."
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: If a/b = 2/3, find (a+b)/(a-b).",
+          "given": ["a/b = 2/3"],
+          "find": "(a+b)/(a-b)",
+          "steps": [
+            "Using componendo-dividendo: (2+3)/(2-3) = 5/(-1) = -5."
           ],
+          "answer": "-5",
+          "formula_used": "Componendo-Dividendo"
+        },
+        {
+          "type": "mcq",
+          "question": "If a:b = 3:4 and b:c = 6:7, find a:b:c.",
+          "options": ["3:4:7", "9:12:14", "6:8:7", "3:6:7"],
           "answer": 1,
-          "explanation": "25/75 = 1/3 = 1:3",
+          "explanation": "LCM of 4 and 6 is 12. a:b = 3:4 = 9:12; b:c = 6:7 = 12:14. So a:b:c = 9:12:14.",
+          "is_pyq": true,
+          "year": "2020",
+          "source": "JKSSB"
+        },
+        {
+          "type": "mcq",
+          "question": "Find the fourth proportional to 2, 5, 8.",
+          "options": ["16", "18", "20", "24"],
+          "answer": 2,
+          "explanation": "2:5 :: 8:x → 2x = 40 → x = 20.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "Two numbers are in ratio 5:7. If their sum is 120, find the larger number.",
+          "options": ["50", "60", "70", "80"],
+          "answer": 2,
+          "explanation": "Sum of parts = 12; one part = 10; larger = 7×10 = 70.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "A mixture contains milk and water in ratio 5:3. If total is 40 L, find water quantity.",
+          "options": ["10 L", "12 L", "15 L", "18 L"],
+          "answer": 2,
+          "explanation": "Water = 3/8 × 40 = 15 L.",
           "is_pyq": false
         },
         {
           "type": "mcq",
           "question": "If a:b = 2:3 and b:c = 4:5, find a:c.",
-          "options": [
-            "8:15",
-            "2:5",
-            "4:5",
-            "3:4"
-          ],
+          "options": ["8:15", "2:5", "4:5", "3:4"],
           "answer": 0,
-          "explanation": "a/b = 2/3 and b/c = 4/5. Multiplying, (a/b)×(b/c) = (2/3)×(4/5) = 8/15. So, a:c = 8:15.",
-          "is_pyq": false
+          "explanation": "a/b × b/c = (2/3)×(4/5) = 8/15 → a:c = 8:15.",
+          "is_pyq": true
         },
         {
-          "type": "mcq",
-          "question": "What is the mean proportional between 9 and 16?",
-          "options": [
-            "10",
-            "11",
-            "12",
-            "13"
-          ],
-          "answer": 2,
-          "explanation": "Mean proportional = √(9×16) = √144 = 12",
-          "is_pyq": false
-        },
-        {
-          "type": "mcq",
-          "question": "If 10 men can complete a work in 20 days, in how many days will 8 men complete the same work?",
-          "options": [
-            "20 days",
-            "22 days",
-            "24 days",
-            "25 days"
-          ],
-          "answer": 2,
-          "explanation": "Men and days are inversely proportional. 10 × 20 = 8 × x => x = 25 days.",
-          "is_pyq": false
-        },
-        {
-          "type": "mcq",
-          "question": "If a:b = 3:4 and b:c = 6:7, find a:b:c.",
-          "options": [
-            "3:4:7",
-            "9:12:14",
-            "6:8:7",
-            "3:6:7"
-          ],
-          "answer": 1,
-          "explanation": "LCM of 4 and 6 is 12. a:b = 3:4 = 9:12; b:c = 6:7 = 12:14. Therefore, a:b:c = 9:12:14.",
-          "is_pyq": false
-        },
-        {
-          "type": "mcq",
-          "question": "A sum of ₹4000 is divided between A and B in the ratio 2:3. What is A's share?",
-          "options": [
-            "₹1200",
-            "₹1600",
-            "₹2000",
-            "₹2400"
-          ],
-          "answer": 1,
-          "explanation": "Total parts = 2+3 = 5. A's share = (2/5) × 4000 = ₹1600.",
-          "is_pyq": false
-        },
-        {
-          "type": "mcq",
-          "question": "Two numbers are in the ratio 5:7. If the sum is 120, find the larger number.",
-          "options": [
-            "50",
-            "60",
-            "70",
-            "80"
-          ],
-          "answer": 2,
-          "explanation": "Total parts = 5+7 = 12. Larger number = (7/12) × 120 = 70.",
-          "is_pyq": false
-        },
-        {
-          "type": "mcq",
-          "question": "A mixture contains milk and water in the ratio 5:3. If the total quantity is 40 liters, find the quantity of water.",
-          "options": [
-            "10 liters",
-            "12 liters",
-            "15 liters",
-            "18 liters"
-          ],
-          "answer": 2,
-          "explanation": "Water part = 3/8 × 40 = 15 liters.",
-          "is_pyq": false
-        }
-      ]
-    },
-    {
-      "id": "final_revision_ratio",
-      "title": "Final Revision Sheet",
-      "estimated_minutes": 5,
-      "blocks": [
-        {
-          "type": "hero",
-          "title": "Ratio & Proportion Revision",
-          "subtitle": "Last Minute Notes",
-          "tags": ["Revision"]
+          "type": "solved_example",
+          "title": "Bonus Shortcut – Mean Proportional",
+          "given": ["Find mean proportional between 9 and 16."],
+          "find": "Mean proportional",
+          "steps": ["√(9×16) = √144 = 12."],
+          "answer": "12",
+          "formula_used": "√(a×c)"
         },
         {
           "type": "revision",
-          "title": "Must Remember",
+          "title": "Final Revision – Must Remember",
           "points": [
-            "Ratio compares two quantities of the same kind.",
-            "A ratio is expressed in simplest form.",
-            "Proportion is an equality of two ratios.",
-            "In a proportion, product of extremes = product of means.",
-            "Mean proportional = √(a × b).",
-            "Third proportional = b² / a.",
-            "Direct Proportion: x₁/y₁ = x₂/y₂.",
-            "Inverse Proportion: x₁y₁ = x₂y₂.",
-            "Compound proportion handles multiple quantities.",
-            "Partnership profits are shared in the ratio of Investment × Time.",
-            "To combine ratios, make the common term equal.",
-            "Ratio and Proportion is the foundation of many arithmetic topics."
+            "Ratio a:b = a/b.",
+            "Proportion a:b :: c:d → ad = bc.",
+            "Mean proportional = √(a×c).",
+            "Third proportional = b²/a.",
+            "Fourth proportional = (b×c)/a.",
+            "Direct: x₁/y₁ = x₂/y₂; Inverse: x₁y₁ = x₂y₂.",
+            "Compound proportion: multiply direct, divide inverse.",
+            "Partnership: profit ratio = (capital × time).",
+            "Alligation: Cheaper : Dearer = (Dearer - Mean) : (Mean - Cheaper).",
+            "Componendo-Dividendo: (a+b)/(a-b) = (c+d)/(c-d)."
           ]
         },
         {
-          "type": "exam_trap",
-          "title": "Most Common Exam Trap",
-          "wrong": "Adding ratios directly without making terms equal.",
-          "correct": "Always make the common term equal before combining ratios.",
-          "tip": "Use the LCM method to combine ratios efficiently."
+          "type": "note_card",
+          "title": "Exam Strategy",
+          "variant": "important",
+          "content": "Most JKSSB questions are from direct and inverse proportion, partnership, and mixture. Focus on these topics and practice with shortcuts."
         }
       ]
     }
