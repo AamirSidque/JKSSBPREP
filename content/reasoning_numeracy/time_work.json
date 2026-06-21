@@ -139,6 +139,65 @@
           ]
         }
       ]
+    },
+    {
+      "id": "three_or_more_workers",
+      "title": "Three or More Workers Working Together",
+      "estimated_minutes": 18,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Three or More Workers",
+          "subtitle": "Advanced Combined Work Problems",
+          "tags": ["High Weightage", "Advanced", "JKSSB"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "👥",
+          "title": "Core Principle",
+          "content": "When three or more workers work together, their individual work rates are added. The combined rate determines the total time required.",
+          "highlight": true
+        },
+        {
+          "type": "formula",
+          "title": "Three Worker Formula",
+          "formula": "(1/A) + (1/B) + (1/C)",
+          "description": "Combined one-day work of A, B and C."
+        },
+        {
+          "type": "solved_example",
+          "title": "Three Workers Together",
+          "given": [
+            "A completes work in 12 days",
+            "B completes work in 18 days",
+            "C completes work in 36 days"
+          ],
+          "find": "Time taken together",
+          "steps": [
+            "A's work rate = 1/12",
+            "B's work rate = 1/18",
+            "C's work rate = 1/36",
+            "LCM = 36",
+            "Combined rate = 3/36 + 2/36 + 1/36",
+            "Combined rate = 6/36 = 1/6",
+            "Time = 6 days"
+          ],
+          "answer": "6 days",
+          "formula_used": "(1/A)+(1/B)+(1/C)"
+        },
+        {
+          "type": "revision",
+          "title": "Quick Revision",
+          "points": [
+            "Combined work equals sum of individual work rates.",
+            "Use LCM method whenever possible.",
+            "Divide joining/leaving questions into phases.",
+            "Find remaining work after each phase.",
+            "Add rates, never completion times.",
+            "More workers means less completion time."
+          ]
+        }
+      ]
     }
   ]
 }
