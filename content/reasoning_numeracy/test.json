@@ -1,19 +1,36 @@
 {
-  "id": "test",
+  "id": "time_work",
   "subject_id": "reasoning_numeracy",
-  "title": "Test",
   "subtopics": [
     {
-      "id": "intro",
-      "title": "Introduction",
-      "estimated_minutes": 2,
       "blocks": [
         {
-          "type": "fact_card",
+          "subtitle": "World",
+          "tags": [
+            "Test"
+          ],
           "title": "Hello",
-          "content": "Testing"
+          "type": "hero"
+        },
+        {
+          "headers": [
+            "A",
+            "B"
+          ],
+          "rows": [
+            [
+              "1",
+              "2"
+            ]
+          ],
+          "title": "Table",
+          "type": "table"
         }
-      ]
+      ],
+      "estimated_minutes": 1,
+      "id": "test",
+      "title": "Test"
     }
-  ]
+  ],
+  "title": "Time and Work"
 }
