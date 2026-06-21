@@ -1,25 +1,11 @@
 {
   "version": 25,
   "subjects": [
+     
     {
-      "id": "environment",
-      "title": "Environment",
-      "emoji": "🌿",
-      "theme_color": "#2ECC71",
-      "description": "Ecology, Biodiversity & Climate",
-      "topics_file": "content/environment/topics.json"
-    },
-    {
-      "id": "polity",
-      "title": "Polity",
-      "emoji": "⚖️",
-      "theme_color": "#3498DB",
-      "description": "Constitution, Parliament & Rights",
-      "topics_file": "content/polity/topics.json"
-    }, {
       "id": "reasoning_numeracy",
       "title": "Reasoning and Numeracy",
-      "emoji": "⚖️",
+      "emoji": "🧠",
       "theme_color": "#3498DB",
       "description": "Think before you write",
       "topics_file": "content/reasoning_numeracy/topics.json"
