@@ -112,6 +112,15 @@
   ]
 },
         {
+  "type": "table",
+  "title": "Sample Table",
+  "headers": ["Name", "Value"],
+  "rows": [
+    ["A", "10"],
+    ["B", "20"]
+  ]
+},
+        {
           "type": "solved_example",
           "title": "Basic Example",
           "given": [
