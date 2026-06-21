@@ -1,30 +1,203 @@
 {
-  "version": 21,
-  "subjects": [
+  "id": "time_work",
+  "subject_id": "reasoning_numeracy",
+  "title": "Time and Work",
+  "subtopics": [
     {
-      "id": "environment",
-      "title": "Environment",
-      "emoji": "🌿",
-      "theme_color": "#2ECC71",
-      "description": "Ecology, Biodiversity & Climate",
-      "topics_file": "content/environment/topics.json"
+      "id": "time_work_introduction",
+      "title": "Introduction to Time and Work",
+      "estimated_minutes": 8,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Time and Work",
+          "subtitle": "Foundation of Work-Rate Questions",
+          "tags": ["Reasoning", "High Weightage", "Speed Maths"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "⏱️",
+          "title": "Core Idea",
+          "content": "Time and Work questions are based on the relationship between the amount of work done, the time taken, and the efficiency of the worker. If efficiency is constant, then more efficiency means less time for the same job.",
+          "highlight": true
+        },
+        {
+          "type": "formula",
+          "title": "Basic Relationship",
+          "formula": "Work Done = Efficiency × Time",
+          "description": "This is the base idea behind all time and work questions."
+        },
+        {
+          "type": "formula",
+          "title": "Work Rate Formula",
+          "formula": "Rate of Work = 1 / Time Taken",
+          "description": "If a person completes one job in T days, then one day work rate is 1/T."
+        },
+        {
+          "type": "solved_example",
+          "title": "Basic Example",
+          "given": [
+            "A can complete a work in 10 days",
+            "B can complete the same work in 15 days"
+          ],
+          "find": "Time taken if A and B work together",
+          "steps": [
+            "A’s one day work = 1/10",
+            "B’s one day work = 1/15",
+            "Combined one day work = 1/10 + 1/15",
+            "LCM = 30",
+            "Combined work = 3/30 + 2/30 = 5/30 = 1/6",
+            "So total time = 6 days"
+          ],
+          "answer": "6 days",
+          "formula_used": "Total Time = 1 / (Sum of Daily Work Rates)"
+        },
+        {
+          "type": "revision",
+          "title": "Quick Revision",
+          "points": [
+            "Work = Rate × Time",
+            "Rate = 1 / Time",
+            "Add rates, not days",
+            "If total work is unknown, assume it as 1",
+            "Efficiency and time are inversely related"
+          ]
+        }
+      ]
     },
     {
-      "id": "polity",
-      "title": "Polity",
-      "emoji": "⚖️",
-      "theme_color": "#3498DB",
-      "description": "Constitution, Parliament & Rights",
-      "topics_file": "content/polity/topics.json"
+      "id": "work_efficiency_lcm",
+      "title": "Work, Efficiency and LCM Method",
+      "estimated_minutes": 12,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Work and Efficiency",
+          "subtitle": "The Most Important Concept in Time & Work",
+          "tags": ["High Weightage", "Shortcuts", "JKSSB"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "⚡",
+          "title": "What is Efficiency?",
+          "content": "Efficiency is the amount of work completed in a unit of time. A more efficient worker completes more work in the same time or the same work in less time.",
+          "highlight": true
+        },
+        {
+          "type": "formula",
+          "title": "Efficiency Relationship",
+          "formula": "Efficiency ∝ 1 / Time",
+          "description": "Efficiency and time are inversely proportional for the same work."
+        },
+        {
+          "type": "solved_example",
+          "title": "Efficiency Example",
+          "given": [
+            "A is twice as efficient as B",
+            "B completes a work in 24 days"
+          ],
+          "find": "Time taken by A",
+          "steps": [
+            "Efficiency ratio A:B = 2:1",
+            "Time ratio A:B = 1:2",
+            "If B takes 24 days",
+            "A takes 24 × (1/2)",
+            "A takes 12 days"
+          ],
+          "answer": "12 days",
+          "formula_used": "Efficiency Ratio = Inverse of Time Ratio"
+        },
+        {
+          "type": "solved_example",
+          "title": "LCM Method Example",
+          "given": [
+            "A completes work in 12 days",
+            "B completes work in 18 days"
+          ],
+          "find": "Time taken together",
+          "steps": [
+            "LCM(12,18) = 36",
+            "Assume total work = 36 units",
+            "A's one day work = 36/12 = 3 units",
+            "B's one day work = 36/18 = 2 units",
+            "Together = 5 units/day",
+            "Time = 36/5 days"
+          ],
+          "answer": "7.2 days",
+          "formula_used": "Time = Total Work / Combined Daily Work"
+        },
+        {
+          "type": "revision",
+          "title": "Quick Revision",
+          "points": [
+            "Efficiency and time are inversely proportional.",
+            "Higher efficiency means lower completion time.",
+            "Time ratio is the inverse of efficiency ratio.",
+            "LCM method removes fractions.",
+            "Combined work = sum of individual work rates.",
+            "Time = Total Work ÷ Daily Work."
+          ]
+        }
+      ]
     },
     {
-    "id": "reasoning_numeracy",
-    "title": "Reasoning & Numeracy",
-    "emoji": "🧠",
-    "theme_color": "#9B59B6",
-    "description": "Reasoning, Aptitude & Numerical Ability",
-    "topics_file": "content/reasoning_numeracy/topics.json"
+      "id": "three_or_more_workers",
+      "title": "Three or More Workers Working Together",
+      "estimated_minutes": 18,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Three or More Workers",
+          "subtitle": "Advanced Combined Work Problems",
+          "tags": ["High Weightage", "Advanced", "JKSSB"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "👥",
+          "title": "Core Principle",
+          "content": "When three or more workers work together, their individual work rates are added. The combined rate determines the total time required.",
+          "highlight": true
+        },
+        {
+          "type": "formula",
+          "title": "Three Worker Formula",
+          "formula": "(1/A) + (1/B) + (1/C)",
+          "description": "Combined one-day work of A, B and C."
+        },
+        {
+          "type": "solved_example",
+          "title": "Three Workers Together",
+          "given": [
+            "A completes work in 12 days",
+            "B completes work in 18 days",
+            "C completes work in 36 days"
+          ],
+          "find": "Time taken together",
+          "steps": [
+            "A's work rate = 1/12",
+            "B's work rate = 1/18",
+            "C's work rate = 1/36",
+            "LCM = 36",
+            "Combined rate = 3/36 + 2/36 + 1/36",
+            "Combined rate = 6/36 = 1/6",
+            "Time = 6 days"
+          ],
+          "answer": "6 days",
+          "formula_used": "(1/A)+(1/B)+(1/C)"
+        },
+        {
+          "type": "revision",
+          "title": "Quick Revision",
+          "points": [
+            "Combined work equals sum of individual work rates.",
+            "Use LCM method whenever possible.",
+            "Divide joining/leaving questions into phases.",
+            "Find remaining work after each phase.",
+            "Add rates, never completion times.",
+            "More workers means less completion time."
+          ]
+        }
+      ]
     }
-
   ]
 }
