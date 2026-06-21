@@ -77,6 +77,41 @@
   "tip": "Never add completion times"
 },
         {
+  "type": "note_card",
+  "title": "Important Note",
+  "variant": "important",
+  "content": "Always assume total work as LCM when possible."
+},
+        {
+  "type": "graph",
+  "title": "Efficiency Graph",
+  "graph_type": "bar",
+  "unit": "Units",
+  "labels": ["A", "B", "C"],
+  "values": [4.0, 3.0, 2.0]
+},
+        {
+  "type": "mcq",
+  "question": "What is 2+2?",
+  "options": ["3", "4", "5"],
+  "answer": 1,
+  "explanation": "2+2=4",
+  "is_pyq": false
+},
+        {
+  "type": "flowchart",
+  "title": "Decision Flow",
+  "nodes": [
+    { "id": "start", "label": "Start", "shape": "oval" },
+    { "id": "decide", "label": "Is x > 0?", "shape": "diamond" },
+    { "id": "end", "label": "End", "shape": "oval" }
+  ],
+  "edges": [
+    { "from": "start", "to": "decide", "label": "" },
+    { "from": "decide", "to": "end", "label": "Yes" }
+  ]
+},
+        {
           "type": "solved_example",
           "title": "Basic Example",
           "given": [
