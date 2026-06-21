@@ -44,6 +44,25 @@
             "Check whether the answer is in days, hours, or both"
           ]
         },
+            {
+      "type": "comparison",
+      "title": "Comparison Example",
+      "left_header": "Method A",
+      "right_header": "Method B",
+      "rows": [
+        { "left": "Easy", "right": "Hard" },
+        { "left": "Fast", "right": "Slow" }
+      ]
+    },
+        {
+  "type": "timeline",
+  "title": "Timeline Steps",
+  "items": [
+    { "label": "Start", "detail": "Read question" },
+    { "label": "Middle", "detail": "Calculate rates" },
+    { "label": "End", "detail": "Get answer" }
+  ]
+},
         {
           "type": "solved_example",
           "title": "Basic Example",
