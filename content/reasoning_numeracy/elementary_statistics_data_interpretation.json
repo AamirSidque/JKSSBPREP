@@ -1,0 +1,723 @@
+{
+  "id": "statistics_data_interpretation",
+  "subject_id": "reasoning_numeracy",
+  "title": "Elementary Statistics and Data Interpretation",
+  "subtopics": [
+    {
+      "id": "stats_basics",
+      "title": "Introduction to Statistics – Data, Variables",
+      "estimated_minutes": 6,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Statistics & Data Interpretation",
+          "subtitle": "Foundation of Data Analysis",
+          "tags": ["JKSSB", "High Weightage"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "📊",
+          "title": "What is Statistics?",
+          "content": "Statistics is the science of collecting, organizing, analyzing, interpreting, and presenting data. It helps in decision-making under uncertainty.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🔢",
+          "title": "Types of Data",
+          "content": "Primary Data: Collected first-hand. Secondary Data: Already collected and published. Also, data can be qualitative (categorical) or quantitative (numerical)."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Statistics is used to extract insights from data.",
+            "Data can be primary/secondary and qualitative/quantitative.",
+            "Understanding data types helps in choosing analysis methods."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mean",
+      "title": "Measures of Central Tendency – Arithmetic Mean",
+      "estimated_minutes": 12,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Arithmetic Mean",
+          "subtitle": "The Most Common Average",
+          "tags": ["JKSSB", "High Weightage"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "📈",
+          "title": "Definition",
+          "content": "The arithmetic mean is the sum of all observations divided by the number of observations. It is the most widely used measure of central tendency.",
+          "highlight": true
+        },
+        {
+          "type": "formula",
+          "title": "Mean Formula",
+          "formula": "Mean = (Σ xᵢ) / n",
+          "description": "For grouped data: Mean = (Σ fᵢxᵢ) / Σ fᵢ, where f is frequency."
+        },
+        {
+          "type": "solved_example",
+          "title": "Example 1: Ungrouped data",
+          "given": ["Marks: 50, 60, 70, 80, 90"],
+          "find": "Mean",
+          "steps": [
+            "Sum = 50+60+70+80+90 = 350",
+            "n = 5",
+            "Mean = 350/5 = 70"
+          ],
+          "answer": "70",
+          "formula_used": "Mean = Sum/n"
+        },
+        {
+          "type": "solved_example",
+          "title": "Example 2: Grouped data (frequency table)",
+          "given": [
+            "Class 0-10: f=5, Midpoint=5",
+            "Class 10-20: f=8, Midpoint=15",
+            "Class 20-30: f=7, Midpoint=25"
+          ],
+          "find": "Mean",
+          "steps": [
+            "Σ f = 5+8+7 = 20",
+            "Σ f×x = 5×5 + 8×15 + 7×25 = 25+120+175 = 320",
+            "Mean = 320/20 = 16"
+          ],
+          "answer": "16",
+          "formula_used": "Mean = Σ fx / Σ f"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Using wrong midpoint in grouped data.",
+          "wrong": "Using class boundaries instead of midpoints.",
+          "correct": "Midpoint = (lower+upper)/2.",
+          "tip": "Always compute class marks accurately."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Mean = Sum of observations / Count.",
+            "For grouped data, use frequencies and midpoints.",
+            "Mean is sensitive to extreme values."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "median",
+      "title": "Measures of Central Tendency – Median",
+      "estimated_minutes": 12,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Median",
+          "subtitle": "The Middle Value",
+          "tags": ["Important", "JKSSB"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "📐",
+          "title": "Definition",
+          "content": "Median is the middle value of a dataset when arranged in ascending or descending order. For even number of observations, it is the average of the two middle values.",
+          "highlight": true
+        },
+        {
+          "type": "solved_example",
+          "title": "Example 1: Odd number of observations",
+          "given": ["Ages: 18, 22, 25, 30, 35"],
+          "find": "Median",
+          "steps": [
+            "Data is already sorted.",
+            "n = 5 (odd), median position = (5+1)/2 = 3rd value.",
+            "Median = 25"
+          ],
+          "answer": "25",
+          "formula_used": "Median = value at (n+1)/2 position."
+        },
+        {
+          "type": "solved_example",
+          "title": "Example 2: Even number of observations",
+          "given": ["Scores: 40, 50, 60, 70, 80, 90"],
+          "find": "Median",
+          "steps": [
+            "n = 6 (even), median = average of 3rd and 4th values.",
+            "3rd = 60, 4th = 70",
+            "Median = (60+70)/2 = 65"
+          ],
+          "answer": "65",
+          "formula_used": "Median = average of middle two for even n."
+        },
+        {
+          "type": "fact_card",
+          "icon": "📊",
+          "title": "Median for Grouped Data",
+          "content": "Median = L + [ (n/2 – cf) / f ] × h, where L = lower boundary of median class, cf = cumulative frequency before median class, f = frequency of median class, h = class width."
+        },
+        {
+          "type": "comparison",
+          "title": "Mean vs Median",
+          "left_header": "Mean",
+          "right_header": "Median",
+          "rows": [
+            { "left": "Affected by outliers", "right": "Not affected by outliers" },
+            { "left": "Uses all data", "right": "Uses only middle position" },
+            { "left": "Suitable for symmetrical data", "right": "Suitable for skewed data" }
+          ]
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Median is robust to outliers.",
+            "For odd n: median = (n+1)/2th value.",
+            "For even n: median = average of n/2 and (n/2+1)th values.",
+            "For grouped data, use the formula with cumulative frequencies."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mode",
+      "title": "Measures of Central Tendency – Mode",
+      "estimated_minutes": 10,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Mode",
+          "subtitle": "The Most Frequent Value",
+          "tags": ["Important", "JKSSB"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🔁",
+          "title": "Definition",
+          "content": "Mode is the value that appears most frequently in a dataset. A dataset can have one mode (unimodal), two modes (bimodal), or more.",
+          "highlight": true
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Find mode",
+          "given": ["Numbers: 2, 3, 4, 4, 5, 6, 6, 6"],
+          "find": "Mode",
+          "steps": [
+            "6 appears 3 times, highest frequency.",
+            "Mode = 6"
+          ],
+          "answer": "6",
+          "formula_used": "Mode = most frequent value."
+        },
+        {
+          "type": "fact_card",
+          "icon": "📊",
+          "title": "Mode for Grouped Data",
+          "content": "Mode = L + [ (f₁ – f₀) / (2f₁ – f₀ – f₂) ] × h, where L = lower boundary of modal class, f₁ = frequency of modal class, f₀ = frequency of previous class, f₂ = frequency of next class, h = class width."
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Confusing mode with median or mean.",
+          "wrong": "Using mean or median when asked for mode.",
+          "correct": "Mode is only about frequency.",
+          "tip": "Identify the most frequent value (or class)."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Mode = most frequent observation.",
+            "Can be used for categorical data.",
+            "For grouped data, use the formula.",
+            "Bimodal data has two modes."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dispersion",
+      "title": "Measures of Dispersion – Range, Variance, Standard Deviation",
+      "estimated_minutes": 14,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Dispersion",
+          "subtitle": "Spread of Data",
+          "tags": ["Advanced", "JKSSB"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "📏",
+          "title": "What is Dispersion?",
+          "content": "Dispersion measures how spread out the values are. Common measures: Range, Variance, Standard Deviation.",
+          "highlight": true
+        },
+        {
+          "type": "formula",
+          "title": "Formulas",
+          "formula": "Range = Max – Min\nVariance (σ²) = Σ (xᵢ – μ)² / n\nStandard Deviation (σ) = √Variance",
+          "description": "Standard deviation is the most widely used measure of spread."
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Find range, variance, SD",
+          "given": ["Numbers: 4, 8, 6, 10, 12"],
+          "find": "Range, Variance, SD",
+          "steps": [
+            "Range = 12 – 4 = 8",
+            "Mean = (4+8+6+10+12)/5 = 40/5 = 8",
+            "Deviations: -4,0,-2,2,4; squares: 16,0,4,4,16",
+            "Sum squares = 40",
+            "Variance = 40/5 = 8",
+            "SD = √8 ≈ 2.83"
+          ],
+          "answer": "Range = 8, Variance = 8, SD ≈ 2.83",
+          "formula_used": "Standard formulas"
+        },
+        {
+          "type": "comparison",
+          "title": "Range vs SD",
+          "left_header": "Range",
+          "right_header": "Standard Deviation",
+          "rows": [
+            { "left": "Sensitive to outliers", "right": "Less sensitive" },
+            { "left": "Simple to calculate", "right": "More complex" },
+            { "left": "Uses only two points", "right": "Uses all data" }
+          ]
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Using population formula when sample data given.",
+          "wrong": "Dividing by n (population) when should use n-1 (sample).",
+          "correct": "For sample, use n-1 in variance formula.",
+          "tip": "Read the question carefully: population or sample?"
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Range = Max – Min.",
+            "Variance = average squared deviations from mean.",
+            "Standard deviation = square root of variance.",
+            "Larger SD means more spread."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "di_tables",
+      "title": "Data Interpretation – Tables",
+      "estimated_minutes": 14,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Data Interpretation – Tables",
+          "subtitle": "Reading and Analysing Tabular Data",
+          "tags": ["High Weightage", "JKSSB"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "📋",
+          "title": "What are Tables?",
+          "content": "Tables present data in rows and columns. They are the most common form of data presentation in competitive exams.",
+          "highlight": true
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Table-based question",
+          "given": [
+            "The table below shows sales (in ₹ lakh) for four companies over 3 years:",
+            "| Company | 2020 | 2021 | 2022 |",
+            "| A       | 50   | 60   | 70   |",
+            "| B       | 40   | 55   | 65   |",
+            "| C       | 30   | 45   | 55   |",
+            "| D       | 20   | 35   | 50   |"
+          ],
+          "find": "Total sales of all companies in 2022",
+          "steps": [
+            "Sum of 2022 column = 70+65+55+50 = 240"
+          ],
+          "answer": "₹240 lakh",
+          "formula_used": "Addition"
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Ratio-based",
+          "given": "Using the same table",
+          "find": "Ratio of sales of A to D in 2021",
+          "steps": [
+            "A = 60, D = 35",
+            "Ratio = 60:35 = 12:7"
+          ],
+          "answer": "12:7",
+          "formula_used": "Ratio"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Misreading row/column labels.",
+          "wrong": "Reading row as column.",
+          "correct": "Carefully check headers.",
+          "tip": "Underline the required row/column before calculating."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Read table carefully – rows and columns.",
+            "Identify the asked quantity (total, average, ratio, percentage, etc.).",
+            "Practice solving without calculator."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "di_graphs",
+      "title": "Data Interpretation – Bar Graphs and Line Graphs",
+      "estimated_minutes": 14,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Bar & Line Graphs",
+          "subtitle": "Visual Data Interpretation",
+          "tags": ["High Weightage", "JKSSB"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "📊",
+          "title": "Bar Graphs",
+          "content": "Bar graphs represent data with rectangular bars. They can be vertical or horizontal. Used to compare categories.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📈",
+          "title": "Line Graphs",
+          "content": "Line graphs connect data points with lines. They show trends over time or continuous data."
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Bar graph question",
+          "given": [
+            "A bar graph shows annual sales (in ₹ lakh) of a company: 2015=40, 2016=50, 2017=60, 2018=70, 2019=80."
+          ],
+          "find": "Average annual sales over the period",
+          "steps": [
+            "Sum = 40+50+60+70+80 = 300",
+            "Average = 300/5 = 60"
+          ],
+          "answer": "₹60 lakh",
+          "formula_used": "Sum/Count"
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Line graph – growth rate",
+          "given": [
+            "A line graph shows profits: 2010=100, 2011=120, 2012=144, 2013=172.8"
+          ],
+          "find": "Percentage increase from 2010 to 2013",
+          "steps": [
+            "Increase = 172.8 – 100 = 72.8",
+            "Percentage increase = (72.8/100)×100 = 72.8%"
+          ],
+          "answer": "72.8%",
+          "formula_used": "((New-Old)/Old)×100"
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Bar graphs compare categories.",
+            "Line graphs show trends.",
+            "Read axes and scales carefully.",
+            "Calculate totals, averages, percentages easily."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "di_pie_charts",
+      "title": "Data Interpretation – Pie Charts",
+      "estimated_minutes": 12,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Pie Charts",
+          "subtitle": "Representing Parts of a Whole",
+          "tags": ["High Weightage", "JKSSB"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🥧",
+          "title": "What is a Pie Chart?",
+          "content": "A pie chart is a circular chart divided into sectors, each representing a proportion of the whole. The total angle of a pie chart is 360°.",
+          "highlight": true
+        },
+        {
+          "type": "formula",
+          "title": "Pie Chart Key Formulas",
+          "formula": "Angle for category = (Category value / Total) × 360°\nPercentage = (Category value / Total) × 100%",
+          "description": "These help in interpreting pie charts."
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Pie chart interpretation",
+          "given": [
+            "A pie chart shows expenses: Food=30%, Rent=25%, Transport=20%, Others=25%",
+            "Total monthly expenses = ₹40,000"
+          ],
+          "find": "Amount spent on Food",
+          "steps": [
+            "Food amount = 30% of 40000 = 0.3×40000 = 12000"
+          ],
+          "answer": "₹12,000",
+          "formula_used": "Percentage calculation"
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Finding angle",
+          "given": [
+            "Same pie chart, find angle for Transport (20%)"
+          ],
+          "find": "Angle for Transport",
+          "steps": [
+            "Angle = (20/100) × 360 = 72°"
+          ],
+          "answer": "72°",
+          "formula_used": "Angle = (%)×360"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Not checking total percentage.",
+          "wrong": "Assuming percentages sum to 100 without verifying.",
+          "correct": "All pie charts have total 100%.",
+          "tip": "If not, there is missing data or error."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Pie charts show parts of a whole.",
+            "Total angle = 360°, total percentage = 100%.",
+            "Value = (Percentage/100) × Total.",
+            "Angle = (Value/Total) × 360°."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "di_mixed",
+      "title": "Data Interpretation – Mixed Graphs & Caselets",
+      "estimated_minutes": 12,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Mixed Graphs & Caselets",
+          "subtitle": "Combining Multiple Data Formats",
+          "tags": ["Advanced", "JKSSB"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "📊",
+          "title": "What are Mixed Graphs?",
+          "content": "Sometimes a single question uses a combination of table, bar graph, pie chart, and text (caselet). This tests ability to integrate information from multiple sources.",
+          "highlight": true
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Mixed data interpretation",
+          "given": [
+            "A table gives population of five states (in lakhs): A=12, B=15, C=10, D=8, E=5.",
+            "A pie chart shows the percentage distribution of literacy: 60% male, 40% female (overall).",
+            "A bar graph shows literacy rates: State A=70%, B=80%, C=60%, D=75%, E=85%."
+          ],
+          "find": "Literate population of State B.",
+          "steps": [
+            "Population of B = 15 lakh = 1,500,000",
+            "Literacy rate of B = 80%",
+            "Literate population = 1,500,000 × 0.8 = 1,200,000 = 12 lakh"
+          ],
+          "answer": "12 lakh",
+          "formula_used": "Population × literacy rate"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Overlooking necessary data.",
+          "wrong": "Using only one source of data.",
+          "correct": "Integrate data from all sources.",
+          "tip": "Read all parts carefully before solving."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Mixed DI questions require integration.",
+            "Identify the required data from each source.",
+            "Be systematic in your approach."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stats_di_shortcuts",
+      "title": "Shortcuts for Statistics & DI",
+      "estimated_minutes": 10,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Statistics & DI Shortcuts",
+          "subtitle": "Speed Up Calculations",
+          "tags": ["Shortcuts", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "⚡",
+          "title": "Shortcut 1 – Mean from assumed average",
+          "content": "For large datasets, assume a mean and adjust: Mean = Assumed + (Σ deviations)/n.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "⚡",
+          "title": "Shortcut 2 – Median from cumulative frequency",
+          "content": "For grouped data, use the formula directly; do not attempt to list all values.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "⚡",
+          "title": "Shortcut 3 – DI percentage calculations",
+          "content": "For percentages, if you need e.g., 15% of a number, calculate 10% and 5% then add.",
+          "highlight": true
+        },
+        {
+          "type": "mnemonic",
+          "title": "Memory Trick",
+          "mnemonic": "SDR",
+          "memory_trick": "Statistics = Sum, Difference, Ratio – the core of DI calculations."
+        },
+        {
+          "type": "revision",
+          "title": "Shortcut Summary",
+          "points": [
+            "Assumed mean method saves time.",
+            "Use cumulative frequencies for median.",
+            "Percentage calculations: use 10% as base.",
+            "In DI, focus on quick arithmetic."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stats_di_practice_mcqs",
+      "title": "Practice MCQs (PYQ Style)",
+      "estimated_minutes": 25,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Statistics & DI – Practice Set",
+          "subtitle": "Mixed Questions for JKSSB",
+          "tags": ["PYQ Pattern", "JKSSB"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🎯",
+          "title": "Exam Strategy",
+          "content": "Identify the type: mean/median/mode, standard deviation, table/bar/pie/line graph, or mixed. Apply the correct formula.",
+          "highlight": true
+        },
+        {
+          "type": "mcq",
+          "question": "Find the mean of 10, 20, 30, 40, 50.",
+          "options": ["25", "30", "35", "40"],
+          "answer": 1,
+          "explanation": "Sum=150, n=5, mean=150/5=30.",
+          "is_pyq": true,
+          "year": "2021",
+          "source": "JKSSB"
+        },
+        {
+          "type": "mcq",
+          "question": "Find the median of 12, 15, 18, 22, 25.",
+          "options": ["15", "18", "20", "22"],
+          "answer": 1,
+          "explanation": "n=5, median = 3rd value = 18.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "Find the mode of 3, 5, 5, 7, 9, 9, 9.",
+          "options": ["5", "7", "9", "3"],
+          "answer": 2,
+          "explanation": "9 appears 3 times, highest frequency.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "The variance of data 2, 4, 6, 8, 10 is:",
+          "options": ["6", "8", "10", "12"],
+          "answer": 1,
+          "explanation": "Mean=6, deviations: -4,-2,0,2,4; squares:16,4,0,4,16; sum=40; variance=40/5=8.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "A table shows marks: 0-10: f=2, 10-20: f=3, 20-30: f=5. Find the mean (midpoints: 5,15,25).",
+          "options": ["16", "17", "18", "19"],
+          "answer": 2,
+          "explanation": "Σf=10, Σfx=2×5+3×15+5×25=10+45+125=180; mean=180/10=18.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "In a pie chart, if a category represents 25% of the total, the angle is:",
+          "options": ["60°", "90°", "120°", "150°"],
+          "answer": 1,
+          "explanation": "Angle = 25% of 360 = 90°.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "A bar graph shows sales: 2010=100, 2011=120, 2012=144. What is the growth rate from 2010 to 2012?",
+          "options": ["40%", "44%", "48%", "52%"],
+          "answer": 1,
+          "explanation": "Increase = 144-100=44, percentage = (44/100)×100 = 44%.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "For data: 5, 10, 15, 20, 25, the standard deviation is approximately:",
+          "options": ["7.07", "8.66", "10.0", "12.5"],
+          "answer": 0,
+          "explanation": "Mean=15, variance = ((−10)^2+(−5)^2+0+5^2+10^2)/5 = (100+25+0+25+100)/5 = 50; SD≈7.07.",
+          "is_pyq": false
+        },
+        {
+          "type": "note_card",
+          "title": "Post-Test Review",
+          "variant": "important",
+          "content": "Focus on formulas for mean, median, mode, and standard deviation. Practice reading tables, graphs, and pie charts quickly."
+        },
+        {
+          "type": "revision",
+          "title": "Final Revision – Statistics & DI",
+          "points": [
+            "Mean = Σx/n; Grouped: Σfx/Σf.",
+            "Median: middle value or (n/2 & n/2+1).",
+            "Mode: most frequent value.",
+            "Range = Max – Min.",
+            "Variance = Σ(x-μ)²/n; SD = √variance.",
+            "Tables: add/ subtract/ percentage.",
+            "Bar/Line graphs: trends and comparisons.",
+            "Pie charts: angles and percentages.",
+            "Mixed DI: integrate data from multiple sources.",
+            "Use shortcuts to save time."
+          ]
+        }
+      ]
+    }
+  ]
+}
