@@ -45,83 +45,6 @@
           ]
         },
         {
-          "type": "comparison",
-          "title": "Time vs Work vs Efficiency",
-          "left_header": "Term",
-          "right_header": "Meaning",
-          "rows": [
-            {
-              "left": "Work",
-              "right": "The total task to be completed"
-            },
-            {
-              "left": "Time",
-              "right": "Duration required to complete the task"
-            },
-            {
-              "left": "Efficiency",
-              "right": "How fast or slow a worker completes the same task"
-            },
-            {
-              "left": "Rate",
-              "right": "Work completed in one unit of time"
-            }
-          ]
-        },
-        {
-          "type": "timeline",
-          "title": "Natural Thinking Pattern",
-          "items": [
-            {
-              "label": "Step 1",
-              "detail": "Assume total work as 1 if no real value is given."
-            },
-            {
-              "label": "Step 2",
-              "detail": "Find one person's daily work."
-            },
-            {
-              "label": "Step 3",
-              "detail": "Add all daily works if they work together."
-            },
-            {
-              "label": "Step 4",
-              "detail": "Take reciprocal of total work per day to get total time."
-            }
-          ]
-        },
-        {
-          "type": "mnemonic",
-          "title": "Memory Trick",
-          "mnemonic": "Work-Time-Rate",
-          "memory_trick": "More rate → less time; less rate → more time."
-        },
-        {
-          "type": "exam_trap",
-          "title": "Common Mistake",
-          "wrong": "Adding days directly when two workers work together.",
-          "correct": "Add work rates, not days.",
-          "tip": "Days cannot be added. Only the fraction of work done per day can be combined."
-        },
-        {
-          "type": "table",
-          "title": "Quick Reference Table",
-          "headers": ["Situation", "Rate / Relation"],
-          "rows": [
-            ["One person finishes in T days", "One day work = 1/T"],
-            ["Two persons together", "Combined work = sum of individual works"],
-            ["If total work is assumed 1", "Time = 1 / daily work"],
-            ["If A is twice as efficient as B", "A's rate = 2 × B's rate"]
-          ],
-          "highlight_row": 0
-        },
-        {
-          "type": "note_card",
-          "title": "Important Note",
-          "variant": "important",
-          "content": "For reasoning exams, the cleanest approach is to convert every worker into a fractional daily rate. That makes large questions much easier."
-        },
-        {
           "type": "solved_example",
           "title": "Basic Example",
           "given": [
@@ -139,22 +62,6 @@
           ],
           "answer": "6 days",
           "formula_used": "Total Time = 1 / (Sum of Daily Work Rates)"
-        },
-        {
-          "type": "graph",
-          "title": "Efficiency Comparison",
-          "graph_type": "bar",
-          "unit": "Efficiency Units",
-          "labels": ["Worker A", "Worker B", "Worker C"],
-          "values": [4.0, 3.0, 2.0]
-        },
-        {
-          "type": "mcq",
-          "question": "If A is twice as efficient as B and B takes 12 days, how many days does A take?",
-          "options": ["4 days", "6 days", "8 days", "10 days"],
-          "answer": 1,
-          "explanation": "Efficiency ratio 2:1 → Time ratio 1:2 → A takes 12/2 = 6 days.",
-          "is_pyq": false
         },
         {
           "type": "revision",
@@ -184,7 +91,7 @@
           "type": "fact_card",
           "icon": "⚡",
           "title": "What is Efficiency?",
-          "content": "Efficiency is the amount of work completed in a unit of time. A more efficient worker completes more work in the same time or the same work in less time.",
+          "content": "Efficiency is the amount of work completed in a unit of time.",
           "highlight": true
         },
         {
@@ -194,116 +101,22 @@
           "description": "Efficiency and time are inversely proportional for the same work."
         },
         {
-          "type": "fact_card",
-          "icon": "📌",
-          "title": "Golden Rule",
-          "content": "If A is twice as efficient as B, then A will take half the time taken by B to complete the same work."
-        },
-        {
-          "type": "comparison",
-          "title": "Efficiency vs Time",
-          "left_header": "Efficiency Ratio",
-          "right_header": "Time Ratio",
-          "rows": [
-            {
-              "left": "1 : 2",
-              "right": "2 : 1"
-            },
-            {
-              "left": "2 : 3",
-              "right": "3 : 2"
-            },
-            {
-              "left": "3 : 5",
-              "right": "5 : 3"
-            },
-            {
-              "left": "4 : 7",
-              "right": "7 : 4"
-            }
-          ]
-        },
-        {
-          "type": "process_flow",
-          "title": "How Efficiency Questions Are Solved",
-          "steps": [
-            "Find efficiency ratio",
-            "Reverse it to get time ratio",
-            "Assume total work using LCM",
-            "Calculate work per day",
-            "Find required time"
-          ]
-        },
-        {
-          "type": "fact_card",
-          "icon": "🎯",
-          "title": "Why LCM Method Works",
-          "content": "In competitive exams, total work is often assumed as the LCM of individual completion times. This eliminates fractions and makes calculations faster."
-        },
-        {
-          "type": "table",
-          "title": "LCM Shortcut Table",
-          "headers": ["Completion Time", "Assumed Total Work", "One Day Work"],
-          "rows": [
-            ["10 days", "30 units", "3 units"],
-            ["15 days", "30 units", "2 units"],
-            ["20 days", "60 units", "3 units"],
-            ["30 days", "60 units", "2 units"]
-          ]
-        },
-        {
           "type": "solved_example",
-          "title": "LCM Method Example",
+          "title": "Efficiency Example",
           "given": [
-            "A completes work in 12 days",
-            "B completes work in 18 days"
+            "A is twice as efficient as B",
+            "B completes a work in 24 days"
           ],
-          "find": "Time taken together",
+          "find": "Time taken by A",
           "steps": [
-            "LCM(12,18) = 36",
-            "Assume total work = 36 units",
-            "A's one day work = 36/12 = 3 units",
-            "B's one day work = 36/18 = 2 units",
-            "Together = 5 units/day",
-            "Time = 36/5 days"
+            "Efficiency ratio A:B = 2:1",
+            "Time ratio A:B = 1:2",
+            "If B takes 24 days",
+            "A takes 24 × (1/2)",
+            "A takes 12 days"
           ],
-          "answer": "7.2 days",
-          "formula_used": "Time = Total Work / Combined Daily Work"
-        },
-        {
-          "type": "exam_trap",
-          "title": "Most Common Trap",
-          "wrong": "Using efficiency ratio directly as time ratio.",
-          "correct": "Time ratio is always the inverse of efficiency ratio.",
-          "tip": "Higher efficiency means less time."
-        },
-        {
-          "type": "mnemonic",
-          "title": "Memory Trick",
-          "mnemonic": "EIT",
-          "memory_trick": "Efficiency Increases → Time decreases."
-        },
-        {
-          "type": "note_card",
-          "title": "Exam Shortcut",
-          "variant": "remember",
-          "content": "Whenever completion times are given, first check if the LCM method can simplify the question. It is usually faster than fractions."
-        },
-        {
-          "type": "graph",
-          "title": "Efficiency vs Time",
-          "graph_type": "bar",
-          "unit": "Relative Units",
-          "labels": ["Worker A", "Worker B", "Worker C", "Worker D"],
-          "values": [4.0, 3.0, 2.0, 1.0]
-        },
-        {
-          "type": "mcq",
-          "question": "If A is three times as efficient as B and B completes a work in 18 days, how many days will A take?",
-          "options": ["3 days", "6 days", "9 days", "12 days"],
-          "answer": 1,
-          "explanation": "Efficiency ratio = 3:1. Time ratio = 1:3. Therefore A takes 18/3 = 6 days.",
-          "is_pyq": false
+          "answer": "12 days",
+          "formula_used": "Efficiency Ratio = Inverse of Time Ratio"
         },
         {
           "type": "revision",
@@ -311,10 +124,7 @@
           "points": [
             "Efficiency and time are inversely proportional.",
             "Higher efficiency means lower completion time.",
-            "Time ratio is the inverse of efficiency ratio.",
-            "LCM method removes fractions.",
-            "Combined work = sum of individual work rates.",
-            "Time = Total Work ÷ Daily Work.."
+            "Time ratio is the inverse of efficiency ratio."
           ]
         }
       ]
