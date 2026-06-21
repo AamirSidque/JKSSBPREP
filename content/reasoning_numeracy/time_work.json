@@ -14,16 +14,16 @@
           "subtitle": "Testing table block",
           "tags": ["Test"]
         },
-        {
-          "type": "table",
-          "title": "Sample Table",
-          "headers": ["Name", "Value"],
-          "rows": [
-            ["A", "10"],
-            ["B", "20"]
-          ],
-          "highlight_row": 0
-        }
+          {
+    "type": "table",
+    "title": "Sample Table",
+    "headers": ["Name", "Value"],
+    "rows": [
+      ["A", "10"],
+      ["B", "20"]
+    ],
+    "highlight_row": 0
+  }
       ]
     }
   ]
