@@ -64,6 +64,29 @@
   ]
 },
         {
+  "type": "mnemonic",
+  "title": "Memory Trick",
+  "mnemonic": "RAT",
+  "memory_trick": "Rate Added Together"
+},
+        {
+  "type": "exam_trap",
+  "title": "Common Trap",
+  "wrong": "Adding days directly",
+  "correct": "Add work rates",
+  "tip": "Never add completion times"
+},
+        {
+  "type": "table",
+  "title": "Quick Table",
+  "headers": ["Worker", "Days"],
+  "rows": [
+    ["A", "10"],
+    ["B", "15"]
+  ],
+  "highlight_row": 0
+},
+        {
           "type": "solved_example",
           "title": "Basic Example",
           "given": [
