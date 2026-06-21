@@ -4,67 +4,187 @@
   "title": "Time and Work",
   "subtopics": [
     {
-      "id": "time_work_introduction",
-      "title": "Introduction to Time and Work",
-      "estimated_minutes": 8,
-      "blocks": [
-        {
-          "type": "hero",
-          "title": "Time and Work",
-          "subtitle": "Foundation of Work-Rate Questions",
-          "tags": ["Reasoning", "High Weightage", "Speed Maths"]
-        },
-        {
-          "type": "fact_card",
-          "icon": "⏱️",
-          "title": "Core Idea",
-          "content": "Time and Work questions are based on the relationship between the amount of work done, the time taken, and the efficiency of the worker. If efficiency is constant, then more efficiency means less time for the same job.",
-          "highlight": true
-        },
-        {
-          "type": "formula",
-          "title": "Basic Relationship",
-          "formula": "Work Done = Efficiency × Time",
-          "description": "This is the base idea behind all time and work questions."
-        },
-        {
-          "type": "formula",
-          "title": "Work Rate Formula",
-          "formula": "Rate of Work = 1 / Time Taken",
-          "description": "If a person completes one job in T days, then one day work rate is 1/T."
-        },
-        {
-          "type": "solved_example",
-          "title": "Basic Example",
-          "given": [
-            "A can complete a work in 10 days",
-            "B can complete the same work in 15 days"
-          ],
-          "find": "Time taken if A and B work together",
-          "steps": [
-            "A’s one day work = 1/10",
-            "B’s one day work = 1/15",
-            "Combined one day work = 1/10 + 1/15",
-            "LCM = 30",
-            "Combined work = 3/30 + 2/30 = 5/30 = 1/6",
-            "So total time = 6 days"
-          ],
-          "answer": "6 days",
-          "formula_used": "Total Time = 1 / (Sum of Daily Work Rates)"
-        },
-        {
-          "type": "revision",
-          "title": "Quick Revision",
-          "points": [
-            "Work = Rate × Time",
-            "Rate = 1 / Time",
-            "Add rates, not days",
-            "If total work is unknown, assume it as 1",
-            "Efficiency and time are inversely related"
-          ]
-        }
-      ]
+  "blocks": [
+    {
+      "subtitle": "Foundation of Work-Rate Questions",
+      "tags": [
+        "Reasoning",
+        "High Weightage",
+        "Speed Maths"
+      ],
+      "title": "Time and Work",
+      "type": "hero"
     },
+    {
+      "content": "Time and Work questions are based on the relationship between the amount of work done, the time taken, and the efficiency of the worker. If efficiency is constant, then more efficiency means less time for the same job.",
+      "highlight": true,
+      "icon": "⏱️",
+      "title": "Core Idea",
+      "type": "fact_card"
+    },
+    {
+      "description": "This is the base idea behind all time and work questions.",
+      "formula": "Work Done = Efficiency × Time",
+      "title": "Basic Relationship",
+      "type": "formula"
+    },
+    {
+      "description": "If a person completes one job in T days, then one day work rate is 1/T.",
+      "formula": "Rate of Work = 1 / Time Taken",
+      "title": "Work Rate Formula",
+      "type": "formula"
+    },
+    {
+      "description": "When two or more workers work together, their rates are added if they work in the same direction toward the same job.",
+      "formula": "Total Work = Sum of Individual Rates",
+      "title": "Combined Work Formula",
+      "type": "formula"
+    },
+    {
+      "content": "A man-hour is the amount of work done by an average worker in one hour. Time and work questions often behave like man-hour calculations: total work = number of workers × time × efficiency.",
+      "highlight": false,
+      "icon": "👷",
+      "title": "Man-Hour Idea",
+      "type": "fact_card"
+    },
+    {
+      "steps": [
+        "Identify who is working",
+        "Write individual work rates",
+        "Add or subtract rates depending on the situation",
+        "Convert the total rate into time",
+        "Check whether the answer is in days, hours, or both"
+      ],
+      "title": "How to Solve Time and Work Questions",
+      "type": "process_flow"
+    },
+    {
+      "left_header": "Term",
+      "right_header": "Meaning",
+      "rows": [
+        {
+          "left": "Work",
+          "right": "The total task to be completed"
+        },
+        {
+          "left": "Time",
+          "right": "Duration required to complete the task"
+        },
+        {
+          "left": "Efficiency",
+          "right": "How fast or slow a worker completes the same task"
+        },
+        {
+          "left": "Rate",
+          "right": "Work completed in one unit of time"
+        }
+      ],
+      "title": "Time vs Work vs Efficiency",
+      "type": "comparison"
+    },
+    {
+      "items": [
+        {
+          "detail": "Assume total work as 1 if no real value is given.",
+          "label": "Step 1"
+        },
+        {
+          "detail": "Find one person's daily work.",
+          "label": "Step 2"
+        },
+        {
+          "detail": "Add all daily works if they work together.",
+          "label": "Step 3"
+        },
+        {
+          "detail": "Take reciprocal of total work per day to get total time.",
+          "label": "Step 4"
+        }
+      ],
+      "title": "Natural Thinking Pattern",
+      "type": "timeline"
+    },
+    {
+      "memory_trick": "Think of it as: more rate, less time; less rate, more time. If one person finishes in 10 days, daily work is 1/10.",
+      "mnemonic": "Work-Time-Rate",
+      "title": "Memory Trick",
+      "type": "mnemonic"
+    },
+    {
+      "correct": "Add work rates, not days.",
+      "tip": "Days cannot be added. Only the fraction of work done per day can be combined.",
+      "title": "Common Mistake",
+      "type": "exam_trap",
+      "wrong": "Adding days directly when two workers work together."
+    },
+    {
+      "headers": [
+        "Situation",
+        "Rate / Relation"
+      ],
+      "highlight_row": 0,
+      "rows": [
+        [
+          "One person finishes in T days",
+          "One day work = 1/T"
+        ],
+        [
+          "Two persons together",
+          "Combined work = sum of individual works"
+        ],
+        [
+          "If total work is assumed 1",
+          "Time = 1 / daily work"
+        ],
+        [
+          "If A is twice as efficient as B",
+          "A's rate = 2 × B's rate"
+        ]
+      ],
+      "title": "Quick Reference Table",
+      "type": "table"
+    },
+    {
+      "content": "For reasoning exams, the cleanest approach is to convert every worker into a fractional daily rate. That makes large questions much easier.",
+      "title": "Important Note",
+      "type": "note_card",
+      "variant": "important"
+    },
+    {
+      "answer": "6 days",
+      "find": "Time taken if A and B work together",
+      "formula_used": "Total Time = 1 / (Sum of Daily Work Rates)",
+      "given": [
+        "A can complete a work in 10 days",
+        "B can complete the same work in 15 days"
+      ],
+      "steps": [
+        "A's one day work = 1/10",
+        "B's one day work = 1/15",
+        "Combined one day work = 1/10 + 1/15",
+        "LCM = 30",
+        "Combined work = 3/30 + 2/30 = 5/30 = 1/6",
+        "So total time = 6 days"
+      ],
+      "title": "Basic Example",
+      "type": "solved_example"
+    },
+    {
+      "points": [
+        "Work = Rate × Time",
+        "Rate = 1 / Time",
+        "Add rates, not days",
+        "If total work is unknown, assume it as 1",
+        "Efficiency and time are inversely related"
+      ],
+      "title": "Quick Revision",
+      "type": "revision"
+    }
+  ],
+  "estimated_minutes": 8,
+  "id": "time_work_introduction",
+  "title": "Introduction to Time and Work"
+},
     {
       "id": "work_efficiency_lcm",
       "title": "Work, Efficiency and LCM Method",
