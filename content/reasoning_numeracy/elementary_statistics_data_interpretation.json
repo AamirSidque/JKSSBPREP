@@ -399,10 +399,18 @@
           "content": "Line graphs connect data points with lines. They show trends over time or continuous data."
         },
         {
+          "type": "graph",
+          "title": "Sample Bar Graph – Annual Sales (₹ Lakh)",
+          "graph_type": "bar",
+          "unit": "Sales (₹ Lakh)",
+          "labels": ["2018", "2019", "2020", "2021", "2022"],
+          "values": [40, 50, 60, 70, 80]
+        },
+        {
           "type": "solved_example",
           "title": "Example: Bar graph question",
           "given": [
-            "A bar graph shows annual sales (in ₹ lakh) of a company: 2015=40, 2016=50, 2017=60, 2018=70, 2019=80."
+            "The bar graph above shows annual sales (in ₹ lakh) of a company: 2018=40, 2019=50, 2020=60, 2021=70, 2022=80."
           ],
           "find": "Average annual sales over the period",
           "steps": [
@@ -461,6 +469,14 @@
           "title": "Pie Chart Key Formulas",
           "formula": "Angle for category = (Category value / Total) × 360°\nPercentage = (Category value / Total) × 100%",
           "description": "These help in interpreting pie charts."
+        },
+        {
+          "type": "image",
+          "title": "Sample Pie Chart",
+          "image_url": "https://example.com/sample_pie_chart.png",
+          "caption": "Expense Distribution: Food=30%, Rent=25%, Transport=20%, Others=25%",
+          "figure_number": "Fig 1",
+          "source": "Example Source"
         },
         {
           "type": "solved_example",
