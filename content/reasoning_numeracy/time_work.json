@@ -77,16 +77,6 @@
   "tip": "Never add completion times"
 },
         {
-  "type": "table",
-  "title": "Quick Table",
-  "headers": ["Worker", "Days"],
-  "rows": [
-    ["A", "10"],
-    ["B", "15"]
-  ],
-  "highlight_row": 0
-},
-        {
           "type": "solved_example",
           "title": "Basic Example",
           "given": [
