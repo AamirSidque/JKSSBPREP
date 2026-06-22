@@ -1,5 +1,5 @@
 {
-  "version": 25,
+  "version": 26,
   "subjects": [
      
     {
@@ -9,6 +9,14 @@
       "theme_color": "#FFD700",
       "description": "Build speed, Eliminate Negative marks, and Maximize your JKSSB exam score",
       "topics_file": "content/reasoning_numeracy/topics.json"
+    },
+    {
+      "id": "general_intelligence",
+      "title": "General Intelligence and Reasoning",
+      "emoji": "🧠",
+      "theme_color": "#FFD700",
+      "description": "Build speed, Eliminate Negative marks, and Maximize your JKSSB exam score",
+      "topics_file": "content/general_intelligence/topics.json"
     }
   ]
 }
