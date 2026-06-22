@@ -1,0 +1,7 @@
+{
+  "subject_id": "general_intelligence_reasoning",
+  "topics": [
+    { "id": "number_letter_series",    "title": "Number and Letter Series",    "file": "content/general_intelligence/number_letter_series.json",    "available": true },
+    { "id": "analogies", "title": "Analogies", "file": "content/general_intelligence/analogies.json", "available": true}
+  ]
+}
