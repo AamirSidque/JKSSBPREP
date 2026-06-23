@@ -1,0 +1,56 @@
+{
+"subject_id": "grammar_tenses_modals_articles_prepositions",
+"topics": [
+{
+"id": "percentage",
+"title": "Percentage",
+"file": "content/general_english/percentage.json",
+"available": true
+},
+{
+"id": "ratio_proportion",
+"title": "Ratio and Proportion",
+"file": "content/general_english/ratio_proportion.json",
+"available": true
+},
+{
+"id": "time_work",
+"title": "Time and Work",
+"file": "content/general_english/time_work.json",
+"available": true
+},
+  
+{
+"id": "profit_loss",
+"title": "Profit and Loss",
+"file": "content/general_english/profit_loss.json",
+"available": true
+},
+{
+"id": "simple_compound",
+"title": "Simple and Compound Interest",
+"file": "content/general_english/simple_compound.json",
+"available": true
+},
+  
+{
+"id": "average",
+"title": "Average",
+"file": "content/general_english/average.json",
+"available": true
+},
+  
+{
+"id": "time_speed_distance",
+"title": "Time, Speed and Distance",
+"file": "content/general_english/time_speed_distance.json",
+"available": true
+},
+  {
+"id": "elementary_statistics_data_interpretation",
+"title": "Elementary Statistics and Data Interpretation",
+"file": "content/general_english/elementary_statistics_data_interpretation.json",
+"available": true
+},
+]
+}
