@@ -17,6 +17,14 @@
       "theme_color": "#FFD700",
       "description": "Build speed, Eliminate Negative marks, and Maximize your JKSSB exam score",
       "topics_file": "content/general_intelligence/topics.json"
+    },
+    {
+      "id": "grammar_tenses_modals_articles_prepositions",
+      "title": "General English and Comm. Skills",
+      "emoji": "📚",
+      "theme_color": "#FFD700",
+      "description": "Grammar (Tenses, Modals, Articles, Prepositions)",
+      "topics_file": "content/general_english/topics.json"
     }
   ]
 }
