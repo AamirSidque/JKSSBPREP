@@ -2,55 +2,49 @@
 "subject_id": "grammar_tenses_modals_articles_prepositions",
 "topics": [
 {
-"id": "percentage",
-"title": "Percentage",
-"file": "content/general_english/percentage.json",
+"id": "grammar_tenses_modals_articles_prepositions",
+"title": "Grammar: Tenses, Modals, Articles & Prepositions",
+"file": "content/general_english/grammar_tenses.json",
 "available": true
 },
 {
-"id": "ratio_proportion",
-"title": "Ratio and Proportion",
-"file": "content/general_english/ratio_proportion.json",
+"id": "active_passive_voice",
+"title": "Active and Passive Voice",
+"file": "content/general_english/active_passive_voice.json",
 "available": true
 },
 {
-"id": "time_work",
-"title": "Time and Work",
-"file": "content/general_english/time_work.json",
+"id": "direct_indirect_speech",
+"title": "Direct and Indirect Speech (Narration)",
+"file": "content/general_english/direct_indirect_speech.json",
 "available": true
 },
   
 {
-"id": "profit_loss",
-"title": "Profit and Loss",
-"file": "content/general_english/profit_loss.json",
+"id": "synonyms_antonyms_idioms_phrases",
+"title": "Synonyms, Antonyms, Idioms and Phrases",
+"file": "content/general_english/synonyms_antonyms_idioms_phrases.json",
 "available": true
 },
 {
-"id": "simple_compound",
-"title": "Simple and Compound Interest",
-"file": "content/general_english/simple_compound.json",
+"id": "reading_comprehension",
+"title": "Reading Comprehension",
+"file": "content/general_english/reading_comprehension.json",
 "available": true
 },
   
 {
-"id": "average",
-"title": "Average",
-"file": "content/general_english/average.json",
+"id": "error_spotting_sentence_improvement",
+"title": "Error Spotting and Sentence Improvement",
+"file": "content/general_english/error_spotting_sentence_improvement.json",
 "available": true
 },
   
 {
-"id": "time_speed_distance",
-"title": "Time, Speed and Distance",
-"file": "content/general_english/time_speed_distance.json",
+"id": "professional_communication",
+"title": "Professional Communication",
+"file": "content/general_english/professional_communication.json",
 "available": true
-},
-  {
-"id": "elementary_statistics_data_interpretation",
-"title": "Elementary Statistics and Data Interpretation",
-"file": "content/general_english/elementary_statistics_data_interpretation.json",
-"available": true
-},
+}
 ]
 }
