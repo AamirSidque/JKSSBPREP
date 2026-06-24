@@ -1,1 +1,9 @@
-indian_history
+{
+  "subject_id": "indian_history",
+  "topics": [
+    { "id": "india",    "title": "india",    "file": "content/indian_history/india.json",    "available": true },
+    { "id": "pakistan", "title": "pakistan", "file": "content/indian_history/pakistan.json", "available": true},
+    { "id": "econo",    "title": "economics",    "file": "content/indian_history/economics.json",    "available": true },
+    { "id": "geo",    "title": "geography",    "file": "content/indian_history/geo.json",    "available": true }
+  ]
+}
