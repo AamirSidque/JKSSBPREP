@@ -18,6 +18,14 @@
       "description": "Build speed, Eliminate Negative marks, and Maximize your JKSSB exam score",
       "topics_file": "content/general_intelligence/topics.json"
     },
+     {
+      "id": "geography_geomorphology",
+      "title": "Geography IAS Paper 1",
+      "emoji": "🧠",
+      "theme_color": "#FFD700",
+      "description": "Geography IAS Paper 1",
+      "topics_file": "content/Geography/topics.json"
+    },
     {
       "id": "indian_history",
       "title": "History - Indian",
