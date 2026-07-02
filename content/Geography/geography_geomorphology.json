@@ -1,0 +1,1302 @@
+{
+  "id": "geography_geomorphology",
+  "subject_id": "geography",
+  "title": "Geomorphology: Factors Controlling Landform Development",
+  "subtopics": [
+    {
+      "id": "earth_crust_origin",
+      "title": "Origin and Evolution of Earth's Crust",
+      "estimated_minutes": 12,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Origin and Evolution of Earth's Crust",
+          "subtitle": "Understanding the Foundation of Our Planet",
+          "tags": ["JKSSB", "High Weightage", "Geomorphology"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🌍",
+          "title": "The Earth's Crust – An Overview",
+          "content": "The Earth's crust is the outermost solid layer of the planet. It is composed of a variety of rocks, minerals, and sediments. The crust is divided into two types: Continental Crust (composed of granitic rocks, lighter, thicker – ~30-50 km) and Oceanic Crust (composed of basaltic rocks, denser, thinner – ~5-10 km). The crust is the thinnest layer of the Earth, accounting for less than 1% of the Earth's volume.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "⏳",
+          "title": "The Nebular Hypothesis (Origin of the Earth)",
+          "content": "The Nebular Hypothesis, proposed by Immanuel Kant and later developed by Pierre-Simon Laplace, suggests that the Earth and the solar system originated from a rotating cloud of gas and dust called a nebula. Over time, gravity caused the nebula to collapse, forming the Sun and planets. As the Earth cooled, its surface solidified into a crust, and the atmosphere and oceans formed through volcanic outgassing and condensation.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🔄",
+          "title": "Differentiation of the Earth's Layers",
+          "content": "As the early Earth cooled, heavier materials (iron, nickel) sank to the centre, forming the core. Lighter materials (silicates) rose to the surface, forming the mantle and crust. This process is called 'planetary differentiation'. The Earth's current structure consists of: Crust (outermost), Mantle (semi-solid rock, convection currents), Outer Core (liquid iron-nickel), Inner Core (solid iron-nickel).",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Earth's Layers – Key Characteristics",
+          "headers": ["Layer", "Depth (km)", "Composition", "State", "Key Feature"],
+          "rows": [
+            ["Crust", "0-35 (continental), 0-10 (oceanic)", "Granite (continental), Basalt (oceanic)", "Solid", "Thinnest layer, forms the surface."],
+            ["Mantle", "35-2890", "Peridotite (silicates)", "Semi-solid (upper), Solid (lower)", "Convection currents drive plate tectonics."],
+            ["Outer Core", "2890-5150", "Liquid iron-nickel", "Liquid", "Responsible for Earth's magnetic field."],
+            ["Inner Core", "5150-6371", "Solid iron-nickel", "Solid", "Extremely hot and dense."]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: The Role of Radioactive Decay",
+          "given": ["The Earth's interior heat comes from the decay of radioactive elements."],
+          "find": "Explain how this drives geological processes.",
+          "steps": [
+            "Radioactive elements (uranium, thorium, potassium) in the Earth's interior undergo decay, releasing heat.",
+            "This heat creates convection currents in the mantle.",
+            "Convection currents drive the movement of tectonic plates.",
+            "This leads to volcanic activity, earthquakes, and mountain building."
+          ],
+          "answer": "Radioactive decay provides the internal heat that drives plate tectonics and geological activity.",
+          "formula_used": "Geological process analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: The Earth's crust is the same thickness everywhere.",
+          "wrong": "The Earth's crust has uniform thickness.",
+          "correct": "The continental crust is thicker (~30-50 km) than the oceanic crust (~5-10 km).",
+          "tip": "Continental = thick, Oceanic = thin."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Crust: Continental (granite, thicker) and Oceanic (basalt, thinner).",
+            "Nebular Hypothesis: Earth formed from a rotating cloud of gas and dust.",
+            "Planetary differentiation: Heavier materials sank to form the core, lighter materials formed the crust.",
+            "Earth's layers: Crust, Mantle, Outer Core, Inner Core.",
+            "Radioactive decay in the interior drives convection currents and plate tectonics."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "geomagnetism_interior",
+      "title": "Fundamentals of Geomagnetism and Physical Conditions of Earth's Interior",
+      "estimated_minutes": 12,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Geomagnetism and Earth's Interior",
+          "subtitle": "The Magnetic Shield and Internal Heat",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🧲",
+          "title": "Geomagnetism – The Earth's Magnetic Field",
+          "content": "The Earth's magnetic field is generated by the movement of molten iron and nickel in the outer core. This is known as the 'Geodynamo Theory'. The magnetic field extends into space and protects the planet from solar winds and cosmic radiation. The magnetic field has two poles: North Magnetic Pole (located near the geographic North Pole) and South Magnetic Pole.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📊",
+          "title": "Magnetic Declination, Inclination, and Intensity",
+          "content": "1. **Magnetic Declination**: The angle between true north (geographic) and magnetic north.\n2. **Magnetic Inclination**: The angle at which the magnetic field lines enter the Earth's surface (varies from 0° at the equator to 90° at the poles).\n3. **Magnetic Intensity**: The strength of the magnetic field, which varies across the Earth's surface.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🌡️",
+          "title": "Physical Conditions of the Earth's Interior",
+          "content": "1. **Temperature**: Increases with depth. The geothermal gradient is about 25-30°C per km in the crust. The inner core temperature is estimated to be around 5500°C.\n2. **Pressure**: Increases with depth. Pressure at the Earth's centre is about 3.6 million atmospheres.\n3. **Density**: Increases with depth. The average density of the Earth is 5.5 g/cm³, but the core has a density of about 13 g/cm³.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Physical Conditions of Earth's Interior",
+          "headers": ["Layer", "Temperature", "Pressure (Atmospheres)", "Density (g/cm³)"],
+          "rows": [
+            ["Crust", "0-1000°C", "1-10,000", "2.7-3.0"],
+            ["Mantle", "1000-3700°C", "10,000-1.3 million", "3.3-5.5"],
+            ["Outer Core", "3700-4500°C", "1.3-3.6 million", "10-12"],
+            ["Inner Core", "4500-5500°C", "3.6 million", "13"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Geomagnetic Reversals",
+          "given": ["The Earth's magnetic field has reversed many times in its history."],
+          "find": "How do scientists know about geomagnetic reversals?",
+          "steps": [
+            "Magnetic minerals in rocks align with the Earth's magnetic field when the rock forms.",
+            "By studying the magnetic orientation of rocks on the ocean floor, scientists discovered alternating patterns.",
+            "These patterns indicate that the Earth's magnetic field has reversed polarity (north and south poles swapped) over geological time.",
+            "The last reversal occurred about 780,000 years ago (Brunhes-Matuyama reversal)."
+          ],
+          "answer": "Geomagnetic reversals are recorded in rocks and show that the magnetic field has changed polarity many times.",
+          "formula_used": "Paleomagnetic analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: The Earth's magnetic field is generated by the crust.",
+          "wrong": "The Earth's magnetic field is generated by the crust.",
+          "correct": "The Earth's magnetic field is generated by the movement of molten iron in the outer core.",
+          "tip": "Magnetic field = Outer core (Geodynamo)."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Geomagnetism: Generated by the outer core (Geodynamo Theory).",
+            "Magnetic Declination: Angle between true north and magnetic north.",
+            "Magnetic Inclination: Angle of magnetic field lines.",
+            "Geothermal gradient: 25-30°C/km in the crust.",
+            "Pressure increases with depth; inner core pressure: 3.6 million atmospheres.",
+            "Density increases with depth; core density: ~13 g/cm³."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "plate_tectonics",
+      "title": "Plate Tectonics – Types, Mechanisms, and Evidence",
+      "estimated_minutes": 14,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Plate Tectonics",
+          "subtitle": "The Driving Force Behind Earth's Landforms",
+          "tags": ["JKSSB", "High Weightage"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🧩",
+          "title": "What is Plate Tectonics?",
+          "content": "Plate tectonics is a scientific theory that explains the movement of the Earth's lithosphere (the crust and upper mantle). The lithosphere is divided into several large and small plates that move relative to each other. The theory integrates continental drift and seafloor spreading.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🔄",
+          "title": "Types of Plate Boundaries",
+          "content": "1. **Divergent Boundaries**: Plates move apart (e.g., Mid-Atlantic Ridge). Magma rises to fill the gap, creating new oceanic crust.\n2. **Convergent Boundaries**: Plates move towards each other (e.g., Himalayas). Subduction zones occur where one plate is pushed below another.\n3. **Transform Boundaries**: Plates slide past each other horizontally (e.g., San Andreas Fault).",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Plate Boundary Types – Key Features",
+          "headers": ["Boundary Type", "Movement", "Key Example", "Landforms Created", "Associated Hazards"],
+          "rows": [
+            ["Divergent", "Plates move apart", "Mid-Atlantic Ridge", "Oceanic ridges, rift valleys", "Volcanic activity, earthquakes"],
+            ["Convergent (Ocean-Continent)", "Ocean plate subducts under continent", "Andes Mountains", "Volcanic arcs, trenches", "Volcanoes, earthquakes, tsunamis"],
+            ["Convergent (Continent-Continent)", "Two continental plates collide", "Himalayas", "Fold mountains", "Earthquakes"],
+            ["Convergent (Ocean-Ocean)", "One ocean plate subducts under another", "Mariana Trench", "Island arcs, trenches", "Volcanoes, earthquakes, tsunamis"],
+            ["Transform", "Plates slide past each other", "San Andreas Fault", "Fault lines, offset features", "Earthquakes"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "fact_card",
+          "icon": "🗺️",
+          "title": "Major Tectonic Plates of the World",
+          "content": "1. **Pacific Plate** (largest, mostly oceanic).\n2. **North American Plate** (continental).\n3. **Eurasian Plate** (continental).\n4. **African Plate** (continental).\n5. **South American Plate** (continental).\n6. **Indo-Australian Plate** (continental/oceanic).\n7. **Antarctic Plate** (continental).\n8. **Nazca Plate** (oceanic).\n9. **Cocos Plate** (oceanic).\n10. **Philippine Plate** (oceanic).",
+          "highlight": true
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: The Himalayas – A Convergent Boundary",
+          "given": ["The Himalayas are the result of the collision of the Indian and Eurasian plates."],
+          "find": "How did the Himalayas form?",
+          "steps": [
+            "The Indian plate was once separated from Asia by the Tethys Sea.",
+            "About 50 million years ago, the Indian plate collided with the Eurasian plate.",
+            "Because both plates are continental (similar density), neither subducted.",
+            "The collision caused the crust to crumple and fold, forming the Himalayan mountain range.",
+            "The process is still ongoing, and the Himalayas are still rising."
+          ],
+          "answer": "The Himalayas were formed by the collision of the Indian and Eurasian plates (continent-continent convergence).",
+          "formula_used": "Plate tectonics analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Transform boundaries create mountains.",
+          "wrong": "Transform boundaries create mountain ranges.",
+          "correct": "Transform boundaries cause earthquakes but do not typically create mountains. They involve horizontal sliding.",
+          "tip": "Mountains = Convergent boundaries; Earthquakes = All boundaries."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Plate tectonics: Movement of lithospheric plates.",
+            "Divergent boundaries: Plates move apart (Mid-Atlantic Ridge).",
+            "Convergent boundaries: Plates move together (Himalayas).",
+            "Transform boundaries: Plates slide past each other (San Andreas).",
+            "Major plates: Pacific, North American, Eurasian, African, Indo-Australian, Antarctic."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "continental_drift_isostasy",
+      "title": "Continental Drift and Isostasy",
+      "estimated_minutes": 12,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Continental Drift and Isostasy",
+          "subtitle": "The Drifting Continents and Crustal Balance",
+          "tags": ["JKSSB", "High Weightage"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🌍",
+          "title": "Continental Drift Theory (Wegener, 1912)",
+          "content": "Alfred Wegener proposed the Continental Drift Theory in 1912. He suggested that all continents were once joined together in a single supercontinent called 'Pangaea' (meaning 'all land'). Over time, Pangaea broke apart and the continents drifted to their current positions. Wegener provided evidence from fossils, rock types, and glacial deposits, but could not explain the mechanism.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📋",
+          "title": "Evidence for Continental Drift",
+          "content": "1. **Fossil Evidence**: Identical fossils (e.g., Mesosaurus, Glossopteris) found on separate continents.\n2. **Rock Evidence**: Similar rock types and structures across continents.\n3. **Glacial Evidence**: Glacial deposits and striations on continents now near the equator.\n4. **Fit of Continents**: The coastlines of continents (e.g., South America and Africa) appear to fit together like puzzle pieces.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "⚖️",
+          "title": "Isostasy – The Concept of Crustal Balance",
+          "content": "Isostasy is the concept that the Earth's crust is in a state of gravitational equilibrium. The crust floats on the denser mantle below, much like an iceberg floats on water. When weight is added to the crust (e.g., ice sheets, mountain ranges), the crust sinks; when weight is removed, the crust rises. This principle explains how mountains are supported and why they erode over time.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Continental Drift vs Isostasy – Key Differences",
+          "headers": ["Feature", "Continental Drift", "Isostasy"],
+          "rows": [
+            ["Proposed By", "Alfred Wegener (1912)", "Airy (1855), Pratt (1855)"],
+            ["Core Idea", "Continents move across the Earth's surface.", "The crust floats on the mantle (gravitational balance)."],
+            ["Mechanism", "Initially unknown (later explained by plate tectonics).", "Adjustment to added/removed weight."],
+            ["Evidence", "Fossils, rocks, glacial deposits.", "Gravity anomalies, mountain root depths."]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Isostasy and Mountain Formation",
+          "given": ["Mountain ranges have deep roots that extend into the mantle."],
+          "find": "How does isostasy explain mountain roots?",
+          "steps": [
+            "Mountains are heavy and add weight to the crust.",
+            "To maintain balance, the crust sinks deeper into the mantle, creating a 'root'.",
+            "The root compensates for the added weight, keeping the crust in equilibrium.",
+            "When mountains erode, the crust rebounds (uplifts) due to the removal of weight."
+          ],
+          "answer": "Isostasy explains that mountains have deep roots that compensate for their weight.",
+          "formula_used": "Isostatic equilibrium analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Wegener's theory was immediately accepted.",
+          "wrong": "Wegener's Continental Drift Theory was accepted immediately.",
+          "correct": "Wegener's theory was rejected because he couldn't explain the mechanism. It was later incorporated into plate tectonics.",
+          "tip": "Wegener = Described the phenomenon (continental movement), but didn't explain the mechanism."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Continental Drift: Wegener (1912), Pangaea, fossil evidence.",
+            "Evidence: Fossils (Mesosaurus), rocks, glacial deposits, fit of continents.",
+            "Isostasy: The crust floats on the mantle (Airy and Pratt models).",
+            "Isostatic adjustment: Crust sinks when weight is added, rises when weight is removed.",
+            "Isostasy explains mountain roots and post-glacial rebound."
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "geosynclines",
+      "title": "Geosynclines – The Birthplace of Mountains",
+      "estimated_minutes": 12,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Geosynclines",
+          "subtitle": "The Downward Basins Where Mountains Begin",
+          "tags": ["JKSSB", "High Weightage", "Geomorphology"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🏞️",
+          "title": "What is a Geosyncline?",
+          "content": "A geosyncline is a large, downward-trending basin or trough in the Earth's crust where thick layers of sediment accumulate over millions of years. These sediments are compressed, folded, and uplifted to form mountains. The concept was developed by James Hall and James Dwight Dana in the 19th century.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📊",
+          "title": "Types of Geosynclines",
+          "content": "1. **Orthogeosyncline**: A linear trough parallel to the continent margin. Subdivided into: a) **Eugeosyncline** (outer, deeper, volcanic activity) and b) **Miogeosyncline** (inner, shallower, less volcanic).\n2. **Parageosyncline**: A broad, shallow basin within a continent.\n3. **Exogeosyncline**: A trough on the outer side of a mountain range.\n4. **Autogeosyncline**: A basin that deepens without folding.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🏔️",
+          "title": "The Geosyncline-Mountain Formation Cycle",
+          "content": "1. **Subsidence**: A large basin forms due to crustal downwarping.\n2. **Sedimentation**: Rivers bring large amounts of sediment into the basin.\n3. **Compression**: Plate movements cause the sediments to compress and fold.\n4. **Uplift**: Folding and thrusting create mountain ranges.\n5. **Erosion**: Mountains erode, and sediments are deposited in new basins, repeating the cycle.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Types of Geosynclines – Key Features",
+          "headers": ["Type", "Location", "Sediment Type", "Volcanic Activity", "Example"],
+          "rows": [
+            ["Eugeosyncline", "Outer margin of continent", "Deep-water sediments, greywacke", "High (volcanic)", "Appalachians"],
+            ["Miogeosyncline", "Inner margin of continent", "Shallow-water sediments, limestone", "Low", "Himalayan foothills"],
+            ["Parageosyncline", "Within continent", "Continental sediments", "None", "Mississippi Basin"],
+            ["Exogeosyncline", "Outer side of mountain range", "Clastic sediments", "None", "Ganges-Brahmaputra Basin"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: The Himalayan Geosyncline (Tethys Sea)",
+          "given": ["The Himalayas formed from the sediments of the Tethys Sea."],
+          "find": "How did the Himalayan geosyncline form the Himalayas?",
+          "steps": [
+            "The Tethys Sea was a large geosyncline between the Indian plate and the Eurasian plate.",
+            "Millions of years of sedimentation deposited thick layers of marine sediment.",
+            "The Indian plate collided with the Eurasian plate, compressing and folding the sediments.",
+            "The folded sediments were uplifted to form the Himalayan mountain range."
+          ],
+          "answer": "The Himalayas formed from the compression and uplift of the Tethys geosyncline.",
+          "formula_used": "Geosyncline theory analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Geosynclines are permanent features.",
+          "wrong": "Geosynclines are permanent features of the Earth's crust.",
+          "correct": "Geosynclines are temporary features that eventually become mountain ranges.",
+          "tip": "Geosyncline → Mountain → Erosion → Sedimentation → New Geosyncline."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Geosyncline: A downward-trending basin where sediments accumulate.",
+            "Types: Orthogeosyncline (Eugeosyncline, Miogeosyncline), Parageosyncline, Exogeosyncline.",
+            "The geosyncline cycle: Subsidence → Sedimentation → Compression → Uplift → Erosion.",
+            "The Himalayas formed from the Tethys geosyncline."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mountain_building",
+      "title": "Recent Views on Mountain Building – Orogeny and Epeirogeny",
+      "estimated_minutes": 12,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Mountain Building",
+          "subtitle": "Orogeny (Folding) and Epeirogeny (Upwarping)",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🏔️",
+          "title": "What is Orogeny?",
+          "content": "Orogeny is the process of mountain building through intense folding, faulting, and thrusting. It occurs at convergent plate boundaries where plates collide. The word comes from Greek: 'oros' (mountain) and 'genesis' (birth).",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📈",
+          "title": "What is Epeirogeny?",
+          "content": "Epeirogeny is the vertical movement of the Earth's crust (upwarping or downwarping) without significant folding. It results in the formation of plateaus, continents, and ocean basins. Examples: The Colorado Plateau, the Deccan Plateau.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Orogeny vs Epeirogeny",
+          "headers": ["Feature", "Orogeny", "Epeirogeny"],
+          "rows": [
+            ["Movement", "Horizontal (folding, thrusting)", "Vertical (upwarping, downwarping)"],
+            ["Cause", "Convergent plate boundaries", "Isostatic adjustments, thermal expansion"],
+            ["Result", "Fold mountains (Himalayas, Andes)", "Plateaus, basins (Colorado Plateau)"],
+            ["Scale", "Linear belts", "Broad regions"],
+            ["Associated with", "Collisions, subduction", "Mantle convection, crustal loading"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "fact_card",
+          "icon": "🔬",
+          "title": "Recent Views on Mountain Building (Plate Tectonics)",
+          "content": "The modern understanding of mountain building is based on plate tectonics. Mountains form at convergent plate boundaries through: 1. **Continent-Continent Collision** (e.g., Himalayas), 2. **Ocean-Continent Subduction** (e.g., Andes), 3. **Ocean-Ocean Subduction** (e.g., Japanese Islands). The process involves accretion, magmatism, and metamorphism.",
+          "highlight": true
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: The Andes Mountains – Ocean-Continent Orogeny",
+          "given": ["The Andes are a result of oceanic plate subducting under the South American continent."],
+          "find": "How did the Andes form?",
+          "steps": [
+            "The Nazca Plate (oceanic) subducts beneath the South American Plate (continental).",
+            "Subduction causes melting of the mantle, creating magma.",
+            "Magma rises to the surface, forming volcanic mountains.",
+            "Compression and folding also contribute to the rise of the Andes.",
+            "The Andes are an active volcanic mountain range."
+          ],
+          "answer": "The Andes formed due to ocean-continent subduction (Nazca Plate under South American Plate).",
+          "formula_used": "Plate tectonics analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Epeirogeny involves folding.",
+          "wrong": "Epeirogeny involves intense folding and faulting.",
+          "correct": "Epeirogeny involves vertical movement without significant folding.",
+          "tip": "Orogeny = Folding; Epeirogeny = Upwarping/Downwarping."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Orogeny: Mountain building through folding and thrusting (convergent boundaries).",
+            "Epeirogeny: Vertical crustal movement without folding (plateaus, basins).",
+            "Mountains form at convergent boundaries: Continent-Continent, Ocean-Continent, Ocean-Ocean.",
+            "Examples: Himalayas (Continent-Continent), Andes (Ocean-Continent)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "volcanicity",
+      "title": "Volcanicity – Types, Products, and Distribution",
+      "estimated_minutes": 14,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Volcanicity",
+          "subtitle": "The Release of Earth's Internal Heat",
+          "tags": ["JKSSB", "High Weightage"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🌋",
+          "title": "What is Volcanicity?",
+          "content": "Volcanicity is the process by which molten rock (magma), gases, and solid materials are ejected from the Earth's interior to the surface. This occurs through volcanic vents, fissures, or other openings. The expelled material includes lava, ash, pumice, and volcanic gases.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🗺️",
+          "title": "Types of Volcanoes",
+          "content": "1. **Shield Volcanoes**: Broad, gently sloping (e.g., Mauna Loa, Hawaii).\n2. **Composite Volcanoes (Stratovolcanoes)**: Steep, conical (e.g., Mt. Fuji, Mt. Vesuvius).\n3. **Cinder Cones**: Small, steep-sided (e.g., Paricutin, Mexico).\n4. **Lava Domes**: Bulbous, steep-sided (e.g., Mt. St. Helens).\n5. **Calderas**: Large volcanic craters formed by collapse (e.g., Yellowstone).",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Types of Volcanoes – Key Features",
+          "headers": ["Type", "Shape", "Eruption Style", "Rock Type", "Example"],
+          "rows": [
+            ["Shield", "Broad, gentle slope", "Effusive (flowing)", "Basalt", "Mauna Loa (Hawaii)"],
+            ["Composite (Stratovolcano)", "Steep, conical", "Explosive", "Andesite/Rhyolite", "Mt. Fuji, Mt. Vesuvius"],
+            ["Cinder Cone", "Small, steep", "Explosive (ash)", "Basalt", "Paricutin (Mexico)"],
+            ["Lava Dome", "Bulbous, steep", "Extrusive (viscous)", "Rhyolite", "Mt. St. Helens"],
+            ["Caldera", "Large crater", "Collapse", "Various", "Yellowstone"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "fact_card",
+          "icon": "🌍",
+          "title": "Global Distribution of Volcanoes",
+          "content": "Volcanoes are concentrated along tectonic plate boundaries. The main regions are:\n1. **The Pacific Ring of Fire**: A horseshoe-shaped zone around the Pacific Ocean (e.g., Japan, Indonesia, Andes).\n2. **Mid-Atlantic Ridge**: Divergent plate boundary (e.g., Iceland).\n3. **Mediterranean-Himalayan Belt**: Convergent plate boundary (e.g., Italy, Indonesia).\n4. **Hotspots**: Intraplate volcanic activity (e.g., Hawaii, Yellowstone).",
+          "highlight": true
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: The Pacific Ring of Fire",
+          "given": ["The Pacific Ring of Fire accounts for about 75% of the world's active volcanoes."],
+          "find": "Why is the Ring of Fire so volcanically active?",
+          "steps": [
+            "The Ring of Fire is located at the boundaries of several tectonic plates (Pacific, North American, Eurasian, Philippine, etc.).",
+            "Convergent boundaries cause subduction, which leads to the melting of the mantle and the formation of magma.",
+            "This magma rises to the surface, resulting in frequent volcanic activity and earthquakes.",
+            "It is the most active volcanic zone on Earth."
+          ],
+          "answer": "The Ring of Fire is active due to subduction zones along plate boundaries.",
+          "formula_used": "Plate tectonics analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: All volcanoes erupt explosively.",
+          "wrong": "All volcanoes erupt explosively with ash and gases.",
+          "correct": "Shield volcanoes erupt effusively (flows) while composite volcanoes erupt explosively.",
+          "tip": "Hawaiian volcanoes = Effusive; Vesuvius-type = Explosive."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Volcanicity: Release of magma, gases, and solids from the Earth's interior.",
+            "Types: Shield, Composite (Stratovolcano), Cinder Cone, Lava Dome, Caldera.",
+            "Pacific Ring of Fire: Largest volcanic zone (subduction boundaries).",
+            "Mid-Atlantic Ridge: Divergent boundary volcanism."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "earthquakes_tsunamis",
+      "title": "Earthquakes and Tsunamis – Causes, Measurements, and Effects",
+      "estimated_minutes": 12,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Earthquakes and Tsunamis",
+          "subtitle": "The Destructive Forces of the Earth",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🌊",
+          "title": "What is an Earthquake?",
+          "content": "An earthquake is the shaking of the Earth's surface caused by the sudden release of energy in the Earth's lithosphere. This energy is released along fault lines, creating seismic waves. The point where the energy is released is called the 'focus' or 'hypocentre', and the point directly above on the surface is the 'epicentre'.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📊",
+          "title": "Measurement of Earthquakes",
+          "content": "1. **Richter Scale**: Measures the magnitude (energy released) of an earthquake (logarithmic scale). Each unit increase represents a 10-fold increase in amplitude and 31.6 times more energy.\n2. **Mercalli Scale**: Measures the intensity (observed effects) of an earthquake (I-XII).\n3. **Moment Magnitude Scale (Mw)**: Modern scale used for large earthquakes.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🌊",
+          "title": "Tsunamis – The Destructive Waves",
+          "content": "A tsunami is a series of ocean waves caused by large-scale, sudden displacement of seawater (e.g., earthquakes, volcanic eruptions, landslides). Tsunamis travel at high speeds in deep water and grow in height as they approach the coast. The 2004 Indian Ocean tsunami (magnitude 9.1) killed over 230,000 people in 14 countries.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Earthquake Measurement Scales",
+          "headers": ["Scale", "Type", "Range", "Description"],
+          "rows": [
+            ["Richter Scale", "Magnitude", "1-10 (logarithmic)", "Measures energy released. 7.0+ = major earthquake."],
+            ["Mercalli Scale", "Intensity", "I-XII", "Measures observed effects (human, structural)."],
+            ["Moment Magnitude (Mw)", "Magnitude", "1-10 (logarithmic)", "Used for large earthquakes (>7.0)."]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: The 2004 Indian Ocean Tsunami",
+          "given": ["The 2004 Indian Ocean earthquake caused a devastating tsunami."],
+          "find": "How did the earthquake generate the tsunami?",
+          "steps": [
+            "A magnitude 9.1 earthquake occurred off the coast of Sumatra (Indonesia).",
+            "The earthquake caused vertical displacement of the seafloor (uplift and subsidence).",
+            "This displaced a large volume of water, generating a series of waves.",
+            "The waves radiated across the Indian Ocean, striking coastlines in 14 countries."
+          ],
+          "answer": "The 2004 tsunami was generated by a magnitude 9.1 earthquake that displaced the seafloor.",
+          "formula_used": "Geological hazard analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Earthquakes can be predicted accurately.",
+          "wrong": "Scientists can accurately predict when and where an earthquake will occur.",
+          "correct": "Earthquakes cannot be predicted accurately. Only probabilities can be estimated.",
+          "tip": "Prediction = Not possible; Early warning = Possible (seconds to minutes before waves arrive)."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Earthquakes: Caused by the sudden release of energy along fault lines.",
+            "Focus = Hypocentre (underground), Epicentre (surface).",
+            "Richter Scale: Magnitude (energy); Mercalli Scale: Intensity (effects).",
+            "Tsunamis: Caused by seafloor displacement (earthquakes, landslides, eruptions).",
+            "2004 Indian Ocean tsunami: Magnitude 9.1, killed 230,000+ people."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "geomorphic_cycles",
+      "title": "Concepts of Geomorphic Cycles and Landscape Development",
+      "estimated_minutes": 14,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Geomorphic Cycles and Landscape Development",
+          "subtitle": "The Lifecycle of Landscapes – Davis, Penck, and King",
+          "tags": ["JKSSB", "High Weightage", "Geomorphology"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🔄",
+          "title": "What is a Geomorphic Cycle?",
+          "content": "A geomorphic cycle is a model that describes the evolution of landforms over time. The cycle begins with uplift (or a new base level), followed by erosion, and ends with a peneplain (nearly flat surface). The concept was first proposed by William Morris Davis (1899).",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📐",
+          "title": "Davisian Model (The Geographical Cycle)",
+          "content": "Davis proposed that landforms evolve through three stages: \n1. **Youth**: Rapid erosion, steep slopes, V-shaped valleys, waterfalls.\n2. **Maturity**: Maximum relief, well-developed drainage, rounded hills.\n3. **Old Age**: Gentle slopes, low relief, meandering rivers, peneplain formation.\nThis model assumes a stable base level and no tectonic activity, which is an oversimplification.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📐",
+          "title": "Penck's Model (The Theory of Landscape Evolution)",
+          "content": "Walter Penck (1924) emphasized that tectonic uplift and erosion occur simultaneously. He introduced the concept of **backwearing** (slope retreat) rather than downwearing. His model has three phases: \n1. **Primärrumpf**: Initial uplift.\n2. **Endrumpf**: Final planation.\n3. The process is driven by the rate of uplift relative to erosion.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Davis vs Penck – Comparison",
+          "headers": ["Aspect", "Davis (Geographical Cycle)", "Penck (Theory of Landscape Evolution)"],
+          "rows": [
+            ["Uplift", "Uplift occurs rapidly, then erosion dominates.", "Uplift and erosion occur simultaneously."],
+            ["Erosion Process", "Downwearing (lowering of surface).", "Backwearing (slope retreat)."],
+            ["Stages", "Youth, Maturity, Old Age.", "Primärrumpf, Endrumpf."],
+            ["Base Level", "Assumed stable base level.", "Base level changes with uplift."],
+            ["Influence", "Based on processes acting on a static landscape.", "Influenced by tectonic activity."]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: The Davisian Cycle in Practice",
+          "given": ["A newly formed volcanic island undergoes erosion."],
+          "find": "Describe the landscape evolution using Davis's model.",
+          "steps": [
+            "Youth: The island has steep slopes, gullies, and waterfalls.",
+            "Maturity: Drainage network develops, valleys deepen, slopes become rounded.",
+            "Old Age: The island is eroded to a low-lying peneplain, with only residual hills (monadnocks)."
+          ],
+          "answer": "The island would evolve from a rugged volcanic cone to a peneplain over millions of years.",
+          "formula_used": "Davisian cycle analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Davis's cycle is universally applicable.",
+          "wrong": "Davis's model applies perfectly to all landscapes.",
+          "correct": "Davis's model is an idealised scheme; it does not account for tectonic activity or climate changes.",
+          "tip": "Davis = Static base level; Penck = Dynamic uplift."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Geomorphic cycle: Evolution of landforms over time.",
+            "Davisian: Youth → Maturity → Old Age (peneplain).",
+            "Penck: Simultaneous uplift and erosion (backwearing).",
+            "Both models are conceptual and have limitations."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "denudation_chronology",
+      "title": "Denudation Chronology – Erosion Surfaces and River Terraces",
+      "estimated_minutes": 12,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Denudation Chronology",
+          "subtitle": "Reconstructing the Erosional History",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "⏳",
+          "title": "What is Denudation Chronology?",
+          "content": "Denudation chronology is the study of the sequence and timing of erosional events in a region. It helps reconstruct the geological history of an area by identifying erosion surfaces, river terraces, and other landforms.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📏",
+          "title": "Erosion Surfaces (Planation Surfaces)",
+          "content": "An erosion surface (or planation surface) is a nearly flat surface formed by prolonged erosion. It indicates a period of tectonic stability. Types: Peneplain (Davis), Pediplains (King), and Etchplains (deep weathering). Erosion surfaces are often preserved as terraces or remnants.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🏞️",
+          "title": "River Terraces",
+          "content": "River terraces are abandoned floodplains left at a higher elevation due to downcutting. They provide evidence of changing base levels, tectonics, or climate. Types: 1. **Strath Terraces**: Cut into bedrock. 2. **Fill Terraces**: Cut into alluvium. Terraces are often paired or unpaired.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Erosion Surfaces and River Terraces – Key Features",
+          "headers": ["Feature", "Type", "Formation Process", "Significance"],
+          "rows": [
+            ["Erosion Surface", "Peneplain", "Prolonged river erosion", "Indicates long tectonic stability."],
+            ["Erosion Surface", "Pedipalin", "Parallel scarp retreat", "Associated with arid climates."],
+            ["Erosion Surface", "Etchplain", "Deep chemical weathering", "Tropical regions."],
+            ["River Terrace", "Strath Terrace", "Downcutting into bedrock", "Indicates uplift or base-level fall."],
+            ["River Terrace", "Fill Terrace", "Incision into alluvium", "Indicates climate change or discharge changes."]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: River Terraces in the Himalayas",
+          "given": ["The Himalayan rivers have multiple terraces."],
+          "find": "What do these terraces indicate about the region's history?",
+          "steps": [
+            "Each terrace represents a period of stable base level followed by downcutting.",
+            "Downcutting could be due to tectonic uplift or climate changes (increased precipitation).",
+            "Multiple terraces indicate repeated cycles of uplift and stability.",
+            "They help reconstruct the uplift history of the Himalayas."
+          ],
+          "answer": "River terraces indicate repeated cycles of base-level change and tectonic uplift.",
+          "formula_used": "Denudation chronology analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Erosion surfaces are always flat.",
+          "wrong": "Erosion surfaces are perfectly flat plains.",
+          "correct": "Erosion surfaces are nearly flat but may have residual hills (monadnocks).",
+          "tip": "Monadnocks are remnants of resistant rock left on erosion surfaces."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Denudation chronology: Sequence of erosional events.",
+            "Erosion surfaces: Peneplain (Davis), Pediplain (King), Etchplain (weathering).",
+            "River terraces: Abandoned floodplains; strath (bedrock) and fill (alluvium).",
+            "Terraces indicate tectonic uplift or climate change."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "channel_morphology",
+      "title": "Channel Morphology – Types, Patterns, and Processes",
+      "estimated_minutes": 12,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Channel Morphology",
+          "subtitle": "The Shape and Behaviour of River Channels",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🏞️",
+          "title": "What is Channel Morphology?",
+          "content": "Channel morphology refers to the shape, form, and structure of river channels, including their cross-sectional profile, planform (pattern), and dimensions. It is influenced by discharge, sediment load, slope, and boundary materials.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📐",
+          "title": "Types of Channel Patterns",
+          "content": "1. **Straight Channels**: Rare in nature, often controlled by faults.\n2. **Meandering Channels**: Sinuous, snake-like; common in low-gradient rivers.\n3. **Braided Channels**: Multiple interconnecting channels; high sediment load, variable discharge.\n4. **Anastomosing Channels**: Multichannel, stable islands; found in semi-arid regions.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📊",
+          "title": "Factors Affecting Channel Morphology",
+          "content": "1. **Discharge**: Higher discharge increases channel width and depth.\n2. **Sediment Load**: High sediment leads to braiding.\n3. **Slope**: Steeper slopes → straighter, deeper channels.\n4. **Bed Material**: Hard bedrock → narrow channels; soft sediment → wide, braided channels.\n5. **Vegetation**: Roots stabilise banks and influence meandering.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Channel Patterns – Comparison",
+          "headers": ["Pattern", "Description", "Condition", "Example"],
+          "rows": [
+            ["Straight", "Single channel, no bends", "Fault-controlled, high slope", "Young rivers"],
+            ["Meandering", "Sinuous, migrating bends", "Low gradient, cohesive banks", "Mississippi River"],
+            ["Braided", "Multiple interconnected channels", "High sediment load, variable discharge", "Brahmaputra River"],
+            ["Anastomosing", "Multiple stable channels", "Low gradient, vegetated", "Semi-arid rivers"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Meandering River Dynamics",
+          "given": ["A meandering river erodes the outer bank and deposits on the inner bank."],
+          "find": "Explain why this happens.",
+          "steps": [
+            "Water velocity is higher on the outer bend (thalweg), causing erosion (cut bank).",
+            "Velocity is lower on the inner bend, leading to deposition (point bar).",
+            "The river gradually shifts its channel, forming meander scars and oxbow lakes.",
+            "This process is controlled by the centrifugal force of the water."
+          ],
+          "answer": "Meanders form due to differential erosion and deposition (outer vs inner bends).",
+          "formula_used": "Fluvial geomorphology"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Braided channels are always wider than meandering channels.",
+          "wrong": "Braided channels are wider and more stable than meandering channels.",
+          "correct": "Braided channels are wider but less stable, with shifting bars. Meandering channels migrate more slowly.",
+          "tip": "Braided = High sediment load, unstable; Meandering = Stable banks, low sediment."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Channel morphology: Shape, pattern, and dimensions of rivers.",
+            "Straight: Rare, fault-controlled.",
+            "Meandering: Low gradient, cohesive banks.",
+            "Braided: High sediment load, variable discharge.",
+            "Anastomosing: Multiple stable channels."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erosion_surfaces",
+      "title": "Erosion Surfaces – Types, Identification, and Significance",
+      "estimated_minutes": 10,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Erosion Surfaces",
+          "subtitle": "Landscape Markers of Tectonic Stability",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "📏",
+          "title": "What are Erosion Surfaces?",
+          "content": "Erosion surfaces are nearly flat landforms created by prolonged erosional processes. They represent periods of relative tectonic stability. They are often preserved as terraces, plateaus, or remnants after uplift.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🔬",
+          "title": "Types of Erosion Surfaces",
+          "content": "1. **Peneplain**: Created by fluvial erosion (Davis).\n2. **Pediplain**: Created by parallel scarp retreat (King).\n3. **Etchplain**: Created by deep chemical weathering in tropical regions.\n4. **Stripped Plain**: Created by removal of weathered material, exposing a fresh surface.",
+          "highlight": true
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Identification of an Erosion Surface",
+          "given": ["A region has a flat surface with isolated hills (monadnocks)."],
+          "find": "What type of erosion surface is this?",
+          "steps": [
+            "The flat surface with residual hills indicates a peneplain (Davisian model).",
+            "The hills are monadnocks – remnants of resistant rock that were not eroded.",
+            "This suggests the region experienced long-term erosion during a period of tectonic stability."
+          ],
+          "answer": "This is a peneplain (with monadnocks).",
+          "formula_used": "Erosion surface identification"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: All erosion surfaces are at the same elevation.",
+          "wrong": "Erosion surfaces always form at the same elevation.",
+          "correct": "Erosion surfaces can be at different elevations due to later uplift or subsidence.",
+          "tip": "Elevation differences indicate post-formational tectonic movements."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Erosion surfaces: Nearly flat landforms from prolonged erosion.",
+            "Types: Peneplain, Pediplain, Etchplain, Stripped Plain.",
+            "Monadnocks are residual hills on erosion surfaces.",
+            "They indicate periods of tectonic stability."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "slope_development",
+      "title": "Slope Development – Processes and Theories",
+      "estimated_minutes": 12,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Slope Development",
+          "subtitle": "The Evolution of Hillslopes",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "⛰️",
+          "title": "What is Slope Development?",
+          "content": "Slope development refers to the processes that shape hillslopes over time. It includes mass wasting, weathering, and erosion. The morphology of a slope reflects the balance between tectonic uplift and denudation.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📐",
+          "title": "Theories of Slope Development",
+          "content": "1. **Davis' Model**: Slopes become convex at the top and concave at the base over time (smooth profile).\n2. **Penck's Model**: Slopes maintain a constant angle through parallel retreat (backwearing).\n3. **King's Model**: Slopes develop a pediplain through scarp retreat.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🧱",
+          "title": "Slope Processes",
+          "content": "1. **Weathering**: Physical, chemical, and biological breakdown of rock.\n2. **Mass Wasting**: Downslope movement of material (creep, landslides, mudflows).\n3. **Fluvial Erosion**: Sheetwash, rills, and gullies.\n4. **Tectonic Activity**: Uplift rejuvenates slopes, resetting the cycle.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Slope Evolution Models",
+          "headers": ["Model", "Slope Form", "Dominant Process", "Key Proponent"],
+          "rows": [
+            ["Davis", "Convex-concave profile", "Downwearing", "William Morris Davis"],
+            ["Penck", "Parallel retreat (constant angle)", "Backwearing", "Walter Penck"],
+            ["King", "Pediplain formation, scarp retreat", "Parallel retreat", "Lester King"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Slope Development in the Himalayas",
+          "given": ["The Himalayan slopes are steep and actively eroding."],
+          "find": "Which slope model best explains their development?",
+          "steps": [
+            "The Himalayas are tectonically active, with rapid uplift.",
+            "Penck's model (simultaneous uplift and erosion) fits well.",
+            "Slopes maintain a steep angle through parallel retreat.",
+            "Mass wasting and fluvial erosion are active processes."
+          ],
+          "answer": "Penck's model best explains the steep, actively eroding slopes of the Himalayas.",
+          "formula_used": "Slope development analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: All slopes evolve to a convex-concave profile.",
+          "wrong": "All slopes eventually become convex-concave (Davisian profile).",
+          "correct": "Slope evolution depends on climate, lithology, and tectonics. Arid regions may develop pediments.",
+          "tip": "Climate and rock type strongly influence slope form."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Slope development: Processes shaping hillslopes.",
+            "Davis: Convex-concave profile (downwearing).",
+            "Penck: Parallel retreat (backwearing).",
+            "King: Pediplain formation via scarp retreat.",
+            "Factors: Weathering, mass wasting, tectonics."
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "applied_geomorphology",
+      "title": "Applied Geomorphology – Practical Applications",
+      "estimated_minutes": 12,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Applied Geomorphology",
+          "subtitle": "Using Geomorphology for Human Benefit",
+          "tags": ["JKSSB", "Important", "Geomorphology"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🏗️",
+          "title": "What is Applied Geomorphology?",
+          "content": "Applied geomorphology is the application of geomorphological knowledge to solve practical problems in engineering, environmental management, urban planning, and resource development. It bridges the gap between theoretical geomorphology and real-world applications.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🏛️",
+          "title": "Applications in Engineering and Construction",
+          "content": "1. **Site Selection**: Identifying stable ground for dams, bridges, and buildings.\n2. **Slope Stability**: Assessing landslide risks and designing stabilisation measures.\n3. **Road and Rail Alignment**: Identifying areas prone to subsidence or erosion.\n4. **Coastal Engineering**: Managing coastal erosion, designing sea walls and groynes.\n5. **Flood Management**: Identifying flood-prone areas and designing flood control structures.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🏞️",
+          "title": "Applications in Environmental Management",
+          "content": "1. **Land Use Planning**: Identifying areas suitable for agriculture, forestry, or urban development.\n2. **Soil Conservation**: Preventing soil erosion through terracing, contour ploughing.\n3. **Watershed Management**: Managing river basins for sustainable water supply.\n4. **Hazard Assessment**: Mapping earthquake, volcanic, and landslide hazards.\n5. **Restoration Ecology**: Restoring degraded landscapes (mines, quarries).",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Applied Geomorphology – Key Applications",
+          "headers": ["Field", "Application", "Geomorphological Input"],
+          "rows": [
+            ["Civil Engineering", "Dam construction", "Slope stability, bedrock evaluation"],
+            ["Urban Planning", "City expansion", "Land suitability, flood risk assessment"],
+            ["Agriculture", "Soil conservation", "Erosion risk, drainage patterns"],
+            ["Environmental Management", "Watershed management", "Sediment yield, channel morphology"],
+            ["Hazard Management", "Earthquake risk", "Active fault mapping, seismic hazard"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Geomorphology in Dam Construction",
+          "given": ["A dam is planned in a region with steep slopes and high seismic activity."],
+          "find": "How can applied geomorphology help?",
+          "steps": [
+            "Assess slope stability to identify landslide risks.",
+            "Evaluate the bedrock quality for foundation strength.",
+            "Map active fault lines to avoid building on seismic zones.",
+            "Assess sediment yield to estimate reservoir lifespan.",
+            "Identify floodplain areas to plan spillways."
+          ],
+          "answer": "Geomorphology helps in site selection, design, and risk assessment for dams.",
+          "formula_used": "Applied geomorphology analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Applied geomorphology is only for academic study.",
+          "wrong": "Geomorphology is only relevant for academic research.",
+          "correct": "Applied geomorphology is used in engineering, planning, and environmental management.",
+          "tip": "Geomorphology has practical applications in infrastructure and hazard management."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Applied geomorphology: Solving practical problems using geomorphic knowledge.",
+            "Applications: Engineering, construction, environmental management, urban planning.",
+            "Key areas: Slope stability, flood management, coastal erosion, hazard assessment.",
+            "Bridge between theory and real-world applications."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "geo_economic_environment",
+      "title": "Geomorphology, Economic Geology, and Environment",
+      "estimated_minutes": 12,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Geomorphology, Economic Geology, and Environment",
+          "subtitle": "The Intersection of Landforms, Resources, and Sustainability",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "⛏️",
+          "title": "Geomorphology and Economic Geology",
+          "content": "Economic geology is the study of Earth's resources (minerals, fossil fuels, water). Geomorphology contributes by understanding where these resources are likely to be found and how they can be extracted sustainably.\n\n1. **Mineral Deposits**: Placer deposits in river channels, residual deposits in weathering zones.\n2. **Fossil Fuels**: Sedimentary basins, deltaic environments.\n3. **Groundwater**: Aquifer mapping based on geological and geomorphological studies.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🌍",
+          "title": "Geomorphology and the Environment",
+          "content": "Geomorphology plays a key role in understanding environmental processes and human impacts on the landscape.\n\n1. **Land Degradation**: Soil erosion, desertification, loss of soil fertility.\n2. **Climate Change**: Impact on glaciers, sea levels, and river systems.\n3. **Natural Hazards**: Earthquakes, landslides, floods, and tsunamis.\n4. **Sustainable Development**: Balancing resource extraction with environmental protection.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Geomorphology – Economic and Environmental Linkages",
+          "headers": ["Aspect", "Economic Geology", "Environmental Geology"],
+          "rows": [
+            ["Focus", "Resource extraction", "Environmental protection"],
+            ["Key Activities", "Mineral exploration, groundwater mapping", "Soil conservation, hazard mitigation"],
+            ["Applications", "Mining, petroleum, water supply", "Land use planning, disaster management"],
+            ["Examples", "Placer gold deposits, oil basins", "Coastal erosion, landslide mapping"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "fact_card",
+          "icon": "🌱",
+          "title": "Sustainable Resource Management",
+          "content": "Geomorphological knowledge is essential for sustainable development:\n1. **Mining**: Assessing the environmental impact of mining and planning for rehabilitation.\n2. **Water Resources**: Ensuring sustainable groundwater extraction without depleting aquifers.\n3. **Renewable Energy**: Identifying sites for wind, solar, and hydroelectric projects.\n4. **Land Use**: Minimising environmental degradation through informed planning.",
+          "highlight": true
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Geomorphology in Oil Exploration",
+          "given": ["Oil deposits are often found in sedimentary basins."],
+          "find": "How does geomorphology aid oil exploration?",
+          "steps": [
+            "Geomorphology identifies deltaic and sedimentary environments where oil may accumulate.",
+            "River systems and ancient coastlines help locate sandstones and source rocks.",
+            "Structural geomorphology helps identify folds, faults, and traps.",
+            "This reduces the cost and risk of drilling."
+          ],
+          "answer": "Geomorphology helps locate sedimentary basins and structural traps for oil.",
+          "formula_used": "Geomorphology in resource exploration"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Economic geology is separate from geomorphology.",
+          "wrong": "Economic geology and geomorphology are completely separate fields.",
+          "correct": "They are interconnected; geomorphology helps locate and manage resources.",
+          "tip": "Geomorphology provides context for resource exploration and management."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Geomorphology + Economic Geology = Resource exploration (minerals, oil, water).",
+            "Geomorphology + Environmental Science = Land degradation, hazards, sustainability.",
+            "Sustainable development requires integrated geomorphological assessment.",
+            "Applications: Mining, water management, hazard mitigation."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "geomorphology_mcqs",
+      "title": "Practice MCQs (PYQ Style)",
+      "estimated_minutes": 20,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Geomorphology – Practice Set",
+          "subtitle": "Mixed Questions for JKSSB",
+          "tags": ["PYQ", "JKSSB"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🎯",
+          "title": "Exam Strategy",
+          "content": "Focus on plate tectonics, types of volcanoes, earthquake measurement scales, Davis and Penck models, and types of channel patterns. Memorize key terms and their significance.",
+          "highlight": true
+        },
+        {
+          "type": "mcq",
+          "question": "The outermost solid layer of the Earth is called:",
+          "options": ["Mantle", "Core", "Crust", "Lithosphere"],
+          "answer": 2,
+          "explanation": "The crust is the outermost solid layer of the Earth. It is divided into continental and oceanic crust.",
+          "is_pyq": true,
+          "year": "2021",
+          "source": "JKSSB"
+        },
+        {
+          "type": "mcq",
+          "question": "Which type of plate boundary is associated with the formation of the Himalayas?",
+          "options": ["Divergent", "Convergent (Continent-Continent)", "Transform", "Convergent (Ocean-Continent)"],
+          "answer": 1,
+          "explanation": "The Himalayas formed due to the collision of the Indian and Eurasian plates (continent-continent convergence).",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "The Earth's magnetic field is generated by the movement of molten iron in which layer?",
+          "options": ["Crust", "Mantle", "Outer Core", "Inner Core"],
+          "answer": 2,
+          "explanation": "The outer core, composed of liquid iron-nickel, generates the Earth's magnetic field (Geodynamo Theory).",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Who proposed the theory of Continental Drift?",
+          "options": ["James Hall", "Alfred Wegener", "William Morris Davis", "Walter Penck"],
+          "answer": 1,
+          "explanation": "Alfred Wegener proposed the Continental Drift Theory in 1912, suggesting that continents were once joined in Pangaea.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "Which scale measures the intensity of an earthquake based on observed effects?",
+          "options": ["Richter Scale", "Mercalli Scale", "Moment Magnitude Scale", "Saffir-Simpson Scale"],
+          "answer": 1,
+          "explanation": "The Mercalli Scale measures earthquake intensity based on observed effects (I-XII).",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "What is the Pacific Ring of Fire?",
+          "options": [
+            "A region with active volcanoes and earthquakes",
+            "A region with coral reefs",
+            "A region with oil deposits",
+            "A region with glaciers"
+          ],
+          "answer": 0,
+          "explanation": "The Pacific Ring of Fire is a zone of high volcanic and seismic activity along the boundaries of the Pacific Plate.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "The Davisian model of landscape evolution has which three stages?",
+          "options": [
+            "Youth, Maturity, Old Age",
+            "Primärrumpf, Endrumpf, Planation",
+            "Youth, Old Age, Rejuvenation",
+            "Uplift, Erosion, Deposition"
+          ],
+          "answer": 0,
+          "explanation": "Davis's Geographical Cycle has three stages: Youth, Maturity, and Old Age (peneplain).",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which type of river channel is characterized by multiple interconnecting channels and high sediment load?",
+          "options": ["Straight", "Meandering", "Braided", "Anastomosing"],
+          "answer": 2,
+          "explanation": "Braided rivers have multiple interconnecting channels and are found in regions with high sediment load and variable discharge.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "What is the focus of Applied Geomorphology?",
+          "options": [
+            "Pure academic research",
+            "Solving practical problems using geomorphic knowledge",
+            "Studying only mountains",
+            "Mapping ocean floors"
+          ],
+          "answer": 1,
+          "explanation": "Applied geomorphology uses geomorphic knowledge to solve practical problems in engineering, planning, and environmental management.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "A nearly flat surface formed by prolonged erosion is called a:",
+          "options": ["Plateau", "Peneplain", "Valley", "Ridge"],
+          "answer": 1,
+          "explanation": "A peneplain is a nearly flat landform formed by prolonged erosion (Davisian model).",
+          "is_pyq": false
+        },
+        {
+          "type": "note_card",
+          "title": "Post-Test Review",
+          "variant": "important",
+          "content": "Review plate tectonics (types of boundaries), earthquake measurement scales, the Davisian cycle, and channel morphology (types of river channels). Focus on key theorists and their contributions."
+        },
+        {
+          "type": "revision",
+          "title": "Final Revision – Geomorphology",
+          "points": [
+            "Crust: Continental (thick, granite) and Oceanic (thin, basalt).",
+            "Plate Boundaries: Divergent (Mid-Atlantic), Convergent (Himalayas), Transform (San Andreas).",
+            "Continental Drift: Wegener (1912), Pangaea, fossil evidence.",
+            "Isostasy: Crust floats on mantle (Airy and Pratt models).",
+            "Geosyncline: Basin where sediments accumulate, form mountains.",
+            "Orogeny: Mountain building (folding); Epeirogeny: Vertical uplift.",
+            "Volcanoes: Shield, Composite, Cinder Cone, Lava Dome.",
+            "Earthquakes: Richter (magnitude), Mercalli (intensity).",
+            "Tsunami: Caused by seafloor displacement.",
+            "Davisian Cycle: Youth → Maturity → Old Age.",
+            "Penck: Simultaneous uplift and erosion.",
+            "Channel Morphology: Straight, Meandering, Braided, Anastomosing.",
+            "Erosion Surfaces: Peneplain, Pediplain, Etchplain.",
+            "Slope Development: Davis (convex-concave), Penck (parallel retreat).",
+            "Applied Geomorphology: Engineering, construction, hazard management."
+          ]
+        }
+      ]
+    }
+  ]
+}
