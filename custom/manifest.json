@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "revision": "8ed2e6399e55",
+  "subjects": [
+    {
+      "id": "history",
+      "title": "History",
+      "indexFile": "history/index.json",
+      "indexSha256": "bcebed106e6a23a1ae7419befcf77cf062c5106e0ebb195fc269f349481db9fa"
+    },
+    {
+      "id": "geography",
+      "title": "Geography",
+      "indexFile": "geography/index.json",
+      "indexSha256": "f8614cee341a804bd22a9aa8cc4e6c60bd18503cec45dbffb783d895e192502e"
+    },
+    {
+      "id": "polity",
+      "title": "Indian Polity",
+      "indexFile": "polity/index.json",
+      "indexSha256": "3e93a57ab4b7bb77f4a9157cac188a99bd8ae725f0c236abec21663722ee1a07"
+    },
+    {
+      "id": "reasoning",
+      "title": "Reasoning",
+      "indexFile": "reasoning/index.json",
+      "indexSha256": "1320cf6f3eed604aaa92d248184a01f48f4c83fc6b7538c9cd761ee4b3ae3d14"
+    },
+    {
+      "id": "english",
+      "title": "English",
+      "indexFile": "english/index.json",
+      "indexSha256": "475bbc7660b2fdbe057a6701d263ea33288a2b4c2d04f4c3a2053140c1281eea"
+    },
+    {
+      "id": "science",
+      "title": "General Science",
+      "indexFile": "science/index.json",
+      "indexSha256": "95708eb14f959b8027abca18c54b872e3e7e3dd15446ae1c301b08bdd097848f"
+    },
+    {
+      "id": "jkgk",
+      "title": "Jammu & Kashmir GK",
+      "indexFile": "jkgk/index.json",
+      "indexSha256": "f73f3e5a595919a6c5f6cef696e9564e81905377425c99d89864325a2b226849"
+    },
+    {
+      "id": "economy",
+      "title": "Economy",
+      "indexFile": "economy/index.json",
+      "indexSha256": "c715e0ef58ae6a453200866645b3514800744457942be4c6757a5e9232ccf306"
+    },
+    {
+      "id": "current-affairs",
+      "title": "Current Affairs",
+      "indexFile": "current-affairs/index.json",
+      "indexSha256": "a501cfd0e8b1f8b463c4913bf98bb9f01aa98e7dab7ad3659d191e2494ed409f"
+    }
+  ],
+  "branding": {
+    "file": "pdf/branding.json",
+    "sha256": "a4c7719de5bcc8b4c02369eca3096690762e35e6143795bea4ed7466e28756d9"
+  },
+  "minAppVersionCode": 1,
+  "updatedAt": "2026-01-01"
+}
