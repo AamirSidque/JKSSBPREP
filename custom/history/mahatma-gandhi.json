@@ -4,24 +4,1510 @@
   "subjectId": "history",
   "title": "Mahatma Gandhi",
   "subtitle": "Personalities of the freedom struggle",
+  {
   "blocks": [
-    {"id": "hero", "type": "hero", "title": "Mahatma Gandhi", "subtitle": "SAMPLE CONTENT - editor must verify before publishing", "tags": ["Personalities", "Freedom Struggle"]},
-    {"id": "overview", "type": "section", "title": "Overview", "level": 2, "paragraphs": [
-      {"id": "overview-p1", "text": "Mohandas Karamchand Gandhi was born on **2 October 1869** at ==Porbandar==."}
-    ]},
-    {"id": "timeline", "type": "timeline", "title": "Important Dates", "entries": [
-      {"id": "t-1869", "label": "1869", "text": "Born at Porbandar.", "examFocus": "important"},
-      {"id": "t-1930", "label": "1930", "text": "Dandi March (Salt March) begins the Civil Disobedience Movement.", "examFocus": "high"},
-      {"id": "t-1942", "label": "1942", "text": "Quit India Movement launched."},
-      {"id": "t-1948", "label": "1948", "text": "Died on 30 January."}
-    ]},
-    {"id": "compare", "type": "comparison", "title": "Two movements", "leftLabel": "Non-Cooperation", "rightLabel": "Civil Disobedience", "rows": [
-      {"id": "c-year", "left": "1920", "right": "1930"},
-      {"id": "c-event", "left": "Chauri Chaura (1922)", "right": "Dandi March"}
-    ]},
-    {"id": "focus", "type": "exam_focus", "level": "important", "items": [
-      {"id": "focus-1", "text": "The Dandi March marked the start of the Civil Disobedience Movement."}
-    ]},
-    {"id": "sources", "type": "source_note", "sources": [{"title": "SAMPLE - replace with a verified source"}]}
+    {
+      "id": "gandhi-hero",
+      "type": "hero",
+      "title": "Mahatma Gandhi: Life, Ideas and the Indian National Movement",
+      "subtitle": "A chronological and analytical study from the world before his birth in 1869 to his assassination in 1948",
+      "tags": [
+        "Modern Indian History",
+        "1869–1948",
+        "Freedom Movement",
+        "JKSSB History"
+      ]
+    },
+    {
+      "id": "gandhi-at-a-glance",
+      "type": "stat_grid",
+      "title": "Gandhi at a glance",
+      "stats": [
+        {
+          "id": "gstat1",
+          "value": "2 October 1869",
+          "label": "Birth: Porbandar, Kathiawar"
+        },
+        {
+          "id": "gstat2",
+          "value": "9 January 1915",
+          "label": "Return to India"
+        },
+        {
+          "id": "gstat3",
+          "value": "12 March 1930",
+          "label": "Dandi March began"
+        },
+        {
+          "id": "gstat4",
+          "value": "30 January 1948",
+          "label": "Assassinated in New Delhi"
+        }
+      ]
+    },
+    {
+      "id": "gandhi-key-identity",
+      "type": "key_facts",
+      "title": "Essential identity and family facts",
+      "items": [
+        {
+          "id": "gk1",
+          "text": "Full name: Mohandas Karamchand Gandhi. He later became widely known as Mahatma Gandhi. The honorific ‘Mahatma’ is commonly associated with Rabindranath Tagore’s address to him; Gandhi in turn called Tagore ‘Gurudev’.",
+          "examFocus": "important"
+        },
+        {
+          "id": "gk2",
+          "text": "Born on 2 October 1869 at Porbandar, in the Kathiawar peninsula of western India, now in Gujarat.",
+          "examFocus": "important"
+        },
+        {
+          "id": "gk3",
+          "text": "Father: Karamchand Gandhi, also known as Kaba Gandhi, who served as a diwan (chief minister) in princely-state administration. Grandfather: Uttamchand Gandhi, also known as Ota Gandhi, who had held the diwan's office at Porbandar.",
+          "examFocus": "important"
+        },
+        {
+          "id": "gk4",
+          "text": "Mother: Putlibai. Accounts of Gandhi’s childhood describe her devotion, fasting, vows, service to sick family members and strong religious discipline as major influences on him.",
+          "examFocus": "important"
+        },
+        {
+          "id": "gk5",
+          "text": "Wife: Kasturba (Kasturba Makhanji) Gandhi. They married in 1883 when both were about thirteen. Their four sons were Harilal, Manilal, Ramdas and Devdas.",
+          "examFocus": "important"
+        },
+        {
+          "id": "gk6",
+          "text": "Gandhi trained as a barrister in London, developed his political method through struggles in South Africa, and became a central leader of mass nationalist politics in India after 1915.",
+          "examFocus": "important"
+        }
+      ]
+    },
+    {
+      "id": "gandhi-before-birth-india",
+      "type": "section",
+      "title": "1. India before Gandhi was born: the larger historical setting",
+      "level": 2,
+      "paragraphs": [
+        {
+          "id": "pre1",
+          "text": "Gandhi was born in 1869, not in an independent nation-state called India in the modern constitutional sense. The subcontinent contained British-ruled provinces and hundreds of princely states. British authority was dominant, but it operated through different arrangements: direct colonial administration in some territories and indirect rule through princes in others."
+        },
+        {
+          "id": "pre2",
+          "text": "The East India Company had expanded its political power after the Battle of Plassey (1757) and the Battle of Buxar (1764). Following the uprising of 1857, the Government of India Act 1858 transferred the Company's governing authority to the British Crown. Thus, when Gandhi was born, India was under the British Raj, not Company rule."
+        },
+        {
+          "id": "pre3",
+          "text": "The uprising of 1857 had been suppressed, but it reshaped colonial policy. The Crown reorganised the army and administration, cultivated alliances with princely rulers, and became more cautious about religious and social intervention. The colonial state nevertheless retained coercive power, controlled major institutions and determined the broad political framework."
+        },
+        {
+          "id": "pre4",
+          "text": "India's economy was regionally diverse. Agriculture employed a very large share of the population. Land-revenue demands, landlord and tenant relations, indebtedness, moneylending and the growing influence of markets affected cultivators differently in different regions. Commercial crops such as indigo, cotton, opium and jute linked parts of Indian agriculture to imperial and world markets."
+        },
+        {
+          "id": "pre5",
+          "text": "Colonial-era changes included railways, telegraphs, ports, modern law courts, English-language education and new administrative institutions. These changes facilitated trade and colonial control, but they also enabled communication across regions, the circulation of newspapers and the growth of new political associations. Their benefits and costs were distributed unevenly."
+        },
+        {
+          "id": "pre6",
+          "text": "Indian handicrafts and textile production faced strong competition from machine-made imports, while modern factories later developed in selected centres. Historians debate the scale and timing of deindustrialisation, but the colonial economy was increasingly organised around imperial trade, revenue extraction and the needs of British industry. Avoid treating every region or artisan community as having experienced the same outcome."
+        },
+        {
+          "id": "pre7",
+          "text": "Poverty, periodic famine, food insecurity, disease and limited access to formal education were serious problems. The Orissa famine of 1866 and the famine conditions in parts of western and north-western India in 1868–70 belong to the wider context of the decade. This does not prove that Gandhi’s own household experienced famine; it describes the wider subcontinental setting."
+        },
+        {
+          "id": "pre8",
+          "text": "Society was structured by caste, community, occupation, region and gender. Untouchability and caste discrimination restricted social participation; child marriage and unequal access to education affected many girls and women. At the same time, social and religious reformers were debating education, widow remarriage, sati, caste practices, religious authority and women's status."
+        }
+      ]
+    },
+    {
+      "id": "gandhi-prebirth-expand",
+      "type": "expandable",
+      "title": "How British rule worked in 1869: direct rule, princely states and paramountcy",
+      "paragraphs": [
+        {
+          "id": "pree1",
+          "text": "British India consisted of territories administered by the colonial government. The provincial structure varied, and the Governor-General/Viceroy and the India Office formed part of the imperial governing system. Revenue collection, law, policing, military power and the civil service were central instruments of colonial authority."
+        },
+        {
+          "id": "pree2",
+          "text": "Princely states retained hereditary rulers and internal administrations to varying degrees, but they were not fully sovereign. British paramountcy constrained their external relations and often their internal political choices. Political Residents or Agents represented British interests and supervised relations with rulers."
+        },
+        {
+          "id": "pree3",
+          "text": "Porbandar was a small princely state in Kathiawar. Gandhi’s family therefore belonged to the world of regional court administration rather than to the governing elite of a British Indian province. The family’s experience of state service helps explain why questions of honesty, counsel to rulers and administrative duty appear in accounts of his ancestry."
+        },
+        {
+          "id": "pree4",
+          "text": "A useful historical distinction: ‘British India’ generally refers to territories under direct colonial administration; ‘princely India’ refers to states ruled by princes under British paramountcy. Both were subordinated to the imperial system, but their legal and administrative arrangements were not identical."
+        }
+      ]
+    },
+    {
+      "id": "gandhi-social-reform",
+      "type": "section",
+      "title": "2. Social and religious reform around the time of his birth",
+      "level": 2,
+      "paragraphs": [
+        {
+          "id": "sr1",
+          "text": "The nineteenth century saw debates about religious practice, caste, women's rights and education. Raja Rammohan Roy and the Brahmo Samaj (founded 1828) criticised practices including sati and promoted monotheistic reform and modern education. The colonial government prohibited sati in 1829 after decades of Indian reformist advocacy and public debate."
+        },
+        {
+          "id": "sr2",
+          "text": "The Hindu Widows’ Remarriage Act of 1856 followed campaigns associated especially with Ishwar Chandra Vidyasagar. The law permitted widow remarriage, although social acceptance remained limited and uneven. Legal change did not automatically remove social stigma."
+        },
+        {
+          "id": "sr3",
+          "text": "The Prarthana Samaj was founded in Bombay in 1867 and addressed religious reform and social questions, including caste restrictions, women's education and widow remarriage. The Arya Samaj was founded by Swami Dayanand Saraswati in 1875, after Gandhi’s birth, and therefore belongs to the later nineteenth-century reform environment rather than to the pre-birth chronology."
+        },
+        {
+          "id": "sr4",
+          "text": "These movements were not identical. They differed in their religious foundations, methods, regional reach and attitudes to scripture and social custom. Their common historical importance lies in making social practices subjects of public argument, organised reform and legislative discussion."
+        }
+      ]
+    },
+    {
+      "id": "gandhi-region-family",
+      "type": "section",
+      "title": "3. Kathiawar, Porbandar and Gandhi’s family before his birth",
+      "level": 2,
+      "paragraphs": [
+        {
+          "id": "fam1",
+          "text": "Kathiawar, also called Saurashtra, is the peninsula in western Gujarat. In the nineteenth century it contained numerous small and medium-sized princely states. Political life involved local rulers, court officials, nobles, merchants, communities and British political agents. Porbandar was a coastal state with a maritime setting and a regional administration."
+        },
+        {
+          "id": "fam2",
+          "text": "Gandhi’s paternal grandfather Uttamchand Gandhi (Ota Gandhi) had served as diwan of Porbandar. Published accounts describe a conflict with the ruler in which Uttamchand’s residence was besieged and he left the state. His son Karamchand also served in princely administration and was remembered by Gandhi as truthful, brave and generous. These details come through biographical accounts and Gandhi’s recollections; they should not be inflated into a claim that the family was a royal dynasty."
+        },
+        {
+          "id": "fam3",
+          "text": "Karamchand Gandhi (Kaba Gandhi) served as diwan at Porbandar and later in Rajkot. A diwan was a senior minister or chief administrator, not the hereditary ruler. The role required judgement, negotiation and the ability to work between a prince, local interests and the British political establishment."
+        },
+        {
+          "id": "fam4",
+          "text": "The family belonged to the Modh Bania/Vaishya social background, as described in biographical accounts. It had administrative standing through public service but should not be confused with a royal household or with the wealthiest merchant houses of western India. Sources commonly describe Gandhi’s family background as respectable and middle-class."
+        },
+        {
+          "id": "fam5",
+          "text": "Putlibai, Gandhi’s mother, is described as deeply religious and disciplined. She observed fasts and vows, visited places of worship and devoted considerable care to sick family members. She was not highly educated in the formal literary sense, according to the biographical account published by India’s Publications Division, but her example of service, self-restraint and religious devotion strongly influenced young Mohandas."
+        },
+        {
+          "id": "fam6",
+          "text": "Gandhi’s home environment was shaped by Vaishnava devotional culture and wider religious influences in Kathiawar. The region’s social world was not religiously uniform: Hindu, Jain, Muslim and other communities interacted through trade, neighbourhood, court service and local custom. This setting helps explain Gandhi’s later interest in inter-religious understanding, although his mature ideas developed through many later experiences."
+        }
+      ]
+    },
+    {
+      "id": "gandhi-princely-compare",
+      "type": "comparison",
+      "title": "British Indian province and princely state: the distinction relevant to Gandhi’s birthplace",
+      "leftLabel": "British Indian province",
+      "rightLabel": "Princely state (e.g. Porbandar)",
+      "rows": [
+        {
+          "id": "pc1",
+          "left": "Administered directly by the British colonial government.",
+          "right": "Ruled internally by a hereditary prince or local ruler, subject to British paramountcy."
+        },
+        {
+          "id": "pc2",
+          "left": "Colonial officials exercised direct provincial administration.",
+          "right": "Local ministers and court officials, including diwans, advised and administered for the ruler."
+        },
+        {
+          "id": "pc3",
+          "left": "Laws and administration were organised through British Indian institutions.",
+          "right": "Internal arrangements varied by state, with British political supervision and constraints."
+        },
+        {
+          "id": "pc4",
+          "left": "Examples included the Bombay Presidency and Bengal Presidency.",
+          "right": "Porbandar and Rajkot were among the Kathiawar princely states."
+        }
+      ]
+    },
+    {
+      "id": "gandhi-birth-childhood",
+      "type": "section",
+      "title": "4. Birth, childhood and early education (1869–1887)",
+      "level": 2,
+      "paragraphs": [
+        {
+          "id": "bc1",
+          "text": "Mohandas Karamchand Gandhi was born on 2 October 1869 at Porbandar. He was the youngest child of Karamchand and Putlibai. His childhood was spent in the social world of Kathiawar’s princely states, not in a major metropolitan colonial city."
+        },
+        {
+          "id": "bc2",
+          "text": "The family moved to Rajkot when Mohandas was about seven, as his father’s administrative career took the family there. He attended primary and secondary school in Rajkot. Gandhi later described himself as an ordinary or mediocre student, shy in company and not especially distinguished in sport or classroom performance."
+        },
+        {
+          "id": "bc3",
+          "text": "In his autobiography, Gandhi recalled a spelling test during a school inspection. The teacher signalled that he should copy a correct spelling from a neighbouring pupil, but he refused. The episode is important not because it proves that he was an exceptional child, but because Gandhi later used it to illustrate his attachment to truth and his reluctance to cheat."
+        },
+        {
+          "id": "bc4",
+          "text": "Gandhi later wrote about adolescent experiments with eating meat, smoking and small acts of dishonesty. He described the burden of concealing these acts from his parents and his eventual confession to his father in writing. These are autobiographical recollections, not independent contemporary records, and should be read as Gandhi’s retrospective account of moral self-examination."
+        },
+        {
+          "id": "bc5",
+          "text": "Stories of Raja Harishchandra and Shravana, together with his mother’s example, shaped his early imagination of truth, duty, sacrifice and service. Gandhi later connected these formative influences to the ethical commitments that informed his public life."
+        }
+      ]
+    },
+    {
+      "id": "gandhi-early-expand",
+      "type": "expandable",
+      "title": "What Gandhi’s childhood can—and cannot—tell us",
+      "paragraphs": [
+        {
+          "id": "ece1",
+          "text": "It is reasonable to connect the household’s religious discipline and his father’s administrative example to themes that recur in Gandhi’s later life: truthfulness, vows, self-control and public duty. But childhood influences did not mechanically determine his political philosophy. His ideas developed through study, argument, mistakes, religious encounters and political campaigns."
+        },
+        {
+          "id": "ece2",
+          "text": "Gandhi’s autobiography was written decades after many childhood events. It is an invaluable primary source for how he interpreted his own life, but it is also a crafted moral narrative. Historians compare it with letters, official records, newspapers, family testimony and other contemporary materials."
+        },
+        {
+          "id": "ece3",
+          "text": "Avoid the myth that Gandhi was born already a finished Mahatma. He described shyness, errors, jealousy, fear, moral lapses and learning. His later public identity was built through a long process of self-discipline and political experimentation."
+        }
+      ]
+    },
+    {
+      "id": "gandhi-childhood-timeline",
+      "type": "timeline",
+      "title": "Family and childhood timeline",
+      "entries": [
+        {
+          "id": "ct1",
+          "label": "Before 1869",
+          "text": "Uttamchand Gandhi and Karamchand Gandhi serve in the administration of Porbandar and the Kathiawar princely-state world.",
+          "examFocus": "important"
+        },
+        {
+          "id": "ct2",
+          "label": "2 Oct 1869",
+          "text": "Mohandas Karamchand Gandhi is born at Porbandar.",
+          "examFocus": "important"
+        },
+        {
+          "id": "ct3",
+          "label": "c. 1876",
+          "text": "The family moves to Rajkot; Mohandas attends school there.",
+          "examFocus": "important"
+        },
+        {
+          "id": "ct4",
+          "label": "1883",
+          "text": "Mohandas and Kasturba marry as teenagers, both about thirteen.",
+          "examFocus": "important"
+        },
+        {
+          "id": "ct5",
+          "label": "1885",
+          "text": "Karamchand Gandhi dies while Mohandas is still a teenager.",
+          "examFocus": "important"
+        },
+        {
+          "id": "ct6",
+          "label": "1887",
+          "text": "Gandhi passes the matriculation examination and briefly attends Samaldas College at Bhavnagar.",
+          "examFocus": "important"
+        }
+      ]
+    },
+    {
+      "id": "gandhi-child-marriage",
+      "type": "exam_focus",
+      "level": "important",
+      "title": "Child marriage: a significant personal and social context",
+      "items": [
+        {
+          "id": "cm1",
+          "text": "Gandhi married Kasturba in 1883 when both were about thirteen. Child marriage was a social practice in parts of nineteenth-century India, though its prevalence and form varied by community and region."
+        },
+        {
+          "id": "cm2",
+          "text": "In his later writings, Gandhi criticised the custom and reflected on his own possessiveness and lack of maturity as a young husband. His position developed over time and should be studied as part of his wider views on women, marriage and self-discipline."
+        },
+        {
+          "id": "cm3",
+          "text": "Exam distinction: the date generally used in official chronologies is 1883; the couple had four sons—Harilal, Manilal, Ramdas and Devdas."
+        }
+      ]
+    },
+    {
+      "id": "gandhi-england",
+      "type": "section",
+      "title": "5. England: legal education and new intellectual influences (1888–1891)",
+      "level": 2,
+      "paragraphs": [
+        {
+          "id": "en1",
+          "text": "In September 1888, aged eighteen, Gandhi sailed for England to study law. He enrolled at the Inner Temple in London and was called to the Bar in June 1891. He returned to India shortly afterwards."
+        },
+        {
+          "id": "en2",
+          "text": "England exposed Gandhi to a different social and intellectual environment. He became more systematic about vegetarianism, joined vegetarian circles and read about religious and ethical traditions. His encounter with the Bhagavad Gita in translation and with Christian, Theosophical and other religious ideas broadened his comparative religious interests."
+        },
+        {
+          "id": "en3",
+          "text": "The period did not turn him immediately into a mass political leader. It gave him legal training, habits of reading and discussion, and a wider understanding of how ethical and religious arguments could cross cultural boundaries."
+        },
+        {
+          "id": "en4",
+          "text": "After returning in 1891, Gandhi struggled to establish a successful legal practice in Bombay and Rajkot. A legal assignment connected with an Indian merchant firm in South Africa would redirect his career and bring him into direct confrontation with racial discrimination."
+        }
+      ]
+    },
+    {
+      "id": "gandhi-england-timeline",
+      "type": "timeline",
+      "title": "England and the transition to South Africa",
+      "entries": [
+        {
+          "id": "et1",
+          "label": "4 Sep 1888",
+          "text": "Gandhi leaves for England to study law.",
+          "examFocus": "important"
+        },
+        {
+          "id": "et2",
+          "label": "10 Jun 1891",
+          "text": "He is called to the British Bar at the Inner Temple.",
+          "examFocus": "important"
+        },
+        {
+          "id": "et3",
+          "label": "1891–1892",
+          "text": "He returns to India and attempts to practise law in Bombay and Rajkot.",
+          "examFocus": "important"
+        },
+        {
+          "id": "et4",
+          "label": "19 Apr 1893",
+          "text": "He sails for South Africa to work on a legal case for an Indian firm.",
+          "examFocus": "important"
+        }
+      ]
+    },
+    {
+      "id": "gandhi-south-africa",
+      "type": "section",
+      "title": "6. South Africa: the making of a political organiser (1893–1914)",
+      "level": 2,
+      "paragraphs": [
+        {
+          "id": "sa1",
+          "text": "Gandhi reached South Africa in 1893. On 7 June 1893 at Pietermaritzburg railway station, he was ordered out of a first-class railway compartment despite holding a valid first-class ticket. He was forcibly removed and spent the night at the station. Gandhi later identified this experience as a decisive moment in his decision to resist racial injustice rather than quietly leave the country."
+        },
+        {
+          "id": "sa2",
+          "text": "The Indian population in South Africa was diverse. It included indentured labourers and their descendants, free Indian workers, traders, professionals and people from different regions, languages and religions. They faced discriminatory laws and restrictions that varied by colony and period. Gandhi’s activism gradually brought sections of these communities into organised political action."
+        },
+        {
+          "id": "sa3",
+          "text": "In 1894 Gandhi helped establish the Natal Indian Congress. Its early work concentrated heavily on the civil and political rights of Indians, including traders and other relatively organised sections of the community. His early political language sometimes appealed to imperial promises and to Indians’ status as British subjects; later Gandhi’s political thinking became more openly anti-colonial. This evolution matters when assessing his career."
+        },
+        {
+          "id": "sa4",
+          "text": "Gandhi developed organisational skills through petitions, public meetings, legal argument, fundraising, community networks and journalism. In 1904 he took charge of the weekly Indian Opinion and helped establish the Phoenix Settlement near Durban, where communal living and manual labour were practised."
+        },
+        {
+          "id": "sa5",
+          "text": "In September 1906, Indians in the Transvaal organised resistance to proposed compulsory registration and other discriminatory restrictions. Gandhi helped lead a campaign in which participants accepted arrest and punishment rather than comply with laws they considered unjust. The method developed into satyagraha—often translated as truth-force or holding firmly to truth."
+        },
+        {
+          "id": "sa6",
+          "text": "Gandhi and fellow campaigners faced imprisonment. In 1909 he wrote Hind Swaraj in Gujarati during a voyage from London to South Africa. The text criticised modern civilisation as he understood it, questioned the assumption that replacing British rulers with Indian rulers would by itself create freedom, and linked self-rule to ethical self-discipline."
+        },
+        {
+          "id": "sa7",
+          "text": "In 1910 Gandhi helped establish Tolstoy Farm near Johannesburg as a communal settlement. The 1913 campaign challenged discriminatory marriage recognition and the £3 tax imposed on many former indentured Indians, among other grievances. Women participated in the campaign, and the struggle brought labour and family questions more visibly into the movement."
+        },
+        {
+          "id": "sa8",
+          "text": "The South African years were a laboratory for methods Gandhi later used in India: disciplined nonviolent resistance, public truth-telling, voluntary suffering, negotiation, community living, and the linking of personal conduct with political action. These methods did not emerge fully formed in one incident; they evolved through repeated campaigns and setbacks."
+        }
+      ]
+    },
+    {
+      "id": "gandhi-satyagraha-definition",
+      "type": "definition",
+      "term": "SATYAGRAHA",
+      "text": "A method of resistance based on truth, nonviolence, self-discipline and willingness to accept suffering rather than inflict it. Gandhi distinguished it from passive submission: the satyagrahi actively resists injustice but refuses to treat hatred or physical violence as legitimate tools. The method can involve public protest, civil disobedience, refusal to cooperate, fasting, negotiation and readiness to accept legal penalties. Its practice depends on discipline and a clearly stated moral claim."
+    },
+    {
+      "id": "gandhi-south-africa-timeline",
+      "type": "timeline",
+      "title": "Major South African developments",
+      "entries": [
+        {
+          "id": "sat1",
+          "label": "1893",
+          "text": "Pietermaritzburg railway incident exposes Gandhi to racial discrimination.",
+          "examFocus": "important"
+        },
+        {
+          "id": "sat2",
+          "label": "1894",
+          "text": "Natal Indian Congress organised to represent Indian interests and oppose discriminatory policies.",
+          "examFocus": "important"
+        },
+        {
+          "id": "sat3",
+          "label": "1904",
+          "text": "Indian Opinion becomes an important organ of communication; Phoenix Settlement is established.",
+          "examFocus": "important"
+        },
+        {
+          "id": "sat4",
+          "label": "1906",
+          "text": "Resistance campaign begins against the Transvaal Asiatic Registration measure; satyagraha develops.",
+          "examFocus": "important"
+        },
+        {
+          "id": "sat5",
+          "label": "1909",
+          "text": "Gandhi writes Hind Swaraj in Gujarati.",
+          "examFocus": "important"
+        },
+        {
+          "id": "sat6",
+          "label": "1910",
+          "text": "Tolstoy Farm is established near Johannesburg.",
+          "examFocus": "important"
+        },
+        {
+          "id": "sat7",
+          "label": "1913",
+          "text": "Campaign challenges the £3 tax and discriminatory treatment of Indian marriages.",
+          "examFocus": "important"
+        },
+        {
+          "id": "sat8",
+          "label": "1914–1915",
+          "text": "Gandhi leaves South Africa and returns to India in January 1915.",
+          "examFocus": "important"
+        }
+      ]
+    },
+    {
+      "id": "gandhi-satyagraha-compare",
+      "type": "comparison",
+      "title": "Satyagraha and other forms of political response",
+      "leftLabel": "Satyagraha",
+      "rightLabel": "Violent revolt / passive submission",
+      "rows": [
+        {
+          "id": "sc1",
+          "left": "Active resistance to injustice through nonviolent methods.",
+          "right": "Violent revolt uses physical force; passive submission accepts the injustice without resistance."
+        },
+        {
+          "id": "sc2",
+          "left": "Truthful public claim, discipline, non-cooperation, civil disobedience and acceptance of consequences.",
+          "right": "Violent revolt relies on coercive force; passive submission avoids confrontation."
+        },
+        {
+          "id": "sc3",
+          "left": "Aims to change the opponent and the relationship through moral pressure and public action.",
+          "right": "Violent revolt may aim to defeat or remove the opponent; submission does not seek to transform the situation."
+        },
+        {
+          "id": "sc4",
+          "left": "Requires training, restraint and a commitment not to retaliate violently.",
+          "right": "Violent methods accept force; passive submission requires no organised resistance."
+        }
+      ]
+    },
+    {
+      "id": "gandhi-return-india",
+      "type": "section",
+      "title": "7. Return to India: learning the country before leading it (1915–1916)",
+      "level": 2,
+      "paragraphs": [
+        {
+          "id": "ri1",
+          "text": "Gandhi returned to India on 9 January 1915. He was already known among some political circles because of his campaigns in South Africa, but he was not yet the undisputed leader of the Indian national movement."
+        },
+        {
+          "id": "ri2",
+          "text": "Gopal Krishna Gokhale was Gandhi’s political mentor in India. Gokhale advised him to travel, observe Indian conditions and avoid rushing into public political leadership. Gandhi spent time visiting different regions and studying social, economic and political realities."
+        },
+        {
+          "id": "ri3",
+          "text": "Gandhi established the Satyagraha Ashram at Kochrab near Ahmedabad in 1915. It moved to the Sabarmati site in 1917. The ashram was both a residential community and a training centre intended to connect vows, manual work, sanitation, education and public service with political action."
+        },
+        {
+          "id": "ri4",
+          "text": "Gandhi’s ashram admitted an untouchable family, which created opposition and financial difficulty among some supporters. The episode illustrates that his campaign against untouchability was not merely a later slogan; it affected the practices of his own community. It also shows the resistance social reform could encounter."
+        },
+        {
+          "id": "ri5",
+          "text": "At this stage, Gandhi’s programme combined local investigation, nonviolent protest, negotiation and reform of everyday practices. His first major Indian campaigns focused on specific grievances of peasants and workers rather than immediately launching a nationwide demand for independence."
+        }
+      ]
+    },
+    {
+      "id": "gandhi-india-early-campaigns",
+      "type": "key_facts",
+      "title": "Three early Indian experiments in satyagraha (1917–1918)",
+      "items": [
+        {
+          "id": "ec1",
+          "text": "Champaran Satyagraha (1917), Bihar: Gandhi investigated the coercive indigo system imposed on cultivators by European planters. Under the tinkathia arrangement, tenants were required to cultivate indigo on three kathas out of every twenty parts of land. Raj Kumar Shukla persuaded Gandhi to visit the district.",
+          "examFocus": "important"
+        },
+        {
+          "id": "ec2",
+          "text": "Ahmedabad mill workers’ dispute (1918), Gujarat: a dispute arose after mill owners withdrew the plague bonus. Gandhi supported workers seeking a wage increase, urged discipline and used a fast during the dispute; the settlement was referred to arbitration.",
+          "examFocus": "important"
+        },
+        {
+          "id": "ec3",
+          "text": "Kheda Satyagraha (1918), Gujarat: after crop failure and distress, peasants sought suspension or remission of land revenue. Gandhi, local leaders and volunteers supported a campaign of non-payment by those unable to pay, seeking revenue relief.",
+          "examFocus": "important"
+        },
+        {
+          "id": "ec4",
+          "text": "Historical significance: these campaigns connected Gandhi with peasants and workers and demonstrated that satyagraha could be adapted to different conflicts—tenant exploitation, industrial wages and land revenue.",
+          "examFocus": "important"
+        }
+      ]
+    },
+    {
+      "id": "gandhi-early-campaign-table",
+      "type": "table",
+      "title": "Compare Champaran, Ahmedabad and Kheda",
+      "columns": [
+        {
+          "label": "Campaign"
+        },
+        {
+          "label": "Year / place"
+        },
+        {
+          "label": "Main grievance"
+        },
+        {
+          "label": "Method / outcome"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ect1",
+          "cells": [
+            "Champaran",
+            "1917 · Bihar",
+            "Forced indigo cultivation under tinkathia and planter abuses",
+            "Investigation, public pressure and official inquiry; agrarian reform followed"
+          ]
+        },
+        {
+          "id": "ect2",
+          "cells": [
+            "Ahmedabad",
+            "1918 · Gujarat",
+            "Mill workers’ wage dispute after withdrawal of plague bonus",
+            "Worker organisation, fast and arbitration"
+          ]
+        },
+        {
+          "id": "ect3",
+          "cells": [
+            "Kheda",
+            "1918 · Gujarat",
+            "Revenue demand during crop failure and agrarian distress",
+            "Peasant non-payment campaign and pressure for revenue relief"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gandhi-1919",
+      "type": "section",
+      "title": "8. 1919: Rowlatt Satyagraha and the Jallianwala Bagh turning point",
+      "level": 2,
+      "paragraphs": [
+        {
+          "id": "r1919a",
+          "text": "During the First World War, the colonial government had used emergency powers and wartime restrictions. The Rowlatt legislation of 1919 extended extraordinary powers to detain and try people suspected of revolutionary activity, prompting widespread opposition because civil liberties and ordinary legal safeguards were threatened."
+        },
+        {
+          "id": "r1919b",
+          "text": "Gandhi called for a nationwide satyagraha and hartal. The response revealed both the potential and the difficulty of coordinating mass action across a vast and diverse country. In several places protest turned violent; Gandhi acknowledged that the movement had not been adequately prepared for nonviolent discipline and suspended the campaign."
+        },
+        {
+          "id": "r1919c",
+          "text": "On 13 April 1919, troops under Brigadier-General Reginald Dyer fired on a gathering in Jallianwala Bagh, Amritsar. The massacre intensified anger against colonial rule and became a major turning point in nationalist politics. It deepened distrust of British claims to justice and reform."
+        },
+        {
+          "id": "r1919d",
+          "text": "The events of 1919 changed the relationship between Gandhi and the wider nationalist movement. He increasingly argued that cooperation with an unjust colonial state could itself become morally unacceptable. This helped prepare the ground for Non-Cooperation."
+        }
+      ]
+    },
+    {
+      "id": "gandhi-noncooperation",
+      "type": "expandable",
+      "title": "Non-Cooperation Movement and Khilafat alliance (1920–1922)",
+      "paragraphs": [
+        {
+          "id": "nco1",
+          "text": "The Non-Cooperation Movement emerged from anger over the Rowlatt legislation and Jallianwala Bagh, as well as the Khilafat question following the First World War and the treatment of the Ottoman Caliphate. Gandhi supported cooperation between the Khilafat leadership and Congress as a means of building Hindu-Muslim political unity."
+        },
+        {
+          "id": "nco2",
+          "text": "The programme included surrender of titles and honours, boycott of government schools and colleges, law courts and legislatures, boycott of foreign cloth, promotion of khadi, and the creation of national educational and civic institutions. The degree of participation varied by region and social group."
+        },
+        {
+          "id": "nco3",
+          "text": "The movement expanded nationalist participation beyond the limited circles that had dominated earlier constitutional politics. Students, lawyers, traders, peasants, workers and women participated in different ways, although local aims were not always identical to Gandhi’s national programme."
+        },
+        {
+          "id": "nco4",
+          "text": "On 5 February 1922, violence at Chauri Chaura in the United Provinces resulted in the burning of a police station and the deaths of policemen. Gandhi, believing that the movement had departed from nonviolent discipline, withdrew the national campaign on 12 February 1922."
+        },
+        {
+          "id": "nco5",
+          "text": "The withdrawal generated disagreement among nationalist leaders and participants who believed the movement had reached a powerful stage. The episode is central to understanding Gandhi’s insistence that nonviolence was not merely a tactic but a condition of legitimate mass action."
+        }
+      ]
+    },
+    {
+      "id": "gandhi-1920s-timeline",
+      "type": "timeline",
+      "title": "From Non-Cooperation to Purna Swaraj",
+      "entries": [
+        {
+          "id": "nt1",
+          "label": "1920",
+          "text": "Non-Cooperation and Khilafat mobilisation expands across India.",
+          "examFocus": "important"
+        },
+        {
+          "id": "nt2",
+          "label": "5 Feb 1922",
+          "text": "Chauri Chaura violence takes place.",
+          "examFocus": "important"
+        },
+        {
+          "id": "nt3",
+          "label": "12 Feb 1922",
+          "text": "Gandhi withdraws the Non-Cooperation Movement.",
+          "examFocus": "important"
+        },
+        {
+          "id": "nt4",
+          "label": "1924",
+          "text": "Gandhi undertakes a 21-day fast in the context of communal tension and presides over the Belgaum Congress.",
+          "examFocus": "important"
+        },
+        {
+          "id": "nt5",
+          "label": "1928",
+          "text": "Bardoli peasant movement is led by Vallabhbhai Patel; pressure over land revenue becomes a national issue.",
+          "examFocus": "important"
+        },
+        {
+          "id": "nt6",
+          "label": "Dec 1929",
+          "text": "Lahore Congress adopts Purna Swaraj—complete independence—as the goal.",
+          "examFocus": "important"
+        },
+        {
+          "id": "nt7",
+          "label": "26 Jan 1930",
+          "text": "Independence pledge observed across India.",
+          "examFocus": "important"
+        }
+      ]
+    },
+    {
+      "id": "gandhi-salt-march",
+      "type": "section",
+      "title": "9. Civil Disobedience and the Salt March (1930–1934)",
+      "level": 2,
+      "paragraphs": [
+        {
+          "id": "sm1",
+          "text": "The Lahore Congress of December 1929 adopted Purna Swaraj, or complete independence, as the national goal. 26 January 1930 was observed as Independence Day through a pledge of independence. Gandhi then selected the salt laws as the opening issue for a new phase of civil disobedience."
+        },
+        {
+          "id": "sm2",
+          "text": "Salt was a powerful issue because it was needed by rich and poor alike. The colonial monopoly and tax on salt made an everyday necessity a symbol of unequal state power. By choosing salt, Gandhi connected a simple material grievance with the larger demand for freedom."
+        },
+        {
+          "id": "sm3",
+          "text": "On 12 March 1930, Gandhi left Sabarmati Ashram with an initial group of 78 selected volunteers. They marched to Dandi on the Gujarat coast. The journey lasted about 24 days and covered roughly 241 miles according to official chronologies. On 6 April 1930, Gandhi broke the salt law by making or collecting salt at the seashore."
+        },
+        {
+          "id": "sm4",
+          "text": "The march drew national and international attention. It became the opening signal for a wider Civil Disobedience Movement: people made salt, broke selected laws, boycotted foreign cloth, picketed liquor shops and challenged colonial authority in many regions. Women took part in salt-making, picketing and other forms of protest."
+        },
+        {
+          "id": "sm5",
+          "text": "Gandhi was arrested in May 1930. The Gandhi-Irwin Pact of 5 March 1931 ended the immediate phase of civil disobedience and enabled Gandhi to attend the Second Round Table Conference in London. The conference failed to secure agreement on India’s constitutional future, and civil disobedience later resumed."
+        },
+        {
+          "id": "sm6",
+          "text": "The Salt March did not itself win independence. Its historical importance lies in making colonial law a public issue, drawing diverse groups into visible protest, creating a disciplined national spectacle and demonstrating the political power of nonviolent mass civil disobedience."
+        }
+      ]
+    },
+    {
+      "id": "gandhi-salt-timeline",
+      "type": "timeline",
+      "title": "Salt Satyagraha: key dates",
+      "entries": [
+        {
+          "id": "st1",
+          "label": "Dec 1929",
+          "text": "Lahore Congress adopts Purna Swaraj.",
+          "examFocus": "important"
+        },
+        {
+          "id": "st2",
+          "label": "26 Jan 1930",
+          "text": "Independence pledge observed.",
+          "examFocus": "important"
+        },
+        {
+          "id": "st3",
+          "label": "12 Mar 1930",
+          "text": "Gandhi begins the Dandi March from Sabarmati Ashram.",
+          "examFocus": "important"
+        },
+        {
+          "id": "st4",
+          "label": "6 Apr 1930",
+          "text": "Gandhi breaks the salt law at Dandi.",
+          "examFocus": "important"
+        },
+        {
+          "id": "st5",
+          "label": "5 Mar 1931",
+          "text": "Gandhi-Irwin Pact announced.",
+          "examFocus": "important"
+        },
+        {
+          "id": "st6",
+          "label": "1931",
+          "text": "Gandhi attends the Second Round Table Conference in London.",
+          "examFocus": "important"
+        },
+        {
+          "id": "st7",
+          "label": "1932–1934",
+          "text": "Civil disobedience resumes in altered circumstances and is later withdrawn.",
+          "examFocus": "important"
+        }
+      ]
+    },
+    {
+      "id": "gandhi-poona-pact",
+      "type": "section",
+      "title": "10. Gandhi, Ambedkar and the Poona Pact (1932): a necessary historical debate",
+      "level": 2,
+      "paragraphs": [
+        {
+          "id": "pp1",
+          "text": "The British Communal Award of 1932 proposed separate electorates for several communities, including the Depressed Classes (a contemporary official term for communities then subjected to untouchability). Dr B. R. Ambedkar regarded political safeguards and independent representation as essential for a community exposed to entrenched social oppression."
+        },
+        {
+          "id": "pp2",
+          "text": "Gandhi opposed separate electorates for the Depressed Classes, arguing that they would divide Hindu society. While imprisoned in Yeravada Jail, he began a fast on 20 September 1932 against that provision. The fast created intense moral and political pressure during negotiations."
+        },
+        {
+          "id": "pp3",
+          "text": "The Poona Pact, reached in September 1932, replaced separate electorates with reserved seats for the Depressed Classes within joint electorates, alongside a primary-election mechanism. It increased the number of reserved provincial seats compared with the Communal Award, but changed the electoral arrangement that Ambedkar had originally sought."
+        },
+        {
+          "id": "pp4",
+          "text": "The disagreement was not simply a personal clash. It reflected different diagnoses of caste oppression and different views about how political power should protect marginalised communities. Ambedkar emphasised autonomous political safeguards and the need to annihilate caste; Gandhi opposed untouchability and sought reform within a reinterpreted Hindu social framework."
+        },
+        {
+          "id": "pp5",
+          "text": "Gandhi’s views on caste and varna changed over time and remain the subject of scholarly debate. At points he defended a reinterpreted varna framework while condemning untouchability; Ambedkar regarded caste hierarchy as a structural system requiring its destruction. A balanced account must state both the reform effort and the limits and criticisms of Gandhi’s position."
+        },
+        {
+          "id": "pp6",
+          "text": "After 1932 Gandhi intensified campaigns against untouchability, promoted temple-entry and access campaigns, published Harijan and travelled to encourage social reform. These campaigns contributed to public debate but did not by themselves dismantle caste discrimination."
+        }
+      ]
+    },
+    {
+      "id": "gandhi-poona-compare",
+      "type": "comparison",
+      "title": "Gandhi and Ambedkar: contrasting approaches to caste and representation",
+      "leftLabel": "Gandhi",
+      "rightLabel": "B. R. Ambedkar",
+      "rows": [
+        {
+          "id": "pa1",
+          "left": "Opposed untouchability and campaigned for social reform, dignity and access to public life.",
+          "right": "Argued that caste was a structural system of graded inequality and called for its annihilation."
+        },
+        {
+          "id": "pa2",
+          "left": "Opposed separate electorates for the Depressed Classes, fearing political separation within Hindu society.",
+          "right": "Sought separate political safeguards and independent representation for the Depressed Classes."
+        },
+        {
+          "id": "pa3",
+          "left": "Favoured reform through moral persuasion, social change, constructive work and changes in Hindu society.",
+          "right": "Emphasised legal rights, constitutional safeguards, political power, education and organised assertion."
+        },
+        {
+          "id": "pa4",
+          "left": "His position on varna and caste evolved and remains debated; opposition to untouchability did not always amount to rejection of the entire caste order.",
+          "right": "Rejected caste hierarchy and argued that social equality required dismantling the caste system itself."
+        }
+      ]
+    },
+    {
+      "id": "gandhi-constructive",
+      "type": "section",
+      "title": "11. Constructive Programme: freedom as social reconstruction",
+      "level": 2,
+      "paragraphs": [
+        {
+          "id": "cp1",
+          "text": "For Gandhi, swaraj was not only the transfer of political power from British officials to Indian officials. It also required changes in everyday life, economic relations, social practices and personal conduct. He therefore placed constructive work alongside campaigns of protest."
+        },
+        {
+          "id": "cp2",
+          "text": "Khadi and the charkha symbolised self-reliance, local production and resistance to dependence on imported cloth. Spinning was presented as a practical activity that could connect political workers with village households and provide supplementary work. The programme was also a symbolic challenge to colonial economic relationships."
+        },
+        {
+          "id": "cp3",
+          "text": "The constructive programme included communal unity, removal of untouchability, prohibition, village industries, sanitation, basic education, adult education, women's emancipation, health and hygiene, provincial languages, economic equality, work with peasants and labourers, tribal communities and leprosy patients."
+        },
+        {
+          "id": "cp4",
+          "text": "Nai Talim or basic education linked learning with productive craft, practical activity, the mother tongue and the development of the whole person. Gandhi believed education should not merely prepare a small elite for clerical employment; it should connect knowledge, work, dignity and community life."
+        },
+        {
+          "id": "cp5",
+          "text": "The constructive programme shows why Gandhi repeatedly returned to villages, sanitation, diet, spinning, manual labour and education. Critics questioned whether village-centred economics could meet the needs of industrial modernity and large-scale poverty. That debate is part of the history of his ideas."
+        }
+      ]
+    },
+    {
+      "id": "gandhi-ideas-definitions",
+      "type": "key_facts",
+      "title": "Gandhi’s major ideas: vocabulary for advanced study",
+      "items": [
+        {
+          "id": "gi1",
+          "text": "Satya: truth. Gandhi treated truth as a guiding moral reality and connected the search for truth with humility, self-criticism and openness to correction.",
+          "examFocus": "important"
+        },
+        {
+          "id": "gi2",
+          "text": "Ahimsa: nonviolence or non-harm. In Gandhi’s practice it required more than avoiding physical violence; it demanded restraint, respect for opponents and refusal to cultivate hatred.",
+          "examFocus": "important"
+        },
+        {
+          "id": "gi3",
+          "text": "Satyagraha: active nonviolent resistance grounded in truth, discipline and willingness to accept suffering rather than impose it on others.",
+          "examFocus": "important"
+        },
+        {
+          "id": "gi4",
+          "text": "Swaraj: self-rule. It included national political independence as well as self-government, ethical self-discipline and the capacity of communities to shape their lives.",
+          "examFocus": "important"
+        },
+        {
+          "id": "gi5",
+          "text": "Swadeshi: preference for locally made goods and the strengthening of local production, associated especially with khadi and the spinning wheel.",
+          "examFocus": "important"
+        },
+        {
+          "id": "gi6",
+          "text": "Sarvodaya: welfare or uplift of all. Gandhi used it to express a social ideal that should not sacrifice the poor or vulnerable for the advantage of the powerful.",
+          "examFocus": "important"
+        },
+        {
+          "id": "gi7",
+          "text": "Trusteeship: the idea that people possessing wealth should regard themselves as trustees of resources and use them for social welfare. It was a moral proposal, not a detailed substitute for every question of ownership or economic policy.",
+          "examFocus": "important"
+        },
+        {
+          "id": "gi8",
+          "text": "Bread labour: the principle that each person should contribute physical work for basic sustenance and should not live by exploiting the labour of others.",
+          "examFocus": "important"
+        }
+      ]
+    },
+    {
+      "id": "gandhi-ideas-expand",
+      "type": "expandable",
+      "title": "How Gandhi’s political philosophy fits together",
+      "paragraphs": [
+        {
+          "id": "gip1",
+          "text": "Truth and nonviolence were mutually connected. Gandhi argued that a political end could not be separated from the means used to achieve it. A movement claiming justice would undermine itself if it relied on hatred, coercion or deliberate harm."
+        },
+        {
+          "id": "gip2",
+          "text": "Swaraj had both an external and an internal dimension. External swaraj meant freedom from colonial domination. Internal swaraj meant self-control, responsibility, ethical action and the ability of individuals and communities to govern themselves."
+        },
+        {
+          "id": "gip3",
+          "text": "Non-cooperation withdrew consent and participation from institutions considered unjust. Civil disobedience went further by openly and nonviolently breaking a specific law judged unjust, accepting legal consequences and using the action to expose the moral problem."
+        },
+        {
+          "id": "gip4",
+          "text": "Constructive work was meant to prepare society for freedom rather than wait for political independence to solve every problem. Gandhi linked political campaigns with education, sanitation, local industries, communal harmony and the removal of untouchability."
+        },
+        {
+          "id": "gip5",
+          "text": "Gandhi’s philosophy was not static. His views developed in response to political events, personal experiments, religious discussions and criticism from contemporaries. His writings should therefore be read chronologically, rather than treating every statement from every decade as identical."
+        }
+      ]
+    },
+    {
+      "id": "gandhi-quote-life-message",
+      "type": "quote",
+      "text": "My life is my message.",
+      "attribution": "Mahatma Gandhi (message to the Shanti Sena Dal, Calcutta, 5 September 1947)"
+    },
+    {
+      "id": "gandhi-world-war-quitindia",
+      "type": "section",
+      "title": "12. The 1930s, the Second World War and Quit India (1935–1945)",
+      "level": 2,
+      "paragraphs": [
+        {
+          "id": "ww1",
+          "text": "After the Civil Disobedience phase, Gandhi increasingly concentrated on constructive work, village life and the campaign against untouchability, while continuing to influence Congress strategy. He founded or developed institutions and settlements, including Sevagram Ashram near Wardha from 1936."
+        },
+        {
+          "id": "ww2",
+          "text": "The outbreak of the Second World War in 1939 created a constitutional crisis: India was declared at war by the Viceroy without consulting elected Indian representatives. Congress ministries in the provinces resigned. Gandhi opposed fascist aggression but also questioned the colonial government’s claim to wage war in India’s name without Indian freedom."
+        },
+        {
+          "id": "ww3",
+          "text": "In 1940 Gandhi supported Individual Satyagraha, a limited campaign asserting the right to speak against participation in the war without Indian consent. Vinoba Bhave was selected as the first individual satyagrahi."
+        },
+        {
+          "id": "ww4",
+          "text": "The Cripps Mission of 1942 failed to produce an acceptable settlement. At the Bombay session of the All India Congress Committee on 8 August 1942, the Quit India resolution was adopted. Gandhi called for determined action with the slogan ‘Do or Die’."
+        },
+        {
+          "id": "ww5",
+          "text": "Gandhi and other Congress leaders were arrested on 9 August 1942. Gandhi was detained at the Aga Khan Palace near Pune. The movement spread through strikes, demonstrations, sabotage and local uprisings; not all actions were nonviolent, especially after leaders were imprisoned and central direction disrupted. It is important not to describe every action in Quit India as a Gandhian satyagraha."
+        },
+        {
+          "id": "ww6",
+          "text": "Mahadev Desai, Gandhi’s close secretary, died in detention in August 1942. Kasturba Gandhi died at the Aga Khan Palace on 22 February 1944. Gandhi was released in May 1944 after his health had deteriorated."
+        }
+      ]
+    },
+    {
+      "id": "gandhi-partition",
+      "type": "section",
+      "title": "13. Independence, Partition, communal violence and Gandhi’s final months (1946–1948)",
+      "level": 2,
+      "paragraphs": [
+        {
+          "id": "pa1946",
+          "text": "The final transfer of power unfolded amid negotiations among the British government, Congress, the Muslim League and other political actors. The Cabinet Mission arrived in 1946. Communal violence escalated in several regions, including Bengal and Bihar, as negotiations over power, representation and the future shape of the state became increasingly difficult."
+        },
+        {
+          "id": "pa1946b",
+          "text": "Gandhi travelled to Noakhali in East Bengal after severe communal violence in 1946 and worked among affected villages. He also travelled in Bihar and other troubled areas. His efforts focused on restoring confidence, protecting vulnerable people and encouraging local peace rather than directing constitutional negotiations alone."
+        },
+        {
+          "id": "pa1947",
+          "text": "India became independent on 15 August 1947, but independence came with Partition and the creation of India and Pakistan. Gandhi was in Calcutta, not at the principal official celebrations in Delhi. He was engaged in efforts to stop communal violence and fasted in the context of the division and the violence surrounding it."
+        },
+        {
+          "id": "pa1948",
+          "text": "In January 1948 Gandhi undertook a fast in Delhi amid communal tension and demands relating to peace and the treatment of minorities. He ended the fast after assurances and appeals from political and community leaders. The atmosphere remained tense and threats against him continued."
+        },
+        {
+          "id": "pa1949",
+          "text": "On 30 January 1948, Gandhi was shot while walking to the evening prayer meeting at Birla House (now Gandhi Smriti) in New Delhi. The assassin was Nathuram Vinayak Godse, a Hindu nationalist. The Government of India chronology records the shooting at about 5:17 p.m. Gandhi’s death shocked India and prompted worldwide mourning."
+        },
+        {
+          "id": "pa1950",
+          "text": "Gandhi did not live to see the Constitution of India come into force on 26 January 1950. His death preceded the Republic, although his ideas and political legacy continued to be debated in independent India."
+        }
+      ]
+    },
+    {
+      "id": "gandhi-late-timeline",
+      "type": "timeline",
+      "title": "1932–1948: final phase and key dates",
+      "entries": [
+        {
+          "id": "lt1",
+          "label": "Sep 1932",
+          "text": "Gandhi fasts in Yeravada Jail against separate electorates for the Depressed Classes; the Poona Pact follows.",
+          "examFocus": "important"
+        },
+        {
+          "id": "lt2",
+          "label": "1933–1934",
+          "text": "Gandhi intensifies the campaign against untouchability and undertakes a Harijan tour.",
+          "examFocus": "important"
+        },
+        {
+          "id": "lt3",
+          "label": "1936",
+          "text": "Sevagram Ashram develops near Wardha.",
+          "examFocus": "important"
+        },
+        {
+          "id": "lt4",
+          "label": "17 Oct 1940",
+          "text": "Individual Satyagraha begins, with Vinoba Bhave as the first satyagrahi.",
+          "examFocus": "important"
+        },
+        {
+          "id": "lt5",
+          "label": "8 Aug 1942",
+          "text": "Quit India resolution adopted in Bombay; ‘Do or Die’ call.",
+          "examFocus": "important"
+        },
+        {
+          "id": "lt6",
+          "label": "9 Aug 1942",
+          "text": "Gandhi and other Congress leaders arrested; Gandhi detained at Aga Khan Palace.",
+          "examFocus": "important"
+        },
+        {
+          "id": "lt7",
+          "label": "22 Feb 1944",
+          "text": "Kasturba Gandhi dies at Aga Khan Palace.",
+          "examFocus": "important"
+        },
+        {
+          "id": "lt8",
+          "label": "15 Aug 1947",
+          "text": "India becomes independent amid Partition; Gandhi works for communal peace in Calcutta.",
+          "examFocus": "important"
+        },
+        {
+          "id": "lt9",
+          "label": "30 Jan 1948",
+          "text": "Gandhi is assassinated at Birla House, New Delhi.",
+          "examFocus": "important"
+        }
+      ]
+    },
+    {
+      "id": "gandhi-assessment",
+      "type": "section",
+      "title": "14. Historical assessment: contribution, limits and debates",
+      "level": 2,
+      "paragraphs": [
+        {
+          "id": "ha1",
+          "text": "Gandhi helped transform the scale and style of Indian nationalism. He connected local grievances to national politics, made non-cooperation and civil disobedience central tools of mass mobilisation, used symbols such as khadi and salt, and brought questions of ethics and everyday conduct into political debate."
+        },
+        {
+          "id": "ha2",
+          "text": "The freedom movement was never the work of Gandhi alone. It involved many leaders, organisations and social groups: Congress workers, revolutionaries, socialists, trade unionists, peasants, women, students, tribal communities, Dalit leaders, religious reformers, journalists and countless local organisers. The role of Subhas Chandra Bose, Jawaharlal Nehru, Sardar Patel, Maulana Azad, Sarojini Naidu, Khan Abdul Ghaffar Khan, B. R. Ambedkar and many others must be studied in their own right."
+        },
+        {
+          "id": "ha3",
+          "text": "Gandhi’s methods generated disagreement. Some nationalists thought withdrawal of movements after violence squandered political opportunities. Others questioned his emphasis on village industries, moral persuasion and trusteeship. Revolutionary groups rejected his refusal to endorse armed struggle. These differences were part of the movement’s internal debate."
+        },
+        {
+          "id": "ha4",
+          "text": "His approach to caste is one of the most important areas of critical study. Gandhi consistently campaigned against untouchability, but Ambedkar and later Dalit thinkers argued that moral reform without the destruction of caste hierarchy was insufficient. Gandhi’s changing statements on varna must be examined in context and not reduced to a single sentence."
+        },
+        {
+          "id": "ha5",
+          "text": "Gandhi’s politics of communal unity was persistent, but it did not prevent Partition or the mass violence of 1946–1948. His late peace missions demonstrate his response to that crisis, while the failure to achieve a united and peaceful settlement remains a central part of the historical context in which his final years must be understood."
+        },
+        {
+          "id": "ha6",
+          "text": "A balanced conclusion: Gandhi was a central organiser, strategist and moral voice in the anti-colonial struggle. His importance lies in the methods he developed, the breadth of political participation he helped mobilise and the questions he raised about means and ends. His legacy is also contested, especially regarding caste, gender, modern industry, political compromise and the limits of nonviolent strategy."
+        }
+      ]
+    },
+    {
+      "id": "gandhi-distinctions",
+      "type": "table",
+      "title": "High-value distinctions for examinations",
+      "columns": [
+        {
+          "label": "Term / event"
+        },
+        {
+          "label": "Meaning"
+        },
+        {
+          "label": "Do not confuse with"
+        }
+      ],
+      "rows": [
+        {
+          "id": "dt1",
+          "cells": [
+            "Satyagraha",
+            "Truth-based, disciplined nonviolent resistance",
+            "Passive submission or mere absence of violence"
+          ]
+        },
+        {
+          "id": "dt2",
+          "cells": [
+            "Non-Cooperation (1920–22)",
+            "Withdrawal from institutions and cooperation with colonial rule",
+            "Civil Disobedience (deliberately breaking selected laws)"
+          ]
+        },
+        {
+          "id": "dt3",
+          "cells": [
+            "Civil Disobedience (1930)",
+            "Open, nonviolent breach of selected unjust laws, beginning with salt laws",
+            "A petition asking government to change a law"
+          ]
+        },
+        {
+          "id": "dt4",
+          "cells": [
+            "Purna Swaraj",
+            "Complete independence, adopted as Congress goal at Lahore in December 1929",
+            "Dominion Status"
+          ]
+        },
+        {
+          "id": "dt5",
+          "cells": [
+            "Poona Pact (1932)",
+            "Reserved seats for Depressed Classes in joint electorates, with a primary selection arrangement",
+            "Separate electorates proposed in the Communal Award"
+          ]
+        },
+        {
+          "id": "dt6",
+          "cells": [
+            "Quit India (1942)",
+            "Demand for immediate British withdrawal during the Second World War",
+            "The earlier Non-Cooperation or Civil Disobedience campaigns"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gandhi-exam-mnemonic",
+      "type": "mnemonic",
+      "title": "Remember the major national movements in order",
+      "mnemonic": "C – A – K – R – N – S – Q",
+      "explanation": "Champaran (1917) → Ahmedabad (1918) → Kheda (1918) → Rowlatt Satyagraha (1919) → Non-Cooperation (1920–22) → Salt/Civil Disobedience (1930) → Quit India (1942). Use this as a memory aid, not as a claim that these were Gandhi’s only campaigns."
+    },
+    {
+      "id": "gandhi-quick-revision",
+      "type": "key_facts",
+      "title": "Last-minute revision: dates and associations",
+      "items": [
+        {
+          "id": "qr1",
+          "text": "2 October 1869 — Birth at Porbandar.",
+          "examFocus": "important"
+        },
+        {
+          "id": "qr2",
+          "text": "1888 — Leaves for England to study law; Inner Temple.",
+          "examFocus": "important"
+        },
+        {
+          "id": "qr3",
+          "text": "1893 — South Africa; Pietermaritzburg railway incident.",
+          "examFocus": "important"
+        },
+        {
+          "id": "qr4",
+          "text": "1894 — Natal Indian Congress.",
+          "examFocus": "important"
+        },
+        {
+          "id": "qr5",
+          "text": "1904 — Indian Opinion and Phoenix Settlement.",
+          "examFocus": "important"
+        },
+        {
+          "id": "qr6",
+          "text": "1906 — Satyagraha campaign in South Africa.",
+          "examFocus": "important"
+        },
+        {
+          "id": "qr7",
+          "text": "1909 — Hind Swaraj.",
+          "examFocus": "important"
+        },
+        {
+          "id": "qr8",
+          "text": "9 January 1915 — Return to India.",
+          "examFocus": "important"
+        },
+        {
+          "id": "qr9",
+          "text": "1917 — Champaran Satyagraha.",
+          "examFocus": "important"
+        },
+        {
+          "id": "qr10",
+          "text": "1918 — Ahmedabad mill workers and Kheda peasants.",
+          "examFocus": "important"
+        },
+        {
+          "id": "qr11",
+          "text": "1919 — Rowlatt Satyagraha and Jallianwala Bagh massacre.",
+          "examFocus": "important"
+        },
+        {
+          "id": "qr12",
+          "text": "1920–22 — Non-Cooperation Movement; withdrawn after Chauri Chaura.",
+          "examFocus": "important"
+        },
+        {
+          "id": "qr13",
+          "text": "1929 — Lahore Congress adopts Purna Swaraj.",
+          "examFocus": "important"
+        },
+        {
+          "id": "qr14",
+          "text": "12 March–6 April 1930 — Dandi March and breaking of salt law.",
+          "examFocus": "important"
+        },
+        {
+          "id": "qr15",
+          "text": "5 March 1931 — Gandhi-Irwin Pact.",
+          "examFocus": "important"
+        },
+        {
+          "id": "qr16",
+          "text": "1932 — Poona Pact after Gandhi’s fast in Yeravada Jail.",
+          "examFocus": "important"
+        },
+        {
+          "id": "qr17",
+          "text": "8 August 1942 — Quit India resolution; ‘Do or Die’.",
+          "examFocus": "important"
+        },
+        {
+          "id": "qr18",
+          "text": "30 January 1948 — Assassination at Birla House, New Delhi.",
+          "examFocus": "important"
+        }
+      ]
+    },
+    {
+      "id": "gandhi-mcqs",
+      "type": "related_mcq",
+      "title": "Practice MCQs: Mahatma Gandhi and the national movement",
+      "items": [
+        {
+          "id": "gmq1",
+          "question": "Mahatma Gandhi was born at:",
+          "options": [
+            "Rajkot",
+            "Porbandar",
+            "Ahmedabad",
+            "Bhavnagar"
+          ],
+          "answer": 1,
+          "explanation": "Gandhi was born on 2 October 1869 at Porbandar in Kathiawar, present-day Gujarat."
+        },
+        {
+          "id": "gmq2",
+          "question": "Who was Gandhi’s father?",
+          "options": [
+            "Uttamchand Gandhi",
+            "Karamchand Gandhi",
+            "Devchand Gandhi",
+            "Mohanlal Gandhi"
+          ],
+          "answer": 1,
+          "explanation": "Karamchand (Kaba) Gandhi served as a diwan in princely-state administration. Uttamchand was Gandhi’s grandfather."
+        },
+        {
+          "id": "gmq3",
+          "question": "Gandhi sailed to England in 1888 to study:",
+          "options": [
+            "Medicine",
+            "Engineering",
+            "Law",
+            "Political science"
+          ],
+          "answer": 2,
+          "explanation": "He studied law at the Inner Temple and was called to the Bar in June 1891."
+        },
+        {
+          "id": "gmq4",
+          "question": "The Pietermaritzburg railway incident occurred in:",
+          "options": [
+            "India",
+            "England",
+            "South Africa",
+            "Kenya"
+          ],
+          "answer": 2,
+          "explanation": "The incident took place in South Africa in June 1893 and became a turning point in Gandhi’s public life."
+        },
+        {
+          "id": "gmq5",
+          "question": "The Natal Indian Congress was organised in:",
+          "options": [
+            "1885",
+            "1894",
+            "1906",
+            "1915"
+          ],
+          "answer": 1,
+          "explanation": "Gandhi helped organise the Natal Indian Congress in 1894 to oppose discriminatory policies and represent Indian interests."
+        },
+        {
+          "id": "gmq6",
+          "question": "The Champaran Satyagraha (1917) was mainly associated with:",
+          "options": [
+            "Cotton mill wages",
+            "Indigo cultivators",
+            "Salt tax",
+            "Forest rights"
+          ],
+          "answer": 1,
+          "explanation": "Champaran cultivators faced coercive indigo cultivation under the tinkathia system."
+        },
+        {
+          "id": "gmq7",
+          "question": "The Non-Cooperation Movement was withdrawn after the:",
+          "options": [
+            "Kakori incident",
+            "Chauri Chaura incident",
+            "Jallianwala Bagh massacre",
+            "Dandi March"
+          ],
+          "answer": 1,
+          "explanation": "Gandhi withdrew the movement in February 1922 after violence at Chauri Chaura on 5 February."
+        },
+        {
+          "id": "gmq8",
+          "question": "The Lahore Congress of December 1929 adopted which goal?",
+          "options": [
+            "Dominion Status",
+            "Separate electorates",
+            "Purna Swaraj",
+            "Provincial autonomy"
+          ],
+          "answer": 2,
+          "explanation": "The Lahore session adopted complete independence as the Congress objective."
+        },
+        {
+          "id": "gmq9",
+          "question": "The Dandi March began on:",
+          "options": [
+            "26 January 1930",
+            "12 March 1930",
+            "6 April 1930",
+            "5 March 1931"
+          ],
+          "answer": 1,
+          "explanation": "Gandhi began the march from Sabarmati Ashram on 12 March 1930 and broke the salt law at Dandi on 6 April."
+        },
+        {
+          "id": "gmq10",
+          "question": "The Poona Pact (1932) concerned the political representation of:",
+          "options": [
+            "Anglo-Indians",
+            "Depressed Classes",
+            "European settlers",
+            "Indian princes"
+          ],
+          "answer": 1,
+          "explanation": "The pact replaced the separate-electorate provision for the Depressed Classes in the Communal Award with reserved seats in joint electorates."
+        },
+        {
+          "id": "gmq11",
+          "question": "Who was selected as the first individual satyagrahi in 1940?",
+          "options": [
+            "Jawaharlal Nehru",
+            "Sardar Patel",
+            "Vinoba Bhave",
+            "Rajendra Prasad"
+          ],
+          "answer": 2,
+          "explanation": "Vinoba Bhave was the first individual satyagrahi in the campaign launched in October 1940."
+        },
+        {
+          "id": "gmq12",
+          "question": "The Quit India resolution was adopted on:",
+          "options": [
+            "8 August 1942",
+            "9 August 1942",
+            "15 August 1942",
+            "26 January 1942"
+          ],
+          "answer": 0,
+          "explanation": "The All India Congress Committee adopted the resolution in Bombay on 8 August 1942; Gandhi and other leaders were arrested the next day."
+        },
+        {
+          "id": "gmq13",
+          "question": "Gandhi was assassinated at:",
+          "options": [
+            "Sabarmati Ashram",
+            "Aga Khan Palace",
+            "Birla House, New Delhi",
+            "Sevagram Ashram"
+          ],
+          "answer": 2,
+          "explanation": "He was shot on 30 January 1948 while proceeding to evening prayers at Birla House in New Delhi."
+        }
+      ]
+    },
+    {
+      "id": "gandhi-source-note",
+      "type": "source_note",
+      "sources": [
+        {
+          "title": "Government of India, Publications Division — Birth and Upbringing: family, Porbandar, Uttamchand, Karamchand and Putlibai"
+        },
+        {
+          "title": "Gandhi Smriti and Darshan Samiti, Government of India — Chronology of Mahatma Gandhi"
+        },
+        {
+          "title": "Rajghat Samadhi Committee, Government of India — Life Events of Mahatma Gandhi"
+        },
+        {
+          "title": "Mani Bhavan Gandhi Sangrahalaya — Biography and chronology of satyagrahas"
+        },
+        {
+          "title": "Gandhi Heritage Portal — letters, chronology and documentary collections"
+        },
+        {
+          "title": "Press Information Bureau, Government of India — Champaran Satyagraha and Dandi March features"
+        },
+        {
+          "title": "NCERT, Themes in Indian History Part III — Mahatma Gandhi and the Nationalist Movement"
+        },
+        {
+          "title": "Dr B. R. Ambedkar, Writings and Speeches, Government of India — text of the Poona Pact"
+        },
+        {
+          "title": "Gandhi’s Autobiography, The Story of My Experiments with Truth — personal recollections; use as a primary source, not as the only source"
+        },
+        {
+          "title": "President of India — public lecture noting Gandhi’s 5 September 1947 “My life is my message” statement; compare Collected Works, vol. 89, p. 156"
+        },
+        {
+          "title": "Wikimedia Commons — Gandhi at Dandi, 5 April 1930; photograph record and rights information (public domain in India) [image not bundled]"
+        }
+      ],
+      "lastVerified": "2026-11-17"
+    }
   ]
+}
 }
