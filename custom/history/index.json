@@ -19,6 +19,23 @@
           "sha256": "f51c1d2cbc9ec7f47c52f1a2ee0bf51b1e9ddc149b7f538614485d8bfd001838"
         }
       ]
+    }, {
+      "id": "events",
+      "title": "Events",
+      "topics": [
+        {
+          "id": "quit-india-movement",
+          "title": "Quit India Movement",
+          "subtitle": "Quit India Movement of the freedom struggle",
+          "file": "history/quit-india-movement.json",
+          "examFocus": "important",
+          "keywords": [
+            "dandi",
+            "quit india"
+          ],
+          "sha256": "f51c1d2cbc9ec7f47c52f1a2ee0bf51b1e9ddc149b7f538614485d8bfd001838"
+        }
+      ]
     }
   ]
 }
