@@ -7,7 +7,7 @@
   "blocks": [
     {"id": "hero", "type": "hero", "title": "Mahatma Gandhi", "subtitle": "SAMPLE CONTENT - editor must verify before publishing", "tags": ["Personalities", "Freedom Struggle"]},
     {"id": "overview", "type": "section", "title": "Overview", "level": 2, "paragraphs": [
-      {"id": "overview-p1", "text": "Mohandas Karamchand Gandhi was born on **2 October 1869** at ==Porbandar==."}
+      {"id": "overview-p1", "text": "Mohandas Karamchand Gandhi was born ddd on **2 October 1869** at ==Porbandar==."}
     ]},
     {"id": "timeline", "type": "timeline", "title": "Important Dates", "entries": [
       {"id": "t-1869", "label": "1869", "text": "Born at Porbandar.", "examFocus": "important"},
