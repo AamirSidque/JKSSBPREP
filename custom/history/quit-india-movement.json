@@ -1,0 +1,592 @@
+
+{
+  "schemaVersion": 1,
+  "id": "quit-india-movement",
+  "subjectId": "history",
+  "title": "Quit India Movement",
+  "subtitle": "The final mass movement against British rule (1942)",
+  "blocks": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "title": "Quit India Movement",
+      "subtitle": "1942 | August Kranti | Do or Die",
+      "tags": [
+        "National Movement",
+        "Freedom Struggle",
+        "Mahatma Gandhi",
+        "Indian National Congress",
+        "Important for JKSSB"
+      ]
+    },
+    {
+      "id": "overview",
+      "type": "section",
+      "title": "Overview",
+      "level": 2,
+      "paragraphs": [
+        {
+          "id": "overview-p1",
+          "text": "The **Quit India Movement** was a major mass movement launched by the ==Indian National Congress== under the leadership of **Mahatma Gandhi** on **8 August 1942** in Bombay (now Mumbai). Its primary objective was to demand the immediate withdrawal of British rule from India."
+        },
+        {
+          "id": "overview-p2",
+          "text": "The movement is also known as the ==August Movement== or ==August Kranti==. Gandhi gave the famous slogan **Do or Die (Karo Ya Maro)**, urging Indians to fight for freedom with determination."
+        },
+        {
+          "id": "overview-p3",
+          "text": "The resolution was passed at the **All-India Congress Committee (AICC)** meeting held at ==Gowalia Tank Maidan== in Bombay on 8 August 1942. The ground is now known as ==August Kranti Maidan==."
+        },
+        {
+          "id": "overview-p4",
+          "text": "On **9 August 1942**, the British government arrested Gandhi and other prominent Congress leaders. Despite the absence of central leadership, the movement spread across India through mass protests, strikes, demonstrations and acts of civil disobedience."
+        }
+      ]
+    },
+    {
+      "id": "background",
+      "type": "section",
+      "title": "Historical Background and Causes",
+      "level": 2,
+      "paragraphs": [
+        {
+          "id": "background-p1",
+          "text": "**1. Failure of the Cripps Mission (1942):** Sir Stafford Cripps arrived in India in March 1942 to obtain Indian cooperation in the Second World War. His proposals offered Dominion Status after the war rather than immediate independence. The Congress rejected the proposals."
+        },
+        {
+          "id": "background-p2",
+          "text": "**2. Second World War:** Britain involved India in the Second World War in 1939 without consulting Indian political leaders. This created widespread resentment among Indians."
+        },
+        {
+          "id": "background-p3",
+          "text": "**3. Economic Hardships:** Wartime inflation, rising prices, shortages of essential commodities and food difficulties increased public dissatisfaction with British rule."
+        },
+        {
+          "id": "background-p4",
+          "text": "**4. Japanese Advance:** The rapid Japanese expansion in Southeast Asia, including the capture of Burma, created fears about India's security and exposed the weakness of British wartime administration."
+        },
+        {
+          "id": "background-p5",
+          "text": "**5. Demand for Immediate Independence:** Indian nationalists increasingly believed that British rule must end immediately and that Indians should control their own political and economic future."
+        }
+      ]
+    },
+    {
+      "id": "cripps",
+      "type": "section",
+      "title": "Cripps Mission and Its Failure",
+      "level": 2,
+      "paragraphs": [
+        {
+          "id": "cripps-p1",
+          "text": "The British government sent **Sir Stafford Cripps** to India in March 1942 to negotiate with Indian political leaders during the Second World War."
+        },
+        {
+          "id": "cripps-p2",
+          "text": "The main proposals included Dominion Status after the war, the establishment of a Constituent Assembly and the provision allowing provinces not to join the proposed Indian Union."
+        },
+        {
+          "id": "cripps-p3",
+          "text": "The Congress rejected the proposals because they did not provide immediate independence and left important matters, including defence during the war, under British control."
+        },
+        {
+          "id": "cripps-p4",
+          "text": "Gandhi famously described the Cripps proposals as a **post-dated cheque on a crashing bank**. The failure of the mission became an important immediate cause of the Quit India Movement."
+        }
+      ]
+    },
+    {
+      "id": "resolution",
+      "type": "section",
+      "title": "Quit India Resolution",
+      "level": 2,
+      "paragraphs": [
+        {
+          "id": "resolution-p1",
+          "text": "The **Congress Working Committee (CWC)** met at ==Wardha== on **14 July 1942** and adopted a resolution demanding an end to British rule and authorising a mass struggle under Gandhi's leadership."
+        },
+        {
+          "id": "resolution-p2",
+          "text": "The resolution was formally approved by the **All-India Congress Committee (AICC)** at ==Gowalia Tank Maidan, Bombay==, on **8 August 1942**."
+        },
+        {
+          "id": "resolution-p3",
+          "text": "The resolution demanded the immediate end of British rule in India. It called upon the Indian people to participate in a mass struggle based on Gandhi's principles of non-violence."
+        },
+        {
+          "id": "resolution-p4",
+          "text": "Gandhi delivered his famous **Do or Die** message during his address at the Bombay session on 8 August 1942."
+        }
+      ]
+    },
+    {
+      "id": "objectives",
+      "type": "section",
+      "title": "Objectives of the Movement",
+      "level": 2,
+      "paragraphs": [
+        {
+          "id": "objectives-p1",
+          "text": "1. To demand the immediate withdrawal of British rule from India."
+        },
+        {
+          "id": "objectives-p2",
+          "text": "2. To achieve complete independence and establish self-government."
+        },
+        {
+          "id": "objectives-p3",
+          "text": "3. To unite Indians in a nationwide struggle against colonial rule."
+        },
+        {
+          "id": "objectives-p4",
+          "text": "4. To organise mass civil disobedience through non-violent resistance."
+        },
+        {
+          "id": "objectives-p5",
+          "text": "5. To establish an independent Indian government after British withdrawal."
+        }
+      ]
+    },
+    {
+      "id": "slogan",
+      "type": "section",
+      "title": "Famous Slogan: Do or Die",
+      "level": 2,
+      "paragraphs": [
+        {
+          "id": "slogan-p1",
+          "text": "On **8 August 1942**, Mahatma Gandhi gave the famous slogan **Do or Die (Karo Ya Maro)** during his address at Gowalia Tank Maidan, Bombay."
+        },
+        {
+          "id": "slogan-p2",
+          "text": "The slogan encouraged Indians to make a determined effort to achieve freedom rather than accept continued British domination."
+        },
+        {
+          "id": "slogan-p3",
+          "text": "Gandhi urged people to consider themselves free and continue the struggle with courage and determination."
+        }
+      ]
+    },
+    {
+      "id": "leaders",
+      "type": "section",
+      "title": "Important Leaders and Personalities",
+      "level": 2,
+      "paragraphs": [
+        {
+          "id": "leaders-p1",
+          "text": "**Mahatma Gandhi:** Main leader of the movement; gave the Do or Die slogan."
+        },
+        {
+          "id": "leaders-p2",
+          "text": "**Jawaharlal Nehru:** Senior Congress leader who supported the Quit India resolution."
+        },
+        {
+          "id": "leaders-p3",
+          "text": "**Sardar Vallabhbhai Patel:** Prominent Congress leader who strongly supported the movement."
+        },
+        {
+          "id": "leaders-p4",
+          "text": "**Maulana Abul Kalam Azad:** President of the Indian National Congress during the Quit India Movement."
+        },
+        {
+          "id": "leaders-p5",
+          "text": "**Aruna Asaf Ali:** Hoisted the Indian National Congress flag at Gowalia Tank Maidan on 9 August 1942; popularly associated with the movement as the Grand Old Lady of the Independence Movement."
+        },
+        {
+          "id": "leaders-p6",
+          "text": "**Jayaprakash Narayan:** Played an important role in underground revolutionary activities after escaping from Hazaribagh Jail."
+        },
+        {
+          "id": "leaders-p7",
+          "text": "**Ram Manohar Lohia:** Important underground leader who helped organise resistance and disseminate nationalist messages."
+        },
+        {
+          "id": "leaders-p8",
+          "text": "**Usha Mehta:** Organised the secret Congress Radio, which broadcast nationalist messages during the movement."
+        },
+        {
+          "id": "leaders-p9",
+          "text": "**Matangini Hazra:** Freedom fighter from Bengal who was shot dead by British police while leading a procession carrying the national flag in 1942."
+        },
+        {
+          "id": "leaders-p10",
+          "text": "**Sucheta Kripalani:** Participated in underground activities and helped organise resistance during the movement."
+        }
+      ]
+    },
+    {
+      "id": "spread",
+      "type": "section",
+      "title": "Spread and Major Centres",
+      "level": 2,
+      "paragraphs": [
+        {
+          "id": "spread-p1",
+          "text": "The movement spread across India despite the arrest of major Congress leaders. Students, peasants, workers, women and ordinary citizens participated in demonstrations, strikes and protests."
+        },
+        {
+          "id": "spread-p2",
+          "text": "**Bombay:** Gowalia Tank Maidan became the centre of the historic Quit India resolution and Aruna Asaf Ali's flag hoisting on 9 August 1942."
+        },
+        {
+          "id": "spread-p3",
+          "text": "**Ballia, Uttar Pradesh:** Under the leadership of ==Chittu Pandey==, a temporary parallel government was established in August 1942."
+        },
+        {
+          "id": "spread-p4",
+          "text": "**Satara, Maharashtra:** ==Nana Patil== played a major role in organising the Prati Sarkar (parallel government), which continued to function beyond the main phase of the movement."
+        },
+        {
+          "id": "spread-p5",
+          "text": "**Tamluk, Midnapore, Bengal:** A parallel government known as ==Tamralipta Jatiya Sarkar== was established in December 1942."
+        },
+        {
+          "id": "spread-p6",
+          "text": "**Bihar:** Jayaprakash Narayan and other socialist leaders organised underground resistance against British rule."
+        }
+      ]
+    },
+    {
+      "id": "women",
+      "type": "section",
+      "title": "Role of Women",
+      "level": 2,
+      "paragraphs": [
+        {
+          "id": "women-p1",
+          "text": "Women participated actively in the Quit India Movement and played important roles in demonstrations, underground networks and nationalist communication."
+        },
+        {
+          "id": "women-p2",
+          "text": "**Aruna Asaf Ali:** Hoisted the Congress flag at Gowalia Tank Maidan on 9 August 1942."
+        },
+        {
+          "id": "women-p3",
+          "text": "**Usha Mehta:** Established and operated the secret Congress Radio to broadcast nationalist news and messages."
+        },
+        {
+          "id": "women-p4",
+          "text": "**Matangini Hazra:** Sacrificed her life during a procession in Tamluk, Bengal, while carrying the national flag."
+        }
+      ]
+    },
+    {
+      "id": "underground",
+      "type": "section",
+      "title": "Underground Activities",
+      "level": 2,
+      "paragraphs": [
+        {
+          "id": "underground-p1",
+          "text": "After the arrest of senior Congress leaders, several activists continued the movement through underground organisations and secret communication networks."
+        },
+        {
+          "id": "underground-p2",
+          "text": "**Congress Radio:** Usha Mehta and her associates operated a clandestine radio station that broadcast nationalist messages and information about the movement."
+        },
+        {
+          "id": "underground-p3",
+          "text": "**Jayaprakash Narayan:** Escaped from Hazaribagh Central Jail in November 1942 and continued underground resistance."
+        },
+        {
+          "id": "underground-p4",
+          "text": "**Ram Manohar Lohia:** Helped coordinate underground activities and spread nationalist messages."
+        }
+      ]
+    },
+    {
+      "id": "parallel",
+      "type": "section",
+      "title": "Parallel Governments",
+      "level": 2,
+      "paragraphs": [
+        {
+          "id": "parallel-p1",
+          "text": "In several regions, people established parallel governments that challenged British administrative authority."
+        },
+        {
+          "id": "parallel-p2",
+          "text": "**Ballia (Uttar Pradesh):** Chittu Pandey led a short-lived parallel government in August 1942."
+        },
+        {
+          "id": "parallel-p3",
+          "text": "**Tamluk (Bengal):** Tamralipta Jatiya Sarkar was established in December 1942 under the leadership of local nationalists, including Satish Chandra Samanta."
+        },
+        {
+          "id": "parallel-p4",
+          "text": "**Satara (Maharashtra):** Nana Patil was a leading figure in the Prati Sarkar, which became one of the longest-lasting parallel governments associated with the movement."
+        }
+      ]
+    },
+    {
+      "id": "repression",
+      "type": "section",
+      "title": "British Government's Response",
+      "level": 2,
+      "paragraphs": [
+        {
+          "id": "repression-p1",
+          "text": "The British government launched a severe crackdown immediately after the Quit India resolution was passed."
+        },
+        {
+          "id": "repression-p2",
+          "text": "On **9 August 1942**, Gandhi and almost all major Congress leaders were arrested in a pre-dawn operation."
+        },
+        {
+          "id": "repression-p3",
+          "text": "The Congress organisation was banned, public meetings were restricted, newspapers faced censorship and thousands of activists were imprisoned."
+        },
+        {
+          "id": "repression-p4",
+          "text": "Police and military forces were deployed to suppress demonstrations and strikes. Firing, arrests and other forms of repression were used against protesters."
+        },
+        {
+          "id": "repression-p5",
+          "text": "The movement gradually weakened under intense British repression, although underground resistance continued in several regions."
+        }
+      ]
+    },
+    {
+      "id": "timeline",
+      "type": "timeline",
+      "title": "Important Dates and Events",
+      "entries": [
+        {
+          "id": "t-1939",
+          "label": "1939",
+          "text": "India was involved in the Second World War by the British government without consulting Indian leaders.",
+          "examFocus": "important"
+        },
+        {
+          "id": "t-march-1942",
+          "label": "March 1942",
+          "text": "Cripps Mission arrived in India.",
+          "examFocus": "high"
+        },
+        {
+          "id": "t-april-1942",
+          "label": "April 1942",
+          "text": "Cripps proposals failed and were rejected by Indian political leaders.",
+          "examFocus": "high"
+        },
+        {
+          "id": "t-july-1942",
+          "label": "14 July 1942",
+          "text": "Congress Working Committee adopted the Quit India resolution at Wardha.",
+          "examFocus": "high"
+        },
+        {
+          "id": "t-august-8",
+          "label": "8 August 1942",
+          "text": "AICC passed the Quit India resolution at Gowalia Tank Maidan, Bombay. Gandhi gave the Do or Die slogan.",
+          "examFocus": "important"
+        },
+        {
+          "id": "t-august-9",
+          "label": "9 August 1942",
+          "text": "Gandhi and major Congress leaders were arrested. Aruna Asaf Ali hoisted the Congress flag at Gowalia Tank Maidan.",
+          "examFocus": "important"
+        },
+        {
+          "id": "t-november-1942",
+          "label": "November 1942",
+          "text": "Jayaprakash Narayan escaped from Hazaribagh Jail.",
+          "examFocus": "important"
+        },
+        {
+          "id": "t-december-1942",
+          "label": "December 1942",
+          "text": "Tamralipta Jatiya Sarkar was established in Tamluk, Bengal.",
+          "examFocus": "important"
+        },
+        {
+          "id": "t-1944",
+          "label": "1944",
+          "text": "Mahatma Gandhi was released from prison on health grounds.",
+          "examFocus": "important"
+        },
+        {
+          "id": "t-1947",
+          "label": "15 August 1947",
+          "text": "India achieved independence from British rule.",
+          "examFocus": "high"
+        }
+      ]
+    },
+    {
+      "id": "comparison",
+      "type": "comparison",
+      "title": "Comparison of Major Gandhian Movements",
+      "leftLabel": "Civil Disobedience",
+      "rightLabel": "Quit India",
+      "rows": [
+        {
+          "id": "c-year",
+          "left": "1930",
+          "right": "1942"
+        },
+        {
+          "id": "c-leader",
+          "left": "Mahatma Gandhi",
+          "right": "Mahatma Gandhi"
+        },
+        {
+          "id": "c-event",
+          "left": "Dandi March",
+          "right": "Do or Die slogan"
+        },
+        {
+          "id": "c-demand",
+          "left": "Opposition to unjust colonial laws and policies",
+          "right": "Immediate end of British rule"
+        },
+        {
+          "id": "c-location",
+          "left": "Sabarmati Ashram to Dandi",
+          "right": "Gowalia Tank Maidan, Bombay"
+        }
+      ]
+    },
+    {
+      "id": "impact",
+      "type": "section",
+      "title": "Significance and Impact",
+      "level": 2,
+      "paragraphs": [
+        {
+          "id": "impact-p1",
+          "text": "The Quit India Movement demonstrated the widespread desire of Indians to end British colonial rule."
+        },
+        {
+          "id": "impact-p2",
+          "text": "It transformed the freedom struggle into a broad-based mass movement involving students, workers, peasants and women."
+        },
+        {
+          "id": "impact-p3",
+          "text": "It exposed the declining legitimacy of British rule and made clear that governing India without Indian consent was increasingly difficult."
+        },
+        {
+          "id": "impact-p4",
+          "text": "The movement strengthened the determination of Indians to achieve independence and became an important phase in the final struggle for freedom."
+        },
+        {
+          "id": "impact-p5",
+          "text": "Although the movement was suppressed, its political impact contributed to the growing pressure that eventually led to the end of British rule in 1947."
+        }
+      ]
+    },
+    {
+      "id": "limitations",
+      "type": "section",
+      "title": "Limitations of the Movement",
+      "level": 2,
+      "paragraphs": [
+        {
+          "id": "limitations-p1",
+          "text": "The arrest of Gandhi and senior Congress leaders at the beginning of the movement created a leadership vacuum."
+        },
+        {
+          "id": "limitations-p2",
+          "text": "The movement lacked a uniform central organisation after the arrests, resulting in differences in methods and intensity across regions."
+        },
+        {
+          "id": "limitations-p3",
+          "text": "The British government used severe repression, censorship and mass arrests to suppress the movement."
+        },
+        {
+          "id": "limitations-p4",
+          "text": "Not all political organisations and communities participated in the movement. The Muslim League, the Communist Party of India and some other groups did not support the Congress-led agitation."
+        }
+      ]
+    },
+    {
+      "id": "focus",
+      "type": "exam_focus",
+      "level": "important",
+      "items": [
+        {
+          "id": "focus-1",
+          "text": "Quit India Movement was launched in August 1942."
+        },
+        {
+          "id": "focus-2",
+          "text": "It is also known as the August Movement or August Kranti."
+        },
+        {
+          "id": "focus-3",
+          "text": "Mahatma Gandhi gave the slogan Do or Die (Karo Ya Maro)."
+        },
+        {
+          "id": "focus-4",
+          "text": "Quit India resolution was passed on 8 August 1942 at Gowalia Tank Maidan, Bombay."
+        },
+        {
+          "id": "focus-5",
+          "text": "Congress Working Committee adopted the resolution at Wardha on 14 July 1942."
+        },
+        {
+          "id": "focus-6",
+          "text": "Aruna Asaf Ali hoisted the Congress flag at Gowalia Tank Maidan on 9 August 1942."
+        },
+        {
+          "id": "focus-7",
+          "text": "Maulana Abul Kalam Azad was the Congress president during the Quit India Movement."
+        },
+        {
+          "id": "focus-8",
+          "text": "Usha Mehta was associated with the secret Congress Radio."
+        },
+        {
+          "id": "focus-9",
+          "text": "Jayaprakash Narayan escaped from Hazaribagh Jail in November 1942."
+        },
+        {
+          "id": "focus-10",
+          "text": "Chittu Pandey was associated with the parallel government of Ballia."
+        },
+        {
+          "id": "focus-11",
+          "text": "Nana Patil was associated with the Prati Sarkar of Satara."
+        },
+        {
+          "id": "focus-12",
+          "text": "Tamralipta Jatiya Sarkar was established in Tamluk, Bengal, in December 1942."
+        },
+        {
+          "id": "focus-13",
+          "text": "The immediate background to the movement included the failure of the Cripps Mission."
+        },
+        {
+          "id": "focus-14",
+          "text": "Gandhi was released from prison in 1944 on health grounds."
+        },
+        {
+          "id": "focus-15",
+          "text": "India became independent on 15 August 1947, five years after the Quit India resolution."
+        }
+      ]
+    },
+    {
+      "id": "sources",
+      "type": "source_note",
+      "sources": [
+        {
+          "title": "Press Information Bureau, Government of India - Quit India Movement"
+        },
+        {
+          "title": "Ministry of Home Affairs, Government of India - Freedom Fighters and Quit India Movement"
+        },
+        {
+          "title": "Prime Ministers' Museum and Library - Institutional Collections on the Quit India Movement"
+        },
+        {
+          "title": "NCERT - History, The Last Phase of the Indian National Movement"
+        },
+        {
+          "title": "The Indian Express - Explained: Quit India Movement and its historical background"
+        }
+      ]
+    }
+  ]
+}
